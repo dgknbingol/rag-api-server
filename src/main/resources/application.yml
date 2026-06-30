@@ -1,0 +1,165 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  application:
+    name: aislam-rag-api
+  config:
+    import: optional:file:./application-local.yml
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/aislam}
+    username: ${SPRING_DATASOURCE_USERNAME:aislam}
+    password: ${SPRING_DATASOURCE_PASSWORD:aislam}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          time_zone: UTC
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+lmstudio:
+  base-url: http://localhost:1234
+  chat-model: qwen/qwen3.5-9b
+  embedding-model: text-embedding-bge-m3
+  connect-timeout: 10s
+  read-timeout: 120s
+  max-tokens: 512
+  chat-temperature: 0.3
+
+deepseek:
+  base-url: https://api.deepseek.com
+  api-key: ${DEEPSEEK_API_KEY:}
+  model: deepseek-chat
+  system-prompt: >
+    Sen AiSLAM adlı bir İslami soru-cevap asistanısın.
+    Soruları Türkçe yanıtla; kullanıcı başka dilde sorarsa o dilde cevap ver.
+    Bilmediğin konularda uydurma; emin değilsen bunu açıkça belirt.
+  connect-timeout: 10s
+  read-timeout: 120s
+  max-tokens: 1024
+  temperature: 0.7
+
+qdrant:
+  base-url: http://localhost:6333
+  collection-name: aislam_sources
+  vector-size: 1024
+  connect-timeout: 10s
+  read-timeout: 30s
+
+app:
+  ask:
+    pipeline: direct
+    llm: deepseek
+    embedding: local
+    system-prompt: >
+      Sen AiSLAM adlı bir İslami soru-cevap asistanısın.
+      Soruları Türkçe yanıtla; kullanıcı başka dilde sorarsa o dilde cevap ver.
+      Bilmediğin konularda uydurma; emin değilsen bunu açıkça belirt.
+  daily:
+    timezone: Europe/Istanbul
+  prayer-times:
+    diyanet-base-url: https://ezanvakti.imsakiyem.com
+    nominatim-base-url: https://nominatim.openstreetmap.org
+    timezone: Europe/Istanbul
+  cors:
+    allowed-origin-patterns:
+      - http://localhost:*
+      - http://127.0.0.1:*
+      - http://10.0.2.2:*
+      - exp://*
+      - http://192.168.*.*
+  auth:
+    jwt-secret: ${AISLAM_JWT_SECRET:dev-only-change-me-use-at-least-32-characters-long}
+    jwt-expiration-hours: 168
+
+logging:
+  level:
+    com.aislam.rag.debug.Utf8EncodingDebugLogger: DEBUG
+    com.aislam.rag.service.KeywordReranker: DEBUG
+    com.aislam.rag.service.RagAskFlowLogger: INFO
+    com.aislam.rag.service.RagServiceImpl: INFO
+
+rag:
+  reranker-type: keyword
+  initial-candidate-count: 30
+  final-source-count: 5
+  content-preview-chars: 200
+  neighbor-window: 1
+  max-context-chars: 8000
+  max-answer-words: 80
+  chunk-size: 1800
+  chunk-overlap: 250
+  max-concurrent-chat-requests: 1
+  max-concurrent-embedding-requests: 4
+  request-timeout-seconds: 30
+  max-source-content-chars: 1000
+  max-total-sources-chars: 3000
+  relevance-gate-enabled: true
+  relevance-gate-top-chunks: 5
+  relevance-gate-min-lexical-score: 0.12
+  relevance-gate-min-keyword-coverage: 0.7
+  relevance-gate-min-vector-score: 0.55
+  reranking:
+    min-keyword-length: 3
+    keyword-frequency-weight: 0.03
+    keyword-score-max: 0.15
+    phrase-score-per-match: 0.12
+    phrase-score-max: 0.30
+    section-title-keyword-weight: 0.08
+    section-title-keyword-score-max: 0.25
+    section-title-phrase-score-per-match: 0.20
+    section-title-phrase-score-max: 0.40
+    min-phrase-words: 2
+    max-phrase-words: 4
+    toc-penalty: 0.20
+    toc-dot-leader-line-ratio: 0.35
+    number-density-threshold: 0.25
+    number-density-penalty: 0.15
+    page-reference-threshold: 3
+    page-reference-penalty: 0.10
+    min-letter-ratio: 0.55
+    low-semantic-text-penalty: 0.12
+    stop-words:
+      - ve
+      - bir
+      - bu
+      - da
+      - de
+      - için
+      - ile
+      - mi
+      - mı
+      - mu
+      - mü
+      - nedir
+      - nelerdir
+      - nasıl
+      - ne
+      - kaç
+      - kim
+      - hangi
+      - olan
+      - olarak
+      - gibi
+      - kadar
+      - veya
+      - ama
+      - fakat

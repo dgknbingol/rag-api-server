@@ -1,0 +1,8 @@
+target/
+.git/
+.idea/
+*.iml
+.env
+application-local.yml
+data/
+deploy/.env

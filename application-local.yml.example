@@ -1,0 +1,44 @@
+# Yerel geliştirme — bu dosyayı application-local.yml olarak kopyalayın
+deepseek:
+  api-key: sk-your-deepseek-api-key-here
+
+# Opsiyonel PostgreSQL override (varsayılan: docker-compose ile localhost:5432/aislam)
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://localhost:5432/aislam
+#     username: aislam
+#     password: aislam
+
+# Swap örnekleri (application.yml'deki app.ask altında):
+#
+# DeepSeek direkt (şu anki varsayılan):
+#   pipeline: direct
+#   llm: deepseek
+#
+# DeepSeek + RAG:
+#   pipeline: rag
+#   llm: deepseek
+#   embedding: local
+#
+# Lokal LLM direkt:
+#   pipeline: direct
+#   llm: local
+#
+# Lokal LLM + RAG (eski yapı):
+#   pipeline: rag
+#   llm: local
+#   embedding: local
+
+app:
+  ask:
+    pipeline: direct
+    llm: deepseek
+    embedding: local
+
+lmstudio:
+  base-url: http://localhost:1234
+  chat-model: qwen/qwen3.5-9b
+  embedding-model: text-embedding-bge-m3
+
+qdrant:
+  base-url: http://localhost:6333

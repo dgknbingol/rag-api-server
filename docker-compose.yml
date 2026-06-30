@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aislam-postgres
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-aislam}
+      POSTGRES_USER: ${POSTGRES_USER:-aislam}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-aislam}
+    volumes:
+      - aislam_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-aislam} -d ${POSTGRES_DB:-aislam}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  aislam_pg_data:

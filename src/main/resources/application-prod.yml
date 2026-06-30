@@ -1,0 +1,21 @@
+server:
+  forward-headers-strategy: framework
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+app:
+  ask:
+    pipeline: direct
+    llm: deepseek
+    embedding: local
+  cors:
+    allowed-origin-patterns:
+      - https://*
+
+logging:
+  level:
+    root: INFO
+    com.aislam.rag.debug.Utf8EncodingDebugLogger: WARN

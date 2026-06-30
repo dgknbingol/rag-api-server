@@ -1,0 +1,60 @@
+name: aislam
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - internal
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.5
+    restart: unless-stopped
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - internal
+
+  api:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    image: aislam-rag-api:prod
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
+      QDRANT_BASE_URL: http://qdrant:6333
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      APP_AUTH_JWT_SECRET: ${AISLAM_JWT_SECRET}
+    ports:
+      - "127.0.0.1:8080:8080"
+    networks:
+      - internal
+
+volumes:
+  pg_data:
+  qdrant_data:
+
+networks:
+  internal:
+    driver: bridge
