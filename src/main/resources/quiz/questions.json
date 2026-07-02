@@ -1,0 +1,1812 @@
+[
+  {
+    "category": "ibadet",
+    "question": "Şüphesiz Allah çok tövbe edenleri, çok temizlenenleri sever ayeti aşağıdaki ibadetlerden hangisine dikkat çekmektedir?",
+    "options": [
+      { "label": "A", "text": "Namaz", "correct": false },
+      { "label": "B", "text": "Oruç", "correct": false },
+      { "label": "C", "text": "Zekat", "correct": false },
+      { "label": "D", "text": "Abdest", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi İslam'ın öngördüğü temizlik çeşitlerinden biri değildir?",
+    "options": [
+      { "label": "A", "text": "Manevi Temizlik", "correct": false },
+      { "label": "B", "text": "Maddi Temizlik", "correct": false },
+      { "label": "C", "text": "Suri Temizlik", "correct": true },
+      { "label": "D", "text": "Hükmi Temizlik", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Müslümanın ibadetlerinde ve günlük yaşantısında necaset adı verilen gözle görülen pisliklerden, elbisesini ve çevresini temizlemesine ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Manevi Temizlik", "correct": false },
+      { "label": "B", "text": "Maddi Temizlik", "correct": true },
+      { "label": "C", "text": "Hükmi Temizlik", "correct": false },
+      { "label": "D", "text": "Dini Temizlik", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kişinin abdest veya gusül alarak yaptığı temizliğe ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Manevi Temizlik", "correct": false },
+      { "label": "B", "text": "Maddi Temizlik", "correct": false },
+      { "label": "C", "text": "Hükmi Temizlik", "correct": true },
+      { "label": "D", "text": "Necasetten Temizlik", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kişinin abdest almak veya gusül almasını gerektiren kirlilikten temizlenmesine ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Hadesten Taharet", "correct": true },
+      { "label": "B", "text": "Necasetten Taharet", "correct": false },
+      { "label": "C", "text": "Tahareti Kübra", "correct": false },
+      { "label": "D", "text": "Tahareti Suğra", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi hadesten temizlenme yolu değildir?",
+    "options": [
+      { "label": "A", "text": "Abdest almak", "correct": false },
+      { "label": "B", "text": "Gusül yapmak", "correct": false },
+      { "label": "C", "text": "Teyemmüm yapmak", "correct": false },
+      { "label": "D", "text": "Elbiseleri temizlemek", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kişinin kalbini ve benliğini, yalan, kibir, haset, gıybet ve benzeri bütün kötülük, günah ve çirkinliklerden arındırması hangi temizlik çeşidine girer?",
+    "options": [
+      { "label": "A", "text": "Manevi temizlik", "correct": true },
+      { "label": "B", "text": "Maddi Temizlik", "correct": false },
+      { "label": "C", "text": "Hükmi Temizlik", "correct": false },
+      { "label": "D", "text": "Çevre Temizliği", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Nefsini arındıran kurtuluşa ermiştir ayeti hangi temizliğe vurgu yapar?",
+    "options": [
+      { "label": "A", "text": "Maddi Temizlik", "correct": false },
+      { "label": "B", "text": "Manevi Temizlik", "correct": true },
+      { "label": "C", "text": "Hükmi Temizlik", "correct": false },
+      { "label": "D", "text": "Çevre Temizliği", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Abdestsizlik veya cünüplük sebebiyle dinimizce insanda meydana geldiği kabul edilen hükmi kirliliğe ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Taharet", "correct": false },
+      { "label": "B", "text": "Necaset", "correct": false },
+      { "label": "C", "text": "Hades", "correct": true },
+      { "label": "D", "text": "Haset", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Gözle görülebilen pisliklere ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Taharet", "correct": false },
+      { "label": "B", "text": "Necaset", "correct": true },
+      { "label": "C", "text": "Haset", "correct": false },
+      { "label": "D", "text": "Hades", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi necaset değildir?",
+    "options": [
+      { "label": "A", "text": "Kan, insan idrarı ve dışkısı", "correct": false },
+      { "label": "B", "text": "Ağız dolusu olmayan kusmuk", "correct": true },
+      { "label": "C", "text": "Domuz eti", "correct": false },
+      { "label": "D", "text": "Yenmesi helal olmayan hayvanların idrar ve dışkısı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Hades — Hükmi temizlik", "correct": false },
+      { "label": "B", "text": "Necaset — Maddi temizlik", "correct": false },
+      { "label": "C", "text": "Tövbe — Manevi temizlik", "correct": false },
+      { "label": "D", "text": "Abdest — Manevi Temizlik", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Temizlik anlamına gelen kelime hangisidir?",
+    "options": [
+      { "label": "A", "text": "Necaset", "correct": false },
+      { "label": "B", "text": "Taharet", "correct": true },
+      { "label": "C", "text": "Hades", "correct": false },
+      { "label": "D", "text": "Kehanet", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Necaset denilen maddi pisliklerden ve hades denilen hükmi pisliklerden temizlenmeye ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Kehanet", "correct": false },
+      { "label": "B", "text": "Hades", "correct": false },
+      { "label": "C", "text": "Taharet", "correct": true },
+      { "label": "D", "text": "Necaset", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Temizlik imandandır hadisiyle hangi temizliğin önemine vurgu yapılmıştır?",
+    "options": [
+      { "label": "A", "text": "Maddi temizlik", "correct": false },
+      { "label": "B", "text": "Manevi Temizlik", "correct": false },
+      { "label": "C", "text": "Hükmi temizlik", "correct": false },
+      { "label": "D", "text": "Hepsi", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi abdestin farzlarıyla ilgili yanlış bir bilgidir?",
+    "options": [
+      { "label": "A", "text": "Yüzü yıkamak", "correct": false },
+      { "label": "B", "text": "Kolları dirseklere kadar yıkamak", "correct": true },
+      { "label": "C", "text": "Başı meshetmek", "correct": false },
+      { "label": "D", "text": "Ayakları topuklarla birlikte yıkamak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi abdestin farzlarıyla ilgili eksik bir bilgidir?",
+    "options": [
+      { "label": "A", "text": "Ayakları topuklara kadar yıkamak", "correct": true },
+      { "label": "B", "text": "Başı meshetmek", "correct": false },
+      { "label": "C", "text": "Kolları dirseklerle birlikte yıkamak", "correct": false },
+      { "label": "D", "text": "Yüzü yıkamak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi abdestin farzlarıyla ilgili yanlış bir bilgidir?",
+    "options": [
+      { "label": "A", "text": "Yüzü yıkamak", "correct": false },
+      { "label": "B", "text": "Kolları dirseklerle birlikte yıkamak", "correct": false },
+      { "label": "C", "text": "Başın tamamını meshetmek", "correct": true },
+      { "label": "D", "text": "Ayakları topuklarla birlikte yıkamak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Abdestle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Namaz için abdest farzdır", "correct": false },
+      { "label": "B", "text": "Camiye girmek için abdest vaciptir", "correct": true },
+      { "label": "C", "text": "Tavaf için abdest vaciptir", "correct": false },
+      { "label": "D", "text": "Yatmadan önce abdest almak sünnettir", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Abdestle ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Niyeti unutursak yeniden abdest almamız gerekir", "correct": true },
+      { "label": "B", "text": "Abdeste Eûzü-Besmele ile başlamak sünnettir", "correct": false },
+      { "label": "C", "text": "Kollarımızı ve ayaklarımızı yıkarken sağ kol ve sağ ayaktan başlarız", "correct": false },
+      { "label": "D", "text": "Ayaklarımızı yıkarken parmak aralarını da yıkarız", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Abdestle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Abdeste niyet edilir", "correct": false },
+      { "label": "B", "text": "Eûzü-Besmele çekilir", "correct": false },
+      { "label": "C", "text": "Tüm uzuvlarımızı üç kez yıkarız", "correct": true },
+      { "label": "D", "text": "Burnumuza sağ avucumuzla su verir, sol elimizle temizleriz", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kıyamet günü insanların uzuvlarını pırıl pırıl parlatacak olan amel hangisidir?",
+    "options": [
+      { "label": "A", "text": "Namaz kılmak", "correct": false },
+      { "label": "B", "text": "Oruç tutmak", "correct": false },
+      { "label": "C", "text": "Zekat vermek", "correct": false },
+      { "label": "D", "text": "Abdest almak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi abdesti bozmaz?",
+    "options": [
+      { "label": "A", "text": "Küçük veya büyük tuvalet yapmak", "correct": false },
+      { "label": "B", "text": "Yellenmek", "correct": false },
+      { "label": "C", "text": "Namazda yanımızdaki duyacak kadar gülmek", "correct": false },
+      { "label": "D", "text": "Ağız dolusu olmayacak kadar kusmak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi abdesti bozmaz?",
+    "options": [
+      { "label": "A", "text": "Ağız dolusu kusmak", "correct": false },
+      { "label": "B", "text": "Bayılmak", "correct": false },
+      { "label": "C", "text": "Uyumak", "correct": false },
+      { "label": "D", "text": "Namazda yanımızdaki kişinin duymayacağı kadar gülmek", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hadesten temizlenmek için bütün bedenin temiz su ile yıkanmasına dini anlamda ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Necasetten taharet", "correct": false },
+      { "label": "B", "text": "Banyo yapmak", "correct": false },
+      { "label": "C", "text": "Boy abdesti almak", "correct": true },
+      { "label": "D", "text": "Duş almak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bir şeyi su ile yıkamak anlamına gelen kelime hangisidir?",
+    "options": [
+      { "label": "A", "text": "Taharet", "correct": false },
+      { "label": "B", "text": "Temizlik", "correct": false },
+      { "label": "C", "text": "Necaset", "correct": false },
+      { "label": "D", "text": "Gusül", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi guslün farzlarından değildir?",
+    "options": [
+      { "label": "A", "text": "Ağza su almak", "correct": false },
+      { "label": "B", "text": "Burna su almak", "correct": false },
+      { "label": "C", "text": "Niyet etmek", "correct": true },
+      { "label": "D", "text": "Bütün vücudu yıkamak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki guslün alınışıyla ilgili bilgilerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Ellerimizi bileklere kadar üç defa yıkarız", "correct": false },
+      { "label": "B", "text": "Hiçbir yer kuru kalmamasına dikkat ederiz", "correct": false },
+      { "label": "C", "text": "Besmele ve niyeti unutursak yeniden gusül alırız", "correct": true },
+      { "label": "D", "text": "Banyodan ayaklarımızı yıkayarak çıkarız", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bir işe yönelmek, bir şeyi kastetmek anlamına gelen kelime hangisidir?",
+    "options": [
+      { "label": "A", "text": "Gusül", "correct": false },
+      { "label": "B", "text": "Teheccüd", "correct": false },
+      { "label": "C", "text": "Temayül", "correct": false },
+      { "label": "D", "text": "Teyemmüm", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Abdest ve gusül yerine geçen temizlik hangisidir?",
+    "options": [
+      { "label": "A", "text": "Teemmül", "correct": false },
+      { "label": "B", "text": "Temayül", "correct": false },
+      { "label": "C", "text": "Teyemmüm", "correct": true },
+      { "label": "D", "text": "Tefehhüm", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangi durumlarda teyemmüm almak gereksizdir?",
+    "options": [
+      { "label": "A", "text": "Abdest alacak kadar su bulunmadığında", "correct": false },
+      { "label": "B", "text": "Gusül yapacak kadar su bulunmadığında", "correct": false },
+      { "label": "C", "text": "Suyun bulunup kullanılması mümkün olmadığında", "correct": false },
+      { "label": "D", "text": "Abdest azalarından birinin yarıdan azının yara olması durumunda", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangisi teyemmümün farzlarından değildir?",
+    "options": [
+      { "label": "A", "text": "Baş meshetmek", "correct": true },
+      { "label": "B", "text": "Niyet etmek", "correct": false },
+      { "label": "C", "text": "Yüzü meshetmek", "correct": false },
+      { "label": "D", "text": "Kolları meshetmek", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bir şeyi elle silkleme anlamına gelen, abdest alırken ıslak eli başa, enseye; teyemmüm alırken de toprağa vurulan eli kol ve yüze sürmeye ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Medh", "correct": false },
+      { "label": "B", "text": "Merih", "correct": false },
+      { "label": "C", "text": "Melih", "correct": false },
+      { "label": "D", "text": "Mesh", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi abdest için alınan teyemmümü bozmaz?",
+    "options": [
+      { "label": "A", "text": "Su bulunduğunda", "correct": false },
+      { "label": "B", "text": "Vücudumuz kanayıp kanı dağıldığında", "correct": false },
+      { "label": "C", "text": "Namazda sadece kendimiz duyacak kadar güldüğümüzde", "correct": true },
+      { "label": "D", "text": "Ağız dolusu kustuğumuzda", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki durumlardan hangisi gusül abdesti almayı gerektirir?",
+    "options": [
+      { "label": "A", "text": "Uyumak", "correct": false },
+      { "label": "B", "text": "Bayılmak", "correct": false },
+      { "label": "C", "text": "Yellenmek", "correct": false },
+      { "label": "D", "text": "Cünüplük", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Abdestle ilgili aşağıdaki sıralamalardan hangisi doğrudur?",
+    "options": [
+      { "label": "A", "text": "Yüz — Baş — Kol — Ayak", "correct": false },
+      { "label": "B", "text": "Kol — Baş — Yüz — Ayak", "correct": false },
+      { "label": "C", "text": "Yüz — Kol — Baş — Ayak", "correct": true },
+      { "label": "D", "text": "Yüz — Kol — Ayak — Baş", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namaz aşağıdaki kimselerden hangisine farz değildir?",
+    "options": [
+      { "label": "A", "text": "Müslümana", "correct": false },
+      { "label": "B", "text": "Akıllı olanlara", "correct": false },
+      { "label": "C", "text": "Ergenlik çağına gelmemiş çocuklara", "correct": true },
+      { "label": "D", "text": "Hastalara", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi namazın şartlarından değildir?",
+    "options": [
+      { "label": "A", "text": "Vakit", "correct": false },
+      { "label": "B", "text": "Niyet", "correct": false },
+      { "label": "C", "text": "Taharet", "correct": false },
+      { "label": "D", "text": "Secde", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Erkeklerin en az göbekle diz kapağı arasını; kadınların el, yüz ve ayak hariç bütün vücutlarını namazda iken örtmesine ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "İstikbal-i kıble", "correct": false },
+      { "label": "B", "text": "Setr-i avret", "correct": true },
+      { "label": "C", "text": "Kabe-i ahret", "correct": false },
+      { "label": "D", "text": "Kıyam", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namaza Allahu Ekber diyerek başlamak namazın hangi rüknüdür?",
+    "options": [
+      { "label": "A", "text": "İftitah tekbiri", "correct": true },
+      { "label": "B", "text": "Kabe-i ahret", "correct": false },
+      { "label": "C", "text": "Kıyam", "correct": false },
+      { "label": "D", "text": "Kıraat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi namazın rükünlerinden değildir?",
+    "options": [
+      { "label": "A", "text": "Kıyam", "correct": false },
+      { "label": "B", "text": "Kıraat", "correct": false },
+      { "label": "C", "text": "Kabe-i ahret", "correct": false },
+      { "label": "D", "text": "Niyet", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kıraat ne demektir?",
+    "options": [
+      { "label": "A", "text": "Ayakta durmak", "correct": false },
+      { "label": "B", "text": "Eğilmek", "correct": false },
+      { "label": "C", "text": "Yere kapanmak", "correct": false },
+      { "label": "D", "text": "Kur'an okumak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Cenaze namazını kılmanın hükmü nedir?",
+    "options": [
+      { "label": "A", "text": "Farz", "correct": true },
+      { "label": "B", "text": "Vacip", "correct": false },
+      { "label": "C", "text": "Nafile", "correct": false },
+      { "label": "D", "text": "Sünnet", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Vitir namazını kılmanın hükmü nedir?",
+    "options": [
+      { "label": "A", "text": "Farz", "correct": false },
+      { "label": "B", "text": "Vacip", "correct": true },
+      { "label": "C", "text": "Nafile", "correct": false },
+      { "label": "D", "text": "Sünnet", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bayram namazını kılmanın hükmü nedir?",
+    "options": [
+      { "label": "A", "text": "Vacip", "correct": true },
+      { "label": "B", "text": "Farz", "correct": false },
+      { "label": "C", "text": "Nafile", "correct": false },
+      { "label": "D", "text": "Sünnet", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namazın rekatlarıyla ilgili bilgilerden hangisi doğrudur?",
+    "options": [
+      { "label": "A", "text": "17 ilk sünnet, 14 farz, 6 son sünnet, 3 vacip, toplam 40 rekat", "correct": true },
+      { "label": "B", "text": "17 ilk sünnet, 14 farz, 3 son sünnet, 6 vacip, toplam 40 rekat", "correct": false },
+      { "label": "C", "text": "14 ilk sünnet, 17 farz, 6 son sünnet, 3 vacip, toplam 40 rekat", "correct": false },
+      { "label": "D", "text": "6 ilk sünnet, 17 farz, 14 son sünnet, 3 vacip, toplam 40 rekat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namazın hükümleriyle ilgili hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Cuma namazı, beş vakit namaz, cenaze namazı — farz", "correct": false },
+      { "label": "B", "text": "Vitir namazı, teravih namazı, teheccüd namazı — vacip", "correct": true },
+      { "label": "C", "text": "Ramazan ve kurban bayramı namazları — vacip", "correct": false },
+      { "label": "D", "text": "Beş vakit namazla ve Cuma günleri kılınan sünnet namazları — nafile", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "4 rekatlı hangi namazın ilk oturuşunda Salli-Barik ve 3. rekatında da Subhaneke okunur?",
+    "options": [
+      { "label": "A", "text": "Öğle ve ikindinin ilk sünnetleri", "correct": false },
+      { "label": "B", "text": "Öğle ve yatsının ilk sünnetleri", "correct": false },
+      { "label": "C", "text": "Cuma ve yatsının ilk sünnetleri", "correct": false },
+      { "label": "D", "text": "İkindi ve yatsının ilk sünnetleri", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Vacip olan, kunut tekbiriyle kunut duası okunan sabah namazı vaktine kadar kılınabilen namaz hangisidir?",
+    "options": [
+      { "label": "A", "text": "Teheccüd namazı", "correct": false },
+      { "label": "B", "text": "Yatsı namazı", "correct": false },
+      { "label": "C", "text": "Vitir namazı", "correct": true },
+      { "label": "D", "text": "Teravih namazı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki hangi durumda namaz bozulmaz?",
+    "options": [
+      { "label": "A", "text": "Namazın farzlarını bilerek terk etmek", "correct": false },
+      { "label": "B", "text": "Konuşmak, selam alıp vermek", "correct": false },
+      { "label": "C", "text": "Bir şey yiyip içmek", "correct": false },
+      { "label": "D", "text": "Gözün kıbleden farklı bir yöne çevrilmesi", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki hangi durumlarda namaz bozulmaz?",
+    "options": [
+      { "label": "A", "text": "Bayılmak", "correct": false },
+      { "label": "B", "text": "Gusül veya abdestin bozulması", "correct": false },
+      { "label": "C", "text": "İmamın hizasından öne geçmek", "correct": false },
+      { "label": "D", "text": "Bir yere dayanmadan uyumak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki hangi durumda sadece namaz bozulur, abdest bozulmaz?",
+    "options": [
+      { "label": "A", "text": "Teyemmümün suyu bulması", "correct": false },
+      { "label": "B", "text": "Ağız dolusu kusmak", "correct": false },
+      { "label": "C", "text": "Yanımızdaki duymayacak kadar gülmek", "correct": true },
+      { "label": "D", "text": "Bir yere dayanarak uyumak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Cuma ve bayram namazlarında minberde okunan dua ve öğüte ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Hutbe", "correct": true },
+      { "label": "B", "text": "Sohbet", "correct": false },
+      { "label": "C", "text": "Vaaz", "correct": false },
+      { "label": "D", "text": "Salavat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Camilerde hatibin çıkıp hutbe okuduğu merdivenli yüksek yere ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Mihrap", "correct": false },
+      { "label": "B", "text": "Minber", "correct": true },
+      { "label": "C", "text": "Kürsü", "correct": false },
+      { "label": "D", "text": "Rahle", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hz. Peygamber, namazı dinin neyi olarak kabul etmiştir?",
+    "options": [
+      { "label": "A", "text": "Namaz dinin direğidir", "correct": true },
+      { "label": "B", "text": "Namaz dinin şartıdır", "correct": false },
+      { "label": "C", "text": "Namaz dinin kalbidir", "correct": false },
+      { "label": "D", "text": "Namaz dinin beynidir", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namaz, insanı hayasızlıktan ve kötülükten alıkoyar sözü nedir?",
+    "options": [
+      { "label": "A", "text": "Ayettir", "correct": true },
+      { "label": "B", "text": "Hadistir", "correct": false },
+      { "label": "C", "text": "Kutsi hadistir", "correct": false },
+      { "label": "D", "text": "Sünnettir", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Oruç vakti ne zaman başlar, ne zaman biter?",
+    "options": [
+      { "label": "A", "text": "Güneşin doğuşundan batışına kadar", "correct": false },
+      { "label": "B", "text": "Sabahtan akşam vaktine kadar", "correct": false },
+      { "label": "C", "text": "İmsak vaktinden iftar vaktine kadar", "correct": true },
+      { "label": "D", "text": "İftitah vaktinde başlar akşam vaktinde biter", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hac ibadetinin zamanı için aşağıda yazılı ifadelerden hangisi doğrudur?",
+    "options": [
+      { "label": "A", "text": "Her zaman", "correct": false },
+      { "label": "B", "text": "Belirli zamanda", "correct": true },
+      { "label": "C", "text": "Ramazan'da", "correct": false },
+      { "label": "D", "text": "Kabeyi gördüğünde", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hac ibadeti esnasında aşağıdaki ibadetlerden hangisi yapılmaz?",
+    "options": [
+      { "label": "A", "text": "Tavaf", "correct": false },
+      { "label": "B", "text": "Namaz", "correct": false },
+      { "label": "C", "text": "Kurban", "correct": false },
+      { "label": "D", "text": "Teravih", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangisi zekatın faydalarından değildir?",
+    "options": [
+      { "label": "A", "text": "Dilenmeye alıştırır", "correct": true },
+      { "label": "B", "text": "Sosyal dayanışmayı sağlar", "correct": false },
+      { "label": "C", "text": "Barışı sağlar", "correct": false },
+      { "label": "D", "text": "Yokluğu giderir", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Dinen zengin sayılsalar da aşağıdakilerden hangisi zekat vermekle mükellef değildir?",
+    "options": [
+      { "label": "A", "text": "Akıllı olmayanlar", "correct": true },
+      { "label": "B", "text": "Müslümanlar", "correct": false },
+      { "label": "C", "text": "Akıllı olanlar", "correct": false },
+      { "label": "D", "text": "Buluğ çağına erenler", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerin hangisini söyleyen kişi, Allah'ın birliğini ve Hz. Muhammed'in peygamberliğini kabul etmiş olur?",
+    "options": [
+      { "label": "A", "text": "Salat-ü selam", "correct": false },
+      { "label": "B", "text": "Kelime-i şehadet", "correct": true },
+      { "label": "C", "text": "Ezan", "correct": false },
+      { "label": "D", "text": "Hiçbiri", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İbadet niyetiyle ve kendine özel kurallarına uymak suretiyle inzivaya çekilmeye ne denir?",
+    "options": [
+      { "label": "A", "text": "İtikaf", "correct": true },
+      { "label": "B", "text": "İtikad", "correct": false },
+      { "label": "C", "text": "İhlas", "correct": false },
+      { "label": "D", "text": "İbadet", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Yapıldığında mükafat verilen, fakat terk edildiğinde ceza gerektirmeyen ibadete ne denir?",
+    "options": [
+      { "label": "A", "text": "Farz", "correct": false },
+      { "label": "B", "text": "Vacip", "correct": false },
+      { "label": "C", "text": "Farz-ı ayn", "correct": false },
+      { "label": "D", "text": "Nafile ibadet", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Peygamber Efendimiz'in \"Gözümün nuru\" diye tabir ettiği ibadet hangisidir?",
+    "options": [
+      { "label": "A", "text": "Oruç", "correct": false },
+      { "label": "B", "text": "Namaz", "correct": true },
+      { "label": "C", "text": "Hac", "correct": false },
+      { "label": "D", "text": "Zekat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Peygamberimizin ashabına imamlık yaptığı ve şu an kabrinin bulunduğu yerin adı nedir?",
+    "options": [
+      { "label": "A", "text": "Kabe-i Muazzama", "correct": false },
+      { "label": "B", "text": "Mescid-i Nebevi", "correct": true },
+      { "label": "C", "text": "Mescid-i Aksa", "correct": false },
+      { "label": "D", "text": "Arafat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi sadece Ramazan ayında kılınan namazdır?",
+    "options": [
+      { "label": "A", "text": "Teravih Namazı", "correct": true },
+      { "label": "B", "text": "Yatsı Namazı", "correct": false },
+      { "label": "C", "text": "Bayram Namazı", "correct": false },
+      { "label": "D", "text": "Cuma Namazı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi hicri takvime göre yılda iki kez kılınan namazdır?",
+    "options": [
+      { "label": "A", "text": "Cuma Namazı", "correct": false },
+      { "label": "B", "text": "Teravih Namazı", "correct": false },
+      { "label": "C", "text": "Bayram Namazı", "correct": true },
+      { "label": "D", "text": "Cenaze Namazı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İslam'ın beş şartından olup Ramazan ayında yapılması zorunlu ibadet aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Oruç", "correct": true },
+      { "label": "B", "text": "Teravih", "correct": false },
+      { "label": "C", "text": "Fitre", "correct": false },
+      { "label": "D", "text": "Zekat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İslam'ın temel ilkelerinden olan oruç, ne ile yapılan ibadetlerdendir?",
+    "options": [
+      { "label": "A", "text": "Mal ile", "correct": false },
+      { "label": "B", "text": "Bedenle", "correct": true },
+      { "label": "C", "text": "Hem mal hem bedenle", "correct": false },
+      { "label": "D", "text": "Hiçbiri", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi hem mal hem bedenle yapılan ibadetlerdendir?",
+    "options": [
+      { "label": "A", "text": "Oruç", "correct": false },
+      { "label": "B", "text": "Teravih", "correct": false },
+      { "label": "C", "text": "Hac", "correct": true },
+      { "label": "D", "text": "Zekat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Akıllı ve erginlik çağına gelmiş her Müslümanın Ramazan ayında oruç tutmasının hükmü nedir?",
+    "options": [
+      { "label": "A", "text": "Müstehab", "correct": false },
+      { "label": "B", "text": "Sünnet", "correct": false },
+      { "label": "C", "text": "Farz", "correct": true },
+      { "label": "D", "text": "Vacip", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ey iman edenler! Allah'a karşı gelmekten sakınmanız için oruç, sizden öncekilere farz kılındığı gibi size de farz kılındı ifadesi nedir?",
+    "options": [
+      { "label": "A", "text": "Ayeti Kerime", "correct": true },
+      { "label": "B", "text": "Hadis-i Şerif", "correct": false },
+      { "label": "C", "text": "Kelam-ı Kibar", "correct": false },
+      { "label": "D", "text": "Atasözü", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Oruca başlama zamanı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "İftar", "correct": false },
+      { "label": "B", "text": "İmsak", "correct": true },
+      { "label": "C", "text": "Sahur", "correct": false },
+      { "label": "D", "text": "Hiçbiri", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Güneşin batmasıyla birlikte orucun sona erdiği ve akşam namazı vaktinin girdiği zamanın özel adı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "İmsak", "correct": false },
+      { "label": "B", "text": "Sahur", "correct": false },
+      { "label": "C", "text": "İftar", "correct": true },
+      { "label": "D", "text": "Hiçbiri", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Yolculuk ve hastalık durumlarından dolayı oruç tutulamadığında, kişinin Ramazan ayı dışında istediği bir zamanda tutmadığı gün sayısınca oruç tutmasına denir?",
+    "options": [
+      { "label": "A", "text": "Kaza", "correct": true },
+      { "label": "B", "text": "Kader", "correct": false },
+      { "label": "C", "text": "Nafile", "correct": false },
+      { "label": "D", "text": "Namaz", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hastalık, yaşlılık gibi sebeplerden ötürü zamanında oruç tutamayan, daha sonra da kaza edilemeyen ve her bir gün oruç için kişinin yediği bir günlük yemek miktarı para olarak bir fakire vermeyi ya da bir fakiri bir gün doyurmasına ne denir?",
+    "options": [
+      { "label": "A", "text": "İftar", "correct": false },
+      { "label": "B", "text": "Fidye", "correct": true },
+      { "label": "C", "text": "Zekat", "correct": false },
+      { "label": "D", "text": "Fitre", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ertesi günkü oruca bir hazırlık ve niyet olarak imsaktan önceki vaktin ve bu vakitte yenilen yemeğin adı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "İftar", "correct": false },
+      { "label": "B", "text": "Sahur", "correct": true },
+      { "label": "C", "text": "İmsak", "correct": false },
+      { "label": "D", "text": "Akşam yemeği", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi orucu bozmaz?",
+    "options": [
+      { "label": "A", "text": "Bilerek bir şey yemek ve içmek", "correct": false },
+      { "label": "B", "text": "Güneş battı sanarak iftar etmek", "correct": false },
+      { "label": "C", "text": "Ağza giren yağmur, kar ve doluyu bilerek yutmak", "correct": false },
+      { "label": "D", "text": "Unutarak bir şey yiyip içmek", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namaza başlarken ellerimizi kaldırıp kulaklarımıza götürdüğümüzde hangi kelimeyi söyleriz?",
+    "options": [
+      { "label": "A", "text": "Sübhanallah", "correct": false },
+      { "label": "B", "text": "Elhamdülillah", "correct": false },
+      { "label": "C", "text": "Allahu Ekber", "correct": true },
+      { "label": "D", "text": "Bismillah", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namazlarda besmeleden sonra her rekatta okunan sure hangisidir?",
+    "options": [
+      { "label": "A", "text": "İhlas", "correct": false },
+      { "label": "B", "text": "Kevser", "correct": false },
+      { "label": "C", "text": "Fatiha", "correct": true },
+      { "label": "D", "text": "Nas", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Cuma ve bayram namazlarında imamın çıkıp hutbe okuduğu yerin adı nedir?",
+    "options": [
+      { "label": "A", "text": "Minber", "correct": true },
+      { "label": "B", "text": "Mihrap", "correct": false },
+      { "label": "C", "text": "Kürsü", "correct": false },
+      { "label": "D", "text": "Şadırvan", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Yatsı namazından sonra üç rekat olarak kılınan namazın adı nedir?",
+    "options": [
+      { "label": "A", "text": "Teravih Namazı", "correct": false },
+      { "label": "B", "text": "Gece Namazı", "correct": false },
+      { "label": "C", "text": "Vitir Namazı", "correct": true },
+      { "label": "D", "text": "Kuşluk Namazı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi Ramazan ayına mahsus bir ibadet değildir?",
+    "options": [
+      { "label": "A", "text": "Namaz", "correct": true },
+      { "label": "B", "text": "Oruç", "correct": false },
+      { "label": "C", "text": "Teravih", "correct": false },
+      { "label": "D", "text": "Sadaka-i Fıtır", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi İslam'ın 5 temel şartlarından biri değildir?",
+    "options": [
+      { "label": "A", "text": "Zekat vermek", "correct": false },
+      { "label": "B", "text": "Umreye gitmek", "correct": true },
+      { "label": "C", "text": "Kelime-i şehadet getirmek", "correct": false },
+      { "label": "D", "text": "Hacca gitmek", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Camilerde ezan okunan ince ve yüksek yapıya ne denir?",
+    "options": [
+      { "label": "A", "text": "Şerefe", "correct": false },
+      { "label": "B", "text": "Mahya", "correct": false },
+      { "label": "C", "text": "Minare", "correct": true },
+      { "label": "D", "text": "Avlu", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Minarede müezzinin ezan okuduğu çıkıntılı özel bölümün adı nedir?",
+    "options": [
+      { "label": "A", "text": "Şerefe", "correct": true },
+      { "label": "B", "text": "Alem", "correct": false },
+      { "label": "C", "text": "Minare", "correct": false },
+      { "label": "D", "text": "Mahya", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Minarelerin ucuna takılan hilale ne denir?",
+    "options": [
+      { "label": "A", "text": "Alem", "correct": true },
+      { "label": "B", "text": "Şerefe", "correct": false },
+      { "label": "C", "text": "Minare", "correct": false },
+      { "label": "D", "text": "Mahya", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ramazan aylarında ve kutsal gecelerde iki minare arasına asılan ışıklı yazıya ne denir?",
+    "options": [
+      { "label": "A", "text": "Mahya", "correct": true },
+      { "label": "B", "text": "Minare", "correct": false },
+      { "label": "C", "text": "Şerefe", "correct": false },
+      { "label": "D", "text": "Alem", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namazın sonunda Ettihiyyatü duasını okuyacak kadar oturup beklemeye ne denir?",
+    "options": [
+      { "label": "A", "text": "Ka'de-i ahret", "correct": true },
+      { "label": "B", "text": "Ka'de-i ula", "correct": false },
+      { "label": "C", "text": "Ka'de-i vüsta", "correct": false },
+      { "label": "D", "text": "İlk oturuş", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi nafile namazlardan değildir?",
+    "options": [
+      { "label": "A", "text": "Teheccüd", "correct": false },
+      { "label": "B", "text": "Cenaze namazı", "correct": true },
+      { "label": "C", "text": "Cuma namazının son sünneti", "correct": false },
+      { "label": "D", "text": "Teravih", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki namazlardan hangisi 20 rekat olarak kılınır?",
+    "options": [
+      { "label": "A", "text": "Cuma Namazı", "correct": false },
+      { "label": "B", "text": "Bayram Namazı", "correct": false },
+      { "label": "C", "text": "Teravih Namazı", "correct": true },
+      { "label": "D", "text": "Cenaze namazı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ramazan ayında kılınan Teravih namazının hükmü nedir?",
+    "options": [
+      { "label": "A", "text": "Farz", "correct": false },
+      { "label": "B", "text": "Sünnet", "correct": true },
+      { "label": "C", "text": "Vacip", "correct": false },
+      { "label": "D", "text": "Mübah", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Haram olmamakla beraber yapılması dinimiz tarafından hoş karşılanmayan davranışa ne denir?",
+    "options": [
+      { "label": "A", "text": "Mekruh", "correct": true },
+      { "label": "B", "text": "Müfsid", "correct": false },
+      { "label": "C", "text": "Mübah", "correct": false },
+      { "label": "D", "text": "Müstehab", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Cuma Namazı kaç rekattır?",
+    "options": [
+      { "label": "A", "text": "20", "correct": false },
+      { "label": "B", "text": "8", "correct": false },
+      { "label": "C", "text": "10", "correct": true },
+      { "label": "D", "text": "16", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki namazlardan hangisi sadece ayakta kılınarak tamamlanan namazdır?",
+    "options": [
+      { "label": "A", "text": "Sabah Namazı", "correct": false },
+      { "label": "B", "text": "Cuma Namazı", "correct": false },
+      { "label": "C", "text": "Cenaze Namazı", "correct": true },
+      { "label": "D", "text": "Bayram Namazı", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Müslümanların tek tek değil topluca sorumlu oldukları, ama içlerinden bir veya birkaç kişinin yapmasıyla diğerleri üzerinden sorumluluğun kalktığı yükümlülüğün adı nedir?",
+    "options": [
+      { "label": "A", "text": "Farz-ı ayn", "correct": false },
+      { "label": "B", "text": "Farz-ı kifaye", "correct": true },
+      { "label": "C", "text": "Vacip", "correct": false },
+      { "label": "D", "text": "Farz", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ergenlik çağına gelen ve akıl sağlığı yerinde olan, dinin belirlediği hükümlerle yükümlü ve sorumlu olan kişiye ne denir?",
+    "options": [
+      { "label": "A", "text": "Mükellef", "correct": true },
+      { "label": "B", "text": "Mümin", "correct": false },
+      { "label": "C", "text": "Müslüman", "correct": false },
+      { "label": "D", "text": "Mükemmel", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi Müslüman olmanın ilk şartıdır?",
+    "options": [
+      { "label": "A", "text": "Namaz", "correct": false },
+      { "label": "B", "text": "Zekat", "correct": false },
+      { "label": "C", "text": "Kelime-i şehadet", "correct": true },
+      { "label": "D", "text": "Oruç", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İyi ya da barışık davranış anlamına gelen kavramın karşılığı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Ahlak", "correct": false },
+      { "label": "B", "text": "Farz", "correct": false },
+      { "label": "C", "text": "Sünnet", "correct": false },
+      { "label": "D", "text": "Ameli salih", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi müstehap değildir?",
+    "options": [
+      { "label": "A", "text": "Nafile namaz kılmak", "correct": false },
+      { "label": "B", "text": "Nafile oruç tutmak", "correct": false },
+      { "label": "C", "text": "Akşam namazını vakti girer girmez kılmak", "correct": false },
+      { "label": "D", "text": "Cuma namazının ilk sünneti", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Allah'a yaklaşma ve O'nun rızasını kazanma amacıyla yapılan şeye ne denir?",
+    "options": [
+      { "label": "A", "text": "İbadet", "correct": true },
+      { "label": "B", "text": "Müstehap", "correct": false },
+      { "label": "C", "text": "Sünnet", "correct": false },
+      { "label": "D", "text": "Hadis", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki şıklardan hangisinde birbirine zıt kavramlar bulunmaktadır?",
+    "options": [
+      { "label": "A", "text": "Farz — Vacip", "correct": false },
+      { "label": "B", "text": "Haram — Helal", "correct": true },
+      { "label": "C", "text": "Sünnet — Müstehab", "correct": false },
+      { "label": "D", "text": "Mekruh — Haram", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İbadet çeşitleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Namaz bedenle yapılan bir ibadettir", "correct": false },
+      { "label": "B", "text": "Zekat malla yapılan bir ibadettir", "correct": false },
+      { "label": "C", "text": "Hac bedenle ve malla yapılan bir ibadettir", "correct": false },
+      { "label": "D", "text": "Oruç malla yapılan bir ibadettir", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangisi ibadet kelimesinin anlamı değildir?",
+    "options": [
+      { "label": "A", "text": "Hoşgörü", "correct": true },
+      { "label": "B", "text": "İtaat etmek", "correct": false },
+      { "label": "C", "text": "Boyun eğmek", "correct": false },
+      { "label": "D", "text": "Saygı göstermek", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Namaz kimlere farz değildir?",
+    "options": [
+      { "label": "A", "text": "Hastalara", "correct": false },
+      { "label": "B", "text": "Ergenlik çağına gelmeyenlere", "correct": true },
+      { "label": "C", "text": "Akıllılara", "correct": false },
+      { "label": "D", "text": "Seferi olanlara", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Oruç kimlere farz değildir?",
+    "options": [
+      { "label": "A", "text": "Ergenlik çağına gelmiş olanlara", "correct": false },
+      { "label": "B", "text": "Akıl sağlığı yerinde olmayanlara", "correct": true },
+      { "label": "C", "text": "Hasta olanlara", "correct": false },
+      { "label": "D", "text": "Yolcu olanlara", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hac kimlere farzdır?",
+    "options": [
+      { "label": "A", "text": "Günah işleyenlere", "correct": false },
+      { "label": "B", "text": "Parası olanlara", "correct": false },
+      { "label": "C", "text": "Dinin zengin saydığı sağlıklı kişilere", "correct": true },
+      { "label": "D", "text": "Ergenliğe girmeyenlere", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangisi farz değildir?",
+    "options": [
+      { "label": "A", "text": "Zekat vermek", "correct": false },
+      { "label": "B", "text": "Oruç tutmak", "correct": false },
+      { "label": "C", "text": "Hacca gitmek", "correct": false },
+      { "label": "D", "text": "Sadaka vermek", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi mükellef kelimesinin anlamı değildir?",
+    "options": [
+      { "label": "A", "text": "Sorumlu olmayan", "correct": true },
+      { "label": "B", "text": "Yükümlü olan", "correct": false },
+      { "label": "C", "text": "Ergenlik çağına gelen", "correct": false },
+      { "label": "D", "text": "Sorumlu olan", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangisi Ef'al-i mükellefinden değildir?",
+    "options": [
+      { "label": "A", "text": "Müflis", "correct": true },
+      { "label": "B", "text": "Müfsit", "correct": false },
+      { "label": "C", "text": "Müstehap", "correct": false },
+      { "label": "D", "text": "Mekruh", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Yapılmaması dinimiz tarafından kesinlikle yasaklanan şeylere haram denir", "correct": false },
+      { "label": "B", "text": "Yapılması dinimiz tarafından kesin olarak emredilen şeylere farz denir", "correct": false },
+      { "label": "C", "text": "Hz. Peygamberin farz ve vacip dışındaki söz ve davranışlarına sünnet denir", "correct": false },
+      { "label": "D", "text": "Haram olmamakla beraber yapılması dinimiz tarafından hoş karşılanmayana müfsid denir", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kişinin sırf Allah rızası için muhtaç kimselere malından zekat dışında yapılan yardıma ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Öğüt", "correct": false },
+      { "label": "B", "text": "Ödünç", "correct": false },
+      { "label": "C", "text": "Sadaka", "correct": true },
+      { "label": "D", "text": "Kurban", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi haccın farzlarından değildir?",
+    "options": [
+      { "label": "A", "text": "İhram", "correct": false },
+      { "label": "B", "text": "Kabeyi tavaf", "correct": false },
+      { "label": "C", "text": "Şeytan taşlama", "correct": true },
+      { "label": "D", "text": "Arafat'ta vakfe", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bir kimseye haccın farz olması için aşağıdakilerden hangisi gerekmez?",
+    "options": [
+      { "label": "A", "text": "Maddi gücün olması", "correct": false },
+      { "label": "B", "text": "Hür olması", "correct": false },
+      { "label": "C", "text": "Yaşlı olması", "correct": true },
+      { "label": "D", "text": "Müslüman olması", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hac ibadeti esnasında kişiye bazı şeylerin yasaklanması durumuna ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Say", "correct": false },
+      { "label": "B", "text": "İhram", "correct": true },
+      { "label": "C", "text": "Şavt", "correct": false },
+      { "label": "D", "text": "Vakfe", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kurban Bayramından bir gün önce Arafat adı verilen yere gelerek burada bir müddet beklemeye ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Tavaf", "correct": false },
+      { "label": "B", "text": "Hacerü'l-Esved", "correct": false },
+      { "label": "C", "text": "Say", "correct": false },
+      { "label": "D", "text": "Vakfe", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hacerü'l-Esved'in bulunduğu köşeden başlayarak Kabe'nin etrafında sadece bir tur dolaşmanın adı nedir?",
+    "options": [
+      { "label": "A", "text": "Say", "correct": false },
+      { "label": "B", "text": "Şavt", "correct": true },
+      { "label": "C", "text": "Vakfe", "correct": false },
+      { "label": "D", "text": "Tavaf", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hacda şeytan taşlanan ve kurban kesilen yerin adı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Mina", "correct": true },
+      { "label": "B", "text": "Müzdelife", "correct": false },
+      { "label": "C", "text": "Safa-Merve", "correct": false },
+      { "label": "D", "text": "Mescid-i Haram", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Mescid-i Nebevi nerededir?",
+    "options": [
+      { "label": "A", "text": "Mekke", "correct": false },
+      { "label": "B", "text": "Medine", "correct": true },
+      { "label": "C", "text": "Şam", "correct": false },
+      { "label": "D", "text": "Bağdat", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi umre ile hac arasındaki farklardan değildir?",
+    "options": [
+      { "label": "A", "text": "Hac farz, umre sünnettir", "correct": false },
+      { "label": "B", "text": "Hacda Safa ile Merve arasında sa'y yapmak gerekmez", "correct": true },
+      { "label": "C", "text": "Hac yılın belli zamanında yapılır, umre hac günleri dışında yapılır", "correct": false },
+      { "label": "D", "text": "Umrede vakfe, şeytan taşlama ve kurban kesme yoktur", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangi ikisi umrenin farzlarındır?",
+    "options": [
+      { "label": "A", "text": "Vakfe — Şeytan taşlama", "correct": false },
+      { "label": "B", "text": "Sa'y — Tavaf", "correct": false },
+      { "label": "C", "text": "Vakfe — Kurban kesme", "correct": false },
+      { "label": "D", "text": "İhram — Tavaf", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Safa ile Merve arasında gidip gelmek suretiyle yapılan yürüyüşe ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Sa'y", "correct": true },
+      { "label": "B", "text": "Şavt", "correct": false },
+      { "label": "C", "text": "Tavaf", "correct": false },
+      { "label": "D", "text": "Vakfe", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hacda Kabe'nin etrafını yedi kez dolanmaya ne ad verilir?",
+    "options": [
+      { "label": "A", "text": "Sa'y", "correct": false },
+      { "label": "B", "text": "Şavt", "correct": false },
+      { "label": "C", "text": "Tavaf", "correct": true },
+      { "label": "D", "text": "Vakfe", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hacda Arafat'ta hangi gün vakfe yapılır?",
+    "options": [
+      { "label": "A", "text": "Kurban bayramından bir gün önce", "correct": true },
+      { "label": "B", "text": "Kurban bayramının birinci günü", "correct": false },
+      { "label": "C", "text": "Kurban bayramı içinde herhangi bir gün", "correct": false },
+      { "label": "D", "text": "Kurban bayramından sonra", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kabe'nin yakınlarında kaynağı olan mübarek suyun adı nedir?",
+    "options": [
+      { "label": "A", "text": "Makam-ı İbrahim", "correct": false },
+      { "label": "B", "text": "Zemzem", "correct": true },
+      { "label": "C", "text": "Merve", "correct": false },
+      { "label": "D", "text": "Mültezem", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hacda ihrama girilen yerin adı nedir?",
+    "options": [
+      { "label": "A", "text": "Mültezem", "correct": false },
+      { "label": "B", "text": "Mikat", "correct": true },
+      { "label": "C", "text": "Mescid-i Haram", "correct": false },
+      { "label": "D", "text": "Kabe", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Mekke'ye varınca yapılması gereken ilk ibadet hangisidir?",
+    "options": [
+      { "label": "A", "text": "Namaz kılmak", "correct": false },
+      { "label": "B", "text": "Sa'y yapmak", "correct": false },
+      { "label": "C", "text": "Zemzem suyu içmek", "correct": false },
+      { "label": "D", "text": "Tavaf yapmak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İhramdan nasıl çıkılır?",
+    "options": [
+      { "label": "A", "text": "İhram elbisesi çıkarılarak", "correct": false },
+      { "label": "B", "text": "Traş olunarak", "correct": true },
+      { "label": "C", "text": "Tavaf yapılarak", "correct": false },
+      { "label": "D", "text": "Sa'y yapılınca", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Mekke'den ayrılırken yapılan son tavafın adı nedir?",
+    "options": [
+      { "label": "A", "text": "Ziyaret tavafı", "correct": false },
+      { "label": "B", "text": "Umre tavafı", "correct": false },
+      { "label": "C", "text": "Veda tavafı", "correct": true },
+      { "label": "D", "text": "Nafile tavaf", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "İhrama niyetten sonra lebbeyk şeklinde okunan duaya ne denir?",
+    "options": [
+      { "label": "A", "text": "Telbiye", "correct": true },
+      { "label": "B", "text": "Tekbir", "correct": false },
+      { "label": "C", "text": "İhram duası", "correct": false },
+      { "label": "D", "text": "Tavaf duası", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Peygamberimiz (sav)'in kabri şerifleri nerededir?",
+    "options": [
+      { "label": "A", "text": "Mekke'de, Cennetü'l-Mualla'da", "correct": false },
+      { "label": "B", "text": "Medine'de, Mescid-i Nebevi'nin içinde", "correct": true },
+      { "label": "C", "text": "Mekke'de, Mescid-i Haram'ın içinde", "correct": false },
+      { "label": "D", "text": "Medine'de, Cennetü'l-Baki'de", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Arafat ile Mina arasında bulunan ve hacıların Arefe günü güneş batımından sonra bayram günü güneşin doğuşuna kadar vakfe yaptıkları yerin adı nedir?",
+    "options": [
+      { "label": "A", "text": "Cebel-i Rahme", "correct": false },
+      { "label": "B", "text": "Müzdelife", "correct": true },
+      { "label": "C", "text": "Cennetü'l-Baki", "correct": false },
+      { "label": "D", "text": "Harem bölgesi", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hac ibadeti dışında yılın herhangi bir zamanında ihrama girip tavaf ve sa'y yaptıktan sonra tıraş olup ihramdan çıkarak yapılan ibadete ne denir?",
+    "options": [
+      { "label": "A", "text": "Hac", "correct": false },
+      { "label": "B", "text": "Umre", "correct": true },
+      { "label": "C", "text": "Hacc-ı kıran", "correct": false },
+      { "label": "D", "text": "Hacc-ı temettu", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangileri umre ibadetinin vaciplerindendir?",
+    "options": [
+      { "label": "A", "text": "Vakfe", "correct": false },
+      { "label": "B", "text": "Tavaf", "correct": false },
+      { "label": "C", "text": "İhram", "correct": false },
+      { "label": "D", "text": "Sa'y", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi Mina'da yapılan işlerden değildir?",
+    "options": [
+      { "label": "A", "text": "Vakfe", "correct": true },
+      { "label": "B", "text": "Kurban kesme", "correct": false },
+      { "label": "C", "text": "Şeytan taşlama", "correct": false },
+      { "label": "D", "text": "Traş olma", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi umrenin kelime anlamlarından değildir?",
+    "options": [
+      { "label": "A", "text": "Ziyaret etmek", "correct": false },
+      { "label": "B", "text": "Uzun ömürlü olmak", "correct": false },
+      { "label": "C", "text": "Vakfe yapmak", "correct": true },
+      { "label": "D", "text": "Allah'a kul olmak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kurban kelimesinin anlamı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Yakınlaşmak", "correct": true },
+      { "label": "B", "text": "Uzaklaşmak", "correct": false },
+      { "label": "C", "text": "Cömertlik", "correct": false },
+      { "label": "D", "text": "Cimrilik", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Yılın belirli günlerinde, belirli vasıfları olan bir hayvanı Allah'a manen yakın olmak ve O'nun rızasını kazanmak için kesmek olarak tarif edilen ibadetin adı nedir?",
+    "options": [
+      { "label": "A", "text": "Adak", "correct": false },
+      { "label": "B", "text": "Nezir", "correct": false },
+      { "label": "C", "text": "Kurban", "correct": true },
+      { "label": "D", "text": "Akika", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kurban edilecek hayvan Kurban Bayramının hangi günlerinde kesilebilir?",
+    "options": [
+      { "label": "A", "text": "Sadece birinci gününde", "correct": false },
+      { "label": "B", "text": "Birinci ve ikinci gününde", "correct": false },
+      { "label": "C", "text": "İlk üç gününde", "correct": true },
+      { "label": "D", "text": "Bütün günlerinde", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi kurban edilecek hayvanda bulunması gereken özelliklerden biri değildir?",
+    "options": [
+      { "label": "A", "text": "Kurban edilecek hayvan koyun, keçi, deve veya sığır cinsinden olmalıdır", "correct": false },
+      { "label": "B", "text": "Sığır cinsi hayvanlar iki yaşını doldurmuş olmalıdır", "correct": false },
+      { "label": "C", "text": "Kesilecek hayvanın sağlıklı ve semiz olması", "correct": false },
+      { "label": "D", "text": "Kesilecek hayvanın güzel olması", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kurban ibadeti ile ilgili olarak aşağıdaki ifadelerden hangisi söylenemez?",
+    "options": [
+      { "label": "A", "text": "Kurban kesen kişi, Allah'a itaat sınavına hazır olduğunu simgesel bir davranışla gösterir", "correct": false },
+      { "label": "B", "text": "Kurban etinin paylaşılması toplumda dayanışma ve yardımlaşma ruhunu diri ve taze tutar", "correct": false },
+      { "label": "C", "text": "Kurban ibadeti zavallı hayvanların acımasızca öldürülmesine sebep olur", "correct": true },
+      { "label": "D", "text": "Bize verilmiş olan sahip olduğumuz nimetlerin birer emanet olduğu duygusunu geliştirir", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kurban ibadeti hangi iki Peygamber arasında yaşanmıştır?",
+    "options": [
+      { "label": "A", "text": "Hz. İbrahim — Hz. İshak", "correct": false },
+      { "label": "B", "text": "Hz. Musa — Hz. Harun", "correct": false },
+      { "label": "C", "text": "Hz. İbrahim — Hz. İsmail", "correct": true },
+      { "label": "D", "text": "Hz. Yakup — Hz. Yusuf", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Teşrik tekbirleri hangi günlerde getirilir?",
+    "options": [
+      { "label": "A", "text": "Arefe günü sabah namazı başlar, birinci gün ikindi namazına kadar devam eder", "correct": false },
+      { "label": "B", "text": "Arefe günü sabah namazı başlar, ikinci gün ikindi namazına kadar devam eder", "correct": false },
+      { "label": "C", "text": "Arefe günü sabah namazı başlar, üçüncü gün ikindi namazına kadar devam eder", "correct": false },
+      { "label": "D", "text": "Arefe günü sabah namazı başlar, dördüncü gün ikindi namazına kadar devam eder", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi kurban kesme ibadetini yerine getirecek kişinin taşıması gereken şartlardan değildir?",
+    "options": [
+      { "label": "A", "text": "Müslüman olmak", "correct": false },
+      { "label": "B", "text": "Akıl sağlığı yerinde olmak", "correct": false },
+      { "label": "C", "text": "Ergenlik çağına gelmiş olmak", "correct": false },
+      { "label": "D", "text": "Erkek olmak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Dinimizce zengin kabul edilen Müslümanların, mallarının belli bir oranını ibadet niyetiyle Kur'an-ı Kerim'de belirtilen yerlere vermeleri olarak tanımlanan ibadet aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Zekat", "correct": true },
+      { "label": "B", "text": "Fitre", "correct": false },
+      { "label": "C", "text": "Kurban", "correct": false },
+      { "label": "D", "text": "Sadaka", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Toprak ürünlerinin nisap ve zekat miktarları ile ilgili olarak aşağıda verilen değerlerden hangisi doğrudur?",
+    "options": [
+      { "label": "A", "text": "Nisap: 653 kg — Masraf yapıldıysa 1/10, masraf yapılmadıysa 1/20", "correct": true },
+      { "label": "B", "text": "Nisap: 653 kg — Masraf yapıldıysa 2/10, masraf yapılmadıysa 1/20", "correct": false },
+      { "label": "C", "text": "Nisap: 633 kg — Masraf yapıldıysa 1/10, masraf yapılmadıysa 1/20", "correct": false },
+      { "label": "D", "text": "Nisap: 753 kg — Masraf yapıldıysa 1/10, masraf yapılmadıysa 1/30", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi Kur'an-ı Kerim'de \"zekat\" kelimesi ile bazen aynı anlamlarda kullanılan kelimelerden birisidir?",
+    "options": [
+      { "label": "A", "text": "Hayır", "correct": false },
+      { "label": "B", "text": "İyilik", "correct": false },
+      { "label": "C", "text": "İnfak", "correct": true },
+      { "label": "D", "text": "Cömertlik", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi zekatın kelime anlamlarından biri değildir?",
+    "options": [
+      { "label": "A", "text": "Temizlenmek", "correct": false },
+      { "label": "B", "text": "Artmak", "correct": false },
+      { "label": "C", "text": "Çoğalmak", "correct": false },
+      { "label": "D", "text": "Yükselmek", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Zekat ibadeti ile ilgili olarak aşağıdaki ifadelerden hangisi söylenemez?",
+    "options": [
+      { "label": "A", "text": "Zekat malı temizler", "correct": false },
+      { "label": "B", "text": "Zekat mala bereket kazandırır", "correct": false },
+      { "label": "C", "text": "Zekat toplumsal barışa olumlu katkıda bulunur", "correct": false },
+      { "label": "D", "text": "Zekat malı azaltır", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Allah'ın rızasını kazanmak niyetiyle karşılıksız olarak yardım etme, iyilik ve ihsanda bulunma anlamına gelen farz ibadet aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Teberru", "correct": false },
+      { "label": "B", "text": "Zekat", "correct": true },
+      { "label": "C", "text": "Hasene", "correct": false },
+      { "label": "D", "text": "Hayır", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi \"Allah'ın hoşnutluğunu kazanmak amacıyla kişinin sahip olduğu şeylerden harcamada bulunması\" şeklinde tarif edilen ibadettir?",
+    "options": [
+      { "label": "A", "text": "İnfak", "correct": true },
+      { "label": "B", "text": "Sadaka", "correct": false },
+      { "label": "C", "text": "Zekat", "correct": false },
+      { "label": "D", "text": "Hayır", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi zekat verecek kişide bulunması gereken şartlardan biri değildir?",
+    "options": [
+      { "label": "A", "text": "Müslüman olmak", "correct": false },
+      { "label": "B", "text": "Akıllı olmak", "correct": false },
+      { "label": "C", "text": "Ergenlik çağına gelmiş olmak", "correct": false },
+      { "label": "D", "text": "Erkek olmak", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi zekat verilecek mallarda bulunması gereken şartlardan biri değildir?",
+    "options": [
+      { "label": "A", "text": "Nisap", "correct": false },
+      { "label": "B", "text": "Tam mülkiyet", "correct": false },
+      { "label": "C", "text": "Artıcı olmama", "correct": true },
+      { "label": "D", "text": "Yıllanma", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Zekat verilecek malda bulunması gereken ve \"Zekat verilecek malın hem kendisinin hem sağlayacağı kazancın, sahibinin yetkisinde olması\" şeklinde tanımlanan şart aşağıdaki şıklardan hangisinde doğru olarak yazılmıştır?",
+    "options": [
+      { "label": "A", "text": "Tam mülkiyet", "correct": true },
+      { "label": "B", "text": "Nisap", "correct": false },
+      { "label": "C", "text": "Artıcı olma", "correct": false },
+      { "label": "D", "text": "Yıllanma", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Zekat verilecek malda bulunması gereken ve \"Dinimizin mallar için koyduğu bir ölçü ve zengin olmanın en alt sınırı\" şeklinde tanımlanan şart aşağıdaki şıklardan hangisinde doğru olarak yazılmıştır?",
+    "options": [
+      { "label": "A", "text": "Tam mülkiyet", "correct": false },
+      { "label": "B", "text": "Nisap", "correct": true },
+      { "label": "C", "text": "Artıcı olma", "correct": false },
+      { "label": "D", "text": "Yıllanma", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Zekat verilecek malda bulunması gereken ve \"Malın, sahibine kar veya gelir getirmesi ya da kendiliğinden çoğalması\" şeklinde tanımlanan şart aşağıdaki şıklardan hangisinde doğru olarak yazılmıştır?",
+    "options": [
+      { "label": "A", "text": "Tam mülkiyet", "correct": false },
+      { "label": "B", "text": "Nisap", "correct": false },
+      { "label": "C", "text": "Artıcı olma", "correct": true },
+      { "label": "D", "text": "Yıllanma", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Zekat verilecek malda bulunması gereken ve \"Zekat verilecek malın üzerinden bir yılın geçmesi gerekir\" şeklinde tanımlanan şart aşağıdaki şıklardan hangisinde doğru olarak yazılmıştır?",
+    "options": [
+      { "label": "A", "text": "Tam mülkiyet", "correct": false },
+      { "label": "B", "text": "Nisap", "correct": false },
+      { "label": "C", "text": "Artıcı olma", "correct": false },
+      { "label": "D", "text": "Yıllanma", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıda yazılan iş ve davranışlardan hangisi sadaka olarak tanımlanamaz?",
+    "options": [
+      { "label": "A", "text": "Helal şeyleri yapmak", "correct": false },
+      { "label": "B", "text": "Oruç tutmak", "correct": true },
+      { "label": "C", "text": "Güzel söz söylemek", "correct": false },
+      { "label": "D", "text": "Yolda insanlara rahatsızlık veren bir şeyi kaldırmak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Müminler gerçekten kurtuluşa ermişlerdir. Onlar ki namazlarında derin saygı içindedirler. Onlar ki faydasız işlerden ve boş sözlerden yüz çevirirler. Onlar ki zekatı öderler. Bu ayet hangi surede yer almaktadır?",
+    "options": [
+      { "label": "A", "text": "İhlas", "correct": false },
+      { "label": "B", "text": "Müminun Suresi", "correct": true },
+      { "label": "C", "text": "Fatiha", "correct": false },
+      { "label": "D", "text": "Bakara", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdaki mallardan hangisinden zekat verilmez?",
+    "options": [
+      { "label": "A", "text": "Altın", "correct": false },
+      { "label": "B", "text": "Gümüş", "correct": false },
+      { "label": "C", "text": "Ticari mal", "correct": false },
+      { "label": "D", "text": "Asli ihtiyaçlardan olan mal", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıda zekat verilecek malların nisap ve zekat miktarları eşleştirilmiştir. Yapılan bu eşleşmelerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Altın — Nisap: 80,18 gr / Zekat: 1/40", "correct": false },
+      { "label": "B", "text": "Koyun ve keçi — Nisap: 40 adet / Zekat: 1 adet", "correct": false },
+      { "label": "C", "text": "Deve — Nisap: 5 adet / Zekat: 1 koyun", "correct": false },
+      { "label": "D", "text": "Gümüş — Nisap: 561,2 gr / Zekat: 1/50", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi Kur'an-ı Kerim'de bildirilen zekat verilecek kişilerden değildir?",
+    "options": [
+      { "label": "A", "text": "Yoksullar", "correct": false },
+      { "label": "B", "text": "İhtiyaç sahibi insanlar", "correct": false },
+      { "label": "C", "text": "Çocuklar", "correct": true },
+      { "label": "D", "text": "Esirler", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Allah'a yalvarma, yakarma, O'ndan maddi ya da manevi bir şeyler istemeye ne denir?",
+    "options": [
+      { "label": "A", "text": "Dua etmek", "correct": true },
+      { "label": "B", "text": "Zekat vermek", "correct": false },
+      { "label": "C", "text": "Oruç tutmak", "correct": false },
+      { "label": "D", "text": "Hacca gitmek", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Dua'nın kelime anlamı aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Vermek", "correct": false },
+      { "label": "B", "text": "Almak", "correct": false },
+      { "label": "C", "text": "Götürmek", "correct": false },
+      { "label": "D", "text": "İstemek", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi dilimizde dua kelimesi ile eş anlamlı olarak kullanılan kelimelerden değildir?",
+    "options": [
+      { "label": "A", "text": "Niyazda bulunmak", "correct": false },
+      { "label": "B", "text": "Yakarmak", "correct": false },
+      { "label": "C", "text": "Münacaat", "correct": false },
+      { "label": "D", "text": "Münazara", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Dua ederken uyulması gereken temel ilke aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "Samimiyet", "correct": true },
+      { "label": "B", "text": "Camide olmak", "correct": false },
+      { "label": "C", "text": "Dua ederken hadis okumak", "correct": false },
+      { "label": "D", "text": "Dua ederken ayet okumak", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Hangi zamanlarda dua edilebilir?",
+    "options": [
+      { "label": "A", "text": "Sabahları", "correct": false },
+      { "label": "B", "text": "Akşamları", "correct": false },
+      { "label": "C", "text": "Geceleyin", "correct": false },
+      { "label": "D", "text": "Her zaman", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bizi yedirip doyuran, bizim susuzluğumuzu gideren ve bizi Müslümanlardan eyleyen Allah'a hamd olsun şeklinde yapılan duanın adı nedir?",
+    "options": [
+      { "label": "A", "text": "Namaz duası", "correct": false },
+      { "label": "B", "text": "Yemek duası", "correct": true },
+      { "label": "C", "text": "Ezan duası", "correct": false },
+      { "label": "D", "text": "Cenaze duası", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Rabbim! İlmimi arttır anlamındaki dua ayeti aşağıdaki surelerin hangisinde bulunmaktadır?",
+    "options": [
+      { "label": "A", "text": "Bakara Suresi", "correct": false },
+      { "label": "B", "text": "Enfal Suresi", "correct": false },
+      { "label": "C", "text": "Yasin Suresi", "correct": false },
+      { "label": "D", "text": "Taha Suresi", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Rabbimiz! Bize bu dünyada iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru anlamındaki dua ayeti aşağıdaki surelerin hangisinde bulunmaktadır?",
+    "options": [
+      { "label": "A", "text": "Bakara Suresi", "correct": true },
+      { "label": "B", "text": "Yasin Suresi", "correct": false },
+      { "label": "C", "text": "Mülk Suresi", "correct": false },
+      { "label": "D", "text": "Nisa Suresi", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ya Rabbi! Sen affedicisin. Affetmeyi seversin. Bütün insanları affet duası kime aittir?",
+    "options": [
+      { "label": "A", "text": "Hz. Muhammed (sav)", "correct": true },
+      { "label": "B", "text": "Hz. Ebu Bekir (ra)", "correct": false },
+      { "label": "C", "text": "Hz. Ömer (ra)", "correct": false },
+      { "label": "D", "text": "Hz. Osman (ra)", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Bilerek veya bilmeyerek açıktan veya gizlice işlenmiş günahlardan, hatalardan ve kusurlardan pişmanlık duymak, onları bir daha yapmamaya niyet etmek ve yeniden aynı yanlışlara düşmemek için çaba göstermeye ne denir?",
+    "options": [
+      { "label": "A", "text": "İtiraf", "correct": false },
+      { "label": "B", "text": "Tövbe", "correct": true },
+      { "label": "C", "text": "Günah çıkartma", "correct": false },
+      { "label": "D", "text": "Yalvarma", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Dua etmek ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Ancak helal ve temiz şeyler için Allah'a dua edilir", "correct": false },
+      { "label": "B", "text": "Duanın kabulü hususunda tereddüt edilmemelidir", "correct": false },
+      { "label": "C", "text": "Haram, yasak ve kötü şeyler için de dua edilebilir", "correct": true },
+      { "label": "D", "text": "Dua ederken bağırıp çağırmamak gerekir", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Kur'an'da tövbeyle yakın anlama sahip bir kelime daha kullanılır. Bu kelime aşağıdakilerden hangisidir?",
+    "options": [
+      { "label": "A", "text": "İstiğfar", "correct": true },
+      { "label": "B", "text": "İstifra", "correct": false },
+      { "label": "C", "text": "Tevekkül", "correct": false },
+      { "label": "D", "text": "Tevazu", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Tövbe ile ilgili aşağıda bulunan ifadelerden hangisi yanlıştır?",
+    "options": [
+      { "label": "A", "text": "Tövbe eden kişi ruhen rahata ve huzura erer", "correct": false },
+      { "label": "B", "text": "Tövbe, hata ve kusur karanlığında önümüzü aydınlatan bir lambadır", "correct": false },
+      { "label": "C", "text": "Tövbe, hata ve kusur kirlerini temizleyen tertemiz bir sudur", "correct": false },
+      { "label": "D", "text": "Tövbe etmek için hiç günah işlenmemiş olması gerekir", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Aşağıdakilerden hangisi tövbe eden kişinin özen göstermesi gereken hususlardan değildir?",
+    "options": [
+      { "label": "A", "text": "Bir hata yaptıktan sonra hemen tövbe edilmelidir", "correct": false },
+      { "label": "B", "text": "Yapılan hatayı bir daha yapmamaya samimi olarak niyet edip karar vermek gerekir", "correct": false },
+      { "label": "C", "text": "Aynı hata veya kusuru işlememek için elden geldiğince çaba göstermek gerekir", "correct": false },
+      { "label": "D", "text": "Tövbe ederken gelişigüzel sözler kullanılabilir", "correct": true }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ben nefsimi temize çıkarmam, çünkü Rabbimin merhamet ettiği hariç, nefis aşırı derecede kötülüğü emreder. Şüphesiz Rabbim çok bağışlayandır, çok merhamet edendir tövbesi hangi peygambere aittir?",
+    "options": [
+      { "label": "A", "text": "Hz. Yusuf (as)", "correct": true },
+      { "label": "B", "text": "Hz. Nuh (as)", "correct": false },
+      { "label": "C", "text": "Hz. Musa (as)", "correct": false },
+      { "label": "D", "text": "Hz. Yunus (as)", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Ey Rabbim! Beni ve kardeşimi bağışla. Bizi kendi rahmetine sok. Sen merhametlilerin en merhametlisisin. Tövbesi hangi peygambere aittir?",
+    "options": [
+      { "label": "A", "text": "Hz. Yusuf (as)", "correct": false },
+      { "label": "B", "text": "Hz. Nuh (as)", "correct": false },
+      { "label": "C", "text": "Hz. Musa (as)", "correct": true },
+      { "label": "D", "text": "Hz. Yunus (as)", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Rabbim! Beni, ana babamı, iman etmiş olarak evime girenleri, iman eden erkekleri ve iman eden kadınları bağışla. Zalimlerin de ancak helakini arttır\" Tövbesi hangi peygambere aittir?",
+    "options": [
+      { "label": "A", "text": "Hz. Yusuf (as)", "correct": false },
+      { "label": "B", "text": "Hz. Nuh (as)", "correct": true },
+      { "label": "C", "text": "Hz. Musa (as)", "correct": false },
+      { "label": "D", "text": "Hz. Yunus (as)", "correct": false }
+    ]
+  },
+  {
+    "category": "ibadet",
+    "question": "Senden başka hiçbir ilah yoktur. Seni eksikliklerden uzak tutarım. Ben gerçekten (nefsine zulmedenlerden oldum\" Tövbesi hangi peygambere aittir?",
+    "options": [
+      { "label": "A", "text": "Hz. Yusuf (as)", "correct": false },
+      { "label": "B", "text": "Hz. Nuh (as)", "correct": false },
+      { "label": "C", "text": "Hz. Musa (as)", "correct": false },
+      { "label": "D", "text": "Hz. Yunus (as)", "correct": true }
+    ]
+  }
+]

@@ -48,6 +48,7 @@ public class SecurityConfig {
                                 "/api/prayer-times/**",
                                 "/api/chat/**",
                                 "/api/rag/**",
+                                "/api/quiz/**",
                                 "/api/questions/**",
                                 "/api/documents/**"
                         ).permitAll()
