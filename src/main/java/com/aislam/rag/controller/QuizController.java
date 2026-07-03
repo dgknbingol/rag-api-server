@@ -47,6 +47,6 @@ public class QuizController {
             @PathVariable UUID id,
             @RequestBody QuizAnswerCheckRequest request
     ) {
-        return ResponseEntity.ok(quizQuestionService.checkAnswer(id, request.optionId()));
+        return ResponseEntity.ok(quizQuestionService.checkAnswer(id, request.optionId(), request.responseTimeMs()));
     }
 }

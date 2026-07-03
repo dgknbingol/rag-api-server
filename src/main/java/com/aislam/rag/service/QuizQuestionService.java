@@ -6,6 +6,7 @@ import com.aislam.rag.entity.QuizOptionEntity;
 import com.aislam.rag.entity.QuizQuestionEntity;
 import com.aislam.rag.exception.RagException;
 import com.aislam.rag.repository.QuizQuestionRepository;
+import com.aislam.rag.util.QuizScoring;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -42,7 +43,7 @@ public class QuizQuestionService {
     }
 
     @Transactional(readOnly = true)
-    public QuizAnswerCheckResponse checkAnswer(UUID questionId, UUID optionId) {
+    public QuizAnswerCheckResponse checkAnswer(UUID questionId, UUID optionId, Long responseTimeMs) {
         QuizQuestionEntity question = quizQuestionRepository.findById(questionId)
                 .filter(QuizQuestionEntity::isActive)
                 .orElseThrow(() -> new RagException("Quiz question not found", "QUIZ_QUESTION_NOT_FOUND"));
@@ -60,6 +61,9 @@ public class QuizQuestionService {
             throw new RagException("Quiz option not found", "QUIZ_OPTION_NOT_FOUND");
         }
 
-        return new QuizAnswerCheckResponse(correct, correctOptionId);
+        long safeResponseTimeMs = responseTimeMs != null ? responseTimeMs : QuizScoring.QUESTION_TIME_MS;
+        int points = QuizScoring.calculatePoints(correct, safeResponseTimeMs);
+
+        return new QuizAnswerCheckResponse(correct, correctOptionId, points);
     }
 }

@@ -4,6 +4,7 @@ import java.util.UUID;
 
 public record QuizAnswerCheckResponse(
         boolean correct,
-        UUID correctOptionId
+        UUID correctOptionId,
+        int points
 ) {
 }
