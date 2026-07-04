@@ -2,9 +2,11 @@ package com.aislam.rag;
 
 import com.aislam.rag.config.AuthProperties;
 import com.aislam.rag.config.AskProperties;
+import com.aislam.rag.config.ChatProperties;
 import com.aislam.rag.config.CorsProperties;
 import com.aislam.rag.config.DailyProperties;
 import com.aislam.rag.config.PrayerTimesProperties;
+import com.aislam.rag.config.RevenueCatProperties;
 import com.aislam.rag.config.DeepSeekProperties;
 import com.aislam.rag.config.LmStudioProperties;
 import com.aislam.rag.config.QdrantProperties;
@@ -24,8 +26,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
         CorsProperties.class,
         DeepSeekProperties.class,
         AskProperties.class,
+        ChatProperties.class,
         DailyProperties.class,
-        PrayerTimesProperties.class
+        PrayerTimesProperties.class,
+        RevenueCatProperties.class
 })
 public class QdrantEmbeddingApiServerApplication {
 

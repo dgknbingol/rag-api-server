@@ -18,6 +18,7 @@ import com.aislam.rag.repository.QuizAttemptRepository;
 import com.aislam.rag.repository.QuizPlayerRepository;
 import com.aislam.rag.util.QuizMonthUtils;
 import com.aislam.rag.util.QuizPlayerPresentation;
+import com.aislam.rag.util.QuizStreakCalculator;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -241,21 +242,23 @@ public class QuizStatsService {
     }
 
     private int calculateCurrentStreak(List<QuizAttemptEntity> attempts) {
-        if (attempts.isEmpty()) {
-            return 0;
-        }
-
-        Set<LocalDate> attemptDates = attempts.stream()
-                .map(attempt -> QuizMonthUtils.toLocalDate(attempt.getCompletedAt(), zoneId))
+        Set<LocalDate> competitionDates = attempts.stream()
+                .map(QuizStatsService::dailyCompetitionDateOf)
+                .flatMap(Optional::stream)
                 .collect(Collectors.toCollection(LinkedHashSet::new));
 
-        LocalDate cursor = LocalDate.now(zoneId);
-        int streak = 0;
-        while (attemptDates.contains(cursor)) {
-            streak += 1;
-            cursor = cursor.minusDays(1);
+        return QuizStreakCalculator.calculateCurrentStreak(
+                competitionDates,
+                LocalDate.now(zoneId)
+        );
+    }
+
+    private static Optional<LocalDate> dailyCompetitionDateOf(QuizAttemptEntity attempt) {
+        LocalDate fromEventId = QuizStreakCalculator.parseDailyEventDate(attempt.getEventId());
+        if (fromEventId != null) {
+            return Optional.of(fromEventId);
         }
-        return streak;
+        return Optional.empty();
     }
 
     private List<AchievementBadgeResponse> buildBadges(

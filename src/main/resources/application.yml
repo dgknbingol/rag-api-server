@@ -89,6 +89,12 @@ app:
   auth:
     jwt-secret: ${AISLAM_JWT_SECRET:dev-only-change-me-use-at-least-32-characters-long}
     jwt-expiration-hours: 168
+  chat:
+    free-daily-limit: 3
+    premium-daily-limit: 50
+  revenuecat:
+    webhook-authorization: ${REVENUECAT_WEBHOOK_AUTH:}
+    premium-entitlement-id: premium
 
 logging:
   level:

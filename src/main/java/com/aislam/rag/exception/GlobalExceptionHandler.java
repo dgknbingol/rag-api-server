@@ -46,7 +46,10 @@ public class GlobalExceptionHandler {
             case "LLM_ERROR", "DEEPSEEK_ERROR", "CONFIG_ERROR" -> HttpStatus.BAD_GATEWAY;
             case "QUIZ_PLAYER_NOT_FOUND", "QUIZ_QUESTION_NOT_FOUND", "QUIZ_OPTION_NOT_FOUND" -> HttpStatus.NOT_FOUND;
             case "QUIZ_ALREADY_ATTEMPTED", "EMAIL_EXISTS" -> HttpStatus.CONFLICT;
-            case "QUIZ_VALIDATION_ERROR" -> HttpStatus.BAD_REQUEST;
+            case "QUIZ_VALIDATION_ERROR", "APP_USER_ID_REQUIRED", "APP_USER_ID_INVALID", "WEBHOOK_INVALID" ->
+                    HttpStatus.BAD_REQUEST;
+            case "CHAT_QUOTA_EXCEEDED" -> HttpStatus.TOO_MANY_REQUESTS;
+            case "WEBHOOK_UNAUTHORIZED" -> HttpStatus.UNAUTHORIZED;
             default -> HttpStatus.SERVICE_UNAVAILABLE;
         };
         return ResponseEntity.status(status)

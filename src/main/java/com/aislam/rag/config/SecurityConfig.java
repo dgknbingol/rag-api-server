@@ -50,7 +50,8 @@ public class SecurityConfig {
                                 "/api/rag/**",
                                 "/api/quiz/**",
                                 "/api/questions/**",
-                                "/api/documents/**"
+                                "/api/documents/**",
+                                "/api/webhooks/revenuecat"
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
