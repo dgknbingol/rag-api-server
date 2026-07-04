@@ -42,11 +42,13 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(RagException.class)
     public ResponseEntity<ApiErrorResponse> handleRag(RagException ex) {
-        HttpStatus status = "LLM_ERROR".equals(ex.getCode())
-                || "DEEPSEEK_ERROR".equals(ex.getCode())
-                || "CONFIG_ERROR".equals(ex.getCode())
-                ? HttpStatus.BAD_GATEWAY
-                : HttpStatus.SERVICE_UNAVAILABLE;
+        HttpStatus status = switch (ex.getCode()) {
+            case "LLM_ERROR", "DEEPSEEK_ERROR", "CONFIG_ERROR" -> HttpStatus.BAD_GATEWAY;
+            case "QUIZ_PLAYER_NOT_FOUND", "QUIZ_QUESTION_NOT_FOUND", "QUIZ_OPTION_NOT_FOUND" -> HttpStatus.NOT_FOUND;
+            case "QUIZ_ALREADY_ATTEMPTED", "EMAIL_EXISTS" -> HttpStatus.CONFLICT;
+            case "QUIZ_VALIDATION_ERROR" -> HttpStatus.BAD_REQUEST;
+            default -> HttpStatus.SERVICE_UNAVAILABLE;
+        };
         return ResponseEntity.status(status)
                 .body(new ApiErrorResponse(ex.getMessage(), ex.getCode()));
     }
