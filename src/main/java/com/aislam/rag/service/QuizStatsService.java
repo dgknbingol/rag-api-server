@@ -8,13 +8,17 @@ import com.aislam.rag.dto.MonthlyLeaderboardResponse;
 import com.aislam.rag.dto.MonthlyStatsResponse;
 import com.aislam.rag.dto.QuizAchievementsResponse;
 import com.aislam.rag.dto.QuizAttemptStatusResponse;
+import com.aislam.rag.dto.QuizParticipationResponse;
 import com.aislam.rag.dto.QuizPlayerResponse;
+import com.aislam.rag.dto.RegisterQuizParticipationRequest;
 import com.aislam.rag.dto.RegisterQuizPlayerRequest;
 import com.aislam.rag.dto.SubmitQuizAttemptRequest;
 import com.aislam.rag.entity.QuizAttemptEntity;
+import com.aislam.rag.entity.QuizParticipationEntity;
 import com.aislam.rag.entity.QuizPlayerEntity;
 import com.aislam.rag.exception.RagException;
 import com.aislam.rag.repository.QuizAttemptRepository;
+import com.aislam.rag.repository.QuizParticipationRepository;
 import com.aislam.rag.repository.QuizPlayerRepository;
 import com.aislam.rag.util.QuizMonthUtils;
 import com.aislam.rag.util.QuizPlayerPresentation;
@@ -41,15 +45,21 @@ public class QuizStatsService {
 
     private final QuizPlayerRepository quizPlayerRepository;
     private final QuizAttemptRepository quizAttemptRepository;
+    private final QuizParticipationRepository quizParticipationRepository;
+    private final ChatQuotaService chatQuotaService;
     private final ZoneId zoneId;
 
     public QuizStatsService(
             QuizPlayerRepository quizPlayerRepository,
             QuizAttemptRepository quizAttemptRepository,
+            QuizParticipationRepository quizParticipationRepository,
+            ChatQuotaService chatQuotaService,
             DailyProperties dailyProperties
     ) {
         this.quizPlayerRepository = quizPlayerRepository;
         this.quizAttemptRepository = quizAttemptRepository;
+        this.quizParticipationRepository = quizParticipationRepository;
+        this.chatQuotaService = chatQuotaService;
         this.zoneId = dailyProperties.zoneId();
     }
 
@@ -74,6 +84,31 @@ public class QuizStatsService {
     }
 
     @Transactional
+    public QuizParticipationResponse registerParticipation(UUID appUserId, RegisterQuizParticipationRequest request) {
+        validateParticipationRequest(request);
+
+        QuizPlayerEntity player = quizPlayerRepository.findById(request.playerId())
+                .orElseThrow(() -> new RagException("Quiz player not found", "QUIZ_PLAYER_NOT_FOUND"));
+
+        Optional<QuizParticipationEntity> existing = quizParticipationRepository
+                .findByPlayerIdAndEventId(player.getId(), request.eventId());
+        if (existing.isPresent()) {
+            QuizParticipationEntity participation = existing.get();
+            return new QuizParticipationResponse(true, participation.isPrizeEligibleAtJoin());
+        }
+
+        boolean prizeEligibleAtJoin = chatQuotaService.isPremiumActive(chatQuotaService.ensureAppUser(appUserId));
+        quizParticipationRepository.save(new QuizParticipationEntity(
+                player,
+                request.eventId(),
+                appUserId,
+                prizeEligibleAtJoin
+        ));
+
+        return new QuizParticipationResponse(true, prizeEligibleAtJoin);
+    }
+
+    @Transactional
     public QuizAttemptStatusResponse submitAttempt(SubmitQuizAttemptRequest request) {
         validateAttemptRequest(request);
 
@@ -84,15 +119,28 @@ public class QuizStatsService {
             throw new RagException("Quiz attempt already submitted for this event", "QUIZ_ALREADY_ATTEMPTED");
         }
 
+        boolean prizeEligibleAtJoin = quizParticipationRepository
+                .findByPlayerIdAndEventId(player.getId(), request.eventId())
+                .map(QuizParticipationEntity::isPrizeEligibleAtJoin)
+                .orElse(false);
+
         quizAttemptRepository.save(new QuizAttemptEntity(
                 player,
                 request.eventId(),
                 request.score(),
                 request.correctCount(),
-                request.questionCount()
+                request.questionCount(),
+                prizeEligibleAtJoin
         ));
 
-        return new QuizAttemptStatusResponse(true, true, request.score(), request.correctCount(), request.questionCount());
+        return new QuizAttemptStatusResponse(
+                true,
+                true,
+                request.score(),
+                request.correctCount(),
+                request.questionCount(),
+                prizeEligibleAtJoin
+        );
     }
 
     @Transactional(readOnly = true)
@@ -103,9 +151,19 @@ public class QuizStatsService {
                         true,
                         attempt.getScore(),
                         attempt.getCorrectCount(),
-                        attempt.getQuestionCount()
+                        attempt.getQuestionCount(),
+                        attempt.isPrizeEligibleAtJoin()
                 ))
-                .orElseGet(QuizAttemptStatusResponse::empty);
+                .orElseGet(() -> quizParticipationRepository.findByPlayerIdAndEventId(playerId, eventId)
+                        .map(participation -> new QuizAttemptStatusResponse(
+                                true,
+                                false,
+                                0,
+                                0,
+                                0,
+                                participation.isPrizeEligibleAtJoin()
+                        ))
+                        .orElseGet(QuizAttemptStatusResponse::empty));
     }
 
     @Transactional(readOnly = true)
@@ -303,6 +361,15 @@ public class QuizStatsService {
                         monthlyChampion
                 )
         );
+    }
+
+    private void validateParticipationRequest(RegisterQuizParticipationRequest request) {
+        if (request.playerId() == null) {
+            throw new RagException("playerId is required", "QUIZ_VALIDATION_ERROR");
+        }
+        if (request.eventId() == null || request.eventId().isBlank()) {
+            throw new RagException("eventId is required", "QUIZ_VALIDATION_ERROR");
+        }
     }
 
     private void validateAttemptRequest(SubmitQuizAttemptRequest request) {

@@ -17,10 +17,10 @@ import java.util.UUID;
 
 @Entity
 @Table(
-        name = "quiz_attempts",
+        name = "quiz_participations",
         uniqueConstraints = @UniqueConstraint(columnNames = {"player_id", "event_id"})
 )
-public class QuizAttemptEntity {
+public class QuizParticipationEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -34,43 +34,33 @@ public class QuizAttemptEntity {
     private String eventId;
 
     @Column(nullable = false)
-    private int score;
-
-    @Column(nullable = false)
-    private int correctCount;
-
-    @Column(nullable = false)
-    private int questionCount;
+    private UUID appUserId;
 
     @Column(nullable = false)
     private boolean prizeEligibleAtJoin;
 
     @Column(nullable = false, updatable = false)
-    private Instant completedAt;
+    private Instant joinedAt;
 
-    protected QuizAttemptEntity() {
+    protected QuizParticipationEntity() {
     }
 
-    public QuizAttemptEntity(
+    public QuizParticipationEntity(
             QuizPlayerEntity player,
             String eventId,
-            int score,
-            int correctCount,
-            int questionCount,
+            UUID appUserId,
             boolean prizeEligibleAtJoin
     ) {
         this.player = player;
         this.eventId = eventId;
-        this.score = score;
-        this.correctCount = correctCount;
-        this.questionCount = questionCount;
+        this.appUserId = appUserId;
         this.prizeEligibleAtJoin = prizeEligibleAtJoin;
     }
 
     @PrePersist
     void onCreate() {
-        if (completedAt == null) {
-            completedAt = Instant.now();
+        if (joinedAt == null) {
+            joinedAt = Instant.now();
         }
     }
 
@@ -86,23 +76,15 @@ public class QuizAttemptEntity {
         return eventId;
     }
 
-    public int getScore() {
-        return score;
-    }
-
-    public int getCorrectCount() {
-        return correctCount;
-    }
-
-    public int getQuestionCount() {
-        return questionCount;
+    public UUID getAppUserId() {
+        return appUserId;
     }
 
     public boolean isPrizeEligibleAtJoin() {
         return prizeEligibleAtJoin;
     }
 
-    public Instant getCompletedAt() {
-        return completedAt;
+    public Instant getJoinedAt() {
+        return joinedAt;
     }
 }

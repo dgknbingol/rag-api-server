@@ -33,6 +33,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ApiErrorResponse> handleAuth(AuthException ex) {
         HttpStatus status = switch (ex.getCode()) {
             case "EMAIL_EXISTS" -> HttpStatus.CONFLICT;
+            case "DISPLAY_NAME_EXISTS" -> HttpStatus.CONFLICT;
             case "USER_NOT_FOUND" -> HttpStatus.NOT_FOUND;
             default -> HttpStatus.UNAUTHORIZED;
         };

@@ -36,10 +36,15 @@ public class AuthService {
             throw new AuthException("Bu e-posta adresi zaten kayıtlı.", "EMAIL_EXISTS");
         }
 
+        String displayName = request.displayName().trim();
+        if (userRepository.existsByDisplayNameIgnoreCase(displayName)) {
+            throw new AuthException("Bu kullanıcı adı zaten kullanılıyor.", "DISPLAY_NAME_EXISTS");
+        }
+
         UserEntity user = new UserEntity(
                 email,
                 passwordEncoder.encode(request.password()),
-                request.displayName().trim()
+                displayName
         );
         userRepository.save(user);
         return buildAuthResponse(user);

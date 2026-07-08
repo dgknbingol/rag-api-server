@@ -26,7 +26,7 @@ public class UserEntity {
     @Column(nullable = false, length = 100)
     private String passwordHash;
 
-    @Column(nullable = false, length = 80)
+    @Column(nullable = false, unique = true, length = 80)
     private String displayName;
 
     @Column(nullable = false)

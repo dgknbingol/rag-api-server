@@ -5,9 +5,10 @@ public record QuizAttemptStatusResponse(
         boolean completed,
         int score,
         int correctCount,
-        int questionCount
+        int questionCount,
+        boolean prizeEligibleAtJoin
 ) {
     public static QuizAttemptStatusResponse empty() {
-        return new QuizAttemptStatusResponse(false, false, 0, 0, 0);
+        return new QuizAttemptStatusResponse(false, false, 0, 0, 0, false);
     }
 }

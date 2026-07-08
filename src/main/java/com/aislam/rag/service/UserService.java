@@ -29,4 +29,22 @@ public class UserService {
                 .orElseThrow(() -> new AuthException("Kullanıcı bulunamadı.", "USER_NOT_FOUND"));
         return UserProfileResponse.from(user);
     }
+
+    @Transactional
+    public UserProfileResponse updateDisplayName(UserEntity user, String newDisplayName) {
+        String displayName = newDisplayName.trim();
+
+        // Kendisi ile aynıysa benzersizliği kontrol etmeye gerek yok
+        if (displayName.equalsIgnoreCase(user.getDisplayName())) {
+            return UserProfileResponse.from(user);
+        }
+
+        if (userRepository.existsByDisplayNameIgnoreCase(displayName)) {
+            throw new AuthException("Bu kullanıcı adı zaten kullanılıyor.", "DISPLAY_NAME_EXISTS");
+        }
+
+        user.setDisplayName(displayName);
+        userRepository.save(user);
+        return UserProfileResponse.from(user);
+    }
 }
