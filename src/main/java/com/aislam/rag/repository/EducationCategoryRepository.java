@@ -12,6 +12,6 @@ public interface EducationCategoryRepository extends JpaRepository<EducationCate
 
   Optional<EducationCategoryEntity> findBySlug(String slug);
 
-  @EntityGraph(attributePaths = {"modules", "modules.topics"})
+  @EntityGraph(attributePaths = "modules")
   List<EducationCategoryEntity> findAllByOrderBySortOrderAsc();
 }

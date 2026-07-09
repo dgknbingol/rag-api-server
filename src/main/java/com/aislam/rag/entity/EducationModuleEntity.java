@@ -13,6 +13,8 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.OrderBy;
 import jakarta.persistence.Table;
 
+import org.hibernate.annotations.BatchSize;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -41,6 +43,7 @@ public class EducationModuleEntity {
   @JoinColumn(name = "category_id", nullable = false)
   private EducationCategoryEntity category;
 
+  @BatchSize(size = 32)
   @OneToMany(mappedBy = "module", cascade = CascadeType.ALL, orphanRemoval = true)
   @OrderBy("sortOrder ASC")
   private List<EducationTopicEntity> topics = new ArrayList<>();
