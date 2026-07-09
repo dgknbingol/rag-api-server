@@ -1,0 +1,63 @@
+{
+  "readingMinutes": 5,
+  "blocks": [
+    { "type": "heading", "text": "Dua", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Dua, kulun Allah'a yönelerek O'ndan yardım istemesi, şükretmesi, bağışlanma dilemesi ve isteklerini samimiyetle arz etmesidir. İslam'da dua, kul ile Allah arasındaki en özel ve en güçlü manevi bağlardan biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Dua Nasıl Edilir?", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Allah'a hamd ederek başlamak.",
+        "Hz. Muhammed'e (sav) salât ve selam getirmek.",
+        "Samimi ve içten olmak.",
+        "Helal ve güzel şeyler istemek.",
+        "Israrla ve ümit içinde dua etmek.",
+        "Allah'ın vereceği karşılığa güvenmek."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Dua yalnızca Arapça yapılmaz; kişi kendi diliyle de Allah'a dua edebilir. Dua etmek, gerekli gayreti göstermenin yerine geçmez; Müslüman hem dua eder hem de üzerine düşen sorumluluğu yerine getirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "source",
+      "text": "\"Rabbiniz şöyle buyurdu: Bana dua edin, size cevap vereyim.\" (Mü'min Suresi, 40/60)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "source",
+      "text": "\"Kullarım sana beni sorarlarsa bilsinler ki ben çok yakınım. Bana dua edenin duasına karşılık veririm.\" (Bakara Suresi, 2/186)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Ders Özeti", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Dua, Allah ile kul arasındaki manevi bağdır.",
+        "Müslüman her zaman Allah'a dua edebilir.",
+        "Dua samimi, içten ve umutla yapılmalıdır.",
+        "Allah bütün duaları işitir ve hikmeti doğrultusunda karşılık verir.",
+        "Dua ile birlikte gayret göstermek ve tevekkül etmek de önemlidir."
+      ]
+    }
+  ]
+}

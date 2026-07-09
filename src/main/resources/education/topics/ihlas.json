@@ -1,0 +1,49 @@
+{
+  "readingMinutes": 5,
+  "blocks": [
+    { "type": "heading", "text": "İhlas", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "İhlas, yapılan ibadetleri ve bütün güzel işleri yalnızca Allah'ın rızasını kazanmak amacıyla yapmak; gösterişten, övgü beklentisinden ve çıkar düşüncesinden uzak durmaktır. İslam'da bir amelin değer kazanmasında yalnızca yapılan iş değil, o işin hangi niyetle yapıldığı da önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "source",
+      "text": "Hz. Muhammed (sav): \"Ameller ancak niyetlere göredir. Herkes için ancak niyet ettiği şey vardır.\" (Buhârî, Bed'ü'l-Vahy, 1; Müslim, İmâre, 155)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "İhlas ve Gösteriş (Riya)", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "İhlasın zıddı riya, yani gösteriştir. Riya; ibadetleri veya iyi davranışları insanların takdirini kazanmak amacıyla yapmaktır. Müslüman, yaptığı ibadetlerde ve iyiliklerde gösterişten kaçınmaya çalışır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "source",
+      "text": "\"Hâlbuki onlar, dini yalnız Allah'a has kılarak, O'na içtenlikle kulluk etmekle emrolunmuşlardı...\" (Beyyine Suresi, 98/5)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Ders Özeti", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İhlas, samimi bir şekilde Allah'ın rızasını gözetmektir.",
+        "Yapılan amellerin değeri, niyetle yakından ilişkilidir.",
+        "Gösteriş, ihlası zedeleyen davranışlardan biridir.",
+        "İhlas, sadece ibadetlerde değil, günlük hayattaki bütün güzel davranışlarda da önemlidir.",
+        "Müslüman, niyetini daima Allah'ın rızasına yöneltmeye çalışmalıdır."
+      ]
+    }
+  ]
+}

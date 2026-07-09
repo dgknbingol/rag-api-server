@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "categories": [
+    {
+      "id": "temel-egitimler",
+      "title": "Temel Eğitimler",
+      "subtitle": "İslam, iman ve temel ibadet bilgileri",
+      "icon": "school-outline",
+      "quiz": {
+        "id": "temel-egitimler-genel-quiz",
+        "title": "Temel Eğitimler Genel Quiz",
+        "questionCount": 20,
+        "passPercent": 70,
+        "achievementId": "temel-egitimler-master"
+      },
+      "modules": [
+        {
+          "id": "islama-giris",
+          "title": "İslam'a Giriş",
+          "summary": "İslam dininin temel kavramları, kaynakları ve Müslüman kimliği",
+          "quiz": {
+            "id": "islama-giris-mini-quiz",
+            "title": "İslam'a Giriş Mini Quiz",
+            "questionCount": 15,
+            "passPercent": 70,
+            "achievementId": "islama-giris-complete"
+          },
+          "lessons": [
+            { "id": "islam-nedir", "title": "İslam Nedir?", "summary": "İslam kelimesinin anlamı ve dinin tanımı." },
+            { "id": "musluman-kimdir", "title": "Müslüman Kimdir?", "summary": "Müslüman olmanın anlamı ve sorumlulukları." },
+            { "id": "islam-temel-kaynaklari", "title": "İslam'ın Temel Kaynakları", "summary": "Kur'an-ı Kerim ve sünnet." },
+            { "id": "temel-kavramlar", "title": "Temel Kavramlar", "summary": "Tevhid, iman, ibadet, takva, ihlas ve dua." },
+            { "id": "tevhid", "title": "Tevhid", "summary": "Allah'ın birliği inancı." },
+            { "id": "iman", "title": "İman", "summary": "İmanın anlamı ve önemi." },
+            { "id": "ibadet", "title": "İbadet", "summary": "İbadetin amacı ve çeşitleri." },
+            { "id": "takva", "title": "Takva", "summary": "Allah'a karşı sorumluluk bilinci." },
+            { "id": "ihlas", "title": "İhlas", "summary": "Samimiyet ve gösterişten sakınma." },
+            { "id": "dua", "title": "Dua", "summary": "Allah ile kul arasındaki manevi bağ." },
+            { "id": "islamda-guzel-ahlak", "title": "İslam'da Güzel Ahlak", "summary": "Ahlakın İslam'daki yeri." }
+          ]
+        },
+        {
+          "id": "imanin-sartlari",
+          "title": "İmanın Şartları",
+          "summary": "Altı temel iman esası",
+          "quiz": {
+            "id": "imanin-sartlari-mini-quiz",
+            "title": "İmanın Şartları Mini Quiz",
+            "questionCount": 10,
+            "passPercent": 70,
+            "achievementId": "imanin-sartlari-complete"
+          },
+          "lessons": [
+            { "id": "iman-nedir", "title": "İman Nedir?", "summary": "İman kavramının tanımı." },
+            { "id": "allaha-iman", "title": "Allah'a İman", "summary": "Allah'ın birliği ve sıfatları." },
+            { "id": "meleklere-iman", "title": "Meleklere İman", "summary": "Meleklerin mahiyeti ve görevleri." },
+            { "id": "kitaplara-iman", "title": "Kitaplara İman", "summary": "İlahi kitaplar ve Kur'an-ı Kerim." },
+            { "id": "peygamberlere-iman", "title": "Peygamberlere İman", "summary": "Peygamberlik müessesesi." },
+            { "id": "ahiret-gunune-iman", "title": "Ahiret Gününe İman", "summary": "Ölüm sonrası hayat ve hesap." },
+            { "id": "kadere-iman", "title": "Kadere İman", "summary": "Kaza-kader ve sorumluluk." }
+          ]
+        }
+      ]
+    }
+  ]
+}

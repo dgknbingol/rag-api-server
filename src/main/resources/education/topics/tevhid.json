@@ -1,0 +1,65 @@
+{
+  "readingMinutes": 5,
+  "blocks": [
+    { "type": "heading", "text": "Tevhid", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, Allah'ın bir olduğuna, eşi, benzeri ve ortağı bulunmadığına gönülden inanmak ve yalnızca O'na ibadet etmektir. İslam inancının temelini oluşturan en önemli kavramdır. Müslüman, Allah'ın tek ilah olduğuna inanır; yaratma, yönetme ve ibadet edilmeye layık olma konusunda O'na hiçbir varlığı ortak koşmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Tevhid Neden Önemlidir?", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, İslam'ın temelidir. Bir Müslümanın bütün ibadetleri ve inancı bu temel üzerine kuruludur. Tevhid inancı, insanın yalnızca Allah'a güvenmesini, yalnızca O'na ibadet etmesini ve hayatını O'nun rızasına göre yaşamaya çalışmasını sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Tevhid İnancının Hayata Yansıması", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Yalnızca Allah'a ibadet eder.",
+        "Dualarında Allah'a yönelir.",
+        "Allah'tan başkasına ilahlık isnat etmez.",
+        "Allah'ın emirlerine uymaya gayret eder.",
+        "O'nun yasaklarından kaçınmaya çalışır.",
+        "Her nimetin Allah'tan geldiğini bilir ve şükreder."
+      ]
+    },
+    { "type": "heading", "text": "Tevhidin Zıddı: Şirk", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Tevhidin karşıtı şirktir. Şirk; Allah'a ait olan özelliklerde veya ibadette O'na ortak koşmak anlamına gelir. İslam, Allah'ın birliğini esas aldığı için Müslümanlar şirkten kaçınmaya büyük önem verir. Bu nedenle ibadet, dua ve kulluk yalnızca Allah'a yöneltilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "source",
+      "text": "\"De ki: O Allah birdir. Allah Samed'dir. Doğurmamış ve doğurulmamıştır. Hiçbir şey O'na denk değildir.\" (İhlâs Suresi, 112/1-4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Ders Özeti", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tevhid, Allah'ın tek ilah olduğuna inanmayı ifade eder.",
+        "Allah'ın eşi, benzeri ve ortağı yoktur.",
+        "İbadet yalnızca Allah'a yapılır.",
+        "Tevhid, Müslümanın inanç ve ibadet hayatının temelidir.",
+        "Şirk, tevhid inancına aykırı olan en büyük yanlışlardan biridir."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "readingMinutes": 7,
+  "blocks": [
+    { "type": "heading", "text": "Temel Kavramlar", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "İslam dinini daha iyi anlayabilmek için bazı temel kavramları bilmek gerekir. Bu kavramlar, Müslümanların inançlarını, ibadetlerini ve günlük hayatlarını şekillendiren temel prensipleri ifade eder. İlerleyen derslerde bu kavramlar daha ayrıntılı olarak ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Tevhid", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, Allah'ın bir olduğuna, eşi, benzeri ve ortağı bulunmadığına inanmaktır. İslam inancının temelini oluşturur. Tevhid inancına göre yalnızca Allah yaratır, yaşatır ve yönetir. İbadet yalnızca Allah'a yapılır; dua ve yardım dileği de öncelikle O'na yöneltilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "İman", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "İman; Allah'ın ve Peygamberi aracılığıyla bildirdiği bütün esasları kalp ile tasdik edip kabul etmektir. İmanın temel esasları; Allah'a, meleklere, kitaplara, peygamberlere, ahiret gününe ve kadere inanmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "İbadet", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "İbadet, Allah'ın rızasını kazanmak amacıyla yapılan her türlü söz, davranış ve ameldir. Namaz, oruç, zekât ve hac gibi ibadetler bunun en bilinen örnekleridir. Dürüst davranmak, anne babaya iyilik etmek ve ihtiyaç sahiplerine yardım etmek gibi davranışlar da ibadet niyetiyle yapıldığında sevap kazandırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Takva", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Takva, Allah'a karşı sorumluluk bilinciyle yaşamak; O'nun emirlerini yerine getirmeye ve yasaklarından kaçınmaya gayret etmektir. Takva, sadece ibadet etmek değil; günlük hayatta dürüst, adaletli, merhametli ve güzel ahlak sahibi olmaya çalışmayı da kapsar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "İhlas", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "İhlas, yapılan ibadet ve iyi işleri yalnızca Allah'ın rızasını kazanmak amacıyla yapmaktır. Gösterişten, övgü kazanma isteğinden ve çıkar beklentisinden uzak durmak ihlasın önemli bir parçasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Dua", "title": null, "url": null, "items": null },
+    {
+      "type": "paragraph",
+      "text": "Dua, kulun Allah'a yönelerek O'ndan yardım istemesi, şükretmesi ve dileklerini arz etmesidir. Müslüman, her zaman Allah'ın kendisini işittiğine ve duasını en doğru şekilde karşılıklandıracağına inanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    { "type": "heading", "text": "Takva, İman ve İbadet Arasındaki İlişki", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İman, kalpteki inancı ifade eder.",
+        "İbadet, bu inancın davranışlara yansımasıdır.",
+        "Takva, Allah'a karşı sorumluluk bilinciyle yaşamaktır.",
+        "İhlas, bütün bunların samimiyetle yapılmasını sağlar."
+      ]
+    },
+    { "type": "heading", "text": "Ders Özeti", "title": null, "url": null, "items": null },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tevhid, Allah'ın birliğine inanmaktır.",
+        "İman, İslam'ın inanç esaslarını kabul etmektir.",
+        "İbadet, Allah'ın rızasını kazanmak için yapılan davranışlardır.",
+        "Takva, Allah'ın emir ve yasaklarına karşı duyarlı olmaktır.",
+        "İhlas, ibadetleri yalnızca Allah için yapmaktır.",
+        "Dua, Allah ile kul arasındaki en önemli manevi bağlardan biridir."
+      ]
+    }
+  ]
+}

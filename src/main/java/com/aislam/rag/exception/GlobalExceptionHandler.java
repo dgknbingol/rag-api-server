@@ -45,7 +45,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ApiErrorResponse> handleRag(RagException ex) {
         HttpStatus status = switch (ex.getCode()) {
             case "LLM_ERROR", "DEEPSEEK_ERROR", "CONFIG_ERROR" -> HttpStatus.BAD_GATEWAY;
-            case "QUIZ_PLAYER_NOT_FOUND", "QUIZ_QUESTION_NOT_FOUND", "QUIZ_OPTION_NOT_FOUND" -> HttpStatus.NOT_FOUND;
+            case "QUIZ_PLAYER_NOT_FOUND", "QUIZ_QUESTION_NOT_FOUND", "QUIZ_OPTION_NOT_FOUND", "EDUCATION_TOPIC_NOT_FOUND" -> HttpStatus.NOT_FOUND;
             case "QUIZ_ALREADY_ATTEMPTED", "EMAIL_EXISTS" -> HttpStatus.CONFLICT;
             case "QUIZ_VALIDATION_ERROR", "APP_USER_ID_REQUIRED", "APP_USER_ID_INVALID", "WEBHOOK_INVALID" ->
                     HttpStatus.BAD_REQUEST;

@@ -51,6 +51,7 @@ public class SecurityConfig {
                                 "/api/quiz/**",
                                 "/api/questions/**",
                                 "/api/documents/**",
+                                "/api/education/**",
                                 "/api/webhooks/revenuecat"
                         ).permitAll()
                         .anyRequest().authenticated()
