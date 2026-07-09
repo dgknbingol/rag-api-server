@@ -2,7 +2,9 @@ package com.aislam.rag.controller;
 
 import com.aislam.rag.config.ApiMediaTypes;
 import com.aislam.rag.dto.EducationCatalogResponse;
+import com.aislam.rag.dto.EducationQuizDetailResponse;
 import com.aislam.rag.dto.EducationTopicDetailResponse;
+import com.aislam.rag.service.EducationQuizLoader;
 import com.aislam.rag.service.EducationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,9 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class EducationController {
 
     private final EducationService educationService;
+    private final EducationQuizLoader educationQuizLoader;
 
-    public EducationController(EducationService educationService) {
+    public EducationController(EducationService educationService, EducationQuizLoader educationQuizLoader) {
         this.educationService = educationService;
+        this.educationQuizLoader = educationQuizLoader;
     }
 
     @GetMapping("/catalog")
@@ -28,5 +32,10 @@ public class EducationController {
     @GetMapping("/topics/{topicId}")
     public ResponseEntity<EducationTopicDetailResponse> topic(@PathVariable String topicId) {
         return ResponseEntity.ok(educationService.getTopic(topicId));
+    }
+
+    @GetMapping("/quizzes/{quizId}")
+    public ResponseEntity<EducationQuizDetailResponse> quiz(@PathVariable String quizId) {
+        return ResponseEntity.ok(educationQuizLoader.loadQuiz(quizId));
     }
 }
