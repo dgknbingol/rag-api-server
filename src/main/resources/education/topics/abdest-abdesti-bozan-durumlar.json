@@ -1,0 +1,268 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Abdesti Bozan Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Abdesti Bozan Durumlar Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Abdest, bazı durumlarda bozulur ve yeniden alınması gerekir. Abdestin bozulması, kişinin namaz gibi abdest gerektiren ibadetleri yerine getirebilmesi için yeniden abdest almasını gerektirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre abdesti bozan başlıca durumlar şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Ön veya arka yoldan herhangi bir şey çıkması.",
+        "Vücudun herhangi bir yerinden çıkan kan veya irin gibi bir sıvının çıktığı yerden akması.",
+        "Ağız dolusu kusmak.",
+        "Bayılmak veya akıl sağlığını geçici olarak kaybetmek.",
+        "Derin uykuya dalmak.",
+        "Namazda sesli şekilde gülmek (yalnızca namaz içindeyken)."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "1. Ön veya Arka Yoldan Bir Şey Çıkması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İdrar, dışkı, yel veya benzeri bir şeyin ön ya da arka yoldan çıkması abdesti bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu, abdesti bozan en yaygın durumlardan biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Kan veya İrin Akması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vücudun herhangi bir yerinden çıkan kan, irin veya benzeri bir sıvı, çıktığı yerden çevresine akacak şekilde yayılırsa Hanefî mezhebine göre abdest bozulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çıkıp hemen duran ve akmayan çok az miktardaki kan konusunda farklı değerlendirmeler bulunabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Ağız Dolusu Kusmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ağız dolusunu kapsayacak kadar kusmak Hanefî mezhebine göre abdesti bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Az miktarda kusmak ise abdesti bozmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Bayılmak ve Akıl Sağlığını Geçici Olarak Kaybetmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bayılma, sara nöbeti, alkol veya benzeri sebeplerle kişinin bilincini kaybetmesi abdesti bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çünkü bu durumda kişinin abdesti devam ettirip ettirmediği bilinemez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Derin Uyku",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kişinin çevresinde olup biteni fark etmeyecek derecede derin uyuması abdesti bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak kısa süreli uyuklama veya oturduğu yerde dengesini kaybetmeyecek şekilde hafif uyuma konusunda fıkıhta farklı değerlendirmeler bulunur. Bu nedenle temel kural olarak derin uyku abdesti bozar şeklinde bilinmesi yeterlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Namazda Sesli Gülmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre namaz kılarken sesli şekilde gülmek hem namazı hem de abdesti bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hüküm yalnızca namaz esnası için geçerlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Abdest Bozulduğunda Ne Yapılır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Abdest bozulduğunda, yeniden abdest alınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Eğer kişi namaz kılıyorsa ve abdesti bozulursa, namazı bırakır, yeniden abdest alır ve namazını tekrar kılar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Abdesti Bozmayan Bazı Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki durumlar genel olarak abdesti bozmaz:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Ağlamak.",
+        "Terlemek.",
+        "Tırnak kesmek.",
+        "Saç veya sakal tıraşı olmak.",
+        "Gülmek (namaz dışında).",
+        "Az miktarda balgam çıkarmak."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı durumlar mezheplere göre farklı değerlendirilmiştir. Ayrıntılı hükümler ileri derslerde ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Ön veya arka yoldan bir şey çıkması abdesti bozar.",
+        "Derin uyku abdesti bozar.",
+        "Bayılmak ve bilinci kaybetmek abdesti bozar.",
+        "Hanefî mezhebine göre ağız dolusu kusmak abdesti bozar.",
+        "Abdest bozulduğunda yeniden abdest alınması gerekir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Abdest, bazı durumlarda bozulur ve yeniden alınması gerekir.",
+        "Abdesti en sık bozan durumlar; tuvalet ihtiyacı, yel çıkarmak, derin uyku ve bayılmadır.",
+        "Hanefî mezhebine göre akan kan ve ağız dolusu kusmak da abdesti bozan durumlardandır.",
+        "Müslüman, abdestinin bozulduğunu fark ettiğinde yeniden abdest alarak ibadetine devam eder."
+      ]
+    }
+  ]
+}

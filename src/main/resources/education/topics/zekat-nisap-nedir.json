@@ -1,0 +1,308 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Nisap Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap, zekât ibadetinde kullanılan önemli bir kavramdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap, bir Müslümanın zekât vermekle yükümlü hâle gelmesi için sahip olması gereken asgari mal varlığı ölçüsüdür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ifadeyle, kişinin sahip olduğu mal varlığı nisap miktarına ulaşmadıkça zekât vermesi farz olmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap, zenginlik ölçüsü değil; zekât yükümlülüğünün başladığı sınırı ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Nisap Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini, herkesin mali durumunun aynı olmadığını kabul eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle zekât, yalnızca belirli bir mal varlığına sahip olan Müslümanlara farz kılınmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap sayesinde;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Maddi gücü yeterli olmayan kişiler yükümlü tutulmaz.",
+        "İmkânı olan kişiler ise toplumdaki ihtiyaç sahiplerine destek olur.",
+        "Yardımlaşma ve sosyal adalet güçlenir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Nisap Miktarı Ne Anlama Gelir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap miktarı, kişinin temel ihtiyaçları ve vadesi gelmiş borçları çıkarıldıktan sonra geriye kalan zekâta tabi mal varlığının belirli bir seviyeye ulaşmasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu seviyeye ulaşan kişi, diğer şartları da taşıyorsa zekât vermekle yükümlü olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap miktarının nasıl hesaplandığı ve hangi malların bu hesaba dâhil edildiği sonraki derslerde ayrıntılı olarak açıklanacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Nisap Her Mal İçin Aynı mıdır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâta tabi mallar farklı türlerde olabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Altın,",
+        "Gümüş,",
+        "Nakit para,",
+        "Ticaret malları"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "gibi mallar için zekât hükümleri bulunmaktadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu malların nasıl değerlendirileceği ve nisabın nasıl hesaplanacağı fıkıh kurallarına göre belirlenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Nisap Tek Başına Yeterli midir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hayır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâtın farz olması için yalnızca nisap miktarına ulaşmak yeterli değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre ayrıca;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Müslüman olmak,",
+        "Akıl sağlığının yerinde olması,",
+        "Ergenlik çağına ulaşmış olmak,",
+        "Nisap miktarındaki malın üzerinden bir kamerî (Hicrî) yıl geçmiş olması"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "gibi şartların da bulunması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Nisabın Hikmeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap uygulaması, İslam'ın adalet ve kolaylık anlayışını yansıtır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu sayede;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Maddi imkânı sınırlı olan kişiler zor durumda bırakılmaz.",
+        "Mali durumu elverişli olanlar ihtiyaç sahiplerine destek olur.",
+        "Toplumda paylaşma ve dayanışma güçlenir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Zekât",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namazı dosdoğru kılın ve zekâtı verin...\"\n (Bakara Suresi, 2/43)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) ise şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"İslam beş esas üzerine kurulmuştur: Allah'tan başka ilah olmadığına ve Muhammed'in Allah'ın Resûlü olduğuna şehadet etmek, namaz kılmak, zekât vermek, Ramazan orucu tutmak ve gücü yetenlerin hacca gitmesi.\" (Buhârî, Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Nisap, zekât yükümlülüğünün başladığı asgari mal varlığı ölçüsüdür.",
+        "Nisap miktarına ulaşmayan kişiler zekât vermekle yükümlü değildir.",
+        "Nisap, temel ihtiyaçlar ve vadesi gelmiş borçlar dikkate alınarak değerlendirilir.",
+        "Nisap miktarına ulaşmak tek başına yeterli değildir; zekâtın diğer şartları da bulunmalıdır.",
+        "Nisap uygulaması, İslam'ın adalet ve kolaylık anlayışını yansıtır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Nisap, zekâtın farz olması için gerekli olan asgari mal varlığı ölçüsüdür.",
+        "Zekât yükümlülüğü, nisap miktarına ulaşan ve diğer şartları taşıyan Müslümanlar için söz konusu olur.",
+        "Nisap belirlenirken temel ihtiyaçlar ve vadesi gelmiş borçlar dikkate alınır.",
+        "Nisap, maddi durumu uygun olmayan kişileri yükümlülük altına sokmayan adil bir ölçüdür.",
+        "Müslüman, zekât ibadetini yerine getirmeden önce nisap durumunu doğru şekilde değerlendirmelidir."
+      ]
+    }
+  ]
+}

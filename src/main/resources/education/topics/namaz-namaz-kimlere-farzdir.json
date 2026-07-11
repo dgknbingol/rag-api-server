@@ -1,0 +1,266 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Namaz Kimlere Farzdır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, İslam'ın beş şartından biridir ve dinimizin en önemli ibadetlerinden biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'a göre namaz;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Müslüman olan,",
+        "Akıl sağlığı yerinde bulunan,",
+        "Ergenlik çağına ulaşmış"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "her kadın ve erkeğe farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartları taşıyan Müslümanlar, namazlarını vakti içinde kılmakla yükümlüdür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Müslüman Olmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz ibadeti, Müslüman olan kimseler için farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'ı kabul eden kişi, dinimizin diğer hükümleri gibi namaz ibadetiyle de yükümlü olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Akıl Sağlığının Yerinde Olması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıl sağlığı yerinde olmayan kişiler dinen namazla yükümlü tutulmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çünkü ibadetlerde sorumluluk, kişinin yaptığını anlayabilecek durumda olmasına bağlıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ergenlik Çağına Ulaşmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, ergenlik çağına ulaşan Müslümanlara farz olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çocuklar namazla yükümlü değildir. Ancak Hz. Muhammed (sav), çocukların küçük yaşlardan itibaren namaza alıştırılmasını tavsiye etmiştir. Böylece çocuklar namaz alışkanlığını erken yaşta kazanabilirler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kadın ve Erkek İçin Hüküm",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, hem kadınlara hem de erkeklere farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı uygulamalarda farklı hükümler bulunsa da, namaz ibadetinin farz olması bakımından kadın ve erkek arasında bir fark yoktur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Yolculuk ve Hastalık Durumları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini kolaylık dinidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yolculuk, hastalık veya benzeri mazeretler bulunan kişiler için namazın kılınışında bazı kolaylıklar tanınmıştır. Ancak bu durumlar, genel olarak namaz yükümlülüğünü ortadan kaldırmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu kolaylıklar ilerleyen derslerde ayrıntılı olarak ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazı Geciktirmemek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, belirlenmiş vakitler içinde yerine getirilmesi gereken bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, namazını mazeretsiz olarak geciktirmemeye ve vakti içinde kılmaya özen göstermelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namaz, müminler üzerine vakitleri belirlenmiş bir farzdır.\"\n (Nisâ Suresi, 4/103)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Çocuklarınıza yedi yaşına geldiklerinde namazı öğretin...\" (Ebû Dâvûd)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hadis, çocukların küçük yaşlardan itibaren namaza teşvik edilmesinin önemini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaz; Müslüman, akıl sağlığı yerinde ve ergenlik çağına ulaşmış herkese farzdır.",
+        "Kadın ve erkek bu yükümlülük bakımından eşittir.",
+        "Çocuklar namaza alıştırılmalı, ancak ergenlikten önce farz değildir.",
+        "Hastalık ve yolculuk gibi durumlarda dinimiz bazı kolaylıklar tanımıştır.",
+        "Namaz vakti içinde kılınmalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaz, belirli şartları taşıyan her Müslümana farz olan bir ibadettir.",
+        "Namazla yükümlü olmak için Müslüman olmak, akıl sağlığının yerinde olması ve ergenlik çağına ulaşmış olmak gerekir.",
+        "Kadın ve erkekler namaz konusunda aynı temel yükümlülüğe sahiptir.",
+        "Çocuklar küçük yaşlardan itibaren namaza teşvik edilir, ancak ergenlikten önce namaz farz değildir.",
+        "Müslüman, namazını vakti içinde ve imkânı ölçüsünde en güzel şekilde yerine getirmeye gayret eder."
+      ]
+    }
+  ]
+}

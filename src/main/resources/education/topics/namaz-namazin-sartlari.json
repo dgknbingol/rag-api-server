@@ -1,0 +1,313 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Namazın Şartları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazın Şartları Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şart, bir ibadetin geçerli olabilmesi için ibadete başlamadan önce yerine getirilmesi gereken zorunlu hükümdür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre namazın altı şartı vardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Hadesten Taharet (Abdestli veya gusüllü olmak)",
+        "Necasetten Taharet (Temizlik)",
+        "Setr-i Avret (Örtünmek)",
+        "İstikbâl-i Kıble (Kıbleye yönelmek)",
+        "Vakit",
+        "Niyet"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartlardan biri eksik olursa namaz sahih olmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Hadesten Taharet",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadesten taharet, namaz kılacak kişinin abdestli olması; gerekiyorsa gusül almış olması demektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Abdesti olmayan veya gusül gerektiren bir durumda bulunan kişi, gerekli temizliği yapmadan namaz kılamaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Necasetten Taharet",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Necasetten taharet; bedenin, elbisenin ve namaz kılınacak yerin dinen temiz olmasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazdan önce üzerimizde veya namaz kılacağımız yerde dinen necis sayılan bir pislik bulunmamalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Temizlik, namazın en önemli şartlarından biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Setr-i Avret",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Setr-i avret, namazda örtülmesi gereken yerlerin örtülmesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Erkeklerde göbek ile diz kapağı arasının örtülmesi farzdır.",
+        "Kadınlarda ise yüz, eller ve Hanefî mezhebine göre ayaklar dışında bütün bedenin örtülmesi gerekir."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kıyafet temiz olmalı ve vücut hatlarını belli etmeyecek şekilde olmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. İstikbâl-i Kıble",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz kılarken Kâbe'nin bulunduğu yöne, yani kıbleye dönmek gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kıble yönü bilinmiyorsa araştırılır ve kişinin kanaatine göre doğru olduğu düşünülen yöne dönülerek namaz kılınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Vakit",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her farz namazın belirlenmiş bir vakti vardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, vakti girmeden önce kılınamaz. Bu nedenle namazın vakti girdikten sonra eda edilmesi gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de namazın belirlenmiş vakitlerde farz olduğu bildirilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Niyet",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaza başlamadan önce hangi namazın kılınacağına kalben niyet edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Niyet, ibadetin Allah rızası için yapıldığını ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kalben niyet etmek yeterlidir. Dil ile söylemek zorunlu değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazın Şartlarının Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın şartları, ibadetin doğru ve geçerli şekilde yerine getirilmesini sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartlar yerine getirildiğinde kişi namaza hazır hâle gelir ve Allah'ın huzuruna bilinçli bir şekilde yönelir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namaz, müminler üzerine vakitleri belirlenmiş bir farzdır.\"\n (Nisâ Suresi, 4/103)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Ey iman edenler! Namaza kalkacağınız zaman yüzlerinizi ve dirseklere kadar ellerinizi yıkayın...\"\n (Mâide Suresi, 5/6)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, namazın vakti ve namaz öncesi temizliğin önemini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Hanefî mezhebine göre namazın altı şartı vardır.",
+        "Şartlar, namaza başlamadan önce yerine getirilir.",
+        "Abdest veya gusül gerekiyorsa alınmalıdır.",
+        "Beden, elbise ve namaz kılınacak yer temiz olmalıdır.",
+        "Namaz vakti girmeli, kıbleye yönelinmeli ve kalben niyet edilmelidir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namazın geçerli olabilmesi için altı şartın yerine getirilmesi gerekir.",
+        "Bu şartlar; hadesten taharet, necasetten taharet, setr-i avret, kıbleye yönelmek, vakit ve niyettir.",
+        "Bu şartlar namaz başlamadan önce yerine getirilen hazırlıklardır.",
+        "Müslüman, Allah'ın huzuruna çıkarken hem maddi hem de manevi hazırlığını tamamlamaya özen gösterir."
+      ]
+    }
+  ]
+}

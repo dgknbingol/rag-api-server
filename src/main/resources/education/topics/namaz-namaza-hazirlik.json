@@ -1,0 +1,324 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Namaza Hazırlık",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaza Hazırlık Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, Allah'a yönelerek yerine getirilen en önemli ibadetlerden biridir. Bu nedenle namaza başlamadan önce hem bedensel hem de manevi hazırlık yapılması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaza hazırlık; temizlenmek, uygun kıyafet giymek, namaz vaktinin girmesini beklemek ve kıbleye yönelmek gibi aşamaları kapsar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hazırlıklar, namazın huşû içinde ve usulüne uygun şekilde kılınmasına yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Temiz Olmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazdan önce kişinin bedeninin, elbisesinin ve namaz kılacağı yerin temiz olması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayrıca gerekiyorsa abdest veya gusül alınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Temizlik, namazın geçerli olmasının temel şartlarından biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Abdest veya Gusül Almak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz kılacak kişinin abdestli olması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Eğer gusül gerektiren bir durum varsa önce gusül alınmalı, ardından namaz kılınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Abdest veya gusül olmadan namaz sahih olmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Vücudu Örtmek (Setr-i Avret)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz kılarken dinimizin belirlediği örtülmesi gereken yerlerin örtülmesi gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Erkeklerde genel olarak göbek ile diz kapağı arasının örtülmesi farzdır.",
+        "Kadınlarda ise yüz, eller ve Hanefî mezhebine göre ayaklar dışında bütün bedenin örtülmesi gerekir."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kıyafetin temiz, vücut hatlarını belli etmeyecek şekilde uygun olması da önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Namaz Vaktinin Girmesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her namazın belirlenmiş bir vakti vardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, vakti girmeden önce kılınamaz. Bu nedenle namaz kılmadan önce vaktin girdiğinden emin olunmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Kıbleye Yönelmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz kılarken yönelinmesi gereken yön Kâbe'nin bulunduğu kıble yönüdür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Günümüzde kıble yönü pusula, harita veya mobil uygulamalar yardımıyla kolayca belirlenebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Niyet Etmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaza başlamadan önce hangi namazın kılınacağına kalben niyet edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Niyet, ibadetin Allah rızası için yapıldığını ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kalben niyet etmek yeterlidir; dil ile söylemek zorunlu değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "7. Huşû ile Namaza Hazırlanmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sadece bedenle yapılan bir ibadet değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaza başlamadan önce;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Dünyevî meşguliyetleri mümkün olduğunca geride bırakmaya,",
+        "Allah'ın huzurunda bulunulduğunu hatırlamaya,",
+        "Namaza odaklanmaya"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "gayret edilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hazırlık, namazın daha bilinçli ve huzurlu kılınmasına katkı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Hazırlık",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Ey Âdemoğulları! Her mescide gidişinizde güzel elbiselerinizi giyin...\"\n (A'râf Suresi, 7/31)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Ey iman edenler! Namaza kalkacağınız zaman yüzlerinizi ve dirseklere kadar ellerinizi yıkayın...\"\n (Mâide Suresi, 5/6)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, namaza hazırlanırken temizliğin ve özenin önemini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namazdan önce beden, elbise ve namaz kılınacak yer temiz olmalıdır.",
+        "Gerekliyse abdest veya gusül alınmalıdır.",
+        "Namaz vakti girmiş olmalıdır.",
+        "Kıbleye yönelinmeli ve kalben niyet edilmelidir.",
+        "Namaza mümkün olduğunca huşû ve dikkatle başlanmalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaza hazırlık, namazın doğru ve bilinçli şekilde kılınmasının ilk adımıdır.",
+        "Temizlik, örtünme, vakit, kıble ve niyet namaz öncesindeki temel hazırlıklardır.",
+        "Müslüman, Allah'ın huzuruna çıkarken hem bedenine hem de kalbine özen göstermeye çalışır.",
+        "Namaza huşû ile hazırlanmak, ibadetin manevi yönünü güçlendirir."
+      ]
+    }
+  ]
+}

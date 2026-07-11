@@ -1,0 +1,366 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Oruç Çeşitleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Oruç Çeşitleri Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dininde oruçlar, hüküm ve tutulma amaçlarına göre farklı türlere ayrılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başlıca oruç çeşitleri şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Farz oruç",
+        "Vacip oruç",
+        "Nafile oruç",
+        "Mekruh olan oruçlar",
+        "Tutulması haram olan oruçlar"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Her oruç türünün hükmü ve uygulanışı farklıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Farz Oruç",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Farz oruç, Allah'ın kesin olarak emrettiği ve yerine getirilmesi gereken oruçtur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "En önemli farz oruç, Ramazan ayında tutulan Ramazan orucudur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayrıca, mazeret sebebiyle tutulamayan Ramazan oruçlarının daha sonra tutulması da farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Farz oruçlar, Müslümanın temel ibadetleri arasında yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Vacip Oruç",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vacip oruç, yerine getirilmesi gerekli olan ancak farzdan farklı delillerle sabit olan oruçtur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Adak (nezir) orucu,",
+        "Başlanıp bozulan nafile orucun kazası"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "vacip oruç kapsamındadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kişi Allah'a bir adakta bulunmuşsa, bu adağını yerine getirmesi gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Nafile Oruç",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nafile oruç, Allah'ın rızasını kazanmak amacıyla gönüllü olarak tutulan oruçtur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlardan bazıları şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Şevval ayında altı gün oruç",
+        "Arefe günü orucu (hacda olmayanlar için)",
+        "Aşûre günü orucu",
+        "Pazartesi ve Perşembe günleri tutulan oruçlar",
+        "Her hicrî ayın 13, 14 ve 15. günlerinde tutulan \"Eyyâm-ı Bîd\" oruçları",
+        "Dâvûd (a.s.) orucu (bir gün tutup bir gün tutmamak)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu oruçlar farz değildir; tutan kişi sevap kazanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Mekruh Olan Oruçlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı günlerde tek başına oruç tutmak dinen hoş karşılanmamıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Sadece cuma gününü oruçlu geçirmek (öncesi veya sonrası ile birleştirmeden)",
+        "Sadece cumartesi gününü özellikle seçerek oruç tutmak (bazı âlimlerce mekruh görülmüştür)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu konularda mezhepler arasında farklı değerlendirmeler bulunmaktadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Tutulması Haram Olan Oruçlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı günlerde oruç tutmak dinen yasaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlar:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Ramazan Bayramı'nın birinci günü",
+        "Kurban Bayramı'nın dört günü (birinci, ikinci, üçüncü ve dördüncü günleri)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu günlerde oruç tutulmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Oruç Çeşitlerini Bilmek Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her orucun hükmü aynı değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bir Müslüman;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Hangi orucun farz olduğunu,",
+        "Hangisinin vacip olduğunu,",
+        "Hangisinin nafile olduğunu,",
+        "Hangi günlerde oruç tutulmaması gerektiğini"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "bilerek ibadetlerini daha doğru şekilde yerine getirebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Oruç",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Ey iman edenler! Oruç size farz kılındı...\"\n (Bakara Suresi, 2/183)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) ise nafile oruçların fazileti hakkında şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Allah yolunda bir gün oruç tutan kimseyi Allah, cehennemden yetmiş yıllık mesafe kadar uzaklaştırır.\" (Buhârî, Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Oruçlar hükümlerine göre farklı türlere ayrılır.",
+        "Ramazan orucu farzdır.",
+        "Adak orucu ve başlanıp bozulan nafile orucun kazası Hanefî mezhebine göre vaciptir.",
+        "Nafile oruçlar gönüllü olarak tutulur ve sevap kazandırır.",
+        "Bayram günlerinde oruç tutulmaz."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İslam'da oruçlar; farz, vacip ve nafile gibi farklı hükümlere sahiptir.",
+        "Ramazan orucu, Müslümanlara farz kılınan temel oruçtur.",
+        "Vacip oruçlar yerine getirilmesi gereken özel yükümlülüklerdir.",
+        "Nafile oruçlar Allah'ın rızasını kazanmak amacıyla gönüllü olarak tutulur.",
+        "Bazı günlerde oruç tutmak mekruh, bazı günlerde ise haramdır."
+      ]
+    }
+  ]
+}

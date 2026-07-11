@@ -1,5 +1,5 @@
 {
-  "readingMinutes": 4,
+  "readingMinutes": 6,
   "blocks": [
     {
       "type": "heading",
@@ -508,6 +508,62 @@
     {
       "type": "paragraph",
       "text": "Müslümanlar, günlük hayatlarında hadisleri rehber edinerek Allah'ın rızasını kazanmaya çalışmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Genel Özet",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis, Hz. Muhammed'in (sav) sözlerini, davranışlarını, onaylarını (takrirlerini) ve bazı özelliklerini anlatan rivayetlerdir. Hadisler, Kur'an-ı Kerim'den sonra İslam'ın ikinci temel kaynağıdır ve Müslümanların dinlerini doğru yaşamalarında önemli bir rehberdir. Hadisler sayesinde namazın kılınışı, orucun tutulması, zekâtın verilmesi ve diğer ibadetlerin uygulanışı öğrenilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sünnet, Hz. Muhammed'in (sav) Kur'an'a uygun örnek yaşayışı ve uygulamalarıdır. Sünnet; kavlî (söz), fiilî (davranış) ve takrirî (onay) olmak üzere üç çeşittir. Hadis ile sünnet aynı kavram değildir. Hadisler, sünneti bize ulaştıran rivayetlerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisler güvenilirlik bakımından sahih, hasen, zayıf ve mevzu olmak üzere sınıflandırılır. Sahih hadis en güvenilir hadis çeşididir. Mevzu hadis ise sonradan uydurulmuş olup hadis olarak kabul edilmez. Rivayet edildiği kişiye göre ise kudsî, merfû, mevkuf ve maktû hadis çeşitleri bulunmaktadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması için sahabeler hadisleri ezberlemiş ve yazıya geçirmiştir. Daha sonra hadis âlimleri rivayet zincirlerini (isnad), ravileri ve hadis metinlerini titizlikle inceleyerek güvenilir hadisleri belirlemişlerdir. Bu çalışmalar sonucunda hadisler güvenilir şekilde günümüze ulaşmıştır. Hadislerin korunmasında Kütüb-i Sitte (Altı Hadis Kitabı) büyük önem taşır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "40 Hadis, dinin temel esaslarını öğreten kırk önemli hadisin bir araya getirildiği eserlerdir. Bu alandaki en tanınmış eserlerden biri İmam Nevevî'nin Kırk Hadisi'dir. Bu hadislerde iman, ibadet, ahlak, kardeşlik, helal-haram, sabır ve merhamet gibi temel konular yer almaktadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Riyâzü's-Sâlihîn, İmam Nevevî tarafından hazırlanan güvenilir hadislerden oluşan önemli bir hadis kitabıdır. Eserde niyet, ihlas, sabır, tevbe, doğruluk, merhamet, kardeşlik, dua, zikir, kul hakkı ve güzel ahlak gibi konular işlenmektedir. Kitabın her bölümü ilgili Kur'an ayetleriyle başlar ve ardından o konudaki hadisler yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Günlük hadisler, Müslümanların günlük yaşamlarında uygulayabilecekleri hadislerdir. Doğruluk, güzel ahlak, merhamet, yardımlaşma, komşuluk, kardeşlik ve tebessüm gibi konularda rehberlik eder. Günlük hadisleri öğrenmek ve uygulamak, sünneti yaşamanın önemli yollarından biridir.",
       "title": null,
       "url": null,
       "items": null

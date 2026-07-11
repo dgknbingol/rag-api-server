@@ -1,0 +1,305 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Fidye ve Kaza",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Fidye ve Kaza Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini, ibadetlerde hem sorumluluğu hem de kolaylığı birlikte gözetir. Bazı durumlarda kişi orucunu zamanında tutamayabilir veya sağlık gibi kalıcı mazeretler nedeniyle hiç tutamayabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu gibi durumlarda dinimiz, kişinin durumuna göre kaza orucu tutmasını veya fidye vermesini hükme bağlamıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kaza ve fidye aynı şey değildir. Hangisinin gerektiği, kişinin mazeretine göre değişir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kaza Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kaza, vakti içinde yerine getirilemeyen farz bir ibadetin daha sonra yerine getirilmesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramazan ayında geçerli bir mazeret nedeniyle tutulamayan oruçlar, mazeret ortadan kalktıktan sonra uygun bir zamanda gününe gün tutulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Hastalık,",
+        "Yolculuk,",
+        "Kadınların hayız veya nifas hâli"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "gibi sebeplerle tutulamayan oruçlar daha sonra kaza edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kaza Orucu Nasıl Tutulur?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kaza orucu, normal Ramazan orucu gibi tutulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kişi, tutamadığı her gün için bir gün oruç tutarak borcunu yerine getirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kaza oruçlarının peş peşe tutulması şart değildir. İmkân buldukça farklı günlerde de tutulabilir. Ancak geciktirmeden yerine getirilmesi tavsiye edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Fidye Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fidye, oruç tutmaya sürekli olarak güç yetiremeyen kimselerin yerine getirdiği mali bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fidye, oruç tutamayan kişinin her gün için bir ihtiyaç sahibini doyurması veya bunun karşılığını vermesi şeklinde yerine getirilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kimler Fidye Verir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fidye;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İleri yaş nedeniyle artık oruç tutamayacak durumda olanlar,",
+        "İyileşme ümidi bulunmayan sürekli hastalar"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "için söz konusu olabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Geçici hastalığı bulunan kişiler fidye vermez; iyileştiklerinde tutamadıkları oruçları kaza ederler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Fidye Nasıl Verilir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fidye;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Her tutulamayan oruç günü için bir fidye olarak verilir.",
+        "İhtiyaç sahibi bir kişiye verilebileceği gibi, farklı ihtiyaç sahiplerine de dağıtılabilir.",
+        "Birden fazla günlük fidye tek seferde de verilebilir."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Fidyenin miktarı, her yıl ilgili dinî otoriteler tarafından belirlenen ölçülere göre hesaplanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kaza ile Fidye Arasındaki Fark",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "table",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Kaza\tFidye",
+        "Tutulamayan orucun daha sonra tutulmasıdır.\tOruç tutmaya sürekli güç yetiremeyenlerin yaptığı mali ibadettir.",
+        "Geçici mazereti olanlar için geçerlidir.\tKalıcı mazereti olanlar için geçerlidir.",
+        "İbadet, yeniden oruç tutularak yerine getirilir.\tİhtiyaç sahibine fidye verilerek yerine getirilir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kaza ve Fidye",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"İçinizden hasta veya yolcu olanlar, tutamadıkları günler sayısınca başka günlerde oruç tutarlar...\"\n (Bakara Suresi, 2/184)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Devamında ise şöyle buyrulur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Oruç tutmaya güç yetiremeyenler ise bir yoksulu doyuracak kadar fidye verirler.\"\n (Bakara Suresi, 2/184)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hükümler, İslam'ın kolaylık ve merhamet anlayışını göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Kaza ve fidye aynı şey değildir.",
+        "Geçici mazereti olan kişiler tutamadıkları oruçları daha sonra kaza eder.",
+        "Kalıcı olarak oruç tutamayacak durumda olan kişiler, şartları oluştuğunda fidye verir.",
+        "Kaza orucu, tutulamayan gün sayısı kadar tutulur.",
+        "İslam dini, ibadetlerde kolaylık ilkesini gözetir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Kaza, vakti içinde tutulamayan farz orucun daha sonra tutulmasıdır.",
+        "Fidye, sürekli olarak oruç tutmaya gücü yetmeyen kişilerin yerine getirdiği mali bir ibadettir.",
+        "Geçici mazeretlerde kaza, kalıcı mazeretlerde ise şartları oluştuğunda fidye söz konusu olur.",
+        "Müslüman, dinimizin kolaylık prensibi doğrultusunda ibadet sorumluluğunu yerine getirmeye çalışır."
+      ]
+    }
+  ]
+}

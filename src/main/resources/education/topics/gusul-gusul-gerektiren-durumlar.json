@@ -1,0 +1,269 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Gusül Gerektiren Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Gusül Ne Zaman Gerekir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'da bazı durumlarda gusül almak farz olur. Bu durumlarda kişi, gusül almadan namaz kılamaz ve gusül gerektiren diğer ibadetleri yerine getiremez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre başlıca gusül gerektiren durumlar aşağıda açıklanmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Cünüplük Hâli",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cünüplük, dinimizin belirlediği bazı durumlar sebebiyle meydana gelen ve gusül alınmasını gerektiren bir hâlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hâlde bulunan kişinin, ibadetlerini yerine getirebilmesi için önce gusül alması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Cinsel İlişki",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Eşler arasında cinsel ilişkinin gerçekleşmesi durumunda gusül almak farz olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hüküm, meni gelip gelmemesinden bağımsız olarak geçerlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Meni Gelmesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İster uyanıkken ister uyku sırasında olsun, şehvet sonucu meninin gelmesi durumunda gusül gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin kişi uyandığında ihtilam olduğunu ve meni geldiğini fark ederse gusül almalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. İhtilam (Rüyalanma)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kişi uykusunda rüya görebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Uyandığında meni geldiğini fark ederse gusül gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Eğer herhangi bir iz veya meni görülmezse yalnızca rüya görmek guslü gerektirmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Hayızın Sona Ermesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kadınlarda adet (hayız) hâli sona erdiğinde gusül almak farz olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gusülden sonra namaz ibadetine yeniden başlanabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Nifasın Sona Ermesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğumdan sonra görülen lohusalık (nifas) kanaması sona erdiğinde de gusül almak gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gusül alındıktan sonra ibadetlere devam edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Gusül Gerektirmeyen Bazı Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki durumlar tek başına guslü gerektirmez:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Terlemek.",
+        "Ağlamak.",
+        "Burun kanaması.",
+        "Küçük abdest yapmak.",
+        "Büyük abdest yapmak.",
+        "Hafif uyuklamak.",
+        "Sadece cinsel içerikli bir rüya görmek (meni gelmemişse)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu durumlarda yalnızca abdest gerekebilir; gusül gerekmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Gusül Geciktirilebilir mi?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gusül gerektiren bir durum meydana geldiğinde, ilk fırsatta gusül alınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak namaz vakti girmeden önce gusül almak mümkündür. Namaz vakti geldiğinde ise gusül alınmadan namaz kılınamaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Guslü mazeretsiz olarak gereksiz yere geciktirmek doğru değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Cinsel ilişki guslü gerektirir.",
+        "Şehvetle meni gelmesi guslü gerektirir.",
+        "İhtilamdan sonra meni görülürse gusül gerekir.",
+        "Hayız ve nifas sona erdiğinde gusül farz olur.",
+        "Her temizlik ihtiyacı guslü gerektirmez; bazı durumlarda yalnızca abdest yeterlidir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Gusül, dinimizin belirlediği bazı durumlarda farz olan büyük temizliktir.",
+        "Cünüplük, cinsel ilişki, şehvetle meni gelmesi, hayız ve nifasın sona ermesi guslü gerektiren başlıca durumlardır.",
+        "Her rüya veya her bedensel değişiklik guslü gerektirmez.",
+        "Müslüman, gusül gerektiren bir durumda gerekli temizliği yaparak ibadetlerini yerine getirir."
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "categories": [
     {
       "id": "temel-egitimler",
@@ -194,9 +194,39 @@
           },
           "lessons": [
             {
-              "id": "abdest",
-              "title": "Abdest",
+              "id": "abdest-abdest-nedir",
+              "title": "Abdest Nedir?",
               "summary": "Abdest, namaz başta olmak üzere bazı ibadetleri yerine getirebilmek için, dinimizin belirlediği şekilde bazı organların yıkanması ve meshedi…"
+            },
+            {
+              "id": "abdest-abdestin-onemi",
+              "title": "Abdestin Önemi",
+              "summary": "Abdest, İslam'da temizliğin ve ibadete hazırlığın önemli bir göstergesidir. Müslüman, Allah'ın huzuruna çıkmadan önce bedenini dinimizin bel…"
+            },
+            {
+              "id": "abdest-abdestin-farzlari",
+              "title": "Abdestin Farzları",
+              "summary": "Farz, Allah'ın kesin olarak yapılmasını emrettiği davranıştır. Abdestin geçerli olabilmesi için yerine getirilmesi gereken farzlar vardır."
+            },
+            {
+              "id": "abdest-abdestin-sunnetleri",
+              "title": "Abdestin Sünnetleri",
+              "summary": "Sünnet, Hz. Muhammed'in (sav) yaptığı ve Müslümanlara tavsiye ettiği davranışlardır. Abdestin sünnetleri, abdesti daha güzel ve eksiksiz şek…"
+            },
+            {
+              "id": "abdest-abdest-nasil-alinir",
+              "title": "Abdest Nasıl Alınır?",
+              "summary": "Abdest almadan önce niyet edilir ve \"Bismillahirrahmanirrahim\" denilerek abdeste başlanır."
+            },
+            {
+              "id": "abdest-abdesti-bozan-durumlar",
+              "title": "Abdesti Bozan Durumlar",
+              "summary": "Abdest, bazı durumlarda bozulur ve yeniden alınması gerekir. Abdestin bozulması, kişinin namaz gibi abdest gerektiren ibadetleri yerine geti…"
+            },
+            {
+              "id": "abdest-sik-yapilan-hatalar",
+              "title": "Sık Yapılan Hatalar",
+              "summary": "Abdest alırken bazı hatalar, abdestin sevabını azaltabilir veya bazı durumlarda geçerli olmamasına neden olabilir. Bu nedenle abdest alırken…"
             }
           ]
         },
@@ -214,9 +244,34 @@
           },
           "lessons": [
             {
-              "id": "gusul",
-              "title": "Gusül",
+              "id": "gusul-gusul-nedir",
+              "title": "Gusül Nedir?",
               "summary": "Gusül, dinimizin belirlediği bazı durumlarda, bütün bedenin kuru yer kalmayacak şekilde yıkanmasıyla yapılan büyük temizliktir. Bu temizliğe…"
+            },
+            {
+              "id": "gusul-guslun-onemi",
+              "title": "Guslün Önemi",
+              "summary": "Gusül, İslam'da hem bedensel hem de manevi temizliği sağlayan önemli bir ibadettir. Müslüman, dinimizin belirlediği durumlarda gusül alarak …"
+            },
+            {
+              "id": "gusul-guslun-farzlari",
+              "title": "Guslün Farzları",
+              "summary": "Farz, Allah'ın kesin olarak yapılmasını emrettiği davranıştır. Guslün geçerli olabilmesi için yerine getirilmesi gereken farzlar vardır."
+            },
+            {
+              "id": "gusul-gusul-nasil-alinir",
+              "title": "Gusül Nasıl Alınır?",
+              "summary": "Gusül almaya başlamadan önce kalben niyet edilir ve \"Bismillahirrahmanirrahim\" denilerek başlanır."
+            },
+            {
+              "id": "gusul-gusul-gerektiren-durumlar",
+              "title": "Gusül Gerektiren Durumlar",
+              "summary": "İslam'da bazı durumlarda gusül almak farz olur. Bu durumlarda kişi, gusül almadan namaz kılamaz ve gusül gerektiren diğer ibadetleri yerine …"
+            },
+            {
+              "id": "gusul-gusulde-dikkat-edilecek-hususlar",
+              "title": "Gusülde Dikkat Edilecek Hususlar",
+              "summary": "Guslün geçerli olabilmesi için, dinimizin belirlediği farzların eksiksiz yerine getirilmesi gerekir. Bunun yanında guslü daha güzel ve sünne…"
             }
           ]
         },
@@ -234,9 +289,59 @@
           },
           "lessons": [
             {
-              "id": "namaz",
-              "title": "Namaz",
+              "id": "namaz-namaz-nedir",
+              "title": "Namaz Nedir?",
               "summary": "Namaz, Müslümanların belirli vakitlerde Allah'ın emrini yerine getirmek amacıyla eda ettikleri en önemli ibadetlerden biridir. İslam'ın beş …"
+            },
+            {
+              "id": "namaz-namazin-onemi",
+              "title": "Namazın Önemi",
+              "summary": "Namaz, Müslümanın Allah ile olan bağını güçlendiren en önemli ibadetlerden biridir. Günün belirli vakitlerinde Allah'a yönelmeyi sağlayan na…"
+            },
+            {
+              "id": "namaz-namaz-kimlere-farzdir",
+              "title": "Namaz Kimlere Farzdır?",
+              "summary": "Namaz, İslam'ın beş şartından biridir ve dinimizin en önemli ibadetlerinden biridir."
+            },
+            {
+              "id": "namaz-bes-vakit-namaz",
+              "title": "Beş Vakit Namaz",
+              "summary": "İslam dininde, akıl sağlığı yerinde olan ve ergenlik çağına ulaşmış her Müslümana günde beş vakit namaz farz kılınmıştır."
+            },
+            {
+              "id": "namaz-namaza-hazirlik",
+              "title": "Namaza Hazırlık",
+              "summary": "Namaz, Allah'a yönelerek yerine getirilen en önemli ibadetlerden biridir. Bu nedenle namaza başlamadan önce hem bedensel hem de manevi hazır…"
+            },
+            {
+              "id": "namaz-namazin-sartlari",
+              "title": "Namazın Şartları",
+              "summary": "Şart, bir ibadetin geçerli olabilmesi için ibadete başlamadan önce yerine getirilmesi gereken zorunlu hükümdür."
+            },
+            {
+              "id": "namaz-namazin-farzlari",
+              "title": "Namazın Farzları",
+              "summary": "Farz, Allah'ın kesin olarak yapılmasını emrettiği davranıştır."
+            },
+            {
+              "id": "namaz-namazi-bozan-durumlar",
+              "title": "Namazı Bozan Durumlar",
+              "summary": "Namaz, belirli kurallar çerçevesinde yerine getirilen bir ibadettir. Namaz sırasında yapılan bazı davranışlar veya meydana gelen bazı duruml…"
+            },
+            {
+              "id": "namaz-cemaatle-namaz",
+              "title": "Cemaatle Namaz",
+              "summary": "Cemaatle namaz, bir imamın önderliğinde iki veya daha fazla Müslümanın birlikte namaz kılmasıdır."
+            },
+            {
+              "id": "namaz-cuma-namazi",
+              "title": "Cuma Namazı",
+              "summary": "Cuma namazı, Müslümanların haftada bir kez cuma günü öğle vakti cemaatle kıldıkları özel bir ibadettir."
+            },
+            {
+              "id": "namaz-bayram-namazi",
+              "title": "Bayram Namazı",
+              "summary": "Bayram namazı, Müslümanların Ramazan Bayramı ve Kurban Bayramı sabahında cemaatle kıldıkları özel bir namazdır."
             }
           ]
         },
@@ -254,9 +359,39 @@
           },
           "lessons": [
             {
-              "id": "oruc",
-              "title": "Oruç",
+              "id": "oruc-oruc-nedir",
+              "title": "Oruç Nedir?",
               "summary": "Oruç, İslam'ın beş şartından biri olan ve Allah'ın rızasını kazanmak amacıyla belirli kurallar çerçevesinde yerine getirilen önemli bir ibad…"
+            },
+            {
+              "id": "oruc-oruc-kimlere-farzdir",
+              "title": "Oruç Kimlere Farzdır?",
+              "summary": "Ramazan ayında oruç tutmak, İslam'ın beş şartından biridir ve belirli şartları taşıyan Müslümanlara farzdır."
+            },
+            {
+              "id": "oruc-oruc-cesitleri",
+              "title": "Oruç Çeşitleri",
+              "summary": "İslam dininde oruçlar, hüküm ve tutulma amaçlarına göre farklı türlere ayrılır."
+            },
+            {
+              "id": "oruc-oruc-nasil-tutulur",
+              "title": "Oruç Nasıl Tutulur?",
+              "summary": "Oruç, Allah'ın rızasını kazanmak amacıyla niyet edilerek tutulur. Ramazan ayında oruç tutan Müslüman, imsak vaktinden güneş batıncaya (iftar…"
+            },
+            {
+              "id": "oruc-orucu-bozan-durumlar",
+              "title": "Orucu Bozan Durumlar",
+              "summary": "Oruç, imsak vaktinden iftar vaktine kadar yeme, içme ve dinimizin orucu bozduğunu bildirdiği davranışlardan uzak durularak yerine getirilen …"
+            },
+            {
+              "id": "oruc-fidye-ve-kaza",
+              "title": "Fidye ve Kaza",
+              "summary": "İslam dini, ibadetlerde hem sorumluluğu hem de kolaylığı birlikte gözetir. Bazı durumlarda kişi orucunu zamanında tutamayabilir veya sağlık …"
+            },
+            {
+              "id": "oruc-ramazanin-onemi",
+              "title": "Ramazan'ın Önemi",
+              "summary": "Ramazan, Hicrî takvime göre yılın dokuzuncu ayıdır ve İslam dininde en faziletli aylardan biri kabul edilir."
             }
           ]
         },
@@ -274,9 +409,29 @@
           },
           "lessons": [
             {
-              "id": "zekat",
-              "title": "Zekât",
+              "id": "zekat-zekat-nedir",
+              "title": "Zekât Nedir?",
               "summary": "Zekât, İslam'ın beş şartından biri olan ve belirli şartları taşıyan Müslümanların, mallarının belirli bir kısmını ihtiyaç sahiplerine vermek…"
+            },
+            {
+              "id": "zekat-zekat-kimlere-farzdir",
+              "title": "Zekât Kimlere Farzdır?",
+              "summary": "Zekât, İslam'ın beş şartından biri olan mali bir ibadettir. Ancak her Müslüman zekât vermekle yükümlü değildir."
+            },
+            {
+              "id": "zekat-nisap-nedir",
+              "title": "Nisap Nedir?",
+              "summary": "Nisap, zekât ibadetinde kullanılan önemli bir kavramdır."
+            },
+            {
+              "id": "zekat-zekat-kimlere-verilir",
+              "title": "Zekât Kimlere Verilir?",
+              "summary": "Zekât, ihtiyaç sahibi olan belirli kimselere verilen mali bir ibadettir."
+            },
+            {
+              "id": "zekat-zekat-in-sadaka-ile-farki",
+              "title": "Zekât ‘ın Sadaka ile Farkı",
+              "summary": "Zekât ve sadaka, ihtiyaç sahiplerine yardım etmeyi amaçlayan ibadetlerdir. Ancak aynı ibadet değildir."
             }
           ]
         },
@@ -294,9 +449,54 @@
           },
           "lessons": [
             {
-              "id": "hac",
-              "title": "Hac",
+              "id": "hac-hac-nedir",
+              "title": "Hac Nedir?",
               "summary": "Hac, İslam'ın beş şartından biri olan ve belirli şartları taşıyan Müslümanların ömürlerinde bir kez yerine getirmeleri gereken önemli bir ib…"
+            },
+            {
+              "id": "hac-hac-kimlere-farzdir",
+              "title": "Hac Kimlere Farzdır?",
+              "summary": "Hac, İslam'ın beş şartından biridir. Ancak her Müslüman hac ibadetiyle yükümlü değildir."
+            },
+            {
+              "id": "hac-hac-ve-umre-arasindaki-fark",
+              "title": "Hac ve Umre Arasındaki Fark",
+              "summary": "Hac ve umre, Kâbe'yi ve kutsal mekânları ziyaret ederek yerine getirilen ibadetlerdir. Birçok yönleriyle birbirine benzeseler de hüküm, zama…"
+            },
+            {
+              "id": "hac-hac-ibadetinin-asamalari",
+              "title": "Hac İbadetinin Aşamaları",
+              "summary": "Hac ibadeti, İslam dininde belirlenen sıra ve kurallara uygun olarak yerine getirilir. Her aşamanın kendine özgü anlamı ve önemi vardır."
+            },
+            {
+              "id": "hac-ihram",
+              "title": "İhram",
+              "summary": "İhram, hac veya umre ibadetine başlamak isteyen kişinin, belirli bir niyetle bu ibadete girmesi ve ihram yasaklarına uymaya başlamasıdır."
+            },
+            {
+              "id": "hac-tavaf",
+              "title": "Tavaf",
+              "summary": "Tavaf, hac ve umre ibadetlerinin önemli uygulamalarından biridir. Tavaf, Kâbe'nin etrafında saat yönünün tersine yedi defa dönülerek yapılan…"
+            },
+            {
+              "id": "hac-say",
+              "title": "Sa'y",
+              "summary": "Sa'y, hac ve umre ibadetlerinin önemli uygulamalarından biridir. Safâ ve Merve tepeleri arasında yedi defa gidip gelerek yerine getirilen bi…"
+            },
+            {
+              "id": "hac-arafat",
+              "title": "Arafat",
+              "summary": "Arafat, Mekke'nin doğusunda bulunan ve hac ibadetinin en önemli rüknünün yerine getirildiği kutsal bölgedir."
+            },
+            {
+              "id": "hac-mina",
+              "title": "Mina",
+              "summary": "Mina, Mekke ile Müzdelife arasında bulunan ve hac ibadetinin önemli bölümlerinin yerine getirildiği kutsal bir bölgedir."
+            },
+            {
+              "id": "hac-seytan-taslama",
+              "title": "Şeytan Taşlama",
+              "summary": "Şeytan taşlama, hac ibadetinin önemli uygulamalarından biridir. Hacılar, Mina'da bulunan cemrelere belirli sayıda taş atarak bu ibadeti yeri…"
             }
           ]
         },
@@ -314,9 +514,29 @@
           },
           "lessons": [
             {
-              "id": "dua",
-              "title": "Dua",
+              "id": "dua-dua-nedir",
+              "title": "Dua Nedir?",
               "summary": "Dua, kulun Allah'a yönelerek O'ndan istemesi, yardım dilemesi, şükretmesi ve O'na olan kulluğunu ifade etmesidir."
+            },
+            {
+              "id": "dua-duanin-onemi",
+              "title": "Duanın Önemi",
+              "summary": "Dua, kulun Allah ile doğrudan iletişim kurduğu en özel ibadetlerden biridir."
+            },
+            {
+              "id": "dua-dua-adabi",
+              "title": "Dua Adabı",
+              "summary": "Dua adabı, Allah'a dua ederken dikkat edilmesi tavsiye edilen güzel davranışlar ve edeplerdir."
+            },
+            {
+              "id": "dua-dua-kabulu-icin-dikkat-edilecek-hususlar",
+              "title": "Dua Kabulü İçin Dikkat Edilecek Hususlar",
+              "summary": "Müslüman, duasının kabul edileceğine inanarak Allah'a yönelir. Ancak duanın nasıl ve ne zaman karşılık bulacağını Allah'ın hikmeti belirler."
+            },
+            {
+              "id": "dua-gunluk-dualar",
+              "title": "Günlük Dualar",
+              "summary": "Müslüman, hayatının her anında Allah'ı hatırlamaya ve O'na yönelmeye gayret eder."
             }
           ]
         }

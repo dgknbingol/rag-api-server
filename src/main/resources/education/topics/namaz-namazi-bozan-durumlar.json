@@ -1,0 +1,321 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Namazı Bozan Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazı Bozan Durumlar Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, belirli kurallar çerçevesinde yerine getirilen bir ibadettir. Namaz sırasında yapılan bazı davranışlar veya meydana gelen bazı durumlar namazı bozar. Böyle bir durumda namaz geçersiz olur ve yeniden kılınması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre namazı bozan başlıca durumlar aşağıda açıklanmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Abdestin Bozulması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sırasında abdest bozulursa namaz da bozulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu durumda kişi yeniden abdest almalı ve namazını baştan kılmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Konuşmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sırasında bilerek dünya ile ilgili bir söz söylemek namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak namazda okunması gereken dualar ve zikirler ibadetin bir parçasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Yemek veya İçmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sırasında bilerek bir şey yemek veya içmek namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Gereksiz ve Çok Hareket Etmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın düzenini bozacak derecede art arda ve gereksiz hareketler yapmak namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namazdan tamamen kopacak kadar dolaşmak,",
+        "Art arda çok sayıda gereksiz hareket yapmak,"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "namazın bozulmasına sebep olabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zorunlu ve küçük hareketler ise namazı bozmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Kıbleden Tamamen Dönmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sırasında mazeretsiz olarak göğsü kıble yönünden tamamen çevirmek namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Kahkaha ile Gülmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sırasında sesli şekilde kahkaha ile gülmek namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre yetişkin bir kişinin farz veya vacip namazda kahkaha ile gülmesi, abdesti de bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sadece tebessüm etmek ise namazı bozmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "7. Namazın Farzlarından Birini Terk Etmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın farzlarından biri bilinçli olarak yapılmazsa namaz geçerli olmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Rükû yapmamak,",
+        "Secdeyi terk etmek,",
+        "Son oturuşu yapmamak"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "8. Avret Yerinin Açılması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz sırasında örtülmesi gereken yerlerin, dinen kabul edilen ölçüde açılması ve bu durumun belirli bir süre devam etmesi namazı bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle namaza başlamadan önce uygun kıyafet seçilmeli ve namaz boyunca örtünmeye dikkat edilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "9. Namaz Vaktinin Çıkması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakti içinde başlanan bir namazın, mazeret olmaksızın tamamlanamayıp vaktinin çıkması durumunda o namaz yeniden kılınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaz Bozulursa Ne Yapılır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz bozulduğunda kişi;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Sebebini ortadan kaldırır.",
+        "Gerekliyse yeniden abdest alır.",
+        "Namaza baştan başlar."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın doğru şekilde tamamlanabilmesi için acele edilmemeli ve dikkatli olunmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Abdestin bozulması namazı da bozar.",
+        "Namaz sırasında konuşmak, yemek ve içmek namazı bozar.",
+        "Namazın farzlarından birini terk etmek namazı geçersiz kılar.",
+        "Gereksiz ve aşırı hareketlerden kaçınılmalıdır.",
+        "Namaz bozulursa yeniden kılınmalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaz sırasında bazı davranışlar namazın geçersiz olmasına neden olabilir.",
+        "Abdestin bozulması, konuşmak, yemek içmek ve namazın farzlarını terk etmek bunların başında gelir.",
+        "Namaz kılarken huşû içinde olmak ve gereksiz hareketlerden kaçınmak önemlidir.",
+        "Namaz bozulduğunda gerekli temizlik yapılarak namaz yeniden kılınmalıdır."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Zekât Kimlere Farzdır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, İslam'ın beş şartından biri olan mali bir ibadettir. Ancak her Müslüman zekât vermekle yükümlü değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre bir kimsenin zekât vermekle yükümlü olması için belirli şartları taşıması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartlar şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Müslüman olmak",
+        "Akıl sağlığı yerinde olmak",
+        "Ergenlik çağına ulaşmış olmak",
+        "Nisap miktarı mala sahip olmak",
+        "Bu malın üzerinden bir kamerî (Hicrî) yıl geçmiş olması"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartları taşıyan kimse, zekât vermekle yükümlüdür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Müslüman Olmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât yalnızca Müslümanlara farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dinini kabul eden kişi, diğer ibadetlerde olduğu gibi zekât ibadetiyle de yükümlü olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Akıl Sağlığının Yerinde Olması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıl sağlığı yerinde olmayan kişiler dinî sorumluluklarla yükümlü tutulmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle zekât da onlar için farz değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Ergenlik Çağına Ulaşmış Olmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre zekâtın farz olması için kişinin ergenlik çağına ulaşmış olması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Nisap Miktarı Mala Sahip Olmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâtın farz olması için kişinin sahip olduğu malın, dinimizin belirlediği nisap miktarına ulaşmış olması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap, zekât yükümlülüğünün başladığı asgari mal varlığı ölçüsüdür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap miktarının nasıl hesaplandığı ve hangi malların zekâta tabi olduğu sonraki derslerde ayrıntılı olarak ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Malın Üzerinden Bir Kamerî Yıl Geçmesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâta tabi malların, nisap miktarına ulaştıktan sonra üzerinden bir kamerî (Hicrî) yıl geçmiş olması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu süre dolduğunda ve diğer şartlar da mevcutsa zekât verilmesi gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tarım ürünleri ve madenler gibi bazı mal türleri için farklı hükümler bulunmaktadır. Bu konular ilerleyen derslerde açıklanacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kimler Zekât Vermekle Yükümlü Değildir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki kişiler zekât vermekle yükümlü değildir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Nisap miktarına ulaşmayan mala sahip olanlar,",
+        "Ergenlik çağına ulaşmamış çocuklar,",
+        "Akıl sağlığı yerinde olmayan kişiler."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayrıca temel ihtiyaçlarını ve vadesi gelmiş borçlarını karşıladıktan sonra nisap miktarında mala sahip olmayan kimseler de zekâtla yükümlü değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekâtın Hikmeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, maddi durumu iyi olan Müslümanların ihtiyaç sahiplerine destek olmasını sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ibadet sayesinde;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Toplumda yardımlaşma artar.",
+        "Sosyal dayanışma güçlenir.",
+        "Malın bereketine vesile olunur.",
+        "Paylaşma bilinci gelişir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Zekât",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namazı dosdoğru kılın, zekâtı verin...\"\n (Bakara Suresi, 2/43)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"İslam beş esas üzerine kurulmuştur: Allah'tan başka ilah olmadığına ve Muhammed'in Allah'ın Resûlü olduğuna şehadet etmek, namaz kılmak, zekât vermek, Ramazan orucu tutmak ve gücü yetenlerin hacca gitmesi.\" (Buhârî, Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Zekât, her Müslümana değil, belirli şartları taşıyan kimselere farzdır.",
+        "Nisap miktarı mala sahip olmak zekâtın temel şartlarından biridir.",
+        "Nisap miktarına ulaşıldıktan sonra, zekâta tabi malın üzerinden bir kamerî yıl geçmesi gerekir.",
+        "Temel ihtiyaçlarını ve vadesi gelmiş borçlarını karşıladıktan sonra nisap miktarında mala sahip olmayan kişiler zekâtla yükümlü değildir.",
+        "Zekât, yardımlaşmayı ve toplumsal dayanışmayı güçlendiren önemli bir ibadettir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Zekât, belirli şartları taşıyan Müslümanlara farz olan mali bir ibadettir.",
+        "Zekâtla yükümlü olmak için Müslüman olmak, akıl sağlığının yerinde olması, ergenlik çağına ulaşmış olmak, nisap miktarı mala sahip olmak ve bu malın üzerinden bir kamerî yıl geçmiş olması gerekir.",
+        "Nisap miktarına ulaşmayan veya gerekli şartları taşımayan kişiler zekât vermekle yükümlü değildir.",
+        "Zekât, hem bireysel sorumluluğu yerine getirmeyi hem de toplumdaki yardımlaşmayı güçlendirmeyi amaçlar."
+      ]
+    }
+  ]
+}

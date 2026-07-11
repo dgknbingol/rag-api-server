@@ -1,0 +1,329 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Beş Vakit Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Beş Vakit Namaz Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dininde, akıl sağlığı yerinde olan ve ergenlik çağına ulaşmış her Müslümana günde beş vakit namaz farz kılınmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu namazlar, günün farklı zamanlarına yayılmıştır ve her biri Allah'ı anmak, O'na kulluk etmek ve manevi bağı güçlendirmek için önemli bir fırsattır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her namazın kendine ait belirlenmiş bir vakti vardır ve namazın bu vakit içinde kılınması esastır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Sabah Namazı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabah namazı, günün ilk farz namazıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakti, fecr-i sâdıkın (imsak vaktinin) başlamasıyla girer ve güneş doğuncaya kadar devam eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabah namazı;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "2 rekât sünnet",
+        "2 rekât farz"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "olmak üzere toplam 4 rekâttır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Öğle Namazı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Öğle namazı, güneşin gökyüzündeki en yüksek noktasını geçmesinden sonra başlayan vakitte kılınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Öğle namazı;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "4 rekât ilk sünnet",
+        "4 rekât farz",
+        "2 rekât son sünnet"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "olmak üzere toplam 10 rekâttır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. İkindi Namazı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İkindi namazı, öğle vaktinin sona ermesiyle başlar ve güneş batıncaya kadar devam eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İkindi namazı;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "4 rekât sünnet",
+        "4 rekât farz"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "olmak üzere toplam 8 rekâttır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Akşam Namazı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akşam namazı, güneş battıktan sonra başlayan vakitte kılınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akşam namazı;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "3 rekât farz",
+        "2 rekât sünnet"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "olmak üzere toplam 5 rekâttır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Yatsı Namazı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yatsı namazı, akşam vakti sona erdikten sonra başlar ve imsak vaktine kadar devam eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yatsı namazı;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "4 rekât ilk sünnet",
+        "4 rekât farz",
+        "2 rekât son sünnet",
+        "3 rekât vitir namazı (Hanefî mezhebine göre vacip)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "ile birlikte yaygın uygulamada toplam 13 rekât olarak kılınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Not: Vitir namazı, Hanefî mezhebine göre vacip; diğer mezheplerin çoğunda kuvvetli sünnet olarak değerlendirilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaz Vakitlerine Riayet Etmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de namazın belirli vakitlerde kılınması emredilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazı vakti içinde kılmak, Müslümanın Allah'ın emrine bağlılığını gösterir ve günlük hayatını düzenli hâle getirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mazeret olmadıkça namazı vakti geçmeden eda etmeye özen gösterilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "table",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaz\tRekât Sayısı",
+        "Sabah\t2 sünnet + 2 farz = 4",
+        "Öğle\t4 sünnet + 4 farz + 2 sünnet = 10",
+        "İkindi\t4 sünnet + 4 farz = 8",
+        "Akşam\t3 farz + 2 sünnet = 5",
+        "Yatsı\t4 sünnet + 4 farz + 2 sünnet + 3 vitir = 13"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Müslümanlara günde beş vakit namaz farz kılınmıştır.",
+        "Her namazın belirlenmiş bir vakti vardır.",
+        "Namazların rekât sayıları birbirinden farklıdır.",
+        "Namazı vakti içinde kılmaya özen gösterilmelidir.",
+        "Vitir namazı Hanefî mezhebine göre vaciptir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Günlük farz ibadetler arasında beş vakit namaz önemli bir yere sahiptir.",
+        "Sabah, öğle, ikindi, akşam ve yatsı olmak üzere beş vakit namaz vardır.",
+        "Her namazın belirlenmiş bir vakti ve rekât sayısı bulunur.",
+        "Namazların vakitlerine riayet etmek, Allah'ın emrine bağlılığın bir göstergesidir.",
+        "Müslüman, günlük hayatını namaz vakitlerine göre düzenlemeye gayret eder."
+      ]
+    }
+  ]
+}

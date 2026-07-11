@@ -1,0 +1,328 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Orucu Bozan Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Orucu Bozan Durumlar Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Oruç, imsak vaktinden iftar vaktine kadar yeme, içme ve dinimizin orucu bozduğunu bildirdiği davranışlardan uzak durularak yerine getirilen bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Orucu bozan bir durum meydana geldiğinde, oruç geçersiz olur. Bazı durumlarda yalnızca kaza gerekirken, bazı durumlarda hem kaza hem de kefaret gerekebilir. Bu hükümler ilerleyen derslerde ayrıntılı olarak ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Bilerek Yemek ve İçmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Oruçlu olduğunu bildiği hâlde bilerek yemek veya içmek orucu bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak unutarak yiyip içen kişinin orucu bozulmaz. Hatırladığı anda yemeyi ve içmeyi bırakmalı, orucuna devam etmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Cinsel İlişki",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramazan orucu sırasında bilerek cinsel ilişkide bulunmak orucu bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu durumun hükmü ve gerektirdiği sorumluluklar sonraki derslerde ayrıntılı olarak açıklanacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Besleyici Özelliği Olan Maddelerin Vücuda Alınması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Besleyici özelliği bulunan ve vücudu gıda yönünden destekleyen maddelerin vücuda alınması orucu bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu konuda tıbbi uygulamalara ilişkin ayrıntılar ve istisnalar ilerleyen derslerde ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Sigara ve Benzeri Maddeleri Kullanmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sigara, elektronik sigara, nargile ve benzeri maddelerin kullanılması orucu bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çünkü bunlar ağız yoluyla vücuda alınan maddelerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Kasten Kusmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kişinin kendi isteğiyle kusması orucu bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak istem dışı meydana gelen kusma, tek başına orucu bozmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Hayız ve Nifas Hâlinin Başlaması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kadınlarda adet (hayız) veya lohusalık (nifas) hâli başladığında oruç bozulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu günlerde tutulamayan oruçlar daha sonra dinimizin belirlediği şekilde kaza edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Unutarak Yapılan Durumlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav), unutarak yiyip içen kişinin orucunun bozulmayacağını bildirmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Unutarak yemek,",
+        "Unutarak su içmek"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "orucu bozmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kişi hatırladığı anda hemen orucuna devam etmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Orucu Korumak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Oruç yalnızca aç ve susuz kalmak değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Yalan söylemekten,",
+        "Gıybetten,",
+        "Kötü sözlerden,",
+        "Kavgadan,",
+        "Günah sayılan davranışlardan"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "da uzak durmaya gayret etmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu davranışlar her zaman orucu teknik olarak bozmasa da, orucun manevi değerine zarar verebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Oruç",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"...Sonra da akşama kadar orucu tamamlayın...\"\n (Bakara Suresi, 2/187)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kim unutarak yer veya içerse orucunu tamamlasın. Çünkü onu Allah yedirmiş ve içirmiştir.\" (Buhârî, Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Bilerek yemek ve içmek orucu bozar.",
+        "Cinsel ilişki orucu bozar.",
+        "Sigara ve benzeri ürünlerin kullanılması orucu bozar.",
+        "Kasten kusmak orucu bozar.",
+        "Hayız ve nifas başladığında oruç bozulur.",
+        "Unutarak yemek veya içmek orucu bozmaz."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Oruç, belirli davranışlardan uzak durularak yerine getirilen bir ibadettir.",
+        "Bilerek yemek, içmek ve cinsel ilişkide bulunmak orucu bozan başlıca durumlardır.",
+        "Sigara ve benzeri maddelerin kullanılması da orucu bozar.",
+        "Unutarak yemek ve içmek orucu bozmaz; kişi hatırladığı anda orucuna devam eder.",
+        "Müslüman, orucunu hem maddi hem de manevi yönüyle korumaya özen göstermelidir."
+      ]
+    }
+  ]
+}

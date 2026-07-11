@@ -1,0 +1,330 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Namazın Farzları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazın Farzları Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Farz, Allah'ın kesin olarak yapılmasını emrettiği davranıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın farzları, namazın içinde yerine getirilmesi gereken temel rükünlerdir. Bu rükünlerden biri bilinçli olarak terk edilirse namaz sahih olmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre namazın altı farzı (erkânı) vardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İftitah Tekbiri (Başlangıç Tekbiri)",
+        "Kıyam (Ayakta Durmak)",
+        "Kıraat (Kur'an Okumak)",
+        "Rükû",
+        "Secde",
+        "Son Oturuş (Ka'de-i Ahîre)"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "1. İftitah Tekbiri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaza başlarken \"Allahu Ekber\" diyerek namaza başlanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu tekbire iftitah tekbiri denir ve namazın başlangıcını ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu tekbirle birlikte kişi namaza girmiş olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Kıyam",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kıyam, namazda ayakta durmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayakta durmaya gücü yeten kişinin farz namazları ayakta kılması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sağlık problemi bulunan kişiler dinimizin tanıdığı kolaylıklardan yararlanarak oturarak veya uygun şekilde namaz kılabilirler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Kıraat",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kıraat, namazda Kur'an-ı Kerim'den okunması gereken bölümlerin okunmasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre farz namazların ilk iki rekâtında ve vitir ile nafile namazların her rekâtında en az bir ayet okunması farzdır. Uygulamada ise Fâtiha Suresi ve ardından başka bir sure veya birkaç ayet okunması sünnete uygun olan uygulamadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Rükû",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rükû, eller dizlere gelecek şekilde eğilmektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rükû sırasında sırt mümkün olduğunca düz tutulur ve Allah tesbih edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rükû, namazın temel rükünlerinden biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Secde",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Secde, alnı ve burnu yere koyarak Allah'a en yakın olunan ibadet hâlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Secde yapılırken;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Alın,",
+        "Burun,",
+        "İki el,",
+        "İki diz,",
+        "İki ayak"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "yere temas eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her rekâtta iki secde yapılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Son Oturuş (Ka'de-i Ahîre)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın sonunda Tahiyyât duasını okuyacak kadar oturmak farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu oturuş, namazın tamamlanmasının önemli bir parçasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazın Farzlarının Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın farzları, namazın temelini oluşturur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu farzlardan biri bilinçli olarak terk edilirse namaz geçerli olmaz. Unutularak terk edilen bazı vacipler için sehiv secdesi gerekebilir; ancak farzların terk edilmesi durumunda sehiv secdesi yeterli olmaz ve namazın yeniden kılınması gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namazı dosdoğru kılın...\"\n (Bakara Suresi, 2/43)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) ise şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Beni nasıl namaz kılarken gördüyseniz siz de öyle namaz kılın.\" (Buhârî)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hadis, namazın Hz. Peygamber'in (sav) öğrettiği şekilde eda edilmesinin önemini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Hanefî mezhebine göre namazın altı farzı vardır.",
+        "Farzlar, namazın içinde yerine getirilen temel rükünlerdir.",
+        "Farzlardan biri bilinçli olarak terk edilirse namaz sahih olmaz.",
+        "Namazın şartları ile farzları birbirinden farklıdır.",
+        "Namaz, Hz. Muhammed'in (sav) öğrettiği şekilde kılınmalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namazın farzları, namazın içinde mutlaka yerine getirilmesi gereken temel rükünlerdir.",
+        "Bu farzlar; iftitah tekbiri, kıyam, kıraat, rükû, secde ve son oturuştur.",
+        "Farzların eksiksiz yerine getirilmesi namazın sahih olması için zorunludur.",
+        "Müslüman, namazını Hz. Muhammed'in (sav) öğrettiği şekilde kılmaya özen gösterir."
+      ]
+    }
+  ]
+}
