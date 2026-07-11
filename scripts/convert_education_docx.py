@@ -16,7 +16,7 @@ from docx.text.paragraph import Paragraph
 
 DOCX_PATH = Path(r"c:\Users\dgknb\Desktop\İslam Bilgileri.docx")
 OUT_DIR = Path(r"c:\Users\dgknb\Desktop\Proje\Mobil\rag-api-server\src\main\resources\education")
-CATALOG_VERSION = 3
+CATALOG_VERSION = 4
 
 # Temel Eğitimler deep-dive modules: H3 subsections merge into one lesson
 MERGE_MODULE_SLUGS = {
@@ -27,6 +27,16 @@ MERGE_MODULE_SLUGS = {
     "zekat",
     "hac",
     "dua",
+}
+
+# These categories have H2 as lessons (no H3 modules). One module holds all lessons.
+FLAT_CATEGORY_IDS = {
+    "siyer",
+    "hadis",
+    "fikih",
+    "akaid",
+    "islam-tarihi",
+    "islam-ahlaki",
 }
 
 CATEGORY_ICONS = {
@@ -83,16 +93,24 @@ def slugify(text: str) -> str:
         }
     )
     text = text.translate(tr)
-    text = re.sub(r"^\d+(?:\.\d+)*\.?\s*", "", text)  # strip leading numbers like 1.1 / 1.
+    text = strip_section_number(text)
     text = re.sub(r"[^\w\s-]", "", text, flags=re.UNICODE)
     text = re.sub(r"[\s_]+", "-", text).strip("-")
     text = re.sub(r"-+", "-", text)
     return text or "konu"
 
 
+def strip_section_number(text: str) -> str:
+    """Strip doc section numbers like 1. / 1.2 / 1.Temel — but keep '40 Hadis'."""
+    text = re.sub(r"^\d+\.\d+(?:\.\d+)*\.?\s*", "", text)
+    text = re.sub(r"^\d+\.\s+", "", text)
+    text = re.sub(r"^\d+\.(?=[^\d\s])", "", text)
+    return text
+
+
 def clean_title(text: str) -> str:
     text = unicodedata.normalize("NFKC", (text or "").strip())
-    text = re.sub(r"^\d+(?:\.\d+)*\.?\s*", "", text)
+    text = strip_section_number(text)
     text = re.sub(r"^📝\s*", "", text)
     return text.strip()
 
@@ -238,6 +256,7 @@ def build():
     quiz_capture: list[str] | None = None
     quiz_meta: dict | None = None
     merge_mode = False
+    flat_mode = False
 
     used_lesson_ids: set[str] = set()
     used_module_ids: set[str] = set()
@@ -250,6 +269,24 @@ def build():
             n += 1
         used.add(candidate)
         return candidate
+
+    def ensure_flat_module():
+        """Flat categories use a single module named after the category."""
+        nonlocal current_mod
+        if not current_cat:
+            return
+        if current_mod and current_mod.get("_flat"):
+            return
+        mid = unique_id(current_cat["id"], used_module_ids)
+        current_mod = {
+            "id": mid,
+            "title": current_cat["title"],
+            "summary": current_cat["subtitle"],
+            "quiz": None,
+            "lessons": [],
+            "_flat": True,
+        }
+        current_cat["modules"].append(current_mod)
 
     def finish_lesson():
         nonlocal current_lesson, lesson_blocks, bullet_buf
@@ -282,19 +319,19 @@ def build():
     def start_lesson(title: str, force_id: str | None = None):
         nonlocal current_lesson, lesson_blocks, bullet_buf
         finish_lesson()
-        base = force_id or slugify(title)
-        # prefix with module to avoid collisions across modules
-        if current_mod:
-            base = f"{current_mod['id']}-{base}" if force_id is None else force_id
-            # if force_id given use as-is; else module-prefixed
-            if force_id is None:
-                # avoid double prefix if title already unique
+        if flat_mode:
+            ensure_flat_module()
+        if force_id is None:
+            if current_mod:
                 base = f"{current_mod['id']}-{slugify(title)}"
-        lid = unique_id(base if force_id is None else force_id, used_lesson_ids)
+            else:
+                base = slugify(title)
+            lid = unique_id(base, used_lesson_ids)
+        else:
+            lid = unique_id(force_id, used_lesson_ids)
         current_lesson = {"id": lid, "title": title}
         lesson_blocks = []
         bullet_buf = []
-        # opening heading
         lesson_blocks.append(
             {
                 "type": "heading",
@@ -345,17 +382,11 @@ def build():
         finish_lesson()
         finish_quiz_capture()
         clean = clean_title(title)
-        mid = unique_id(slugify(clean), used_module_ids)
-        merge_mode = mid in MERGE_MODULE_SLUGS and current_cat and current_cat["id"] == "temel-egitimler"
-        # Also merge if title is exactly Abdest/Namaz etc under temel
-        if current_cat and current_cat["id"] == "temel-egitimler":
-            bare = slugify(clean)
-            if bare in MERGE_MODULE_SLUGS:
-                merge_mode = True
-                mid = unique_id(bare, used_module_ids) if mid != bare else mid
-                # fix: if we already unique_id'd, use bare when available
-                if bare not in used_module_ids - {mid}:
-                    pass
+        bare = slugify(clean)
+        mid = unique_id(bare, used_module_ids)
+        merge_mode = False
+        if current_cat and current_cat["id"] == "temel-egitimler" and bare in MERGE_MODULE_SLUGS:
+            merge_mode = True
         current_mod = {
             "id": mid,
             "title": clean,
@@ -366,7 +397,7 @@ def build():
         current_cat["modules"].append(current_mod)
 
     def start_category(title: str):
-        nonlocal current_cat, current_mod, current_lesson, merge_mode
+        nonlocal current_cat, current_mod, current_lesson, merge_mode, flat_mode
         finish_lesson()
         finish_quiz_capture()
         clean = clean_title(title)
@@ -383,6 +414,9 @@ def build():
         current_mod = None
         current_lesson = None
         merge_mode = False
+        flat_mode = cid in FLAT_CATEGORY_IDS
+        if flat_mode:
+            ensure_flat_module()
 
     def add_heading_content(text: str):
         nonlocal lesson_blocks, bullet_buf
@@ -405,9 +439,7 @@ def build():
         nonlocal lesson_blocks, bullet_buf
         if merge_mode:
             ensure_merged_lesson()
-        # For categories like Siyer where H2 is leaf: create single lesson on first content
-        if current_lesson is None and current_mod and not merge_mode:
-            # leaf module content under H2
+        if current_lesson is None and current_mod and not merge_mode and not flat_mode:
             start_lesson(current_mod["title"], force_id=current_mod["id"])
         if current_lesson is None:
             return
@@ -429,7 +461,7 @@ def build():
         nonlocal lesson_blocks, bullet_buf
         if merge_mode:
             ensure_merged_lesson()
-        if current_lesson is None and current_mod:
+        if current_lesson is None and current_mod and not flat_mode:
             start_lesson(current_mod["title"], force_id=current_mod["id"])
         if current_lesson is None:
             return
@@ -466,9 +498,6 @@ def build():
                         quiz_capture.append(text)
                     continue
                 else:
-                    # option lines / normal lines inside quiz
-                    # if it looks like a lesson title (short heading-like), end quiz
-                    # otherwise keep capturing
                     quiz_capture.append(text)
                     continue
             else:
@@ -509,12 +538,20 @@ def build():
                 finish_lesson()
                 continue
 
+            # Flat categories: H2 is a lesson, not a module
+            if flat_mode:
+                start_lesson(clean_h2)
+                continue
+
             start_module(text)
             continue
 
         if level == 3:
             if not current_mod:
-                continue
+                if flat_mode:
+                    ensure_flat_module()
+                else:
+                    continue
             title = clean_title(text)
             low = title.lower().strip()
 
@@ -546,7 +583,6 @@ def build():
                 continue
 
             if low in SKIP_LESSON_TITLES:
-                # Module-level ders özeti: append as content heading into last/merged lesson
                 if merge_mode or current_lesson:
                     if merge_mode:
                         ensure_merged_lesson()
@@ -555,7 +591,6 @@ def build():
                 continue
 
             if merge_mode:
-                # H3 becomes an in-lesson heading, not a new lesson
                 ensure_merged_lesson()
                 add_heading_content(title)
                 continue
@@ -566,8 +601,7 @@ def build():
         if level and level >= 4:
             if merge_mode:
                 ensure_merged_lesson()
-            if current_lesson is None and current_mod:
-                # content under H2 leaf module with H4? unusual
+            if current_lesson is None and current_mod and not flat_mode:
                 start_lesson(current_mod["title"], force_id=current_mod["id"])
             add_heading_content(text)
             continue
@@ -582,12 +616,12 @@ def build():
     finish_lesson()
     finish_quiz_capture()
 
-    # Post-process: fill module summaries from first lesson
+    # Post-process: fill module summaries; strip internal flags
     for cat in categories:
         for mod in cat["modules"]:
+            mod.pop("_flat", None)
             if mod["lessons"]:
                 mod["summary"] = mod["lessons"][0]["summary"]
-            # drop empty modules
         cat["modules"] = [m for m in cat["modules"] if m["lessons"] or m["quiz"]]
 
     catalog = {"version": CATALOG_VERSION, "categories": categories}

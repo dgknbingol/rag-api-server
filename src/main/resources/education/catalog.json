@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "categories": [
     {
       "id": "temel-egitimler",
@@ -751,189 +751,80 @@
       },
       "modules": [
         {
-          "id": "siyer-nedir",
-          "title": "Siyer Nedir?",
+          "id": "siyer",
+          "title": "Siyer",
           "summary": "Siyer, Hz. Muhammed'in (sav) doğumundan vefatına kadar olan hayatını, ahlakını, yaşayışını, tebliğ faaliyetlerini, mücadelelerini ve örnek d…",
           "quiz": null,
           "lessons": [
             {
-              "id": "siyer-nedir",
+              "id": "siyer-siyer-nedir",
               "title": "Siyer Nedir?",
               "summary": "Siyer, Hz. Muhammed'in (sav) doğumundan vefatına kadar olan hayatını, ahlakını, yaşayışını, tebliğ faaliyetlerini, mücadelelerini ve örnek d…"
-            }
-          ]
-        },
-        {
-          "id": "peygamber-efendimizin-soyu",
-          "title": "Peygamber Efendimizin Soyu",
-          "summary": "Hz. Muhammed'in (sav) soyu, Arap toplumunun en saygın kabilelerinden biri olan Kureyş Kabilesi'nin Hâşimoğulları koluna dayanır.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "peygamber-efendimizin-soyu",
-              "title": "Peygamber Efendimizin Soyu",
-              "summary": "Hz. Muhammed'in (sav) soyu, Arap toplumunun en saygın kabilelerinden biri olan Kureyş Kabilesi'nin Hâşimoğulları koluna dayanır."
-            }
-          ]
-        },
-        {
-          "id": "peygamber-efendimizin-dogumu",
-          "title": "Peygamber Efendimizin Doğumu",
-          "summary": "Hz. Muhammed (sav), 571 yılında, Arap Yarımadası'ndaki Mekke şehrinde dünyaya gelmiştir.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "peygamber-efendimizin-dogumu",
-              "title": "Peygamber Efendimizin Doğumu",
-              "summary": "Hz. Muhammed (sav), 571 yılında, Arap Yarımadası'ndaki Mekke şehrinde dünyaya gelmiştir."
-            }
-          ]
-        },
-        {
-          "id": "peygamber-efendimizin-cocuklugu",
-          "title": "Peygamber Efendimizin Çocukluğu",
-          "summary": "Hz. Muhammed (sav), küçük yaşlardan itibaren çeşitli zorluklarla karşılaşmış; ancak sabrı, dürüstlüğü ve güzel ahlakıyla çevresindeki insanl…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "peygamber-efendimizin-cocuklugu",
-              "title": "Peygamber Efendimizin Çocukluğu",
-              "summary": "Hz. Muhammed (sav), küçük yaşlardan itibaren çeşitli zorluklarla karşılaşmış; ancak sabrı, dürüstlüğü ve güzel ahlakıyla çevresindeki insanl…"
-            }
-          ]
-        },
-        {
-          "id": "peygamber-efendimizin-gencligi",
-          "title": "Peygamber Efendimizin Gençliği",
-          "summary": "Hz. Muhammed (sav), gençlik yıllarında dürüstlüğü, çalışkanlığı ve güzel ahlakıyla tanınmıştır. Çocukluğundan itibaren güvenilir bir kişiliğ…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "peygamber-efendimizin-gencligi",
-              "title": "Peygamber Efendimizin Gençliği",
-              "summary": "Hz. Muhammed (sav), gençlik yıllarında dürüstlüğü, çalışkanlığı ve güzel ahlakıyla tanınmıştır. Çocukluğundan itibaren güvenilir bir kişiliğ…"
-            }
-          ]
-        },
-        {
-          "id": "ilk-vahiy",
-          "title": "İlk Vahiy",
-          "summary": "İlk vahiy, Allah Teâlâ'nın Cebrâil (as) aracılığıyla Hz. Muhammed'e (sav) gönderdiği ilk ilahi mesajdır. Bu olay, Hz. Muhammed'in (sav) peyg…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "ilk-vahiy",
-              "title": "İlk Vahiy",
-              "summary": "İlk vahiy, Allah Teâlâ'nın Cebrâil (as) aracılığıyla Hz. Muhammed'e (sav) gönderdiği ilk ilahi mesajdır. Bu olay, Hz. Muhammed'in (sav) peyg…"
-            }
-          ]
-        },
-        {
-          "id": "mekke-donemi",
-          "title": "Mekke Dönemi",
-          "summary": "Mekke Dönemi, Hz. Muhammed'in (sav) ilk vahyi almasıyla başlayıp Medine'ye hicret etmesine kadar geçen yaklaşık 13 yıllık dönemdir.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "mekke-donemi",
-              "title": "Mekke Dönemi",
-              "summary": "Mekke Dönemi, Hz. Muhammed'in (sav) ilk vahyi almasıyla başlayıp Medine'ye hicret etmesine kadar geçen yaklaşık 13 yıllık dönemdir."
-            }
-          ]
-        },
-        {
-          "id": "hicret",
-          "title": "Hicret",
-          "summary": "Hicret, Hz. Muhammed'in (sav) ve Müslümanların, Mekke'deki baskı ve zulümden kurtulmak amacıyla 622 yılında Mekke'den Medine'ye göç etmesidi…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "hicret",
-              "title": "Hicret",
-              "summary": "Hicret, Hz. Muhammed'in (sav) ve Müslümanların, Mekke'deki baskı ve zulümden kurtulmak amacıyla 622 yılında Mekke'den Medine'ye göç etmesidi…"
-            }
-          ]
-        },
-        {
-          "id": "medine-donemi",
-          "title": "Medine Dönemi",
-          "summary": "Medine Dönemi, Hz. Muhammed'in (sav) 622 yılında Medine'ye hicret etmesiyle başlayan ve 632 yılında vefatına kadar devam eden yaklaşık 10 yı…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "medine-donemi",
-              "title": "Medine Dönemi",
-              "summary": "Medine Dönemi, Hz. Muhammed'in (sav) 622 yılında Medine'ye hicret etmesiyle başlayan ve 632 yılında vefatına kadar devam eden yaklaşık 10 yı…"
-            }
-          ]
-        },
-        {
-          "id": "gazveler",
-          "title": "Gazveler",
-          "summary": "Gazve, Hz. Muhammed'in (sav) bizzat katıldığı askerî seferlere verilen isimdir.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "gazveler",
-              "title": "Gazveler",
-              "summary": "Gazve, Hz. Muhammed'in (sav) bizzat katıldığı askerî seferlere verilen isimdir."
-            }
-          ]
-        },
-        {
-          "id": "hudeybiye-antlasmasi",
-          "title": "Hudeybiye Antlaşması",
-          "summary": "Hudeybiye Antlaşması, Hz. Muhammed (sav) ile Mekke'deki Kureyşliler arasında 628 yılında (Hicretin 6. yılı) imzalanan barış antlaşmasıdır.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "hudeybiye-antlasmasi",
-              "title": "Hudeybiye Antlaşması",
-              "summary": "Hudeybiye Antlaşması, Hz. Muhammed (sav) ile Mekke'deki Kureyşliler arasında 628 yılında (Hicretin 6. yılı) imzalanan barış antlaşmasıdır."
-            }
-          ]
-        },
-        {
-          "id": "mekkenin-fethi",
-          "title": "Mekke'nin Fethi",
-          "summary": "Mekke'nin Fethi, Hz. Muhammed'in (sav) önderliğinde Müslümanların 630 yılında (Hicretin 8. yılı) Mekke'ye girmesi ve şehrin büyük ölçüde çat…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "mekkenin-fethi",
-              "title": "Mekke'nin Fethi",
-              "summary": "Mekke'nin Fethi, Hz. Muhammed'in (sav) önderliğinde Müslümanların 630 yılında (Hicretin 8. yılı) Mekke'ye girmesi ve şehrin büyük ölçüde çat…"
-            }
-          ]
-        },
-        {
-          "id": "veda-hutbesi",
-          "title": "Veda Hutbesi",
-          "summary": "Veda Hutbesi, Hz. Muhammed'in (sav), 632 yılında yaptığı Veda Haccı sırasında, Arafat'ta Müslümanlara hitaben yaptığı son kapsamlı konuşmadı…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "veda-hutbesi",
-              "title": "Veda Hutbesi",
-              "summary": "Veda Hutbesi, Hz. Muhammed'in (sav), 632 yılında yaptığı Veda Haccı sırasında, Arafat'ta Müslümanlara hitaben yaptığı son kapsamlı konuşmadı…"
-            }
-          ]
-        },
-        {
-          "id": "peygamber-efendimizin-vefati",
-          "title": "Peygamber Efendimizin Vefatı",
-          "summary": "Hz. Muhammed (sav), 632 yılında (Hicretin 11. yılı), Veda Haccı'ndan kısa bir süre sonra Medine'de vefat etmiştir.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "peygamber-efendimizin-vefati",
-              "title": "Peygamber Efendimizin Vefatı",
-              "summary": "Hz. Muhammed (sav), 632 yılında (Hicretin 11. yılı), Veda Haccı'ndan kısa bir süre sonra Medine'de vefat etmiştir."
             },
             {
-              "id": "peygamber-efendimizin-vefati-2",
+              "id": "siyer-peygamber-efendimizin-soyu",
+              "title": "Peygamber Efendimizin Soyu",
+              "summary": "Hz. Muhammed'in (sav) soyu, Arap toplumunun en saygın kabilelerinden biri olan Kureyş Kabilesi'nin Hâşimoğulları koluna dayanır."
+            },
+            {
+              "id": "siyer-peygamber-efendimizin-dogumu",
+              "title": "Peygamber Efendimizin Doğumu",
+              "summary": "Hz. Muhammed (sav), 571 yılında, Arap Yarımadası'ndaki Mekke şehrinde dünyaya gelmiştir."
+            },
+            {
+              "id": "siyer-peygamber-efendimizin-cocuklugu",
+              "title": "Peygamber Efendimizin Çocukluğu",
+              "summary": "Hz. Muhammed (sav), küçük yaşlardan itibaren çeşitli zorluklarla karşılaşmış; ancak sabrı, dürüstlüğü ve güzel ahlakıyla çevresindeki insanl…"
+            },
+            {
+              "id": "siyer-peygamber-efendimizin-gencligi",
+              "title": "Peygamber Efendimizin Gençliği",
+              "summary": "Hz. Muhammed (sav), gençlik yıllarında dürüstlüğü, çalışkanlığı ve güzel ahlakıyla tanınmıştır. Çocukluğundan itibaren güvenilir bir kişiliğ…"
+            },
+            {
+              "id": "siyer-ilk-vahiy",
+              "title": "İlk Vahiy",
+              "summary": "İlk vahiy, Allah Teâlâ'nın Cebrâil (as) aracılığıyla Hz. Muhammed'e (sav) gönderdiği ilk ilahi mesajdır. Bu olay, Hz. Muhammed'in (sav) peyg…"
+            },
+            {
+              "id": "siyer-mekke-donemi",
+              "title": "Mekke Dönemi",
+              "summary": "Mekke Dönemi, Hz. Muhammed'in (sav) ilk vahyi almasıyla başlayıp Medine'ye hicret etmesine kadar geçen yaklaşık 13 yıllık dönemdir."
+            },
+            {
+              "id": "siyer-hicret",
+              "title": "Hicret",
+              "summary": "Hicret, Hz. Muhammed'in (sav) ve Müslümanların, Mekke'deki baskı ve zulümden kurtulmak amacıyla 622 yılında Mekke'den Medine'ye göç etmesidi…"
+            },
+            {
+              "id": "siyer-medine-donemi",
+              "title": "Medine Dönemi",
+              "summary": "Medine Dönemi, Hz. Muhammed'in (sav) 622 yılında Medine'ye hicret etmesiyle başlayan ve 632 yılında vefatına kadar devam eden yaklaşık 10 yı…"
+            },
+            {
+              "id": "siyer-gazveler",
+              "title": "Gazveler",
+              "summary": "Gazve, Hz. Muhammed'in (sav) bizzat katıldığı askerî seferlere verilen isimdir."
+            },
+            {
+              "id": "siyer-hudeybiye-antlasmasi",
+              "title": "Hudeybiye Antlaşması",
+              "summary": "Hudeybiye Antlaşması, Hz. Muhammed (sav) ile Mekke'deki Kureyşliler arasında 628 yılında (Hicretin 6. yılı) imzalanan barış antlaşmasıdır."
+            },
+            {
+              "id": "siyer-mekkenin-fethi",
+              "title": "Mekke'nin Fethi",
+              "summary": "Mekke'nin Fethi, Hz. Muhammed'in (sav) önderliğinde Müslümanların 630 yılında (Hicretin 8. yılı) Mekke'ye girmesi ve şehrin büyük ölçüde çat…"
+            },
+            {
+              "id": "siyer-veda-hutbesi",
+              "title": "Veda Hutbesi",
+              "summary": "Veda Hutbesi, Hz. Muhammed'in (sav), 632 yılında yaptığı Veda Haccı sırasında, Arafat'ta Müslümanlara hitaben yaptığı son kapsamlı konuşmadı…"
+            },
+            {
+              "id": "siyer-peygamber-efendimizin-vefati",
               "title": "Peygamber Efendimizin Vefatı",
-              "summary": "Siyer, Hz. Muhammed'in (sav) doğumundan vefatına kadar olan hayatını inceleyen ilim dalıdır. Siyer sayesinde Peygamber Efendimizin örnek ahl…"
+              "summary": "Hz. Muhammed (sav), 632 yılında (Hicretin 11. yılı), Veda Haccı'ndan kısa bir süre sonra Medine'de vefat etmiştir."
             }
           ]
         }
@@ -954,98 +845,45 @@
       },
       "modules": [
         {
-          "id": "hadis-nedir",
-          "title": "Hadis Nedir?",
+          "id": "hadis",
+          "title": "Hadis",
           "summary": "Hadis, Hz. Muhammed'in (sav) sözlerini, davranışlarını, onaylarını (takrirlerini) ve bazı özelliklerini anlatan rivayetlerdir.",
           "quiz": null,
           "lessons": [
             {
-              "id": "hadis-nedir",
+              "id": "hadis-hadis-nedir",
               "title": "Hadis Nedir?",
               "summary": "Hadis, Hz. Muhammed'in (sav) sözlerini, davranışlarını, onaylarını (takrirlerini) ve bazı özelliklerini anlatan rivayetlerdir."
-            }
-          ]
-        },
-        {
-          "id": "sunnet-nedir",
-          "title": "Sünnet Nedir?",
-          "summary": "Sünnet, Hz. Muhammed'in (sav) Kur'an-ı Kerim'e uygun olarak yaşadığı hayatı, davranışları, uygulamaları ve örnek yaşayışıdır.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "sunnet-nedir",
-              "title": "Sünnet Nedir?",
-              "summary": "Sünnet, Hz. Muhammed'in (sav) Kur'an-ı Kerim'e uygun olarak yaşadığı hayatı, davranışları, uygulamaları ve örnek yaşayışıdır."
-            }
-          ]
-        },
-        {
-          "id": "hadis-cesitleri",
-          "title": "Hadis Çeşitleri",
-          "summary": "Hadisler, güvenilirliklerine ve kim tarafından rivayet edildiğine göre çeşitli gruplara ayrılır.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "hadis-cesitleri",
-              "title": "Hadis Çeşitleri",
-              "summary": "Hadisler, güvenilirliklerine ve kim tarafından rivayet edildiğine göre çeşitli gruplara ayrılır."
-            }
-          ]
-        },
-        {
-          "id": "hadislerin-korunmasi",
-          "title": "Hadislerin Korunması",
-          "summary": "Hadislerin korunması, Hz. Muhammed'in (sav) sözlerinin, davranışlarının ve onaylarının doğru şekilde öğrenilip gelecek nesillere güvenilir o…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "hadislerin-korunmasi",
-              "title": "Hadislerin Korunması",
-              "summary": "Hadislerin korunması, Hz. Muhammed'in (sav) sözlerinin, davranışlarının ve onaylarının doğru şekilde öğrenilip gelecek nesillere güvenilir o…"
-            }
-          ]
-        },
-        {
-          "id": "hadis",
-          "title": "Hadis",
-          "summary": "40 Hadis, Hz. Muhammed'in (sav) dinin temel esaslarını, ibadetleri, güzel ahlakı ve günlük hayatı anlatan kırk önemli hadisinin bir araya ge…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "hadis",
-              "title": "Hadis",
-              "summary": "40 Hadis, Hz. Muhammed'in (sav) dinin temel esaslarını, ibadetleri, güzel ahlakı ve günlük hayatı anlatan kırk önemli hadisinin bir araya ge…"
-            }
-          ]
-        },
-        {
-          "id": "riyazus-salihinden-secmeler",
-          "title": "Riyâzü's-Sâlihîn'den Seçmeler",
-          "summary": "Riyâzü's-Sâlihîn, büyük İslam âlimi Yahya ibn Sharaf al-Nawawi tarafından hazırlanan, Hz. Muhammed'in (sav) güvenilir hadislerinden oluşan ö…",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "riyazus-salihinden-secmeler",
-              "title": "Riyâzü's-Sâlihîn'den Seçmeler",
-              "summary": "Riyâzü's-Sâlihîn, büyük İslam âlimi Yahya ibn Sharaf al-Nawawi tarafından hazırlanan, Hz. Muhammed'in (sav) güvenilir hadislerinden oluşan ö…"
-            }
-          ]
-        },
-        {
-          "id": "gunluk-hadisler",
-          "title": "Günlük Hadisler",
-          "summary": "Günlük hadisler, Hz. Muhammed'in (sav) günlük hayatta uygulanabilecek öğütlerini içeren hadislerdir.",
-          "quiz": null,
-          "lessons": [
-            {
-              "id": "gunluk-hadisler",
-              "title": "Günlük Hadisler",
-              "summary": "Günlük hadisler, Hz. Muhammed'in (sav) günlük hayatta uygulanabilecek öğütlerini içeren hadislerdir."
             },
             {
-              "id": "gunluk-hadisler-2",
+              "id": "hadis-sunnet-nedir",
+              "title": "Sünnet Nedir?",
+              "summary": "Sünnet, Hz. Muhammed'in (sav) Kur'an-ı Kerim'e uygun olarak yaşadığı hayatı, davranışları, uygulamaları ve örnek yaşayışıdır."
+            },
+            {
+              "id": "hadis-hadis-cesitleri",
+              "title": "Hadis Çeşitleri",
+              "summary": "Hadisler, güvenilirliklerine ve kim tarafından rivayet edildiğine göre çeşitli gruplara ayrılır."
+            },
+            {
+              "id": "hadis-hadislerin-korunmasi",
+              "title": "Hadislerin Korunması",
+              "summary": "Hadislerin korunması, Hz. Muhammed'in (sav) sözlerinin, davranışlarının ve onaylarının doğru şekilde öğrenilip gelecek nesillere güvenilir o…"
+            },
+            {
+              "id": "hadis-40-hadis",
+              "title": "40 Hadis",
+              "summary": "40 Hadis, Hz. Muhammed'in (sav) dinin temel esaslarını, ibadetleri, güzel ahlakı ve günlük hayatı anlatan kırk önemli hadisinin bir araya ge…"
+            },
+            {
+              "id": "hadis-riyazus-salihinden-secmeler",
+              "title": "Riyâzü's-Sâlihîn'den Seçmeler",
+              "summary": "Riyâzü's-Sâlihîn, büyük İslam âlimi Yahya ibn Sharaf al-Nawawi tarafından hazırlanan, Hz. Muhammed'in (sav) güvenilir hadislerinden oluşan ö…"
+            },
+            {
+              "id": "hadis-gunluk-hadisler",
               "title": "Günlük Hadisler",
-              "summary": "Hadis, Hz. Muhammed'in (sav) sözlerini, davranışlarını, onaylarını (takrirlerini) ve bazı özelliklerini anlatan rivayetlerdir. Hadisler, Kur…"
+              "summary": "Günlük hadisler, Hz. Muhammed'in (sav) günlük hayatta uygulanabilecek öğütlerini içeren hadislerdir."
             }
           ]
         }
@@ -1066,156 +904,68 @@
       },
       "modules": [
         {
-          "id": "fikih-nedir",
-          "title": "Fıkıh Nedir?",
+          "id": "fikih",
+          "title": "Fıkıh",
           "summary": "Fıkıh, İslam dininin ibadet, günlük yaşam, aile, ticaret ve insanlar arasındaki ilişkilerle ilgili hükümlerini Kur'an-ı Kerim ve sünnetten ç…",
           "quiz": null,
           "lessons": [
             {
-              "id": "fikih-nedir",
+              "id": "fikih-fikih-nedir",
               "title": "Fıkıh Nedir?",
               "summary": "Fıkıh, İslam dininin ibadet, günlük yaşam, aile, ticaret ve insanlar arasındaki ilişkilerle ilgili hükümlerini Kur'an-ı Kerim ve sünnetten ç…"
-            }
-          ]
-        },
-        {
-          "id": "taharet",
-          "title": "Taharet",
-          "summary": "Taharet, İslam dininde maddi ve manevi temizliği ifade eden bir kavramdır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "taharet",
+              "id": "fikih-taharet",
               "title": "Taharet",
               "summary": "Taharet, İslam dininde maddi ve manevi temizliği ifade eden bir kavramdır."
-            }
-          ]
-        },
-        {
-          "id": "namaz-2",
-          "title": "Namaz",
-          "summary": "Namaz, Allah'a kulluk etmek amacıyla belirli vakitlerde yerine getirilen, tekbir ile başlayıp selam ile sona eren en önemli ibadetlerden bir…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "namaz-2",
+              "id": "fikih-namaz",
               "title": "Namaz",
               "summary": "Namaz, Allah'a kulluk etmek amacıyla belirli vakitlerde yerine getirilen, tekbir ile başlayıp selam ile sona eren en önemli ibadetlerden bir…"
-            }
-          ]
-        },
-        {
-          "id": "oruc-2",
-          "title": "Oruç",
-          "summary": "Oruç, imsak vaktinden güneş batıncaya kadar yeme, içme ve orucu bozan davranışlardan niyet ederek uzak durmak suretiyle yerine getirilen bir…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "oruc-2",
+              "id": "fikih-oruc",
               "title": "Oruç",
               "summary": "Oruç, imsak vaktinden güneş batıncaya kadar yeme, içme ve orucu bozan davranışlardan niyet ederek uzak durmak suretiyle yerine getirilen bir…"
-            }
-          ]
-        },
-        {
-          "id": "zekat-2",
-          "title": "Zekât",
-          "summary": "Zekât, dinen zengin sayılan Müslümanların, Allah'ın rızasını kazanmak amacıyla mallarının belirli bir kısmını, Kur'an-ı Kerim'de belirtilen …",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "zekat-2",
+              "id": "fikih-zekat",
               "title": "Zekât",
               "summary": "Zekât, dinen zengin sayılan Müslümanların, Allah'ın rızasını kazanmak amacıyla mallarının belirli bir kısmını, Kur'an-ı Kerim'de belirtilen …"
-            }
-          ]
-        },
-        {
-          "id": "hac-2",
-          "title": "Hac",
-          "summary": "Hac, belirli bir zamanda, gerekli şartları taşıyan Müslümanların Kâbe'yi ve kutsal mekânları usulüne uygun şekilde ziyaret ederek yerine get…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "hac-2",
+              "id": "fikih-hac",
               "title": "Hac",
               "summary": "Hac, belirli bir zamanda, gerekli şartları taşıyan Müslümanların Kâbe'yi ve kutsal mekânları usulüne uygun şekilde ziyaret ederek yerine get…"
-            }
-          ]
-        },
-        {
-          "id": "helal-haram",
-          "title": "Helal-Haram",
-          "summary": "Helal, İslam dinine göre yapılması, yenilmesi, içilmesi veya kullanılması dinen izin verilen şeylerdir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "helal-haram",
+              "id": "fikih-helal-haram",
               "title": "Helal-Haram",
               "summary": "Helal, İslam dinine göre yapılması, yenilmesi, içilmesi veya kullanılması dinen izin verilen şeylerdir."
-            }
-          ]
-        },
-        {
-          "id": "ticaret",
-          "title": "Ticaret",
-          "summary": "Ticaret, insanların ihtiyaçlarını karşılamak amacıyla mal ve hizmetlerin alınıp satılması faaliyetidir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "ticaret",
+              "id": "fikih-ticaret",
               "title": "Ticaret",
               "summary": "Ticaret, insanların ihtiyaçlarını karşılamak amacıyla mal ve hizmetlerin alınıp satılması faaliyetidir."
-            }
-          ]
-        },
-        {
-          "id": "aile-hukuku",
-          "title": "Aile Hukuku",
-          "summary": "Aile hukuku, aile bireylerinin hak ve sorumluluklarını düzenleyen fıkıh bölümüdür.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "aile-hukuku",
+              "id": "fikih-aile-hukuku",
               "title": "Aile Hukuku",
               "summary": "Aile hukuku, aile bireylerinin hak ve sorumluluklarını düzenleyen fıkıh bölümüdür."
-            }
-          ]
-        },
-        {
-          "id": "gunluk-hayat",
-          "title": "Günlük Hayat",
-          "summary": "Günlük hayat, insanların her gün yaptığı ibadetleri, davranışları, alışkanlıkları ve diğer insanlarla olan ilişkilerini kapsar.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "gunluk-hayat",
+              "id": "fikih-gunluk-hayat",
               "title": "Günlük Hayat",
               "summary": "Günlük hayat, insanların her gün yaptığı ibadetleri, davranışları, alışkanlıkları ve diğer insanlarla olan ilişkilerini kapsar."
-            }
-          ]
-        },
-        {
-          "id": "yolculuk-hukumleri",
-          "title": "Yolculuk Hükümleri",
-          "summary": "Yolculuk hükümleri, İslam dininde yolculuk yapan Müslümanlara tanınan kolaylıkları ve bu durumdaki ibadetlerle ilgili hükümleri ifade eder.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "yolculuk-hukumleri",
+              "id": "fikih-yolculuk-hukumleri",
               "title": "Yolculuk Hükümleri",
               "summary": "Yolculuk hükümleri, İslam dininde yolculuk yapan Müslümanlara tanınan kolaylıkları ve bu durumdaki ibadetlerle ilgili hükümleri ifade eder."
-            }
-          ]
-        },
-        {
-          "id": "hastalik-hukumleri",
-          "title": "Hastalık Hükümleri",
-          "summary": "Hastalık hükümleri, İslam dininde hastalık sebebiyle ibadetlerini normal şekilde yerine getiremeyen Müslümanlara tanınan kolaylıkları ifade …",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "hastalik-hukumleri",
+              "id": "fikih-hastalik-hukumleri",
               "title": "Hastalık Hükümleri",
               "summary": "Hastalık hükümleri, İslam dininde hastalık sebebiyle ibadetlerini normal şekilde yerine getiremeyen Müslümanlara tanınan kolaylıkları ifade …"
             }
@@ -1238,156 +988,68 @@
       },
       "modules": [
         {
-          "id": "akaid-nedir",
-          "title": "Akaid Nedir?",
+          "id": "akaid",
+          "title": "Akaid",
           "summary": "Akaid, İslam dininin inanılması zorunlu olan temel inanç esaslarını inceleyen ilim dalıdır.",
           "quiz": null,
           "lessons": [
             {
-              "id": "akaid-nedir",
+              "id": "akaid-akaid-nedir",
               "title": "Akaid Nedir?",
               "summary": "Akaid, İslam dininin inanılması zorunlu olan temel inanç esaslarını inceleyen ilim dalıdır."
-            }
-          ]
-        },
-        {
-          "id": "allahin-isim-ve-sifatlari",
-          "title": "Allah'ın İsim ve Sıfatları",
-          "summary": "İslam inancına göre Allah Teâlâ, en yüce ve eksiksiz varlıktır. O'nu daha doğru tanıyabilmek için Kur'an-ı Kerim ve sahih hadislerde bildiri…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "allahin-isim-ve-sifatlari",
+              "id": "akaid-allahin-isim-ve-sifatlari",
               "title": "Allah'ın İsim ve Sıfatları",
               "summary": "İslam inancına göre Allah Teâlâ, en yüce ve eksiksiz varlıktır. O'nu daha doğru tanıyabilmek için Kur'an-ı Kerim ve sahih hadislerde bildiri…"
-            }
-          ]
-        },
-        {
-          "id": "tevhid",
-          "title": "Tevhid",
-          "summary": "Tevhid, Allah'ın bir ve tek olduğuna, hiçbir ortağı bulunmadığına ve ibadete yalnızca O'nun layık olduğuna inanmak demektir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "tevhid",
+              "id": "akaid-tevhid",
               "title": "Tevhid",
               "summary": "Tevhid, Allah'ın bir ve tek olduğuna, hiçbir ortağı bulunmadığına ve ibadete yalnızca O'nun layık olduğuna inanmak demektir."
-            }
-          ]
-        },
-        {
-          "id": "sirk",
-          "title": "Şirk",
-          "summary": "Şirk, Allah'a ait olan ilahlık, ibadet veya O'na özgü özelliklerde başka varlıkları ortak kabul etmek ya da onlara Allah'a ait yetkiler verm…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "sirk",
+              "id": "akaid-sirk",
               "title": "Şirk",
               "summary": "Şirk, Allah'a ait olan ilahlık, ibadet veya O'na özgü özelliklerde başka varlıkları ortak kabul etmek ya da onlara Allah'a ait yetkiler verm…"
-            }
-          ]
-        },
-        {
-          "id": "peygamberlik",
-          "title": "Peygamberlik",
-          "summary": "Peygamberlik (Nübüvvet), Allah Teâlâ'nın insanlar arasından seçtiği elçiler aracılığıyla vahyini insanlara bildirmesi ve onları doğru yola d…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "peygamberlik",
+              "id": "akaid-peygamberlik",
               "title": "Peygamberlik",
               "summary": "Peygamberlik (Nübüvvet), Allah Teâlâ'nın insanlar arasından seçtiği elçiler aracılığıyla vahyini insanlara bildirmesi ve onları doğru yola d…"
-            }
-          ]
-        },
-        {
-          "id": "melekler",
-          "title": "Melekler",
-          "summary": "Melekler, Allah Teâlâ'nın nurdan yarattığı, O'nun emirlerini eksiksiz yerine getiren, gözle görülmeyen varlıklardır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "melekler",
+              "id": "akaid-melekler",
               "title": "Melekler",
               "summary": "Melekler, Allah Teâlâ'nın nurdan yarattığı, O'nun emirlerini eksiksiz yerine getiren, gözle görülmeyen varlıklardır."
-            }
-          ]
-        },
-        {
-          "id": "cinler",
-          "title": "Cinler",
-          "summary": "Cinler, Allah Teâlâ'nın dumansız ateşten yarattığı, insanlar gibi akıl ve irade sahibi olan, gözle görülmeyen varlıklardır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "cinler",
+              "id": "akaid-cinler",
               "title": "Cinler",
               "summary": "Cinler, Allah Teâlâ'nın dumansız ateşten yarattığı, insanlar gibi akıl ve irade sahibi olan, gözle görülmeyen varlıklardır."
-            }
-          ]
-        },
-        {
-          "id": "ahiret",
-          "title": "Ahiret",
-          "summary": "Ahiret, dünya hayatının sona ermesinden sonra başlayacak olan ebedî (sonsuz) hayattır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "ahiret",
+              "id": "akaid-ahiret",
               "title": "Ahiret",
               "summary": "Ahiret, dünya hayatının sona ermesinden sonra başlayacak olan ebedî (sonsuz) hayattır."
-            }
-          ]
-        },
-        {
-          "id": "kiyamet-alametleri",
-          "title": "Kıyamet Alametleri",
-          "summary": "Kıyamet alametleri, kıyametin yaklaşacağını bildiren ve Kur'an-ı Kerim ile sahih hadislerde haber verilen olaylardır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "kiyamet-alametleri",
+              "id": "akaid-kiyamet-alametleri",
               "title": "Kıyamet Alametleri",
               "summary": "Kıyamet alametleri, kıyametin yaklaşacağını bildiren ve Kur'an-ı Kerim ile sahih hadislerde haber verilen olaylardır."
-            }
-          ]
-        },
-        {
-          "id": "cennet",
-          "title": "Cennet",
-          "summary": "Cennet, Allah Teâlâ'nın iman edip salih amel işleyen kulları için hazırladığı ebedî mutluluk ve nimet yurdudur.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "cennet",
+              "id": "akaid-cennet",
               "title": "Cennet",
               "summary": "Cennet, Allah Teâlâ'nın iman edip salih amel işleyen kulları için hazırladığı ebedî mutluluk ve nimet yurdudur."
-            }
-          ]
-        },
-        {
-          "id": "cehennem",
-          "title": "Cehennem",
-          "summary": "Cehennem, Allah Teâlâ'nın inkâr edenler ve hak ettikleri takdirde günahkâr kullar için hazırladığı ceza yurdudur.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "cehennem",
+              "id": "akaid-cehennem",
               "title": "Cehennem",
               "summary": "Cehennem, Allah Teâlâ'nın inkâr edenler ve hak ettikleri takdirde günahkâr kullar için hazırladığı ceza yurdudur."
-            }
-          ]
-        },
-        {
-          "id": "kader",
-          "title": "Kader",
-          "summary": "Kader, Allah Teâlâ'nın olmuş, olmakta olan ve olacak her şeyi ezelî ilmiyle bilmesi, belirli bir ölçü ve düzene göre takdir etmesidir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "kader",
+              "id": "akaid-kader",
               "title": "Kader",
               "summary": "Kader, Allah Teâlâ'nın olmuş, olmakta olan ve olacak her şeyi ezelî ilmiyle bilmesi, belirli bir ölçü ve düzene göre takdir etmesidir."
             }
@@ -1410,117 +1072,53 @@
       },
       "modules": [
         {
-          "id": "asr-i-saadet",
-          "title": "Asr-ı Saadet",
+          "id": "islam-tarihi",
+          "title": "İslam Tarihi",
           "summary": "Asr-ı Saadet, Hz. Muhammed'in (sav) peygamber olarak gönderildiği dönemden başlayıp onun vefatına kadar geçen döneme verilen isimdir.",
           "quiz": null,
           "lessons": [
             {
-              "id": "asr-i-saadet",
+              "id": "islam-tarihi-asr-i-saadet",
               "title": "Asr-ı Saadet",
               "summary": "Asr-ı Saadet, Hz. Muhammed'in (sav) peygamber olarak gönderildiği dönemden başlayıp onun vefatına kadar geçen döneme verilen isimdir."
-            }
-          ]
-        },
-        {
-          "id": "dort-halife",
-          "title": "Dört Halife",
-          "summary": "Dört Halife, Hz. Muhammed'in (sav) vefatından sonra Müslümanlara liderlik eden ilk dört halifedir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "dort-halife",
+              "id": "islam-tarihi-dort-halife",
               "title": "Dört Halife",
               "summary": "Dört Halife, Hz. Muhammed'in (sav) vefatından sonra Müslümanlara liderlik eden ilk dört halifedir."
-            }
-          ]
-        },
-        {
-          "id": "emeviler",
-          "title": "Emeviler",
-          "summary": "Emevîler, Hz. Ali'nin (ra) vefatından sonra 661 yılında kurulan ve 750 yılına kadar İslam Devleti'ni yöneten ilk İslam hanedanıdır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "emeviler",
+              "id": "islam-tarihi-emeviler",
               "title": "Emeviler",
               "summary": "Emevîler, Hz. Ali'nin (ra) vefatından sonra 661 yılında kurulan ve 750 yılına kadar İslam Devleti'ni yöneten ilk İslam hanedanıdır."
-            }
-          ]
-        },
-        {
-          "id": "abbasiler",
-          "title": "Abbasiler",
-          "summary": "Abbâsîler, Emevî Devleti'nin yıkılmasının ardından 750 yılında kurulan ve 1258 yılına kadar İslam dünyasının büyük bölümünü yöneten hanedand…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "abbasiler",
+              "id": "islam-tarihi-abbasiler",
               "title": "Abbasiler",
               "summary": "Abbâsîler, Emevî Devleti'nin yıkılmasının ardından 750 yılında kurulan ve 1258 yılına kadar İslam dünyasının büyük bölümünü yöneten hanedand…"
-            }
-          ]
-        },
-        {
-          "id": "endulus",
-          "title": "Endülüs",
-          "summary": "Endülüs, günümüzde büyük ölçüde İspanya ve Portekiz'in bulunduğu İber Yarımadası'nda, Müslümanların yaklaşık 711-1492 yılları arasında hüküm…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "endulus",
+              "id": "islam-tarihi-endulus",
               "title": "Endülüs",
               "summary": "Endülüs, günümüzde büyük ölçüde İspanya ve Portekiz'in bulunduğu İber Yarımadası'nda, Müslümanların yaklaşık 711-1492 yılları arasında hüküm…"
-            }
-          ]
-        },
-        {
-          "id": "buyuk-selcuklu",
-          "title": "Büyük Selçuklu",
-          "summary": "Büyük Selçuklu Devleti, 1040 yılında kurulmuş ve Türklerin İslam dünyasında büyük bir güç hâline gelmesini sağlayan önemli bir Türk-İslam de…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "buyuk-selcuklu",
+              "id": "islam-tarihi-buyuk-selcuklu",
               "title": "Büyük Selçuklu",
               "summary": "Büyük Selçuklu Devleti, 1040 yılında kurulmuş ve Türklerin İslam dünyasında büyük bir güç hâline gelmesini sağlayan önemli bir Türk-İslam de…"
-            }
-          ]
-        },
-        {
-          "id": "anadolu-selcuklu",
-          "title": "Anadolu Selçuklu",
-          "summary": "Anadolu Selçuklu Devleti (Türkiye Selçuklu Devleti), 1077 yılında Anadolu'da kurulmuş önemli bir Türk-İslam devletidir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "anadolu-selcuklu",
+              "id": "islam-tarihi-anadolu-selcuklu",
               "title": "Anadolu Selçuklu",
               "summary": "Anadolu Selçuklu Devleti (Türkiye Selçuklu Devleti), 1077 yılında Anadolu'da kurulmuş önemli bir Türk-İslam devletidir."
-            }
-          ]
-        },
-        {
-          "id": "osmanli-devleti",
-          "title": "Osmanlı Devleti",
-          "summary": "Osmanlı Devleti, 1299 yılında Osman Gazi tarafından kurulan ve yaklaşık 623 yıl hüküm süren büyük bir Türk-İslam devletidir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "osmanli-devleti",
+              "id": "islam-tarihi-osmanli-devleti",
               "title": "Osmanlı Devleti",
               "summary": "Osmanlı Devleti, 1299 yılında Osman Gazi tarafından kurulan ve yaklaşık 623 yıl hüküm süren büyük bir Türk-İslam devletidir."
-            }
-          ]
-        },
-        {
-          "id": "yakin-donem-islam-dunyasi",
-          "title": "Yakın Dönem İslam Dünyası",
-          "summary": "Yakın Dönem İslam Dünyası, yaklaşık 18. yüzyıldan günümüze kadar Müslüman toplumların yaşadığı siyasi, sosyal, ekonomik ve kültürel gelişmel…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "yakin-donem-islam-dunyasi",
+              "id": "islam-tarihi-yakin-donem-islam-dunyasi",
               "title": "Yakın Dönem İslam Dünyası",
               "summary": "Yakın Dönem İslam Dünyası, yaklaşık 18. yüzyıldan günümüze kadar Müslüman toplumların yaşadığı siyasi, sosyal, ekonomik ve kültürel gelişmel…"
             }
@@ -1543,208 +1141,88 @@
       },
       "modules": [
         {
-          "id": "ahlak-nedir",
-          "title": "Ahlak Nedir?",
+          "id": "islam-ahlaki",
+          "title": "İslam Ahlakı",
           "summary": "Ahlak, insanın iyi ve doğru davranışlar sergilemesini sağlayan güzel huylar ve davranışların bütünüdür.",
           "quiz": null,
           "lessons": [
             {
-              "id": "ahlak-nedir",
+              "id": "islam-ahlaki-ahlak-nedir",
               "title": "Ahlak Nedir?",
               "summary": "Ahlak, insanın iyi ve doğru davranışlar sergilemesini sağlayan güzel huylar ve davranışların bütünüdür."
-            }
-          ]
-        },
-        {
-          "id": "dogruluk",
-          "title": "Doğruluk",
-          "summary": "Doğruluk, söz, davranış ve niyette gerçeğe uygun hareket etmek, yalandan ve hileden uzak durmaktır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "dogruluk",
+              "id": "islam-ahlaki-dogruluk",
               "title": "Doğruluk",
               "summary": "Doğruluk, söz, davranış ve niyette gerçeğe uygun hareket etmek, yalandan ve hileden uzak durmaktır."
-            }
-          ]
-        },
-        {
-          "id": "emanet",
-          "title": "Emanet",
-          "summary": "Emanet, bir kimsenin korunması veya yerine getirilmesi için kendisine bırakılan mal, bilgi, görev, sır veya sorumluluktur.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "emanet",
+              "id": "islam-ahlaki-emanet",
               "title": "Emanet",
               "summary": "Emanet, bir kimsenin korunması veya yerine getirilmesi için kendisine bırakılan mal, bilgi, görev, sır veya sorumluluktur."
-            }
-          ]
-        },
-        {
-          "id": "sabir",
-          "title": "Sabır",
-          "summary": "Sabır, karşılaşılan zorluk, sıkıntı ve musibetler karşısında Allah'a güvenerek metanet göstermek, isyan etmeden dayanmak ve doğru olanda kar…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "sabir",
+              "id": "islam-ahlaki-sabir",
               "title": "Sabır",
               "summary": "Sabır, karşılaşılan zorluk, sıkıntı ve musibetler karşısında Allah'a güvenerek metanet göstermek, isyan etmeden dayanmak ve doğru olanda kar…"
-            }
-          ]
-        },
-        {
-          "id": "sukur",
-          "title": "Şükür",
-          "summary": "Şükür, Allah Teâlâ'nın verdiği nimetleri fark etmek, bunlar için O'na teşekkür etmek ve bu nimetleri O'nun razı olacağı şekilde kullanmaktır…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "sukur",
+              "id": "islam-ahlaki-sukur",
               "title": "Şükür",
               "summary": "Şükür, Allah Teâlâ'nın verdiği nimetleri fark etmek, bunlar için O'na teşekkür etmek ve bu nimetleri O'nun razı olacağı şekilde kullanmaktır…"
-            }
-          ]
-        },
-        {
-          "id": "tevbe",
-          "title": "Tevbe",
-          "summary": "Tevbe, kişinin işlediği günahlardan dolayı samimiyetle pişman olması, Allah'tan bağışlanma dilemesi ve bir daha o günahı işlememeye karar ve…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "tevbe",
+              "id": "islam-ahlaki-tevbe",
               "title": "Tevbe",
               "summary": "Tevbe, kişinin işlediği günahlardan dolayı samimiyetle pişman olması, Allah'tan bağışlanma dilemesi ve bir daha o günahı işlememeye karar ve…"
-            }
-          ]
-        },
-        {
-          "id": "ihlas",
-          "title": "İhlas",
-          "summary": "İhlas, yapılan ibadet ve iyi davranışları yalnızca Allah'ın rızasını kazanmak amacıyla yapmak, gösterişten, çıkar beklentisinden ve övülme i…",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "ihlas",
+              "id": "islam-ahlaki-ihlas",
               "title": "İhlas",
               "summary": "İhlas, yapılan ibadet ve iyi davranışları yalnızca Allah'ın rızasını kazanmak amacıyla yapmak, gösterişten, çıkar beklentisinden ve övülme i…"
-            }
-          ]
-        },
-        {
-          "id": "takva",
-          "title": "Takva",
-          "summary": "Takva, Allah'a karşı saygı ve sorumluluk bilinciyle hareket etmek, O'nun emirlerine uymak ve yasaklarından sakınmaktır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "takva",
+              "id": "islam-ahlaki-takva",
               "title": "Takva",
               "summary": "Takva, Allah'a karşı saygı ve sorumluluk bilinciyle hareket etmek, O'nun emirlerine uymak ve yasaklarından sakınmaktır."
-            }
-          ]
-        },
-        {
-          "id": "anne-baba-hakki",
-          "title": "Anne Baba Hakkı",
-          "summary": "Anne-baba hakkı, anne ve babaya sevgi, saygı, itaat (meşru konularda), yardım ve güzel davranmayı ifade eder.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "anne-baba-hakki",
+              "id": "islam-ahlaki-anne-baba-hakki",
               "title": "Anne Baba Hakkı",
               "summary": "Anne-baba hakkı, anne ve babaya sevgi, saygı, itaat (meşru konularda), yardım ve güzel davranmayı ifade eder."
-            }
-          ]
-        },
-        {
-          "id": "komsuluk",
-          "title": "Komşuluk",
-          "summary": "Komşuluk, yakın çevrede yaşayan insanlar arasında sevgi, saygı, yardımlaşma ve iyi ilişkiler kurmayı ifade eder.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "komsuluk",
+              "id": "islam-ahlaki-komsuluk",
               "title": "Komşuluk",
               "summary": "Komşuluk, yakın çevrede yaşayan insanlar arasında sevgi, saygı, yardımlaşma ve iyi ilişkiler kurmayı ifade eder."
-            }
-          ]
-        },
-        {
-          "id": "kul-hakki",
-          "title": "Kul Hakkı",
-          "summary": "Kul hakkı, bir insanın başka bir insan üzerindeki maddi veya manevi haklarıdır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "kul-hakki",
+              "id": "islam-ahlaki-kul-hakki",
               "title": "Kul Hakkı",
               "summary": "Kul hakkı, bir insanın başka bir insan üzerindeki maddi veya manevi haklarıdır."
-            }
-          ]
-        },
-        {
-          "id": "giybet",
-          "title": "Gıybet",
-          "summary": "Gıybet, bir kimsenin arkasından, o kişi duyduğu takdirde hoşlanmayacağı doğru bir şeyi söylemektir.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "giybet",
+              "id": "islam-ahlaki-giybet",
               "title": "Gıybet",
               "summary": "Gıybet, bir kimsenin arkasından, o kişi duyduğu takdirde hoşlanmayacağı doğru bir şeyi söylemektir."
-            }
-          ]
-        },
-        {
-          "id": "haset",
-          "title": "Haset",
-          "summary": "Haset, Allah'ın bir başkasına verdiği nimetin, başarının veya imkânın ondan gitmesini istemek ya da bundan rahatsız olmaktır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "haset",
+              "id": "islam-ahlaki-haset",
               "title": "Haset",
               "summary": "Haset, Allah'ın bir başkasına verdiği nimetin, başarının veya imkânın ondan gitmesini istemek ya da bundan rahatsız olmaktır."
-            }
-          ]
-        },
-        {
-          "id": "kibir",
-          "title": "Kibir",
-          "summary": "Kibir, kişinin kendisini başkalarından üstün görmesi, onları küçümsemesi ve büyüklük taslamasıdır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "kibir",
+              "id": "islam-ahlaki-kibir",
               "title": "Kibir",
               "summary": "Kibir, kişinin kendisini başkalarından üstün görmesi, onları küçümsemesi ve büyüklük taslamasıdır."
-            }
-          ]
-        },
-        {
-          "id": "affetmek",
-          "title": "Affetmek",
-          "summary": "Affetmek, kendisine karşı yapılan bir hata veya haksızlıktan dolayı kin ve intikam duygusuyla hareket etmeyip, bağışlayıcı davranmaktır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "affetmek",
+              "id": "islam-ahlaki-affetmek",
               "title": "Affetmek",
               "summary": "Affetmek, kendisine karşı yapılan bir hata veya haksızlıktan dolayı kin ve intikam duygusuyla hareket etmeyip, bağışlayıcı davranmaktır."
-            }
-          ]
-        },
-        {
-          "id": "merhamet",
-          "title": "Merhamet",
-          "summary": "Merhamet, başkalarının sıkıntılarını anlamak, onlara acımak ve imkân ölçüsünde yardım etmeye çalışmaktır.",
-          "quiz": null,
-          "lessons": [
+            },
             {
-              "id": "merhamet",
+              "id": "islam-ahlaki-merhamet",
               "title": "Merhamet",
               "summary": "Merhamet, başkalarının sıkıntılarını anlamak, onlara acımak ve imkân ölçüsünde yardım etmeye çalışmaktır."
             }
