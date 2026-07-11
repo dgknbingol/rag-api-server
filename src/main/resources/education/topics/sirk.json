@@ -1,0 +1,481 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Şirk",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şirk Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirk, Allah'a ait olan ilahlık, ibadet veya O'na özgü özelliklerde başka varlıkları ortak kabul etmek ya da onlara Allah'a ait yetkiler vermektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam inancında şirk, tevhidin zıddıdır. Tevhid, Allah'ın bir ve tek olduğuna inanmayı ifade ederken; şirk, bu inancı bozan en büyük günahtır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Müslümanlara yalnızca Allah'a ibadet etmeleri ve O'na hiçbir şeyi ortak koşmamaları emredilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şirkin Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'a göre şirk, Allah'ın en büyük yasaklarından biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirkten uzak durmak;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancını korur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İmanı sağlamlaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetlerin yalnızca Allah için yapılmasını sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a tam teslimiyeti gösterir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslümanı batıl inançlardan korur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şirk Çeşitleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam âlimleri şirki genel olarak iki başlıkta ele almışlardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Büyük Şirk (Şirk-i Ekber)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a ibadette veya ilahlıkta ortak koşmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'tan başka ilâh olduğuna inanmak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bir varlığı Allah gibi ilah kabul etmek.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadeti Allah'tan başkası için yapmak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Büyük şirk, İslam'ın tevhid inancıyla bağdaşmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Küçük Şirk (Şirk-i Asgar)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a ortak koşma anlamına gelmeyen; ancak insanı şirke yaklaştırabilecek davranışlardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlardan biri **riya (gösteriş)**dir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadeti insanların beğenisi için yapmak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İyilikleri övülmek amacıyla yapmak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu davranışlar ibadetin samimiyetine zarar verir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şirkten Korunmanın Yolları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, şirke düşmemek için;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın birliğine sağlam şekilde iman etmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetlerini yalnızca Allah rızası için yapmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an ve sahih sünneti öğrenmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hurafe ve batıl inançlardan uzak durmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dua ve yardım istemede yalnızca Allah'a yönelmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şirkin Zararları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirk;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancını bozar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İmanın zayıflamasına sebep olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetlerin samimiyetini yok eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın razı olmadığı bir davranıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İnsanları batıl inançlara sürükleyebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şirkten Alınacak Dersler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu konu bizlere önemli mesajlar verir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah birdir ve hiçbir ortağı yoktur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadet yalnızca Allah'a yapılmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Samimiyet (ihlas) bütün ibadetlerin temelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hurafe ve batıl inançlardan uzak durulmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, tevhid inancını korumaya özen göstermelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Şüphesiz Allah, kendisine ortak koşulmasını bağışlamaz. Bunun dışındaki günahları ise dilediği kimse için bağışlar.\"\n(Nisâ Suresi, 4/48)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Lokman oğluna öğüt verirken şöyle demişti: 'Yavrucuğum! Allah'a ortak koşma. Çünkü şirk gerçekten büyük bir zulümdür.'\"\n(Lokmân Suresi, 31/13)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, şirkin İslam'da en büyük günahlardan biri olduğunu ve tevhid inancının korunması gerektiğini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirk, Allah'a ortak koşmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirk, tevhidin zıddıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Büyük şirk ve küçük şirk olmak üzere iki ana başlıkta incelenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetler yalnızca Allah rızası için yapılmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancını korumak, Müslümanın en önemli görevlerinden biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirk, Allah'a ait ilahlık ve ibadet hakkını başka varlıklara vermek veya O'na ortak koşmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'da en büyük günahlardan biri olarak kabul edilir ve tevhid inancının zıddıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Büyük şirk, Allah'a doğrudan ortak koşmayı; küçük şirk ise özellikle riya gibi samimiyeti zedeleyen davranışları ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, ibadetlerini yalnızca Allah için yapmalı ve hurafe ile batıl inançlardan uzak durmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancını korumak, sağlam bir imanın temelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

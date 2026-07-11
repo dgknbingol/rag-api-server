@@ -1,0 +1,508 @@
+{
+  "id": "islam-tarihi-genel-quiz",
+  "title": "İslam Tarihi Genel Quiz",
+  "moduleId": "islam-tarihi",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "\"Asr-ı Saadet\" hangi döneme verilen isimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dört Halife Dönemi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Muhammed'in (sav) peygamberlik dönemi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Emevîler Dönemi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Abbâsîler Dönemi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk halife kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ömer",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Osman",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Ebû Bekir",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hicrî takvimi başlatan halife hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ebû Bekir",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Ömer",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hz. Osman",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim'i çoğaltarak önemli İslam şehirlerine gönderen halife kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ebû Bekir",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Ömer",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Osman",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Emevî Devleti'nin başkenti neresidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Medine",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Mekke",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Şam",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bağdat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Endülüs'ü fetheden komutan kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Halid bin Velid",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Târık bin Ziyâd",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sa'd bin Ebî Vakkâs",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Amr bin Âs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Emevî Devleti'nin yerine hangi devlet kurulmuştur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Selçuklular",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Osmanlı Devleti",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Abbâsî Devleti",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Memlükler",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Abbâsî Devleti'nin başkenti neresidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Şam",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Bağdat",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kahire",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Konya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Beytü'l-Hikme hangi dönemde kurulmuştur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Emevîler",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Abbâsîler",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Osmanlılar",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Anadolu Selçukluları",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Endülüs Emevî Devleti'nin başkenti neresidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Granada",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kurtuba",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Toledo",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sevilla",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Büyük Selçuklu Devleti hangi savaş sonunda kurulmuştur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Malazgirt",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dandanakan",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kösedağ",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Miryokefalon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "1071 Malazgirt Savaşı'nı kazanan hükümdar kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tuğrul Bey",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Melikşah",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Alp Arslan",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sultan Sencer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Nizamiye Medreseleri'ni kuran devlet adamı kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tuğrul Bey",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Nizâmülmülk",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Süleyman Şah",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Osman Gazi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Anadolu Selçuklu Devleti'nin ilk başkenti neresidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Konya",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Bursa",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İznik",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kayseri",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Anadolu Selçuklu Devleti'ni zayıflatan 1243 tarihli savaş hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Malazgirt",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ankara",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kösedağ",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Dandanakan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Orhan Gazi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Osman Gazi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Fatih Sultan Mehmet",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yıldırım Bayezid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İstanbul'u fetheden padişah kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kanuni Sultan Süleyman",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Fatih Sultan Mehmet",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yavuz Sultan Selim",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "II. Bayezid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Halifelik Osmanlı Devleti'ne hangi padişah döneminde geçmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fatih Sultan Mehmet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kanuni Sultan Süleyman",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Yavuz Sultan Selim",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "II. Abdülhamid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam İş Birliği Teşkilatı (İİT) hangi yıl kurulmuştur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1945",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "1957",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "1969",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "1975",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Yakın Dönem İslam Dünyası'ndan çıkarılacak en önemli derslerden biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bilim ve eğitimin önemsiz olduğu",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Birlik, eğitim ve dayanışmanın toplumları güçlendirdiği",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ticaretin yasaklanması gerektiği",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece askerî gücün yeterli olduğu",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

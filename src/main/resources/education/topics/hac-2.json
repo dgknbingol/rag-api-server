@@ -1,0 +1,550 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Hac",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hac Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, belirli bir zamanda, gerekli şartları taşıyan Müslümanların Kâbe'yi ve kutsal mekânları usulüne uygun şekilde ziyaret ederek yerine getirdikleri farz bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, İslam'ın beş şartından biridir. Maddi ve fiziksel imkânı olan her Müslümanın ömründe bir kez hac yapması farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac ibadeti, Müslümanların birlik ve beraberliğini güçlendiren, sabır ve teslimiyet duygusunu geliştiren önemli bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Haccın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, Allah'ın emrine itaatin ve kulluğun önemli bir göstergesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac sayesinde;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın emri yerine getirilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Günahlardan arınma ümidi taşınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslümanlar arasında kardeşlik güçlenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabır, fedakârlık ve paylaşma duyguları gelişir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dünyanın farklı yerlerinden gelen Müslümanlar aynı ibadette buluşur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hac Kimlere Farzdır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac ibadetinin farz olması için kişinin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıl sağlığının yerinde olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ergenlik çağına ulaşmış olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hacca gidip dönebilecek maddi imkâna sahip olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yol güvenliğinin bulunması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sağlığının hacca elverişli olması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartları taşıyan kimsenin ömründe bir defa hac yapması farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hac Ne Zaman Yapılır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac ibadeti, hicrî takvime göre Zilhicce ayında yapılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Haccın belirli günlerde yerine getirilmesi gerekir. Bu günler dışında hac ibadeti yapılamaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Haccın Başlıca Farzları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre haccın üç farzı vardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İhrama girmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arafat Vakfesi yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kâbe'yi ziyaret tavafı (Tavaf-ı İfâda) yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu farzlardan biri eksik olursa hac geçerli olmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hacda Yapılan Bazı İbadetler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac sırasında yerine getirilen önemli ibadetlerden bazıları şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İhrama girmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kâbe'yi tavaf etmek",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Safâ ile Merve arasında sa'y yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arafat'ta vakfe yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müzdelife'de vakfe yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mina'da şeytan taşlamak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kurban kesmek (gerektiği durumlarda)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ibadetlerin her biri Hz. İbrahim (as), Hz. Hacer ve Hz. İsmail'in (as) teslimiyetini hatırlatır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Haccın Faydaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a bağlılığı güçlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabır ve fedakârlığı öğretir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslümanlar arasında eşitlik duygusunu pekiştirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kardeşlik ve birlik bilincini artırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Manevi yenilenmeye vesile olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Umre ile Hac Arasındaki Fark",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac ve umre birbirine benzese de aynı ibadet değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "table",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Hac\tUmre",
+        "İslam'ın beş şartından biridir.\tFarz değildir, sünnet-i müekkede olarak kabul edilir.",
+        "Sadece Zilhicce ayında yapılır.\tYılın büyük bölümünde yapılabilir.",
+        "Arafat vakfesi vardır.\tArafat vakfesi yoktur.",
+        "Belirli günlerde yapılır.\tBelirli bir zamana bağlı değildir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Hacdan Alınacak Dersler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac bizlere önemli mesajlar verir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a teslim olmayı öğretir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabır ve fedakârlık kazandırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Irk, renk ve millet ayrımı olmaksızın bütün Müslümanların kardeş olduğunu gösterir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dünya hayatının geçici olduğunu hatırlatır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Birlik ve beraberliğin önemini öğretir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Yoluna gücü yetenlerin Kâbe'yi haccetmesi Allah'ın insanlar üzerinde bir hakkıdır.\"\n(Âl-i İmrân Suresi, 3/97)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Haccı ve umreyi Allah için tam olarak yapın.\"\n(Bakara Suresi, 2/196)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, haccın Allah'ın emri olduğunu ve samimiyetle yerine getirilmesi gerektiğini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, İslam'ın beş şartından biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Maddi ve fiziksel imkânı olan Müslümanlara ömürde bir kez farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, Zilhicce ayında yapılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hanefî mezhebine göre haccın üç farzı; ihram, Arafat vakfesi ve ziyaret tavafıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, Müslümanlar arasında birlik, kardeşlik ve eşitlik duygusunu güçlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac, belirli şartları taşıyan Müslümanların Kâbe ve kutsal mekânları ziyaret ederek yerine getirdikleri farz bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'ın beş şartından biri olup maddi ve fiziksel imkânı olan kişilere ömürde bir kez farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac yalnızca Zilhicce ayında yapılır ve ihram, Arafat vakfesi ile ziyaret tavafı haccın temel farzlarıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hac ibadeti sabrı, teslimiyeti, kardeşliği ve Allah'a bağlılığı güçlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dünyanın dört bir yanından Müslümanları bir araya getirerek birlik ve beraberliği pekiştirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

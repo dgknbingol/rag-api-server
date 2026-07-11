@@ -1,0 +1,550 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Zekât",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekât Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, dinen zengin sayılan Müslümanların, Allah'ın rızasını kazanmak amacıyla mallarının belirli bir kısmını, Kur'an-ı Kerim'de belirtilen hak sahiplerine vermesi gereken farz bir mali ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelime anlamı olarak \"temizlenme, arınma, artma ve bereket\" demektir. Zekât vermek, malı eksiltmez; aksine bereketlenmesine ve kişinin cimrilikten arınmasına vesile olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, İslam'ın beş şartından biridir ve toplumda yardımlaşma ile sosyal adaletin sağlanmasına katkıda bulunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekâtın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, Allah'ın emrini yerine getirmenin yanı sıra toplumsal dayanışmayı güçlendiren önemli bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât sayesinde;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fakir ve ihtiyaç sahiplerinin ihtiyaçları karşılanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zengin ile fakir arasındaki sevgi ve güven artar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Toplumda yardımlaşma ve dayanışma güçlenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Malın bereketlenmesine vesile olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cimrilik ve bencillik gibi kötü duygular azalır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekât Kimlere Farzdır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâtın farz olması için kişinin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıl sağlığının yerinde olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ergenlik çağına ulaşmış olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap miktarı mala sahip olması,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu malın üzerinden bir kamerî (hicrî) yıl geçmiş olması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap, zekât vermeyi gerektiren en az mal miktarıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekât Kimlere Verilir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de zekât verilebilecek kimseler belirtilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fakirlere,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yoksullara,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât toplamakla görevli kimselere,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kalpleri İslam'a ısındırılacak kimselere (klasik fıkıhta belirtilen şartlar çerçevesinde),",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kölelerin özgürlüğüne kavuşmasına,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Borçlulara,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah yolunda olanlara,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yolda kalmış yolculara",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "verilebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Anne, baba, dede, nine, çocuk, torun ve eş gibi bakmakla yükümlü olunan kimselere zekât verilmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekâtın Miktarı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâta tabi malların çoğunda, gerekli şartlar oluştuğunda kırkta bir (%2,5) oranında zekât verilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tarım ürünlerinde,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Maden ve definelerde,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı hayvanlarda",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "farklı hükümler bulunabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekât ile Sadaka Arasındaki Fark",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu iki kavram birbirine benzese de aynı değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "table",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Zekât\tSadaka",
+        "Farzdır.\tGönüllüdür.",
+        "Nisap şartı vardır.\tHerkes verebilir.",
+        "Belirli kişilere verilir.\tİhtiyaç sahibi herkese verilebilir.",
+        "Belirli oranı vardır.\tMiktarı serbesttir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Zekâtın Faydaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın rızasını kazanmaya vesile olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Malı temizler ve bereketlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fakirlerin temel ihtiyaçlarının karşılanmasına yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Toplumdaki ekonomik dengeyi destekler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Paylaşma ve kardeşlik duygusunu geliştirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zekâttan Alınacak Dersler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât bizlere önemli mesajlar verir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mal, Allah'ın bir emanetidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İhtiyaç sahiplerine yardım etmek Müslümanın görevidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Paylaşmak toplumdaki sevgi ve güveni artırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cimrilikten uzak durmak gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın verdiği nimetlere şükretmenin yollarından biri zekât vermektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namazı dosdoğru kılın, zekâtı verin...\"\n(Bakara Suresi, 2/43)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Onların mallarından sadaka (zekât) al ki bununla onları temizleyesin ve arındırasın.\"\n(Tevbe Suresi, 9/103)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, zekâtın hem bireyi hem de toplumu arındıran önemli bir ibadet olduğunu göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, İslam'ın beş şartından biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nisap miktarı mala sahip olan Müslümanlara farzdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekâtın genel oranı kırkta birdir (%2,5).",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, Kur'an'da belirtilen hak sahiplerine verilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, malı temizleyen ve toplumsal dayanışmayı güçlendiren bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, nisap miktarı mala sahip Müslümanların mallarının belirli bir kısmını ihtiyaç sahiplerine vermelerini emreden farz bir mali ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'ın beş şartından biridir ve sosyal adalet ile yardımlaşmayı güçlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çoğu zekâta tabi mal için oran kırkta bir (%2,5) olarak belirlenmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât, malı bereketlendirir, paylaşma bilincini geliştirir ve fakirlerin ihtiyaçlarının karşılanmasına katkı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zekât ile sadaka farklıdır; zekât farz, sadaka ise gönüllü yapılan bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

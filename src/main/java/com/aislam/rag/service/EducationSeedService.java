@@ -61,7 +61,25 @@ public class EducationSeedService implements ApplicationRunner {
       return;
     }
 
-    updateCatalogVersion(catalog.version());
+    int targetVersion = catalog.version();
+    int currentVersion =
+        catalogMetaRepository
+            .findById(EducationCatalogMetaEntity.SINGLETON_ID)
+            .map(EducationCatalogMetaEntity::getVersion)
+            .orElse(0);
+
+    boolean forceReseed = targetVersion > currentVersion;
+    if (forceReseed) {
+      log.info(
+          "Education catalog version bump detected current={} target={} — wiping and reseeding",
+          currentVersion,
+          targetVersion);
+      // Order matters for FK constraints; entity delete cascades modules/topics/blocks.
+      quizRepository.deleteAllInBatch();
+      categoryRepository.deleteAll();
+    }
+
+    updateCatalogVersion(targetVersion);
 
     int categoriesCreated = 0;
     int modulesCreated = 0;
@@ -119,7 +137,7 @@ public class EducationSeedService implements ApplicationRunner {
           final int topicSortOrder = topicIndex;
 
           var existingTopic = topicRepository.findBySlug(topicSeed.id());
-          if (existingTopic.isPresent() && existingTopic.get().hasContent()) {
+          if (!forceReseed && existingTopic.isPresent() && existingTopic.get().hasContent()) {
             topicsSkipped++;
             continue;
           }
@@ -147,7 +165,8 @@ public class EducationSeedService implements ApplicationRunner {
     }
 
     log.info(
-        "Education seed complete categoriesCreated={} modulesCreated={} topicsCreated={} blocksImported={} topicsSkipped={}",
+        "Education seed complete forceReseed={} categoriesCreated={} modulesCreated={} topicsCreated={} blocksImported={} topicsSkipped={}",
+        forceReseed,
         categoriesCreated,
         modulesCreated,
         topicsCreated,
@@ -168,7 +187,9 @@ public class EducationSeedService implements ApplicationRunner {
     quizRepository.save(
         new EducationQuizEntity(
             quizSeed.id(),
-            quizSeed.title() != null && !quizSeed.title().isBlank() ? quizSeed.title() : fallbackTitle,
+            quizSeed.title() != null && !quizSeed.title().isBlank()
+                ? quizSeed.title()
+                : fallbackTitle,
             quizType,
             scopeSlug,
             quizSeed.questionCount(),

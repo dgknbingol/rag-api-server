@@ -1,0 +1,383 @@
+{
+  "id": "kurana-giris-mini-quiz",
+  "title": "Kur'an'a Giriş Mini Quiz",
+  "moduleId": "kurana-giris",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Kur'an-ı Kerim kime indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Musa",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. İbrahim",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. İsa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim'in gönderiliş amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece tarih anlatmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İnsanlara doğru yolu göstermek ve rehber olmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece ibadet vakitlerini bildirmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Arap toplumuna hitap etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın sahibi kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cebrâil (as)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Muhammed (sav)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Allah Teâlâ",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sahabeler",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Kur'an'ın özelliklerinden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece belirli bir topluma gönderilmiştir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Son ilahi kitaptır.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece ibadetlerden bahseder.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zamanla değiştirilmiştir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın bütün insanlığa hitap etmesini ifade eden özellik hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tarihî olması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Evrensel olması",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Şiir kitabı olması",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Arapça olması",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'daki en temel konu aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ticaret",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İman",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Coğrafya",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Matematik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Kur'an'ın ana konularından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Peygamber kıssaları",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Dünya haritaları",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Astronomi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Spor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'a gösterilecek en büyük saygı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece güzel bir kılıfta saklamak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Onu öğrenmek ve öğretilerini hayatımıza uygulamak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yüksek bir rafa koymak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Ramazan ayında okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an okumaya başlamadan önce hangisini söylemek tavsiye edilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tekbir",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Eûzü billâhi mine'ş-şeytânirracîm",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ezan",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kelime-i Tevhid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an okunurken nasıl davranılmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hızlıca bitirmeye çalışılmalıdır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Saygılı, dikkatli ve anlamaya çalışarak okunmalıdır.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece yüksek sesle okunmalıdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Anlamına hiç bakılmamalıdır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an okumak neden faziletlidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Çünkü Allah'ın kelamını okumaktır.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çünkü sadece gelenektir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Çünkü sadece Ramazan ayında yapılır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çünkü sadece hafızlar okuyabilir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an düzenli okunduğunda aşağıdakilerden hangisine katkı sağlar?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İmanı güçlendirmeye",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hiç çalışmadan başarılı olmaya",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Maddi zenginliğe",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hiç hata yapmamaya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Muhammed (sav), Kur'an ile ilgili hangi kişileri övmüştür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Çok konuşanları",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ı öğrenen ve öğretenleri",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Çok seyahat edenleri",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çok kazananları",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an ile birlikte dinimizi doğru anlamada ikinci temel kaynak nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tarih kitapları",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Mezhep kitapları",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sahih sünnet",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ansiklopediler",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Kur'an'ın amacıyla uyumludur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanları doğru inanca ve güzel ahlaka yönlendirmek.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece geçmiş olayları anlatmak.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece bilimsel bilgiler vermek.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ibadet vakitlerini öğretmek.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

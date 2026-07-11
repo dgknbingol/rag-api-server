@@ -1,0 +1,383 @@
+{
+  "id": "hac-mini-quiz",
+  "title": "Hac Mini Quiz",
+  "moduleId": "hac",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Hac, İslam'ın kaç şartından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Üç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Beş",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Altı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hac hangi ayda yapılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ramazan",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Muharrem",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zilhicce",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Şaban",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şartları taşıyan bir Müslümana hac kaç kez farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her yıl",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İki kez",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ömründe bir kez",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Üç kez",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre umrenin hükmü nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Farz",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Vacip",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Müekked sünnet",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Mekruh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hac ibadetinin ilk aşaması hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tavaf",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İhrama girmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sa'y",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Arafat vakfesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tavaf nasıl yapılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Safâ ile Merve arasında yürüyerek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kâbe'nin etrafında yedi şavt dönerek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mina'da taş atarak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Arafat'ta bekleyerek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Sa'y hangi iki tepe arasında yapılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mina ile Müzdelife",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Safâ ile Merve",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Arafat ile Mina",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kâbe ile Arafat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Haccın en önemli rüknü hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tavaf",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sa'y",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Arafat vakfesi",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kurban kesmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mina'da yapılan ibadetlerden biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Veda tavafı",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Şeytan taşlama",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Safâ ile Merve arasında sa'y",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Arafat vakfesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şeytan taşlamanın yapıldığı yerlere ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Şavt",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Mikat",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Cemre",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Vakfe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhramın asıl anlamı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece beyaz kıyafet giymek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hac veya umre ibadetine niyet ederek manevi ibadet hâline girmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kâbe'yi ziyaret etmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kurban kesmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şeytan taşlama neyi sembolize eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yolculuğun bitmesini",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kötülüğü ve şeytanın vesveselerini reddetmeyi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ticareti artırmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Bayramı kutlamayı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi sadece hac ibadetine özgüdür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tavaf",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sa'y",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Arafat vakfesi",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İhrama girmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Sa'y hangi olayı hatırlatır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Musa'nın denizi yarmasını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Hacer'in Hz. İsmail için su arayışını",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hz. Nuh'un gemisini",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Bedir Savaşı'nı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Haccın temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dünya turu yapmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın rızasını kazanmak ve O'na kulluk etmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ticaret yapmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yeni ülkeler görmek",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

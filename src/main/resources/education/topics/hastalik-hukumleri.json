@@ -1,0 +1,502 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Hastalık Hükümleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hastalık Hükümleri Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık hükümleri, İslam dininde hastalık sebebiyle ibadetlerini normal şekilde yerine getiremeyen Müslümanlara tanınan kolaylıkları ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini, insanın gücünü dikkate alır ve hastalık durumunda ibadetlerin tamamen terk edilmesini değil, kişinin imkânı ölçüsünde yerine getirilmesini ister. Bu kolaylıklar, dinin rahmet ve kolaylık ilkesinin bir göstergesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "İslam'da Kolaylık İlkesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini, insanlara güçlerinin üstünde sorumluluk yüklemez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık durumunda;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz kolaylaştırılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Oruç ertelenebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gerekli durumlarda teyemmüm yapılabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetler kişinin gücüne göre yerine getirilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu kolaylıklar, ibadetlerin ihmal edilmesi için değil, şartlara uygun şekilde yerine getirilmesi içindir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hastalıkta Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalanan kişi, namazı gücü yettiği şekilde kılar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayakta durabiliyorsa ayakta kılar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayakta duramıyorsa oturarak kılar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Oturamıyorsa yatarak veya ima ile kılabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiçbir şekilde namaz tamamen terk edilmez; kişinin sağlık durumuna göre kolaylık uygulanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hastalıkta Oruç",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramazan ayında hasta olan kişi için kolaylık vardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Eğer oruç tutmak hastalığını artıracak veya iyileşmesini geciktirecekse, oruç tutmayabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sağlığına kavuştuğunda tutamadığı oruçları kaza eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İyileşme ümidi bulunmayan ve sürekli hasta olan kimseler ise, şartlarını taşıdıkları takdirde fidye verirler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Teyemmüm",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasta olan kişi;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Su bulamazsa,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Suyu kullanması hastalığını artıracaksa veya doktor tarafından sakıncalı görülüyorsa,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "abdest veya gusül yerine teyemmüm edebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu da İslam'ın tanıdığı önemli kolaylıklardan biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hastaya Karşı Görevler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam, hastalara karşı güzel davranmayı teşvik eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastaları ziyaret etmeli,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Moral vermeli,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dua etmeli,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yardımcı olmalı,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Onların ihtiyaçlarını karşılamaya çalışmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastayı ziyaret etmek, Peygamber Efendimizin (sav) tavsiye ettiği güzel davranışlardan biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sabır ve Dua",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık, Müslüman için sabır ve dua vesilesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasta kişi;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a dua eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tedavisini ihmal etmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabırlı olmaya çalışır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın rahmetine güvenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini, hem dua etmeyi hem de tedavi olmayı tavsiye etmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hastalık Hükümlerinden Alınacak Dersler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık hükümleri bizlere önemli mesajlar verir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini kolaylık dinidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah kullarına güçlerinin üstünde sorumluluk yüklemez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalıkta da ibadetler imkân ölçüsünde devam eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabır ve dua önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalara yardım etmek ve onları ziyaret etmek güzel bir davranıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Allah hiç kimseye gücünün yeteceğinden fazlasını yüklemez.\"\n(Bakara Suresi, 2/286)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Allah sizin için kolaylık ister, zorluk istemez.\"\n(Bakara Suresi, 2/185)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, hastalık durumunda tanınan kolaylıkların Allah'ın kullarına olan rahmetinin bir göstergesi olduğunu ifade etmektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık hükümleri, hasta olan Müslümanlara tanınan dinî kolaylıklardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasta kişi namazı gücü yettiği şekilde kılar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık sebebiyle tutulamayan Ramazan oruçları, iyileşince kaza edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Suyu kullanamayan hasta, gerekli şartlarda teyemmüm edebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastaları ziyaret etmek ve onlara destek olmak dinimizce teşvik edilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalık hükümleri, hasta olan Müslümanların ibadetlerini kolaylıkla yerine getirebilmeleri için konulan dinî düzenlemelerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam dini, hastalık durumunda kişiye gücü ölçüsünde ibadet etme imkânı tanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasta kişi namazı ayakta, oturarak veya ima ile kılabilir; gerekli durumlarda teyemmüm edebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalığı sebebiyle oruç tutamayan kişi, iyileştiğinde orucunu kaza eder; sürekli hastalığı olanlar ise şartları oluşursa fidye verir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hastalara yardım etmek, onları ziyaret etmek ve moral vermek İslam'ın tavsiye ettiği güzel davranışlardandır.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

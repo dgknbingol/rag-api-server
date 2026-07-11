@@ -1,0 +1,397 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Harflerin Mahreçleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Mahreç Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahreç, bir harfin ağız, boğaz, dil veya dudakların belirli bir noktasından çıkmasına verilen isimdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'i doğru okuyabilmek için her harfi kendi mahrecinden çıkarmak önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aynı harf farklı bir yerden çıkarılırsa okunuş değişebilir ve bazı durumlarda kelimenin anlamı da etkilenebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Mahreç Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, Allah'ın kelamıdır. Bu nedenle ayetlerin doğru okunmasına özen gösterilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfleri doğru mahreçlerinden okumak;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Kur'an'ı doğru telaffuz etmeyi sağlar.",
+        "Tecvid kurallarını uygulamayı kolaylaştırır.",
+        "Yanlış okumalardan kaçınmaya yardımcı olur.",
+        "Kur'an tilavetini daha güzel hâle getirir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Mahreçlerin Ana Bölgeleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arap harfleri genel olarak beş ana bölgeden çıkar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. Boğaz (Halk)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Boğazdan çıkan harfler şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ء - هـ - ع - ح - غ - خ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu harfler okunurken ses boğazın farklı noktalarından çıkar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. Dil",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arap alfabesindeki harflerin büyük bölümü dilden çıkar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ت - د - ط - ل - ن - ر - س - ص - ز - ظ - ض - ث - ذ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dilin farklı bölgeleri kullanılarak doğru telaffuz edilirler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Dudaklar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı harfler dudakların yardımıyla okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ف - ب - م - و",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu harflerde dudak hareketleri doğru telaffuz için önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Ağız Boşluğu",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Uzatma harfleri olan;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ا - و - ي",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "uygun durumlarda ağız boşluğundan uzatılarak okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu konu ileride med dersinde ayrıntılı olarak işlenecektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Geniz (Burun)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı harflerde ses, genizden gelen titreşimle okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu özellik özellikle gunne konusunda ayrıntılı olarak öğrenilecektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Benzer Harflerin Mahreçleri Farklıdır",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı harfler birbirine benzese de aynı yerden çıkmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "س ile ص",
+        "ت ile ط",
+        "ذ ile ز",
+        "ك ile ق"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "aynı şekilde okunmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle yalnızca harfin şekline değil, doğru mahrecine de dikkat edilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Mahreç Öğrenirken Nelere Dikkat Edilmelidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Harfler dikkatle dinlenmelidir.",
+        "Mümkünse bir öğreticiden veya güvenilir bir kıraatten örnek alınmalıdır.",
+        "Acele edilmemelidir.",
+        "Düzenli tekrar yapılmalıdır.",
+        "Harfler tek tek çalışıldıktan sonra kelime içinde okunmalıdır."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahreç, zamanla gelişen bir beceridir ve sabırlı çalışmayla öğrenilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Güzel Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı tane tane, ağır ağır oku.\"\n (Müzzemmil Suresi, 73/4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı seslerinizle güzelleştiriniz.\" (Ebû Dâvûd)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hadis, Kur'an'ın özenli ve güzel okunmasının önemine işaret etmektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Mahreç, harfin çıktığı yerdir.",
+        "Doğru mahreç, Kur'an'ın doğru okunmasına yardımcı olur.",
+        "Harfler boğaz, dil, dudak, ağız boşluğu ve geniz gibi farklı bölgelerden çıkar.",
+        "Benzer görünen harflerin mahreçleri farklı olabilir.",
+        "Doğru telaffuz için düzenli tekrar ve güvenilir bir öğreticiden dinlemek faydalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Mahreç, Arap harflerinin ağız ve boğazdaki çıkış yeridir.",
+        "Her harfin kendine özgü bir mahreci vardır ve doğru telaffuz için buna dikkat edilmelidir.",
+        "Harfler genel olarak boğaz, dil, dudak, ağız boşluğu ve geniz bölgelerinden çıkar.",
+        "Benzer görünen harfler farklı mahreçlere sahip olabilir ve bu nedenle farklı okunurlar.",
+        "Kur'an'ı doğru ve güzel okumak için mahreç çalışmaları düzenli olarak yapılmalıdır."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "kuran-okumaya-baslangic-mini-quiz",
+  "title": "Kur'an Okumaya Başlangıç Mini Quiz",
+  "moduleId": "kuran-okumaya-baslangic",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Kur'an okumaya geçişte harflerden sonra gelen temel aşama hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sure ezberi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harf birleştirme",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tefsir",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Meal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harf birleştirmede en önemli amaç nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfleri ezberlemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfleri akıcı şekilde birleştirerek okumak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yazıyı güzelleştirmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Arapça konuşmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hece okuma neyi öğretir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfleri ve harekeleri birleştirerek doğru okumayı",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sure ezberlemeyi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Yazı yazmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tecvidi bitirmeyi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kelime okunurken öncelikle neye dikkat edilmelidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sayfa numarasına",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harflerin mahrecine ve harekelere",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yazı tipine",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Satır sayısına",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cezmli harf nasıl okunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ayrı bir hareke verilerek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Önceki harekeli harfle birlikte",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Uzatılarak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hiç okunmadan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şeddeli harf okunurken nasıl davranılmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hızlıca geçilmelidir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harf kısa süre tutulup harekesiyle birlikte okunmalıdır.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hiç okunmamalıdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sürekli uzatılmalıdır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cümle okurken hangisi doğru bir davranıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kelimeleri sürekli bölmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gereksiz duraklamalar yapmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kelimeleri doğal bir akış içinde okumak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Harekeleri dikkate almamak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ayet nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hadislerden oluşan bölümdür.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an-ı Kerim'in temel bölümlerinden her biridir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Dua kitabıdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sure başlığıdır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ayet okunurken aşağıdakilerden hangisine dikkat edilmelidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mahreç, hareke ve temel tecvid kurallarına",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Yazı tipine",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sayfa kenarına",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Satır uzunluğuna",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ayetleri okurken sadece okumak yeterli midir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hayır, anlamını öğrenmeye ve üzerinde düşünmeye de gayret edilmelidir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece ezberlemek yeterlidir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece hızlı okumak yeterlidir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Akıcı okumanın temel amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Çok hızlı okumak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ı doğru ve doğal bir ritimle okumak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ezberi artırmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha kısa sürede hatim yapmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Akıcı okumadan önce hangi beceri kazanılmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hızlı okuma",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Doğru okuma",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ezber",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Güzel yazı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Akıcı okumayı geliştiren en önemli yöntem hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Düzenli tekrar yapmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çok hızlı okumak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Tekrar yapmamak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ezber yapmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an okurken doğru nefes kullanmanın faydası nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yazıyı güzelleştirir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Daha rahat ve dengeli okumayı sağlar.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harflerin şeklini değiştirir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kelimeleri kısaltır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an okumada öncelik hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hız",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sayfa sayısı",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Doğru ve usulüne uygun okuma",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ezber miktarı",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

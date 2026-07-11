@@ -1,0 +1,400 @@
+{
+  "readingMinutes": 5,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Kur'an'ın Ana Konuları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'ın Ana Konuları Nelerdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim, insanlara doğru yolu göstermek için indirilmiş ilahi bir rehberdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da yalnızca ibadetler değil; inanç, ahlak, aile hayatı, toplumsal düzen, geçmiş peygamberlerin hayatları ve ahiret gibi birçok önemli konu yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu yönüyle Kur'an, insanın hem dünya hem de ahiret hayatına rehberlik eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "1. İman",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ın en temel konusu imandır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Allah'a iman,",
+        "Meleklere iman,",
+        "Kitaplara iman,",
+        "Peygamberlere iman,",
+        "Ahiret gününe iman,",
+        "Kadere iman"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "gibi iman esasları öğretilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İnsan, önce doğru bir inanca sahip olmaya davet edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "2. İbadet",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da Allah'a nasıl kulluk edileceği de açıklanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, oruç, zekât, hac ve dua gibi ibadetlerin önemi anlatılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetler, insanın Allah'a olan bağlılığını güçlendiren önemli kulluk görevleridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "3. Güzel Ahlak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, güzel ahlaka büyük önem verir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğruluk, adalet, merhamet, sabır, şükür, affedicilik, yardımseverlik ve kul hakkına riayet gibi birçok ahlaki değer Kur'an'da öğütlenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, güzel ahlakıyla örnek olmaya teşvik edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "4. Peygamber Kıssaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da birçok peygamberin hayatından örnekler anlatılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Âdem, Hz. Nuh, Hz. İbrahim, Hz. Musa, Hz. Yusuf, Hz. İsa ve diğer peygamberlerin kıssaları, insanlara ibret ve öğüt vermek amacıyla yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu kıssalar, sabır, teslimiyet, doğruluk ve Allah'a güven gibi önemli dersler içerir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "5. Ahiret Hayatı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da ölümden sonraki hayat geniş şekilde anlatılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kabir hayatı, yeniden diriliş, hesap günü, cennet ve cehennem gibi konular, insanların yaptıkları davranışlardan sorumlu olduklarını hatırlatır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu bilinç, Müslümanı daha dikkatli ve sorumlu yaşamaya teşvik eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "6. Aile ve Toplum",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, aile hayatına ve toplumsal ilişkilere de önem verir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Anne-babaya saygı, akrabalık bağlarını koruma, komşuluk ilişkileri, yetimlere sahip çıkma, adaletli olma ve yardımlaşma gibi birçok konuda yol gösterir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sağlam bir toplumun temelinin güzel ahlak ve adalet olduğu vurgulanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "7. Helal ve Haram",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da insanların yapması uygun olan davranışlar (helal) ve kaçınmaları gereken davranışlar (haram) bildirilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hükümler, bireyin ve toplumun huzurunu korumaya yönelik ilahi rehberlik sunar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "8. Dua ve Zikir",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da Allah'a dua etmenin ve O'nu zikretmenin önemi sıkça vurgulanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da birçok peygamberin duasına yer verilmiş ve Müslümanlara Allah'a yönelmeleri tavsiye edilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'ın Amacı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ın amacı yalnızca bilgi vermek değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İnsanları doğru inanca yönlendirmek,",
+        "Güzel ahlak kazandırmak,",
+        "Adaletli bir toplum oluşturmak,",
+        "İnsanları dünya ve ahiret mutluluğuna ulaştırmak"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "için gönderilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an'ın Konuları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Biz bu Kur'an'da insanlar için her türlü örneği çeşitli şekillerde açıkladık...\"\n (Kehf Suresi, 18/54)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette şöyle buyrulur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Biz sana bu kitabı, her şeyi açıklayan, Müslümanlar için bir hidayet, rahmet ve müjde olarak indirdik.\"\n (Nahl Suresi, 16/89)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an okuyunuz. Çünkü Kur'an, kıyamet günü onu okuyanlara şefaatçi olarak gelecektir.\" (Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Kur'an'ın temel konusu insanı doğru yola ulaştırmaktır.",
+        "Kur'an'da iman, ibadet, ahlak, peygamber kıssaları, ahiret, aile hayatı ve toplumsal düzen gibi birçok konu yer alır.",
+        "Kur'an, yalnızca bilgi veren değil; hayatı yönlendiren ilahi bir rehberdir.",
+        "Kur'an'ın öğretileri hem bireyin hem de toplumun huzurunu amaçlar.",
+        "Müslüman, Kur'an'ı okuyup anlamaya ve hayatına uygulamaya gayret etmelidir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Kur'an-ı Kerim, inançtan ibadete, ahlaktan toplumsal hayata kadar birçok temel konuyu kapsayan ilahi bir rehberdir.",
+        "Kur'an'da iman esasları, ibadetler, güzel ahlak, peygamber kıssaları, ahiret hayatı, aile ve toplum düzeni ile helal ve haramlar hakkında bilgiler yer alır.",
+        "Kur'an'ın amacı, insanları doğru inanca ve güzel ahlaka yönlendirerek dünya ve ahiret mutluluğuna ulaştırmaktır.",
+        "Kur'an sadece okunmak için değil; anlaşılmak ve öğretileri günlük hayata uygulanmak için indirilmiştir.",
+        "Müslüman, Kur'an'ın mesajlarını öğrenerek hayatını bu ilkelere göre şekillendirmeye gayret etmelidir."
+      ]
+    }
+  ]
+}

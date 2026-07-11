@@ -1,0 +1,593 @@
+{
+  "readingMinutes": 5,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Akıcı Okuma Teknikleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Akıcı Okuma Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okuma, Kur'an-ı Kerim'i harfleri, harekeleri ve tecvid kurallarını doğru uygulayarak; duraksamadan, doğal bir ritim içinde okuyabilme becerisidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okumada amaç yalnızca hızlı okumak değildir. Asıl amaç, Kur'an'ı doğru, anlaşılır ve güzel bir şekilde okuyabilmektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru okuma, zamanla düzenli çalışmayla akıcı okumaya dönüşür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Akıcı Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'i akıcı okumak;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfleri daha kolay tanımayı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelimeleri daha rahat okumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tecvid kurallarını uygulamayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Okuma sırasında yapılan hataları azaltır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okumaktan daha fazla huzur ve manevi fayda elde edilmesine katkı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcılık, doğru okumanın üzerine inşa edilen bir beceridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Önce Doğruluk, Sonra Hız",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an öğrenirken en sık yapılan hatalardan biri, hızlı okumaya çalışmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Öncelikle;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfler doğru okunmalı,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahreçlere dikkat edilmeli,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harekeler doğru uygulanmalı,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tecvid kuralları öğrenilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlar yerleştikten sonra akıcılık kendiliğinden gelişmeye başlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Düzenli Tekrar Yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okumayı geliştirmenin en etkili yolu düzenli tekrar yapmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her gün yapılan kısa süreli çalışmalar;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfleri daha hızlı tanımayı,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelimeleri daha kolay okumayı,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayetler arasında daha rahat geçiş yapmayı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Az fakat düzenli çalışma, uzun aralıklarla yapılan çalışmalardan daha verimlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sesli Okuma",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an çalışırken mümkün olduğunca sesli okumak faydalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sesli okuma;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Telaffuz hatalarını fark etmeyi,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahreçleri geliştirmeyi,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfleri daha doğru çıkarmayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aynı zamanda kişinin kendi okuyuşunu kontrol etmesine de yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Doğru Nefes Kullanımı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okurken nefesi doğru kullanmak akıcılığı artırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunun için;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cümle veya ayetin uygun yerlerinde nefes alınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gereksiz yerlerde durulmamalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nefes yetiştirmek için aşırı hız yapılmamalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru nefes kullanımı, daha rahat ve dengeli okumayı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tecvid Kurallarını Uygulamak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okuma, tecvid kurallarından bağımsız değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mahreç, med, ihfa, idğam, iklab, izhar, kalkale ve diğer tecvid kuralları doğru uygulandığında okuma daha güzel ve daha akıcı hâle gelir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle akıcılık ile doğru okuma birlikte geliştirilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sabırlı Olmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okumada akıcılık kısa sürede kazanılmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her öğrenci farklı hızda ilerleyebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Önemli olan;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Pes etmemek,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Düzenli çalışmak,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hataları düzelterek ilerlemektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabırlı çalışma zamanla büyük gelişme sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Güzel Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı tane tane, ağır ağır oku.\"\n(Müzzemmil Suresi, 73/4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette şöyle buyrulur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kendilerine kitap verdiğimiz kimseler onu gereği gibi okurlar.\"\n(Bakara Suresi, 2/121)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı öğrenen ve onu okuyan kimseye büyük ecir vardır. Okurken zorlanan kimseye ise iki ecir vardır.\" (Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okuma, doğru okumadan sonra gelişen bir beceridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hızdan önce doğruluk önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Düzenli tekrar yapmak akıcılığı geliştirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sesli çalışma ve doğru nefes kullanımı okumayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tecvid kurallarına dikkat etmek hem doğruluğu hem de akıcılığı artırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okuma, Kur'an-ı Kerim'i doğru telaffuz ve doğal bir ritimle okuyabilme becerisidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Öncelikle harfler, harekeler ve tecvid kuralları doğru öğrenilmeli; hız daha sonra geliştirilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Düzenli tekrar, sesli çalışma ve doğru nefes kullanımı akıcı okumayı destekler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcılık, sabırlı ve istikrarlı çalışmayla zaman içinde gelişir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ı doğru ve güzel okumak, hem ibadet bilincini güçlendirir hem de manevi huzur sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu bölümde Harf Birleştirme, Hece Okuma, Kelime Okuma, Cümle Okuma, Ayet Okuma ve Akıcı Okuma Teknikleri konularını öğrendiniz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okumayı öğrenme süreci; harfleri tanımak, harfleri birleştirmek, hece oluşturmak, kelime okumak, cümle okumak ve ayet okumak şeklinde aşamalı olarak ilerler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfler kelime içinde başta, ortada ve sonda farklı şekillerde yazılabilir; ancak sesleri değişmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harekeler (üstün, esre, ötre), harflerin nasıl okunacağını belirlediği için dikkatle takip edilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hece ve kelime okunurken harfler tek tek değil, bir bütün olarak okunmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cezm, şedde ve tenvin gibi işaretler daha önce öğrenilen kurallara uygun şekilde uygulanmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cümle ve ayet okunurken gereksiz duraklamalardan kaçınılmalı, doğal bir akış sağlanmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayetleri doğru okumak kadar, anlamlarını öğrenmeye ve üzerinde düşünmeye de gayret edilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okuma; doğru telaffuz, mahreçlere dikkat, tecvid kurallarını uygulama, düzenli tekrar ve sabırlı çalışma ile zaman içinde gelişir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okumada öncelik hız değil doğruluktur. Doğru okuma alışkanlığı kazanıldıktan sonra akıcılık doğal olarak gelişir.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

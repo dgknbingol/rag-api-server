@@ -1,0 +1,383 @@
+{
+  "id": "kurani-anlama-mini-quiz",
+  "title": "Kur'an'ı Anlama Mini Quiz",
+  "moduleId": "kurani-anlama",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Meal nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an'ın Arapça metni",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ın anlamının başka bir dile aktarılmasıdır.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hadis kitabı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Fıkıh kitabı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Meal neden Kur'an'ın yerine geçmez?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Çünkü Kur'an'ın aslı Arapçadır ve meal sadece anlam aktarımıdır.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çünkü çok uzundur.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Çünkü sadece âlimler okuyabilir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çünkü hadislerden oluşur.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tefsirin temel amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yeni hükümler koymak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ın doğru anlaşılmasını sağlamak.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Arapça öğretmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tarih anlatmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi tefsirde yer alabilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ayetin iniş sebebi",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Roman özeti",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Şiir incelemesi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Matematik kuralları",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Nüzul sebepleri neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Surelerin sırasını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ayetlerin hangi olay veya durum üzerine indirildiğini",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hafızlık kurallarını",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tecvid hükümlerini",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Her ayetin özel bir nüzul sebebi var mıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hayır",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece Mekkî surelerin vardır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Medenî surelerin vardır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Muhkem ayetlerin özelliği nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anlamlarının açık ve net olması",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece uzun olmaları",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece Medine'de inmeleri",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece dua içermeleri",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Müteşabih ayetler için hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anlamları üzerinde dikkatle düşünülmeli ve güvenilir açıklamalardan yararlanılmalıdır.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'da bulunmazlar.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hükümsüzdürler.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece tarih anlatırlar.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an ile amel etmek ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece ezber yapmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ın öğrettiklerini hayatımıza uygulamak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece meal okumak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Arapça öğrenmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an ile amel etmenin en güzel örneği kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hz. Ebû Bekir (ra)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Ömer (ra)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hz. Osman (ra)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ı doğru anlamanın ilkelerinden biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ayetleri bağlamından koparmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ı bir bütün olarak değerlendirmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece tek bir ayete bakmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hadisleri dikkate almamak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Anlaşılması zor ayetlerde hangi kaynaklardan yararlanılmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Güvenilir tefsirler ve sahih hadisler",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Gazeteler",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Romanlar",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sosyal medya paylaşımları",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın temel amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece okunmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İnsanlara rehber olmak ve doğru yolu göstermek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tarih öğretmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Şiir öğretmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an okunurken aşağıdakilerden hangisinden kaçınılmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Güvenilir kaynaklardan yararlanmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ayetleri bağlamından koparmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kur'an üzerinde düşünmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hadislerden faydalanmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ı doğru anlamanın en önemli sonuçlarından biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mesajını doğru yaşamak ve hayatımıza uygulamak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Daha hızlı ezber yapmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Daha uzun süre okumak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha fazla sure ismi öğrenmek",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

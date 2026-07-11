@@ -1,0 +1,316 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Harflerin Okunuşu",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harflerin Okunuşu Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'i doğru okuyabilmek için Arap harflerinin doğru telaffuzunu öğrenmek gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı Arap harfleri Türkçedeki harflere benzerken, bazıları Türkçede bulunmayan seslere sahiptir. Bu nedenle her harfin okunuşuna dikkat edilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru telaffuz, ileride tecvid kurallarını uygulamayı da kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Arap Harflerinin İsimleri ve Okunuşları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "table",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Harf\tAdı\tYaklaşık Okunuşu",
+        "ا\tElif\tA",
+        "ب\tBe\tB",
+        "ت\tTe\tT",
+        "ث\tSe\tPeltek S",
+        "ج\tCim\tC",
+        "ح\tHâ\tKalın H",
+        "خ\tHı\tHırıltılı H",
+        "د\tDal\tD",
+        "ذ\tZel\tPeltek Z",
+        "ر\tRe\tR",
+        "ز\tZe\tZ",
+        "س\tSin\tS",
+        "ش\tŞın\tŞ",
+        "ص\tSâd\tKalın S",
+        "ض\tDâd\tKalın D",
+        "ط\tTâ\tKalın T",
+        "ظ\tZâ\tKalın Z",
+        "ع\tAyn\tBoğazdan çıkan özel ses",
+        "غ\tĞayn\tGırtlaktan çıkan Ğ",
+        "ف\tFe\tF",
+        "ق\tKaf\tKalın K",
+        "ك\tKef\tK",
+        "ل\tLam\tL",
+        "م\tMim\tM",
+        "ن\tNun\tN",
+        "هـ\tHe\tH",
+        "و\tVav\tV / U / O (kullanımına göre)",
+        "ي\tYe\tY / İ (kullanımına göre)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Not: Tablodaki okunuşlar, Türkçe konuşanlar için yaklaşık karşılıklardır. Harflerin gerçek telaffuzu bir sonraki \"Mahreç\" dersinde ayrıntılı olarak öğrenilecektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Türkçede Bulunmayan Sesler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arapçada bazı harflerin Türkçede tam karşılığı yoktur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlardan bazıları şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "ث (Se)",
+        "ح (Hâ)",
+        "خ (Hı)",
+        "ذ (Zel)",
+        "ص (Sâd)",
+        "ض (Dâd)",
+        "ط (Tâ)",
+        "ظ (Zâ)",
+        "ع (Ayn)",
+        "غ (Ğayn)",
+        "ق (Kaf)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu harfleri doğru telaffuz edebilmek için mahreç bilgisi önemlidir ve sonraki derslerde ayrıntılı olarak ele alınacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Benzer Harfleri Karıştırmamak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı harflerin isimleri veya yazılışları birbirine benzeyebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "س (Sin) ile ص (Sâd)",
+        "ت (Te) ile ط (Tâ)",
+        "د (Dal) ile ض (Dâd)",
+        "ك (Kef) ile ق (Kaf)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "aynı harf değildir ve farklı seslerle okunurlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle her harfin telaffuzunu dikkatle öğrenmek gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Doğru Telaffuzun Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okunurken harflerin doğru telaffuz edilmesi önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanlış telaffuz, bazı kelimelerin anlamını değiştirebilir veya okunuşta hatalara yol açabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle Kur'an öğrenirken acele edilmemeli ve her harf doğru şekilde öğrenilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Düzenli Tekrar Yapmak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harflerin okunuşunu öğrenmenin en iyi yolu düzenli tekrar etmektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her gün kısa süre çalışmak ve harfleri sesli olarak tekrar etmek, doğru telaffuz alışkanlığı kazanmayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mümkünse bir öğreticiden veya güvenilir ses kayıtlarından dinleyerek çalışmak da faydalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an Öğrenmenin Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Biz Kur'an'ı öğüt alınsın diye kolaylaştırdık. Öğüt alan yok mudur?\"\n (Kamer Suresi, 54/17)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Sizin en hayırlınız, Kur'an'ı öğrenen ve öğreteninizdir.\" (Buhârî)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Arap alfabesindeki her harfin kendine özgü bir telaffuzu vardır.",
+        "Bazı Arap harflerinin Türkçede tam karşılığı bulunmaz.",
+        "Benzer görünen veya benzer isimli harfler farklı seslerle okunabilir.",
+        "Doğru telaffuz, Kur'an'ı doğru okuyabilmenin temelidir.",
+        "Harflerin gerçek çıkış yerleri (mahreçleri) bir sonraki derste ayrıntılı olarak öğrenilecektir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Arap harflerinin doğru okunması, Kur'an öğrenmenin temel adımlarından biridir.",
+        "Bazı harfler Türkçedeki seslere benzerken, bazıları Türkçede bulunmayan özel seslere sahiptir.",
+        "Benzer görünen harfler farklı şekillerde telaffuz edilir ve birbirine karıştırılmamalıdır.",
+        "Düzenli tekrar ve dikkatli çalışma, doğru telaffuz alışkanlığı kazandırır.",
+        "Harflerin çıkış yerleri ve doğru telaffuzu, mahreç dersinde ayrıntılı olarak ele alınacaktır."
+      ]
+    }
+  ]
+}

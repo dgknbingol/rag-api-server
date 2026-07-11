@@ -1,0 +1,383 @@
+{
+  "id": "kuranin-tarihi-mini-quiz",
+  "title": "Kur'an'ın Tarihi Mini Quiz",
+  "moduleId": "kuranin-tarihi",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "İlk vahiy nerede indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mescid-i Nebevî",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hira Mağarası",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sevr Mağarası",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Mescid-i Aksâ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk inen ayetler hangi surenin başındadır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fâtiha",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yâsîn",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Alak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bakara",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim yaklaşık kaç yılda indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 yıl",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "15 yıl",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "23 yıl",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "40 yıl",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim kimin aracılığıyla Hz. Muhammed'e (sav) indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mikâil (a.s.)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Cebrâil (a.s.)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İsrâfil (a.s.)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Azrâil (a.s.)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an neden parça parça indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Daha kolay öğrenilmesi ve uygulanması için",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Yazı malzemesi olmadığı için",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sure sayısını artırmak için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha kısa olması için",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ı yazan sahabilere ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Müfessir",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Muhaddis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Vahiy kâtipleri",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Müezzin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Muhammed (sav) döneminde Kur'an tamamen yazılmış mıydı?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hayır, hiç yazılmadı.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Evet, yazılmıştı ancak tek cilt hâlinde değildi.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece yarısı yazılmıştı.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ezberlenmişti.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk mushaf hangi halife döneminde hazırlanmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Osman (ra)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Ebû Bekir (ra)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hz. Ömer (ra)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali (ra)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk mushafın hazırlanmasını kim yürütmüştür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ali (ra)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Abdullah b. Mes'ûd (ra)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zeyd bin Sâbit (ra)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Bilâl (ra)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın resmî olarak çoğaltılması hangi halife döneminde yapılmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ebû Bekir (ra)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Ömer (ra)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Osman (ra)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali (ra)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Osman (ra) dönemindeki çoğaltma çalışmasının amacı neydi?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yeni ayetler eklemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an metninde birlik sağlamak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Surelerin sırasını değiştirmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kur'an'ı farklı dillere çevirmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ı tamamen ezberleyen kişiye ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Müfessir",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hafız",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Müezzin",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hatip",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın korunacağını bildiren ayet hangi surededir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fâtiha",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yâsîn",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hicr",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kehf",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın korunmasında aşağıdakilerden hangisi önemli rol oynamıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece yazılı nüshalar",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sadece ezber",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ezber, yazılı mushaflar ve eğitim geleneği",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sadece tercümeler",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Kur'an'ın günümüze eksiksiz ulaşmasının sebeplerinden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'ın koruması ve Müslümanların titiz muhafazası",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece matbaanın bulunması",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece dijital ortamda saklanması",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece kütüphanelerde bulunması",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

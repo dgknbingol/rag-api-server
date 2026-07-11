@@ -1,0 +1,320 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Felak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sure Hakkında Kısa Bilgi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sure No: 113",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayet Sayısı: 5",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nüzul Yeri: Mekke (Cumhurun görüşüne göre Mekkîdir.)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'daki Yeri: 30. cüzde yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Diğer İsimleri: Muavvizeteyn'den (Felak ve Nâs sureleri) biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Felak Suresi, insanın karşılaşabileceği her türlü kötülükten Allah'a sığınmayı öğreten bir suredir. Allah'ın koruyuculuğunu ve yardımını hatırlatır. Nâs Suresi ile birlikte \"Muavvizeteyn\" (Allah'a sığındıran iki sure) olarak anılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Arapça Metni",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "مِنْ شَرِّ مَا خَلَقَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Türkçe Okunuşu",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bismillâhirrahmânirrahîm.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kul eûzü bi rabbil felak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Min şerri mâ halak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ve min şerri gâsikın izâ vekab.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ve min şerrin neffâsâti fil ukad.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ve min şerri hâsidin izâ hased.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Türkçe Anlamı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rahmân ve Rahîm olan Allah'ın adıyla.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "De ki: Sabahın Rabbine sığınırım.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yarattığı şeylerin kötülüğünden,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Karanlığı çöktüğü zaman gecenin kötülüğünden,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Düğümlere üfleyenlerin kötülüğünden,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Haset ettiği zaman hasetçinin kötülüğünden.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kısa Tefsiri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Felak Suresi, müminlere her türlü kötülükten korunmak için Allah'a sığınmayı öğretir. Sure, \"Sabahın Rabbi\" anlamına gelen \"Rabbi'l-Felak\" ifadesiyle başlar. Buradaki \"felak\", karanlığı yararak aydınlığı ortaya çıkaran sabahı ifade eder ve Allah'ın her türlü zorluğu gidermeye gücü yettiğini hatırlatır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İkinci ayette, Allah'ın yarattıkları arasında insana zarar verebilecek her türlü kötülükten O'na sığınılması öğretilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Üçüncü ayette, gecenin karanlığında meydana gelebilecek tehlikelere karşı Allah'a sığınmanın önemi vurgulanır. Burada gecenin kendisi değil, karanlığın içinde ortaya çıkabilecek zararlar kastedilmektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dördüncü ayette geçen \"düğümlere üfleyenler\", insanların zarar görmesi amacıyla yapılan büyü ve benzeri kötü davranışları ifade eder. Mümin, bu tür kötülüklerden korunmak için yalnız Allah'a güvenir ve O'na sığınır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Beşinci ayette ise haset eden kimselerin kötülüğünden Allah'a sığınmak öğretilir. Haset, başkasındaki nimetin yok olmasını istemektir ve dinimizde kötü bir ahlak olarak görülmüştür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Felak Suresi, mümine korku yerine Allah'a güvenmeyi, her türlü tehlike ve kötülük karşısında O'na yönelmeyi öğretir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Fazileti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Felak Suresi hakkında birçok sahih hadis bulunmaktadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav), Felak ve Nâs surelerini sabah ve akşam okumayı tavsiye etmiş, bunların Allah'ın izniyle kişiyi birçok kötülükten koruyacağını bildirmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yine Resûlullah (sav), uyumadan önce İhlâs, Felak ve Nâs surelerini okuyup ellerine üfleyerek vücuduna mesh ederdi.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Felak Suresi;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a sığınmanın önemini öğretir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabah ve akşam okunması tavsiye edilen surelerdendir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Uyumadan önce okunması sünnettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mümini manevi olarak Allah'a yöneltir ve O'na güvenmesini sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

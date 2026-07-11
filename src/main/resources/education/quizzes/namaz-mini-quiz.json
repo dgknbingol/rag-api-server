@@ -1,0 +1,383 @@
+{
+  "id": "namaz-mini-quiz",
+  "title": "Namaz Mini Quiz",
+  "moduleId": "namaz",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Namaz, İslam'ın kaç şartından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Üç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Beş",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Altı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Günlük farz namaz sayısı kaçtır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Üç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Beş",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Altı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Namaz kimlere farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece erkeklere",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Müslüman, akıl sağlığı yerinde ve ergenlik çağına ulaşmış kişilere",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece yaşlılara",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece din görevlilerine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi beş vakit namazdan biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Teravih",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Teheccüd",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İkindi",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kuşluk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Namaza başlamadan önce aşağıdakilerden hangisi gereklidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kıbleye yönelmek ve niyet etmek",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadaka vermek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Oruç tutmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kurban kesmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre aşağıdakilerden hangisi namazın şartlarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rükû",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Secde",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Vakit",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tahiyyat okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre aşağıdakilerden hangisi namazın farzlarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İftitah tekbiri",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Kunut duası",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Salavat",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tesbihat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Namazın şartları ne zaman yerine getirilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namazdan sonra",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Namaza başlamadan önce",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Rükûdan sonra",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Selamdan sonra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Namaz sırasında aşağıdakilerden hangisi namazı bozar?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dünya ile ilgili konuşmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sessizce dua etmek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Tesbih çekmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tahiyyat okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre namaz sırasında kahkaha ile gülmenin hükmü nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece sevabı azaltır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Namazı bozar; yetişkin bir kişi için abdesti de bozar.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hiçbir etkisi yoktur.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece sünnet namazı bozulur.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cemaatle namazı kıldıran kişiye ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Müezzin",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İmam",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hatip",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Vaiz",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cuma namazı hangi vakitte kılınır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sabah",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Öğle",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İkindi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Akşam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cuma namazından önce aşağıdakilerden hangisi okunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kâmet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hutbe",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tesbihat",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Salavat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre bayram namazının hükmü nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Farz",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Vacip",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Müekked sünnet",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Nafile",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Bayram namazı hangi günlerde kılınır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her cuma günü",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ramazan ve Kurban Bayramı'nın birinci günü",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kandil gecelerinde",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Muharrem ayının ilk günü",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

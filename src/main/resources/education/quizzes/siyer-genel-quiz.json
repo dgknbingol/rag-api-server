@@ -1,0 +1,508 @@
+{
+  "id": "siyer-genel-quiz",
+  "title": "Siyer Genel Quiz",
+  "moduleId": "siyer",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Siyer ilmi neyi inceler?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fıkıh hükümlerini",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an tefsirini",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed'in (sav) hayatını",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Arap dilini",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Muhammed (sav) hangi yılda doğmuştur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "570",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "571",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "610",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "622",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimizin annesinin adı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hatice",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Âişe",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Âmine",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Halime",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimizi dedesinden sonra kim himayesine almıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Hamza",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ebû Tâlib",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hz. Abbas",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zeyd",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimiz gençliğinde hangi unvanla tanınmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Es-Sâdık",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "El-Emîn",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "El-Fâruk",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zinnûreyn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk vahiy nerede gelmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sevr Mağarası",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hira Mağarası",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Arafat",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Mina",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk inen ayetler hangi sureye aittir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fâtiha",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yâsîn",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Alak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bakara",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mekke Dönemi yaklaşık kaç yıl sürmüştür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "13",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "20",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "23",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam tarihindeki ilk hicret nereye yapılmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Medine",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Şam",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Habeşistan",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kudüs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hicret hangi yılda gerçekleşmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "610",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "620",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "622",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "630",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mekke'den Medine'ye göç eden Müslümanlara ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ensar",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Muhacir",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tâbiîn",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Seriyye",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Medine'de hazırlanan ilk yazılı toplumsal sözleşmenin adı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hudeybiye Antlaşması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Medine Vesikası",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Akabe Biatı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Veda Hutbesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Muhammed'in (sav) bizzat katıldığı askerî seferlere ne denir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Seriyye",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gazve",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hicret",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Fetih",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk büyük savaş hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Uhud",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hendek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Bedir",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hayber",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hudeybiye Antlaşması hangi yılda yapılmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "624",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "627",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "628",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "630",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mekke hangi yılda fethedilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "622",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "628",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "630",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "632",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mekke fethedildikten sonra Hz. Muhammed (sav) ne ilan etmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Vergi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Genel af",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Seferberlik",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Boykot",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Veda Hutbesi nerede okunmuştur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mina",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Müzdelife",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Arafat",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kâbe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Veda Hutbesi'nde üstünlüğün ne ile olduğu belirtilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Soy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Servet",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Takva",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Güç",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Muhammed (sav) kaç yaşında vefat etmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "61",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "63",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "65",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

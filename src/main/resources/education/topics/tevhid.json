@@ -1,65 +1,446 @@
 {
-  "readingMinutes": 5,
+  "readingMinutes": 3,
   "blocks": [
-    { "type": "heading", "text": "Tevhid", "title": null, "url": null, "items": null },
+    {
+      "type": "heading",
+      "text": "Tevhid",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tevhid Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
     {
       "type": "paragraph",
-      "text": "Tevhid, Allah'ın bir olduğuna, eşi, benzeri ve ortağı bulunmadığına gönülden inanmak ve yalnızca O'na ibadet etmektir. İslam inancının temelini oluşturan en önemli kavramdır. Müslüman, Allah'ın tek ilah olduğuna inanır; yaratma, yönetme ve ibadet edilmeye layık olma konusunda O'na hiçbir varlığı ortak koşmaz.",
+      "text": "Tevhid, Allah'ın bir ve tek olduğuna, hiçbir ortağı bulunmadığına ve ibadete yalnızca O'nun layık olduğuna inanmak demektir.",
       "title": null,
       "url": null,
       "items": null
     },
-    { "type": "heading", "text": "Tevhid Neden Önemlidir?", "title": null, "url": null, "items": null },
     {
       "type": "paragraph",
-      "text": "Tevhid, İslam'ın temelidir. Bir Müslümanın bütün ibadetleri ve inancı bu temel üzerine kuruludur. Tevhid inancı, insanın yalnızca Allah'a güvenmesini, yalnızca O'na ibadet etmesini ve hayatını O'nun rızasına göre yaşamaya çalışmasını sağlar.",
+      "text": "\"Tevhid\" kelimesi, Arapçada \"birlemek, tek kabul etmek\" anlamına gelir.",
       "title": null,
       "url": null,
       "items": null
     },
-    { "type": "heading", "text": "Tevhid İnancının Hayata Yansıması", "title": null, "url": null, "items": null },
-    {
-      "type": "bullet",
-      "text": null,
-      "title": null,
-      "url": null,
-      "items": [
-        "Yalnızca Allah'a ibadet eder.",
-        "Dualarında Allah'a yönelir.",
-        "Allah'tan başkasına ilahlık isnat etmez.",
-        "Allah'ın emirlerine uymaya gayret eder.",
-        "O'nun yasaklarından kaçınmaya çalışır.",
-        "Her nimetin Allah'tan geldiğini bilir ve şükreder."
-      ]
-    },
-    { "type": "heading", "text": "Tevhidin Zıddı: Şirk", "title": null, "url": null, "items": null },
     {
       "type": "paragraph",
-      "text": "Tevhidin karşıtı şirktir. Şirk; Allah'a ait olan özelliklerde veya ibadette O'na ortak koşmak anlamına gelir. İslam, Allah'ın birliğini esas aldığı için Müslümanlar şirkten kaçınmaya büyük önem verir. Bu nedenle ibadet, dua ve kulluk yalnızca Allah'a yöneltilir.",
+      "text": "Tevhid, İslam inancının en temel ilkesidir. Müslüman, Allah'ın zatında, sıfatlarında ve fiillerinde tek olduğuna iman eder ve O'na hiçbir şeyi ortak koşmaz.",
       "title": null,
       "url": null,
       "items": null
     },
     {
-      "type": "source",
-      "text": "\"De ki: O Allah birdir. Allah Samed'dir. Doğurmamış ve doğurulmamıştır. Hiçbir şey O'na denk değildir.\" (İhlâs Suresi, 112/1-4)",
+      "type": "heading",
+      "text": "Tevhidin Önemi",
       "title": null,
       "url": null,
       "items": null
     },
-    { "type": "heading", "text": "Ders Özeti", "title": null, "url": null, "items": null },
     {
-      "type": "bullet",
-      "text": null,
+      "type": "paragraph",
+      "text": "Tevhid, bütün peygamberlerin insanlara tebliğ ettiği ortak mesajdır.",
       "title": null,
       "url": null,
-      "items": [
-        "Tevhid, Allah'ın tek ilah olduğuna inanmayı ifade eder.",
-        "Allah'ın eşi, benzeri ve ortağı yoktur.",
-        "İbadet yalnızca Allah'a yapılır.",
-        "Tevhid, Müslümanın inanç ve ibadet hayatının temelidir.",
-        "Şirk, tevhid inancına aykırı olan en büyük yanlışlardan biridir."
-      ]
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid sayesinde;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın birliği kabul edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirkten uzak durulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetler yalnızca Allah için yapılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İman sağlam bir temele oturur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, yalnızca Allah'a güvenir ve O'ndan yardım ister.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tevhidin Esası",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhidin özeti, Kelime-i Tevhid ile ifade edilir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Lâ ilâhe illallah, Muhammedün Resûlullah.\"",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Anlamı:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Allah'tan başka ilâh yoktur; Muhammed O'nun elçisidir.\"",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ifade, İslam inancının temelini oluşturur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tevhid ve Şirk",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhidin karşıtı şirktir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirk, Allah'a ortak koşmak veya O'na ait özellikleri başka varlıklara vermektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de şirk en büyük günahlardan biri olarak bildirilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, ibadetlerini yalnızca Allah için yapar ve O'ndan başkasını ilâh edinmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tevhidin Günlük Hayattaki Yeri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancına sahip olan kişi;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yalnızca Allah'a ibadet eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dualarında yalnızca Allah'a yönelir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'tan başkasından mutlak yardım beklemez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'ın her şeyi gördüğünü ve bildiğini bilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hayatını Allah'ın emirlerine göre yaşamaya çalışır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tevhidin İnsan Hayatına Etkileri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancı;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a güven duygusunu artırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İmanı güçlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Korku ve ümitsizliği azaltır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kulun yalnızca Allah'a bağlanmasını sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Güzel ahlak ve samimi kulluğu destekler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tevhidden Alınacak Dersler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid bizlere önemli mesajlar verir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah birdir ve hiçbir ortağı yoktur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadet yalnızca Allah'a yapılmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şirkten uzak durmak gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a güvenmek ve O'na teslim olmak Müslümanın temel görevidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, İslam inancının temelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"De ki: O Allah birdir.\"\n(İhlâs Suresi, 112/1)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Sizin ilâhınız tek bir ilâhtır. O'ndan başka ilâh yoktur. O, Rahmân'dır, Rahîm'dir.\"\n(Bakara Suresi, 2/163)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, Allah'ın birliğini ve tevhid inancının İslam'ın temeli olduğunu açıkça ifade etmektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, Allah'ın bir ve tek olduğuna inanmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, İslam'ın en temel inanç ilkesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelime-i Tevhid, tevhid inancını özetleyen ifadedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhidin karşıtı şirktir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, ibadetlerini yalnızca Allah için yapar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, Allah'ın birliğine ve tek ilâh olduğuna iman etmektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'ın temel inancı tevhid üzerine kurulmuştur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelime-i Tevhid, bu inancın en özlü ifadesidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid, Allah'a hiçbir şeyi ortak koşmamayı ve ibadetleri yalnızca O'na yapmayı gerektirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tevhid inancı, Müslümanın Allah'a güvenmesini, O'na yönelmesini ve hayatını O'nun emirlerine göre düzenlemesini sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
     }
   ]
 }

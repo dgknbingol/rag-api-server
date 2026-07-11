@@ -1,0 +1,383 @@
+{
+  "id": "islamin-sartlari-mini-quiz",
+  "title": "İslam'ın Şartları Mini Quiz",
+  "moduleId": "islamin-sartlari",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "İslam'ın kaç şartı vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Beş",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Altı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yedi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi İslam'ın ilk şartıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namaz",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Oruç",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kelime-i Şehadet",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Zekât",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kelime-i Şehadet neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ramazan orucunu",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın birliğine ve Hz. Muhammed'in (sav) Allah'ın kulu ve elçisi olduğuna şahitlik etmeyi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hacca gitmeyi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zekât vermeyi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Günde kaç vakit farz namaz vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Üç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Beş",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Altı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Namazın temel amaçlarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah ile kul arasındaki bağı güçlendirmek.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "İnsanları zengin etmek.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Daha az çalışmak.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Seyahat etmek.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ramazan ayında tutulan ibadet hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hac",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Oruç",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zekât",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Umre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim'e göre orucun temel hikmetlerinden biri nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ticareti artırmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Takvaya ulaşmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Daha güçlü olmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha uzun yaşamak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekât kimlere farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Herkese",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Maddi imkânı dinimizin belirlediği ölçüde yeterli olan Müslümanlara",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece yaşlılara",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece öğrencilere",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekâtın amacı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gösteriş yapmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İhtiyaç sahiplerine destek olmak ve toplumsal dayanışmayı güçlendirmek.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ticareti geliştirmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Seyahat etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hac kimlere farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bütün insanlara",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Maddi ve bedeni imkânı bulunan Müslümanlara",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece din görevlilerine",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece yaşlılara",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hac ibadeti nerede yerine getirilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Medine",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kudüs",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Mekke ve çevresindeki kutsal mekânlarda",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İstanbul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam'ın şartları ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece din görevlilerini ilgilendirir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Müslümanın imanını ibadetlerle hayata yansıtmasını sağlar.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece Ramazan ayında uygulanır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece camide yerine getirilir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi İslam'ın şartlarından biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kelime-i Şehadet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Namaz",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Meleklere iman",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hac",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hangi ibadet yalnızca maddi imkânı olan Müslümanlara farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namaz",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Oruç",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zekât ve Hac",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kelime-i Şehadet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi İslam'ın beş şartının ortak amacını en iyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece belirli ibadetleri yerine getirmek.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'a kulluğu yaşamak, manevi gelişimi desteklemek ve güzel ahlakı güçlendirmek.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İnsanlardan övgü kazanmak.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece gelenekleri sürdürmek.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

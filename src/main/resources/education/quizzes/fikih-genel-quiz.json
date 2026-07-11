@@ -1,0 +1,508 @@
+{
+  "id": "fikih-genel-quiz",
+  "title": "Fıkıh Genel Quiz",
+  "moduleId": "fikih",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Fıkhın kelime anlamı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İbadet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Derin anlayış",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Temizlik",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yolculuk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Fıkhın temel kaynaklarından biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sünnet",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İcmâ",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Astronomi",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Taharet neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece abdesti",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Maddi ve manevi temizliği",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece guslü",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Namazı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Namaz İslam'ın kaç şartından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Günlük kaç vakit farz namaz vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Oruç hangi ayda farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Muharrem",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Şaban",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ramazan",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Zilhicce",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Oruç ne zaman başlar?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Güneş doğunca",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sabah namazından sonra",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İmsak vaktiyle",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Öğle vakti",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekâtın genel oranı kaçtır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "%1",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "%5",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "%2,5",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "%10",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekât kimlere farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Herkese",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Nisap miktarı mala sahip Müslümanlara",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece yaşlılara",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çocuklara",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hac hangi ayda yapılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ramazan",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Muharrem",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zilhicce",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Recep",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre haccın farzlarından biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Şeytan taşlamak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Arafat vakfesi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Safâ-Merve sa'yi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kurban kesmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Helal ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yasak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Günah",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dinen izin verilen",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Şüpheli",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi haramdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Helal ticaret",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yardımlaşmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Faiz almak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Anne babaya iyilik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ticarette temel ilke hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aldatmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dürüstlük",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hile",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Karaborsa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hz. Muhammed (sav) ticarette hangi unvanla tanınmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "El-Fârûk",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "El-Emîn",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Seyfullah",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zinnûreyn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aile hukukunda nikâh neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Miras paylaşımını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Evliliği kuran dinî ve hukuki sözleşmeyi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Boşanmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Vasiyeti",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Günlük hayatta aşağıdakilerden hangisi teşvik edilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İsraf",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kul hakkı",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dürüstlük",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Yalan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre yaklaşık kaç kilometre yolculuk yapan kişi seferî sayılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 km",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "70 km",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "90 km",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "150 km",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hasta kişi ayakta namaz kılamıyorsa ne yapar?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namazı bırakır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Oturarak veya ima ile kılar.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Bir daha kılmaz.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Başkasına kıldırır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Fıkhın temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece ibadetleri öğretmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Müslümanın hayatını Kur'an ve sünnete uygun yaşamasına rehberlik etmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece ticareti düzenlemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece aile hukukunu öğretmek",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

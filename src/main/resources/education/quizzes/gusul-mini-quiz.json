@@ -1,0 +1,383 @@
+{
+  "id": "gusul-mini-quiz",
+  "title": "Gusül Mini Quiz",
+  "moduleId": "gusul",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Gusül nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece elleri yıkamaktır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Bütün bedenin kuru yer kalmayacak şekilde yıkanmasıyla yapılan büyük temizliktir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece abdest almaktır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece yüzü yıkamaktır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gusül halk arasında hangi isimle de bilinir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mesh",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Boy abdesti",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Teyemmüm",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Taharet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gusül neden önemlidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece bedeni temizlediği için",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hem bedensel hem manevi temizlik sağlayarak ibadete hazırladığı için",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yalnızca sağlık açısından faydalı olduğu için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Ramazan ayında gerekli olduğu için",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre guslün kaç farzı vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi guslün farzlarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Besmele çekmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ağıza su vermek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sağ omuzdan başlamak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Dua okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre aşağıdakilerden hangisi gusülde farzdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Burna su vermek",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Üç defa su dökmek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Misvak kullanmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sağ taraftan başlamak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gusülde en önemli husus aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Çok su kullanmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Bedenin hiçbir yerinde kuru nokta bırakmamak.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Soğuk su kullanmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sessiz olmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gusle başlamadan önce hangisi sünnettir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kalben niyet etmek ve besmele çekmek.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Namaz kılmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kur'an okumak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadaka vermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi guslü gerektirir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Burun kanaması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Şehvet sonucu meni gelmesi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ağlamak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tırnak kesmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhtilam görüldüğünde hangi durumda gusül gerekir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her rüyadan sonra",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Uyandığında meni görülürse",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece korkulu rüyalardan sonra",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hiçbir zaman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kadınlarda hayız hâli sona erdiğinde ne gerekir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece abdest almak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gusül almak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Teyemmüm yapmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hiçbir şey yapmak gerekmez",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi tek başına guslü gerektirmez?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cinsel ilişki",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hayızın sona ermesi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Burun kanaması",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Şehvetle meni gelmesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gusül sırasında aşağıdakilerden hangisine dikkat edilmelidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Suyun ulaşmasına engel olan maddeler önceden temizlenmelidir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çok sıcak su kullanılmalıdır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Gusül mutlaka gece alınmalıdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece saç yıkanmalıdır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gusül sırasında usulüne uygun şekilde abdest alınmışsa ne olur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namaz için ayrıca abdest almaya gerek kalmaz.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Tekrar gusül almak gerekir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Yalnızca ayaklar yeniden yıkanır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Gusül geçersiz olur.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi guslün temel amaçlarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece bedeni temizlemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın emrine uyarak hem bedensel hem de manevi temizliği sağlamak ve ibadete hazırlanmak.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Daha hızlı ibadet etmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Günlük işleri kolaylaştırmak",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

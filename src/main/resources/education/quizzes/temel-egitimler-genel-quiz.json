@@ -1,0 +1,1008 @@
+{
+  "id": "temel-egitimler-genel-quiz",
+  "title": "Temel Eğitimler Genel Quiz",
+  "moduleId": "temel-egitimler",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "\"İslam\" kelimesinin anlamlarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Güç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Teslimiyet",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Servet",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yolculuk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam'ın temelinde hangi inanç bulunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sabır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tevhid",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zekât",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Oruç",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam dini yalnızca ibadetlerden mi oluşur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hayır, inanç, ibadet, ahlak ve sosyal hayatı kapsar.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece ahlakı kapsar.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ibadetleri kapsar.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Müslüman kime denir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece namaz kılan kişiye",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın birliğine ve Hz. Muhammed'in (sav) son peygamber olduğuna iman eden kişiye",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece Kur'an okuyan kişiye",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece hacca giden kişiye",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi Müslümanın özelliklerinden biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dürüst olmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kul hakkını gözetmek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Haksızlık yapmak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Yardımsever olmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam'ın iki temel kaynağı hangileridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an ve tarih kitapları",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an ve sünnet",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hadis ve kıyas",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Fıkıh ve tefsir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Sünnet neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Eski gelenekleri",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Muhammed'in (sav) söz, davranış ve uygulamalarını",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sahabelerin görüşlerini",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Mezhepleri",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dinî bilgi edinirken öncelikle neye başvurulmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sosyal medya paylaşımlarına",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an ve güvenilir sünnet kaynaklarına",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İnternetteki her bilgiye",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Arkadaşların yorumlarına",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tevhid ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'ın bir olduğuna inanmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Oruç tutmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zekât vermek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hacca gitmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İman nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'ın bildirdiği esasları gönülden kabul etmektir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece namaz kılmaktır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece dua etmektir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece iyi insan olmaktır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İbadetin temel amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanlardan övgü almak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın rızasını kazanmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zengin olmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ün kazanmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ibadet sayılabilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anne babaya iyilik yapmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Yalan söylemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Haksız kazanç elde etmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Verilen sözü tutmamak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Takva neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'a karşı sorumluluk bilinciyle yaşamayı",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sürekli seyahat etmeyi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Çok konuşmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece oruç tutmayı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhlas ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gösteriş yapmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yapılan ibadetleri yalnızca Allah'ın rızası için yapmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Çok konuşmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece sadaka vermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhlasın zıddı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sabır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Şükür",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Riya (gösteriş)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tevbe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece Arapça yapılabilir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dua yalnızca zor zamanlarda edilir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dua, kulun Allah'a yönelmesidir.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Dua çalışmanın yerine geçer.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Güzel ahlak konusunda Müslümanlar için en güzel örnek kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Nuh",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Musa",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Davud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam'da üstünlük ne ile ölçülür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zenginlikle",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Soyla",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Takva ve güzel ahlakla",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Makamla",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İmanın kaç temel şartı vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Beş",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Altı",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Yedi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi imanın şartlarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namaz",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Zekât",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ahiret gününe iman",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hac",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İmanın ilk şartı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ahiret gününe iman",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'a iman",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Peygamberlere iman",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kitaplara iman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Allah'ın bir ve tek olduğuna inanmayı ifade eden kavram hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Takva",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İhlas",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Tevhid",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tevekkül",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Allah'ın hiçbir şeye muhtaç olmamasına karşılık her şeyin O'na muhtaç olmasını ifade eden isim hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Er-Rahmân",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Es-Samed",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "El-Gafûr",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "El-Adl",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Meleklerle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nurdan yaratılmışlardır.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Ateşten yaratılmışlardır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Topraktan yaratılmışlardır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sudan yaratılmışlardır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Meleklerin en önemli özelliklerinden biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Günah işleyebilmeleri",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın emirlerine daima itaat etmeleri",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yemek yemeleri",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Evlenmeleri",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Vahiy getirmekle görevli melek hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mikâil",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Azrâil",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Cebrâil",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İsrâfil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Rızık ve tabiat olaylarıyla görevli melek hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mikâil",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Münker",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kirâmen Kâtibîn",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Malik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim hakkında aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Son ilahi kitaptır.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "İlk gönderilen kitaptır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece Araplara gönderilmiştir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha sonra değiştirilmiştir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim hangi peygambere indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Musa",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. İsa",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. İbrahim",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ilahi kitaplardan biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tevrat",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "İncil Yorumu",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hadis",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Siyer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberlerin ortak görevi nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanlara Allah'ın dinini tebliğ etmek",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Devlet kurmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Yeni kitap yazmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ticaret yapmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Son peygamber kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. İbrahim",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Musa",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. İsa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ahiret gününe iman neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dünyanın sonsuza kadar süreceğini",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ölümden sonra yeniden diriliş ve hesap gününe inanmayı",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece cennete inanmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece kabir hayatına inanmayı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ahiret hayatının aşamalarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mahşer",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hicret",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Miraç",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hicri yıl",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cennet kimler için hazırlanmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'a iman edip salih amel işleyenler için",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece zenginler için",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece peygamberler için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece melekler için",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kadere iman neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanların hiçbir sorumluluğunun olmadığını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın her şeyi ezelî ilmiyle bilip takdir ettiğine inanmayı",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İnsanların istediğini yapabileceğini",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çalışmanın gereksiz olduğunu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi kader inancıyla çelişir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Çalışıp Allah'a güvenmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tedbir almak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "\"Nasıl olsa kaderimde varsa olur.\" diyerek hiç çalışmamak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Dua etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tevekkül ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hiç çalışmadan beklemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gerekli gayreti gösterdikten sonra sonucu Allah'a bırakmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Her şeyi şansa bırakmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sürekli aynı işi yapmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İmanın şartlarından hangisi Allah'ın gönderdiği bütün peygamberleri kapsar?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kitaplara iman",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Peygamberlere iman",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kadere iman",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ahiret gününe iman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi imanın şartlarından biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'a iman",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ahiret gününe iman",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zekât vermek",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kadere iman",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

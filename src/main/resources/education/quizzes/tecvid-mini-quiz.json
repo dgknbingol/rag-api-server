@@ -1,0 +1,383 @@
+{
+  "id": "tecvid-mini-quiz",
+  "title": "Tecvid Mini Quiz",
+  "moduleId": "tecvid",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Tecvidin temel amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Daha hızlı okumak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ı doğru ve güzel okumak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Arapça konuşmayı öğrenmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yazıyı güzelleştirmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mahreç neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin anlamını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin yazılışını",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Harfin çıkış yerini",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Harfin sırasını",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Med kelimesinin anlamı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Birleştirmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gizlemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Uzatmak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Durmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Med-i Tabiî kaç hareke miktarı uzatılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "4",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi med harflerinden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "م",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ر",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "و",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ب",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhfa uygulanırken nûn sesi nasıl okunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tamamen açık okunur.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tamamen kaybolur.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Genizden hafifçe okunur.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "M sesine dönüşür.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İdğam harflerinin sayısı kaçtır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İklab yalnızca hangi harften önce uygulanır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "م",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ب",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "ر",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ق",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İklab uygulanırken nûn sesi neye dönüşür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "L",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Y",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "M",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "R",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İzhar harfleri hangi bölgenin harfleridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dudak harfleri",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Boğaz harfleri",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Dil harfleri",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Med harfleri",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kalkale harfleri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ي ر م ل و ن",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ق ط ب ج د",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "ء هـ ع ح غ خ",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ا و ي",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gunne en belirgin olarak hangi harflerle ilgilidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ب ve ف",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ن ve م",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "ك ve ق",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "س ve ص",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Vakıf ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfi uzatmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an okurken uygun yerde durmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sure ezberlemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfi gizlemek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İbtidâ ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an'ı bitirmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Durduktan sonra uygun yerden yeniden başlamak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hızlı okumak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Med yapmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi tecvidin temel konularından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kalkale",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sarf",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Nahiv",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Belâgat",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

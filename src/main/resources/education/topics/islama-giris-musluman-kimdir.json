@@ -1,0 +1,117 @@
+{
+  "readingMinutes": 2,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Müslüman Kimdir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bir Müslüman:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Allah'ın birliğine iman eder.",
+        "Hz. Muhammed'in (sav) son peygamber olduğuna inanır.",
+        "Kur'an-ı Kerim'i rehber kabul eder.",
+        "İbadetlerini yerine getirmeye gayret eder.",
+        "Doğru sözlü ve güvenilir olmaya çalışır.",
+        "Anne ve babasına saygılı davranır.",
+        "Kul hakkını gözetir.",
+        "Yardımlaşmayı ve paylaşmayı önemser.",
+        "İnsanlara karşı adaletli ve merhametli davranmaya özen gösterir.",
+        "Hata yaptığında tövbe ederek Allah'tan bağışlanma diler."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Müslüman Olmak Neden Bir Sorumluluktur?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'a göre iman, kişiye bazı sorumluluklar yükler. Müslüman, yalnızca kendisinden değil; çevresine karşı davranışlarından da sorumludur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu sorumluluklardan bazıları şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Doğruluktan ayrılmamak.",
+        "Emanete sahip çıkmak.",
+        "Kimseye haksızlık etmemek.",
+        "Kul hakkından sakınmak.",
+        "İhtiyaç sahiplerine yardım etmek.",
+        "Güzel ahlak sahibi olmaya çalışmak."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'da güzel davranışlar da ibadetlerin bir parçası olarak görülür.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Müslüman, Allah'a teslim olan kişidir.",
+        "Müslüman olmak; iman, ibadet ve güzel ahlakı birlikte yaşamaya çalışmayı ifade eder.",
+        "Kur'an-ı Kerim ve Hz. Muhammed'in (sav) sünneti Müslümanın temel rehberidir.",
+        "İslam'da üstünlük; ırk, renk veya zenginlikle değil, takva ve güzel ahlakla ölçülür."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Müslüman, Allah'ın birliğine ve Hz. Muhammed'in (sav) son peygamber olduğuna iman eden kişidir.",
+        "Müslüman olmak yalnızca inanmak değil, bu inancı davranışlara da yansıtmaktır.",
+        "Kur'an ve sünnet, Müslümanın hayatına rehberlik eder.",
+        "Güzel ahlak, dürüstlük, adalet ve merhamet Müslümanın temel özelliklerindendir."
+      ]
+    }
+  ]
+}

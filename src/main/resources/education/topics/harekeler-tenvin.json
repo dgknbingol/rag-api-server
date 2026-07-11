@@ -1,0 +1,432 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Tenvin",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tenvin Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tenvin, harekelerin çift olarak yazılmasıyla oluşan bir okuma işaretidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arapçada tenvin, kelimenin sonunda bulunan harfe \"n\" sesi ekler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tenvin üç çeşittir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Üstün Tenvini (ً)",
+        "Esre Tenvini (ٍ)",
+        "Ötre Tenvini (ٌ)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'i doğru okuyabilmek için tenvinlerin doğru öğrenilmesi önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Üstün Tenvini (ً)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Üstün tenvini, harfin üzerine iki üstün işareti konularak yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfe \"an\" sesi kazandırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بً = Ben",
+        "تً = Ten",
+        "كِتَابًا = Kitâben"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Okunuşta kısa bir \"an\" sesi duyulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Esre Tenvini (ٍ)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Esre tenvini, harfin altına iki esre işareti konularak yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfe \"in\" sesi kazandırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بٍ = Bin",
+        "تٍ = Tin",
+        "عَلِيمٍ = Alîmin"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Okunuşta kısa bir \"in\" sesi duyulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ötre Tenvini (ٌ)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ötre tenvini, harfin üzerine iki ötre işareti konularak yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harfe \"un\" sesi kazandırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بٌ = Bun",
+        "تٌ = Tun",
+        "غَفُورٌ = Ğafûrun"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Okunuşta kısa bir \"un\" sesi duyulur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tenvin Nasıl Okunur?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tenvin bulunan harfler;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Üstün tenvininde \"an\"",
+        "Esre tenvininde \"in\"",
+        "Ötre tenvininde \"un\""
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "şeklinde okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Buradaki \"n\" sesi, tenvinin en önemli özelliğidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Tenvin Okurken Nelere Dikkat Edilmelidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tenvin, iki ayrı hareke gibi değil tek ses olarak okunmalıdır.",
+        "Sonundaki \"n\" sesi açık ve net çıkarılmalıdır.",
+        "Ses gereğinden fazla uzatılmamalıdır.",
+        "Harfin mahreci korunmalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Alıştırmalar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki örnekleri sesli okuyunuz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Üstün Tenvini",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بً تً ثً جً مً نً",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Esre Tenvini",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بٍ تٍ ثٍ جٍ مٍ نٍ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ötre Tenvini",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بٌ تٌ ثٌ جٌ مٌ نٌ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Karışık Çalışma",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بً مٍ نٌ تً فٍ قٌ لً",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu çalışmaları birkaç kez tekrar etmek, tenvinli harfleri daha akıcı okumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sık Yapılan Hatalar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tenvindeki \"n\" sesini okumamak.",
+        "Harfi gereğinden fazla uzatmak.",
+        "Üstün, esre ve ötre tenvinlerini birbirine karıştırmak.",
+        "Harfin mahrecini değiştirmek."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru okumada tenvin kısa ve net okunmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an'ı Doğru Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı tane tane, ağır ağır oku.\"\n (Müzzemmil Suresi, 73/4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Sizin en hayırlınız, Kur'an'ı öğrenen ve öğreteninizdir.\" (Buhârî)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tenvin, harekenin çift yazılmasıyla oluşur.",
+        "Üç çeşidi vardır: üstün tenvini, esre tenvini ve ötre tenvini.",
+        "Tenvin, harfe \"n\" sesi kazandırır.",
+        "Tenvinli harfler uzatılmadan okunmalıdır.",
+        "Düzenli tekrar yapmak doğru okumayı kolaylaştırır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tenvin, Arap alfabesinde harekelerin çift olarak yazılmasıyla oluşan bir okuma işaretidir.",
+        "Üstün tenvini \"an\", esre tenvini \"in\", ötre tenvini ise \"un\" sesi verir.",
+        "Tenvinli harflerde sonundaki \"n\" sesi mutlaka okunmalıdır.",
+        "Tenvin okunurken ses uzatılmamalı ve harfin mahreci korunmalıdır.",
+        "Tenvin, Kur'an-ı Kerim'i doğru okumak için öğrenilmesi gereken temel konulardan biridir."
+      ]
+    }
+  ]
+}

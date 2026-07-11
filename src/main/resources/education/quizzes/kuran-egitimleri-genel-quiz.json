@@ -1,0 +1,1008 @@
+{
+  "id": "kuran-egitimleri-genel-quiz",
+  "title": "Kur'an Eğitimleri Genel Quiz",
+  "moduleId": "kuran-egitimleri",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Kur'an-ı Kerim kime indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Musa (as)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. İsa (as)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. İbrahim (as)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim hangi melek aracılığıyla indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mikâil (as)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Cebrâil (as)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İsrâfil (as)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Azrâil (as)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın en önemli özelliklerinden biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Belirli bir kavme gönderilmiştir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Son ilahi kitaptır.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zamanla değiştirilmiştir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ibadetleri anlatır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanlara doğru yolu göstermek",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Dünya tarihini öğretmek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Arapça öğretmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Bilim kitabı olmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın korunacağını Allah hangi surede bildirmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kevser",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hicr",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İhlâs",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Asr",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın öğretilerini günlük hayata uygulamaya ne denir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tecvid",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kıraat",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kur'an ile amel etmek",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tefsir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Arap alfabesi kaç harften oluşur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "26",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "27",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "28",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "29",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Arapça hangi yönde yazılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Soldan sağa",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sağdan sola",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yukarıdan aşağı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Aşağıdan yukarı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdaki harflerden hangisi kendisinden sonraki harfe bağlanmaz?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ب",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "م",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ر",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ن",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mahreç ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin yazılışı",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin çıktığı yer",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfin sırası",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfin anlamı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ı doğru okuyabilmek için en önemli konulardan biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfleri doğru mahreçlerinden çıkarmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çok hızlı okumak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ezberlemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sürekli yüksek sesle okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi dudak harflerinden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ب",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "ع",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ق",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ح",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Üstün (Fetha) harfe hangi sesi kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "i",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "u",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "a",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "e",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Esre (Kesra) harfe hangi sesi kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "i",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "u",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "o",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ötre (Damme) harfe hangi sesi kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "e",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "a",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "u",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "i",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şedde neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin uzatılmasını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin iki kez okunmasını (şeddeli okunmasını)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Durmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tenvini",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cezm (Sükûn) bulunan harf nasıl okunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Uzatılarak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harekesiz, kısa okunur.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İki kez okunur.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Genizden okunur.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tenvin hangi sesleri ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "an, in, un",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "aa, ii, uu",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "e, i, o",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "a, e, i",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harf birleştirme çalışmasının amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sure ezberlemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfleri kelime hâlinde okuyabilmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tefsir öğrenmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hadis ezberlemek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hece okumadan sonra genellikle hangi aşamaya geçilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tecvid",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kelime okuma",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sure ezberi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tefsir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Akıcı okumayı geliştiren en önemli yöntem aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Düzenli tekrar yapmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çok hızlı okumak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece dinlemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ezber yapmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tecvidin amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an'ı doğru ve güzel okumak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sure ezberlemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Meal yazmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hadis öğrenmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Med ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfi uzatmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Harfi iki kez okumak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Harfi gizlemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfi sert okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhfa ne anlama gelir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Açık okumak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gizleyerek okumak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Uzatmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Durmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İdğam ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfi ayırmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Bir harfi diğerine katmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfi uzatmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfi gizlemek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İklab hangi harfle gerçekleşir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "م (Mim)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "ل (Lam)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ر (Re)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ق (Kaf)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İzhar ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Açık ve net okumak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Gizlemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Uzatmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Durmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kalkale hangi harflerde görülür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ق ط ب ج د",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "ا و ي",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ب ت ث",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "س ش ص",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gunne ne ile ilgilidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Geniz sesiyle okumak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Uzatma",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Durma",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "İnce okuma",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Vakıf ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an okurken uygun yerde durmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Harfi uzatmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Gizlemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfi tekrar etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ezberlenen surelerden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İhlâs",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Bakara",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Âl-i İmrân",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yûsuf",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kevser Suresi kaç ayettir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk vahiy nerede gelmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sevr Mağarası",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hira Mağarası",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mescid-i Nebevî",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Arafat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an yaklaşık kaç yılda indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "15",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "23",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "40",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İlk mushaf hangi halife döneminde hazırlanmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ebû Bekir (ra)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hz. Ömer (ra)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Osman (ra)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali (ra)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ın çoğaltılarak İslam beldelerine gönderilmesi hangi halife döneminde gerçekleşmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Ebû Bekir (ra)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Osman (ra)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hz. Ömer (ra)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hz. Ali (ra)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Meal nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an'ın Arapça metni",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ın anlamının başka bir dile aktarılması",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hadis kitabı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tefsir kitabı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tefsir nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kur'an ayetlerini ayrıntılı açıklayan ilimdir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ın ezberlenmesidir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Tecvid kurallarıdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hadis ilmidir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Nüzul sebepleri neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ayetlerin hangi olay üzerine indirildiğini",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Surelerin sırasını",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Harflerin yazılışını",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tecvid kurallarını",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'ı doğru anlamanın temel ilkelerinden biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ayetleri bağlamından koparmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an'ı bir bütün olarak değerlendirmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece tek bir ayeti esas almak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kişisel yorumları kesin doğru kabul etmek",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

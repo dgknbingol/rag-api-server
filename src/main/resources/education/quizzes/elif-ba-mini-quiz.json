@@ -1,0 +1,383 @@
+{
+  "id": "elif-ba-mini-quiz",
+  "title": "Elif-Ba Mini Quiz",
+  "moduleId": "elif-ba",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Arap alfabesi kaç harften oluşur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "26",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "27",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "28",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "29",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim hangi dilde indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İbranice",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Süryanice",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Arapça",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Farsça",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Arapça yazı hangi yönde yazılır ve okunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Soldan sağa",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sağdan sola",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yukarıdan aşağıya",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Aşağıdan yukarıya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Arap harflerinin çoğu kelime içinde neden farklı görünür?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sesleri değiştiği için",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kelimedeki konumlarına göre yazılışları değiştiği için",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Anlamları değiştiği için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yazım kuralları olmadığı için",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdaki harflerden hangisi kendisinden sonraki harfe bağlanmaz?",
+      "options": [
+        {
+          "label": "A",
+          "text": "م",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ن",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ر",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ب",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Çoğu Arap harfinin kaç temel yazılış şekli vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "4",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harfin yazılışı değişse bile hangisi değişmez?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rengi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Boyutu",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sesi",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İsmi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Mahreç ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin yazılış şekli",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin çıktığı yer",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfin anlamı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfin sırası",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi mahreç bölgelerinden biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Boğaz",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dudak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dil",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Omuz",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdaki harf çiftlerinden hangisinin mahreçleri farklıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "س ile ص",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "م ile م",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ل ile ل",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ب ile ب",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Bazı Arap harflerinin Türkçede tam karşılığı bulunmamasının sonucu nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Öğrenilemez olmaları",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Doğru telaffuz için dikkatli çalışılması gerekir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kur'an okunamaz.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yazılmaları yasaktır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harf egzersizlerinin temel amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arapça konuşmayı öğretmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfleri tanımayı ve doğru okumayı geliştirmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sure ezberletmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tefsir öğretmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harfleri doğru telaffuz etmeyi geliştirmek için hangisi tavsiye edilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece yazı yazmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sesli tekrar yapmak ve güvenilir bir okuyucudan dinlemek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece ezber yapmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Haftada bir çalışmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an öğrenirken en doğru çalışma yöntemi hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ara sıra uzun süre çalışmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Her gün kısa ve düzenli tekrar yapmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece sınavdan önce çalışmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tekrar yapmamak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harfleri doğru öğrenmek neden önemlidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Daha güzel yazı yazmak için",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an-ı Kerim'i doğru okuyabilmek için",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Arapça konuşabilmek için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha hızlı ezber yapmak için",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

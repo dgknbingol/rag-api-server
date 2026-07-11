@@ -1,0 +1,355 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Fâtiha",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sure Hakkında Kısa Bilgi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sure No: 1",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayet Sayısı: 7",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nüzul Yeri: Mekke (Cumhurun görüşüne göre Mekkîdir.)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'daki Yeri: İlk suredir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Diğer İsimleri: Ümmü'l-Kitâb (Kitabın Anası), Ümmü'l-Kur'ân, Seb'u'l-Mesânî (Tekrarlanan Yedi Ayet), Hamd Suresi.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fâtiha Suresi, Kur'an-ı Kerim'in ilk suresi olup her rekâtta okunması sebebiyle Müslümanların en çok okuduğu suredir. Allah'a hamd etmeyi, yalnız O'na kulluk etmeyi ve doğru yolu istemeyi öğretir. Kur'an'ın özeti kabul edilen surelerden biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Arapça Metni",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "الرَّحْمٰنِ الرَّحِيمِ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "مَالِكِ يَوْمِ الدِّينِ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Türkçe Okunuşu",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bismillâhirrahmânirrahîm.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Elhamdü lillâhi rabbil âlemîn.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Errahmânirrahîm.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mâliki yevmiddîn.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İyyâke na'budü ve iyyâke neste'în.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İhdinassırâtal müstakîm.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sırâtallezîne en'amte aleyhim, gayril mağdûbi aleyhim ve leddâllîn. Âmin.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Not: \"Âmin\", Fâtiha Suresi'nin bir ayeti değildir. Surenin okunmasının ardından dua olarak söylenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Türkçe Anlamı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rahmân ve Rahîm olan Allah'ın adıyla.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hamd, âlemlerin Rabbi olan Allah'a mahsustur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "O, Rahmân'dır, Rahîm'dir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Din (hesap) gününün sahibidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak Sana ibadet eder ve yalnız Senden yardım dileriz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bizi dosdoğru yola ilet.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kendilerine nimet verdiğin kimselerin yoluna;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gazaba uğrayanların ve sapmışların yoluna değil.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kısa Tefsiri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fâtiha Suresi, Kur'an-ı Kerim'in özeti olarak kabul edilir. Sure, Allah'ı tanıtarak başlar. İlk ayetlerde Allah'ın bütün âlemlerin Rabbi, sonsuz merhamet sahibi ve ahiret gününün mutlak hâkimi olduğu bildirilir. Böylece mümin, ibadet ettiği Rabbin büyüklüğünü ve rahmetini hatırlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Surenin merkezinde yer alan \"Ancak Sana ibadet eder ve yalnız Senden yardım dileriz.\" ayeti, İslam'ın tevhid inancını açık bir şekilde ifade eder. Müslüman, kulluğunu yalnız Allah'a yöneltir ve gerçek yardımın yalnız O'ndan geleceğine inanır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Daha sonra kul, Allah'tan kendisini dosdoğru yola iletmesini ister. Bu yol; Allah'ın nimet verdiği peygamberlerin, doğruların, salihlerin ve samimi müminlerin yoludur. Mümin aynı zamanda Allah'ın gazabına uğrayanların ve hakikatten uzaklaşanların yolundan korunmayı da niyaz eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fâtiha yalnızca namazda okunan bir sure değildir. Aynı zamanda her gün defalarca tekrarlanan bir dua, bir kulluk sözü ve Allah ile kul arasındaki manevi bağın ifadesidir. Bu nedenle Müslüman, Fâtiha'yı okurken anlamını düşünmeli ve söylediği her cümlenin bilinciyle hareket etmeye gayret etmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Fazileti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fâtiha Suresi, Kur'an'ın en faziletli surelerinden biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Fâtiha Suresi, Kur'an'daki en büyük suredir.\"",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir hadis-i şerifte Allah Teâlâ'nın, Fâtiha Suresi hakkında şöyle buyurduğu rivayet edilmiştir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namazı (Fâtiha'yı) kulumla aramda ikiye böldüm. Kulum ne isterse ona verilecektir.\"",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Fâtiha Suresi;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın her rekâtında okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dua ve niyazın en güzel örneklerinden biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah'a hamd etmeyi, yalnız O'na kulluk etmeyi ve doğru yolu istemeyi öğretir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslümanın günlük ibadet hayatının merkezinde yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

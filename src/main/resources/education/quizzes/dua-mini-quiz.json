@@ -1,0 +1,383 @@
+{
+  "id": "dua-mini-quiz",
+  "title": "Dua Mini Quiz",
+  "moduleId": "dua",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Dua nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece ezberlenmiş sözleri okumaktır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kulun Allah'a yönelerek O'ndan istemesi ve O'na kulluğunu ifade etmesidir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece namazlardan sonra yapılır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece camide yapılır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua hangi zamanlarda yapılabilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece Ramazan ayında",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sadece cuma günü",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hayatın her anında",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sadece sabah namazından sonra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua hangi dilde yapılabilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece Arapça",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sadece Türkçe",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kişinin samimiyetle Allah'a yöneldiği her dilde",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sadece Kur'an diliyle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi duanın manevi faydalarından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kalbe huzur vermesi",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Çalışmayı gereksiz hâle getirmesi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hiç üzülmemeyi sağlaması",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Maddi zenginliği garanti etmesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua neden önemli bir ibadettir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah ile kul arasındaki bağı güçlendirdiği için",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece ihtiyaçları karşıladığı için",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece belirli zamanlarda yapıldığı için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ezber gerektirdiği için",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua adabına göre duaya nasıl başlanması tavsiye edilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Doğrudan istekleri söyleyerek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'a hamd edip Peygamber Efendimize (sav) salavat getirerek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sessizce bekleyerek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Başkalarından yardım isteyerek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua ederken hangi davranış doğru değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Samimi olmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tevazu göstermek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Gösteriş yapmak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Allah'a güvenmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua hemen kabul olmadığında nasıl davranılmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dua etmeyi bırakmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ümitsizliğe kapılmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sabırlı olmak ve Allah'ın hikmetine güvenmek",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Başka birine dua ettirmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua ederken hangi isteklerde bulunmak tavsiye edilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Başkalarına zarar verecek isteklerde",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dünya ve ahiret için hayırlı olan şeylerde",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece maddi kazanç istemekte",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hiçbir şey istememekte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Allah, kulunun duasına nasıl karşılık verebilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece istenilen şeyi hemen vererek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yalnızca Arapça duaları kabul ederek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kendi hikmetiyle en hayırlı şekilde karşılık vererek",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sadece cuma günleri kabul ederek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Günlük duaların amacı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ezber yapmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ı hayatın her anında hatırlamak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece çocuklara öğretmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece camide okumak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi günlük hayatta okunabilecek dualardan biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yemekten önce okunacak dua",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece bayram duası",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece cenaze duası",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece cuma hutbesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Günlük dualar kişiye ne kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'a güven, huzur ve şükür bilinci",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hiç hata yapmama garantisi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dünyadaki tüm sıkıntılardan kurtulma",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Maddi zenginlik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Dua ederken elleri açmak hakkında hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zorunludur.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Güzel görülmüş bir sünnet uygulamasıdır; ancak eller açılmadan yapılan dua da geçerlidir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece camide yapılabilir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece imamlar ellerini açabilir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi dua eden bir Müslümanın sahip olması gereken özelliklerden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Acelecilik",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Umutsuzluk",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sabır ve Allah'a güven",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Gösteriş",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

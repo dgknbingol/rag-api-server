@@ -1,0 +1,418 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Hadis Çeşitleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadis Çeşitleri Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisler, güvenilirliklerine ve kim tarafından rivayet edildiğine göre çeşitli gruplara ayrılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri, Hz. Muhammed'e (sav) ait olduğu söylenen rivayetlerin doğruluğunu araştırmış ve bunları belirli ölçütlere göre sınıflandırmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu sınıflandırma sayesinde güvenilir hadislerle güvenilir olmayan rivayetler birbirinden ayrılmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Güvenilirlik Bakımından Hadis Çeşitleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sahih Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahih hadis, rivayet zinciri sağlam olan, güvenilir kişiler tarafından aktarılan ve Hz. Muhammed'e (sav) ait olduğu kabul edilen hadistir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahih hadisler, dinî konularda güvenle kullanılan hadislerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hasen Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasen hadis, sahih hadise çok benzeyen; ancak rivayet zincirindeki bazı ravilerin güvenilirlik bakımından sahih hadisten biraz daha düşük olduğu hadistir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasen hadisler de dinî konularda delil olarak kabul edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Zayıf Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zayıf hadis, rivayet zincirinde eksiklik veya güvenilirlik açısından problem bulunan hadistir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Zayıf hadisler, sahih ve hasen hadisler kadar güçlü kabul edilmez. Bu nedenle dinî hükümlerin belirlenmesinde tek başına delil olarak kullanılmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Mevzu Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mevzu hadis, Hz. Muhammed'e (sav) ait olmadığı hâlde sonradan uydurulan sözlerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mevzu hadisler kesinlikle hadis olarak kabul edilmez ve bunlarla amel edilmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Rivayet Edene Göre Hadis Çeşitleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kudsî Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kudsî hadis, anlamı Allah Teâlâ'dan, sözleri ise Hz. Muhammed'e (sav) ait olan hadistir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim ile karıştırılmamalıdır. Kur'an hem lafız hem anlam olarak Allah'ın kelamıdır; kudsî hadiste ise ifade Peygamberimize aittir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Merfû Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Merfû hadis, doğrudan Hz. Muhammed'e (sav) nispet edilen hadislerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Mevkuf Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mevkuf hadis, sahabelerin söz veya davranışlarını anlatan rivayetlerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Maktû Hadis",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Maktû hadis, tâbiîn nesline ait söz veya davranışları anlatan rivayetlerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadis Âlimlerinin Çalışmaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rivayet zincirlerini incelemiş,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ravilerin güvenilirliğini araştırmış,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisleri karşılaştırmış,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Uydurma rivayetleri ayıklamışlardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu titiz çalışmalar sayesinde hadisler güvenilir şekilde günümüze ulaşmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadis Çeşitlerini Bilmenin Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis çeşitlerini öğrenmek;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Güvenilir hadisleri tanımaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanlış rivayetlerden korunmayı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dinî bilgilerin sağlam kaynaklardan öğrenilmesine katkı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis ilminin ne kadar titiz bir çalışma sonucu oluştuğunu gösterir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Ey iman edenler! Eğer size bir fasık bir haber getirirse onun doğruluğunu araştırın.\"\n(Hucurât Suresi, 49/6)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Peygamber size ne verdiyse onu alın, size neyi yasakladıysa ondan da kaçının.\"\n(Haşr Suresi, 59/7)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, doğru bilgiye ulaşmanın ve güvenilir kaynaklara bağlı kalmanın önemini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisler güvenilirliklerine göre sahih, hasen, zayıf ve mevzu olarak sınıflandırılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahih hadis en güvenilir hadis çeşididir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Mevzu hadis uydurma hadistir ve hadis olarak kabul edilmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kudsî hadis ile Kur'an aynı değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri hadislerin doğruluğunu titizlikle araştırmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisler, güvenilirlik durumlarına göre sahih, hasen, zayıf ve mevzu hadis olarak sınıflandırılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahih hadis en güvenilir; mevzu hadis ise sonradan uydurulmuş rivayetlerdir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rivayet edildiği kişiye göre kudsî, merfû, mevkuf ve maktû hadis çeşitleri bulunmaktadır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri, rivayet zincirlerini ve ravileri inceleyerek hadislerin doğruluğunu araştırmışlardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis çeşitlerini bilmek, güvenilir dinî bilgilere ulaşmak açısından büyük önem taşır.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

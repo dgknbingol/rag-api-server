@@ -1,0 +1,505 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Şedde",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şedde Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şedde, Arap alfabesinde bir harfin iki defa okunacağını gösteren okuma işaretidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şedde, harfin üzerine konulan küçük \"w\" ( ّ ) şeklindeki işaret ile gösterilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şeddeli bir harf okunurken, harf önce kısa bir duraklama ile tutulur, ardından harekesine göre okunur. Başka bir ifadeyle, şeddeli harf birinci harfi cezmli, ikinci harfi harekeli iki aynı harf gibi okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'i doğru okuyabilmek için şeddeli harflerin doğru okunması büyük önem taşır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şedde Nasıl Yazılır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şedde, harfin üzerine yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şedde tek başına kullanılmaz. Mutlaka bir hareke ile birlikte bulunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بَّ",
+        "بِّ",
+        "بُّ"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Şeddeli harfin nasıl okunacağı, yanında bulunan harekeye göre belirlenir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şeddeli Harflerin Okunuşu",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şedde + Üstün",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şeddeli harf üstün alırsa kısa \"a\" sesiyle okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بَّ = Bbe",
+        "مَّ = Mme",
+        "نَّ = Nne"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Şedde + Esre",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şeddeli harf esre alırsa kısa \"i\" sesiyle okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بِّ = Bbi",
+        "مِّ = Mmi",
+        "نِّ = Nni"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Şedde + Ötre",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şeddeli harf ötre alırsa kısa \"u\" sesiyle okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بُّ = Bbu",
+        "مُّ = Mmu",
+        "نُّ = Nnu"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Şedde Nasıl Okunur?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şeddeli harf okunurken;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Harf hafifçe tutulur.",
+        "Aynı harf ikinci kez harekesiyle birlikte okunur.",
+        "Gereğinden fazla uzatılmaz."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "رَبَّ → Rabbe",
+        "إِنَّ → İnne",
+        "ثُمَّ → Sümme"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Şedde, harfin daha belirgin okunmasını sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Şedde Okurken Nelere Dikkat Edilmelidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Şeddeli harf tek harf gibi hızlı geçilmemelidir.",
+        "Harf gereğinden fazla uzatılmamalıdır.",
+        "Harfin mahreci korunmalıdır.",
+        "Tutma süresi abartılmadan doğal şekilde okunmalıdır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Alıştırmalar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki örnekleri sesli okuyunuz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Üstünlü Şedde",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بَّ تَّ جَّ مَّ نَّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Esreli Şedde",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بِّ تِّ جِّ مِّ نِّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ötreli Şedde",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بُّ تُّ جُّ مُّ نُّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kelime Çalışmaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "رَبَّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "إِنَّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ثُمَّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "عَمَّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "حَقٌّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu örnekleri birkaç kez tekrar etmek, şeddeli harfleri daha doğru okumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sık Yapılan Hatalar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Şeddeyi hiç okumamak.",
+        "Şeddeli harfi tek harf gibi okumak.",
+        "Harfi gereğinden fazla uzatmak.",
+        "Harfin mahrecine dikkat etmemek."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru okumada harf kısa bir tutuşla iki kez okunuyormuş gibi telaffuz edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an'ı Doğru Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı tane tane, ağır ağır oku.\"\n (Müzzemmil Suresi, 73/4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Sizin en hayırlınız, Kur'an'ı öğrenen ve öğreteninizdir.\" (Buhârî)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Şedde, harfin iki kez okunacağını gösteren işarettir.",
+        "Şedde tek başına kullanılmaz; mutlaka bir hareke ile birlikte bulunur.",
+        "Şeddeli harf okunurken harf kısa süre tutulur ve harekesiyle birlikte okunur.",
+        "Şeddeli harfler gereğinden fazla uzatılmamalıdır.",
+        "Düzenli tekrar yapmak, şeddeli harfleri doğru okumayı kolaylaştırır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Şedde, bir harfin iki kez okunacağını gösteren okuma işaretidir.",
+        "Harfin üzerine yazılır ve üstün, esre veya ötre ile birlikte kullanılır.",
+        "Şeddeli harf okunurken harf kısa süre tutulur, ardından harekesine göre okunur.",
+        "Doğru şedde okunuşu, Kur'an-ı Kerim'i doğru ve akıcı okumada önemli bir yere sahiptir.",
+        "Düzenli tekrar ve dikkatli çalışma, şeddeli harflerin doğru telaffuz edilmesini sağlar."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu bölümde Üstün (Fetha), Esre (Kesra), Ötre (Damme), Tenvin, Cezm (Sükûn) ve Şedde konularını öğrendiniz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Harekeler, Arap harflerinin nasıl okunacağını gösteren işaretlerdir ve Kur'an-ı Kerim'i doğru okuyabilmek için büyük önem taşır.",
+        "Üstün (Fetha), harfin üzerine yazılır ve harfe kısa \"a\" sesi kazandırır.",
+        "Esre (Kesra), harfin altına yazılır ve harfe kısa \"i\" sesi kazandırır.",
+        "Ötre (Damme), harfin üzerine yazılır ve harfe kısa \"u\" sesi kazandırır.",
+        "Üstün, esre ve ötre ile okunan harfler uzatılmadan, kısa ve net okunmalıdır.",
+        "Tenvin, harekenin çift yazılmasıyla oluşur ve harfin sonuna \"n\" sesi ekler. Üç çeşidi vardır:",
+        "Üstün tenvini → an",
+        "Esre tenvini → in",
+        "Ötre tenvini → un",
+        "Cezm (Sükûn), harfin harekesiz olduğunu gösterir. Cezmli harf tek başına okunmaz; kendisinden önce gelen harekeli harfle birlikte okunur.",
+        "Şedde, harfin iki kez okunacağını gösteren işarettir. Şeddeli harf okunurken harf kısa süre tutulur ve ardından harekesiyle birlikte okunur.",
+        "Harekeleri doğru öğrenmek, ileride kelime, ayet ve Kur'an okumayı doğru şekilde gerçekleştirebilmek için sağlam bir temel oluşturur."
+      ]
+    }
+  ]
+}

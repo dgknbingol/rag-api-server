@@ -1,0 +1,508 @@
+{
+  "id": "akaid-genel-quiz",
+  "title": "Akaid Genel Quiz",
+  "moduleId": "akaid",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Akaid ilmi neyi inceler?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İbadet hükümlerini",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İslam'ın temel inanç esaslarını",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ticaret hükümlerini",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tarihi olayları",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Allah'ın en güzel isimlerine ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Esmâü'l-Kübrâ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Esmâü'l-Hüsnâ",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kelâmullah",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hikmet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tevhid ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'ın bir ve tek olduğuna inanmak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece namaz kılmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Oruç tutmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadaka vermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tevhidin zıddı olan kavram hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Takva",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Şirk",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sabır",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "İhlas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi küçük şirke örnektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Riya (gösteriş)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Namaz kılmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Oruç tutmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadaka vermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberlerin ortak özelliklerinden biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sıdk",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Emanet",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İsmet",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Günah işlemek",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Son peygamber kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Musa (as)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. İbrahim (as)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. İsa (as)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Vahyi peygamberlere getiren melek hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mikâil",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Azrâil",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Cebrâil",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İsrâfil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Sûr'a üfleyecek melek hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cebrâil",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Mikâil",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Azrâil",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "İsrâfil",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "İnsanların iyi ve kötü amellerini yazan meleklerin adı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Münker ve Nekîr",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kirâmen Kâtibîn",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hafaza",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hamele-i Arş",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cinler neden yaratılmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Topraktan",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dumansız ateşten",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Nurdan",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sudan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cinlerle ilgili hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hepsi şeytandır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hepsi melektir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İçlerinde iman edenler de vardır.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İbadetle yükümlü değildirler.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ahiret hayatının ilk aşaması hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mahşer",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ölüm",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mizan",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Cennet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ölüm ile kıyamet arasında geçen döneme ne ad verilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Berzah Âlemi",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Ba's",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Mizan",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Mahşer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kıyametin kesin zamanını kim bilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Peygamberler",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Melekler",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Âlimler",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yalnızca Allah",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi büyük kıyamet alametlerinden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Haccın farz olması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Güneşin batıdan doğması",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kur'an'ın indirilmesi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Namazın farz olması",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cennet kimler için hazırlanmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İman edip salih amel işleyenler için",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece peygamberler için",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece melekler için",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece zenginler için",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cehennemden korunmanın yollarından biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Günahlarda ısrar etmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Samimiyetle tövbe etmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kul hakkını önemsememek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "İbadetleri terk etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kader nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanların geleceği tahmin etmesi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın her şeyi ezelî ilmiyle bilip takdir etmesi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece doğal olaylar",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "İnsanların plan yapması",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tevekkül ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hiç çalışmadan beklemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sebeplere başvurup sonucu Allah'a bırakmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece dua etmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çalışmayı bırakmak",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

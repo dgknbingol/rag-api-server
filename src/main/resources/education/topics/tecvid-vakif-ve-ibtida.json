@@ -1,0 +1,593 @@
+{
+  "readingMinutes": 6,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Vakıf ve İbtidâ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Vakıf ve İbtidâ Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf, Kur'an-ı Kerim okurken uygun bir yerde durmaya, ibtidâ ise durduktan sonra uygun yerden yeniden okumaya başlamaya denir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ı doğru okumak yalnızca harfleri ve tecvid kurallarını doğru uygulamakla sınırlı değildir. Nerede durulacağı ve nereden tekrar başlanacağı da doğru okunmanın önemli bir parçasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Vakıf Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf, Kur'an okurken nefes almak veya okumayı tamamlamak amacıyla uygun bir yerde durmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf yapılırken;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelimenin son harfi vakıf kurallarına göre okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Anlamın bozulmamasına dikkat edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Durulması uygun olmayan yerlerde durulmamaya çalışılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru vakıf, ayetin anlamını korumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "İbtidâ Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbtidâ, vakıftan sonra uygun bir yerden yeniden okumaya başlamaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başlangıç yapılırken;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Anlamın tamamlanmasına dikkat edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Eksik veya yanlış anlam oluşturacak yerlerden başlanmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cümlenin akışı korunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru ibtidâ, Kur'an'ın mesajının doğru anlaşılmasına katkı sağlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Vakıf Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru yerde durmak;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayetin anlamını korur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanlış anlam oluşmasını önler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Okumayı daha anlaşılır hâle getirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nefesi doğru kullanmayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanlış yerde durmak ise bazen anlamın değişmesine veya eksik anlaşılmasına sebep olabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "İbtidâ Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Durulan yer kadar, yeniden başlanılan yer de önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanlış bir kelimeden başlamak;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Cümlenin anlamını bozabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ayetin yanlış anlaşılmasına sebep olabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Okumanın akıcılığını olumsuz etkileyebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle vakıf ve ibtidâ birlikte değerlendirilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Vakıf İşaretleri",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de okuyucuya yardımcı olmak için çeşitli vakıf işaretleri kullanılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "En sık karşılaşılan işaretlerden bazıları şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "م : Durmak uygundur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "لا : Durulmaması daha uygundur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ج : Durulabilir, devam da edilebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "قلى : Durmak daha uygundur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "صلى : Devam etmek daha uygundur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu işaretler, ayetin anlamını koruyacak şekilde okumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Vakıf ve İbtidâ Yaparken Nelere Dikkat Edilmelidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Anlam bütünlüğü korunmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gereksiz yerlerde durulmamalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nefes planlaması yapılmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf işaretleri dikkate alınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yeniden başlanırken anlamı bozmayacak bir yer seçilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Sık Yapılan Hatalar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Nefes bittiği için anlamın ortasında durmak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf işaretlerini dikkate almamak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Yanlış kelimeden yeniden okumaya başlamak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Durulması uygun olmayan yerlerde durmak.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hatalar, düzenli çalışma ve vakıf işaretlerini öğrenerek azaltılabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an'ı Güzel Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı tane tane, ağır ağır oku.\"\n(Müzzemmil Suresi, 73/4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette şöyle buyrulur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kendilerine kitap verdiğimiz kimseler onu gereği gibi okurlar.\"\n(Bakara Suresi, 2/121)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı seslerinizle güzelleştiriniz.\" (Ebû Dâvûd, Vitir)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf, Kur'an okurken uygun yerde durmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbtidâ, durduktan sonra uygun yerden yeniden başlamaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru vakıf ve ibtidâ, ayetin anlamını korumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf işaretleri, okuyucuya doğru yerde durması için rehberlik eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okunurken anlam bütünlüğü her zaman gözetilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf, Kur'an okurken uygun bir yerde durmak; ibtidâ ise uygun bir yerden yeniden başlamaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğru vakıf ve ibtidâ, ayetlerin anlamının korunmasına ve doğru anlaşılmasına yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'daki vakıf işaretleri, okuyucuya nerede durmasının veya devam etmesinin uygun olduğunu gösterir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gereksiz veya yanlış yerlerde durmak ve yanlış yerden başlamak anlamı olumsuz etkileyebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf ve ibtidâ kurallarını öğrenmek, Kur'an-ı Kerim'i usulüne uygun ve bilinçli okumayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tecvid, Kur'an-ı Kerim'i harflerin mahreçlerine, sıfatlarına ve okuma kurallarına uygun şekilde okumayı öğreten ilimdir. Amacı, Kur'an'ı doğru, güzel ve Hz. Muhammed'den (sav) aktarıldığı şekle uygun olarak okumaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tecvidin temelini mahreç oluşturur. Her harfin kendine ait bir çıkış yeri vardır ve harfler doğru mahreçlerinden çıkarıldığında telaffuz doğru olur. Yanlış mahreç kullanımı bazı kelimelerin anlamını değiştirebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Med, belirli harflerin uygun yerlerde uzatılarak okunmasıdır. Med harfleri elif (ا), vav (و) ve ye (ي) olup temel med olan Med-i Tabiî iki hareke miktarı uzatılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İhfa, cezmli nûn veya tenvinden sonra 15 ihfa harfinden biri geldiğinde nûn sesinin tamamen gizlenmeden, yaklaşık iki hareke gunne ile okunmasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İdğam, cezmli nûn veya tenvinden sonra ي، ر، م، ل، و، ن harflerinden biri geldiğinde nûn sesinin sonraki harfe katılmasıdır. ي، ن، م، و harflerinde gunne yapılırken, ل ve ر harflerinde gunne yapılmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İklab, cezmli nûn veya tenvinden sonra yalnızca ب harfi geldiğinde uygulanır. Bu durumda nûn sesi m sesine dönüşür ve iki hareke gunne ile okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İzhar, cezmli nûn veya tenvinden sonra ء، هـ، ع، ح، غ، خ harflerinden biri geldiğinde uygulanır. Bu durumda nûn sesi açık ve belirgin okunur, gunne yapılmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kalkale, ق، ط، ب، ج، د harflerinden biri cezmli olduğunda veya vakıf sebebiyle cezmli hâle geldiğinde hafif yankılı okunmasıdır. Kalkale harfi uzatılmaz, sadece belirgin şekilde telaffuz edilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Gunne, genizden gelen sestir. En belirgin olarak şeddeli ن ve م harflerinde uygulanır. Ayrıca ihfa, gunneli idğam ve iklab kurallarında yaklaşık iki hareke miktarı gunne yapılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Vakıf, uygun yerde durmak; ibtidâ ise durduktan sonra uygun yerden tekrar başlamaktır. Kur'an'daki vakıf işaretleri, anlamın korunmasına yardımcı olur ve doğru yerde durup başlamayı kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Tecvid kurallarını öğrenmek ve düzenli tekrar yapmak, Kur'an-ı Kerim'i doğru, güzel ve bilinçli okumaya yardımcı olur.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

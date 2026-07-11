@@ -1,0 +1,348 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Harflerin Yazılışı",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Arap Harflerinin Yazılışı Nasıldır?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arap alfabesindeki harfler, kelime içinde bulundukları yere göre farklı şekillerde yazılabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bir harf;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Tek başına,",
+        "Kelimenin başında,",
+        "Kelimenin ortasında,",
+        "Kelimenin sonunda"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "bulunabilir ve buna göre görünümü değişebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Ancak harfin sesi değişmez; sadece yazılışı değişir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harfler Birbirine Bağlanır",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arapçada harflerin büyük çoğunluğu birbirine bağlanarak yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle bir harfin yazılışı, kendisinden önce veya sonra gelen harfe göre değişebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بـ",
+        "ـبـ",
+        "ـب"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "aynı \"Be (ب)\" harfidir. Sadece kelimedeki yeri farklıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Dört Yazılış Şekli",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Çoğu Arap harfinin dört temel yazılış şekli vardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "table",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Konumu\tÖrnek",
+        "Tek başına\tب",
+        "Kelime başında\tبـ",
+        "Kelime ortasında\tـبـ",
+        "Kelime sonunda\tـب"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu durum birçok harf için geçerlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bağlanmayan Harfler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her Arap harfi kendisinden sonraki harfe bağlanmaz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki harfler, kendilerinden sonra gelen harfe bağlanmaz:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "ا (Elif)",
+        "د (Dal)",
+        "ذ (Zel)",
+        "ر (Re)",
+        "ز (Ze)",
+        "و (Vav)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu harflerden sonra yeni harf ayrı şekilde başlar.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "دار",
+        "نور"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "kelimelerinde bu durum görülebilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Yazılışı Öğrenirken Nelere Dikkat Edilmelidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Önce harfin tek başına yazılışı öğrenilmelidir.",
+        "Daha sonra başta, ortada ve sondaki şekilleri çalışılmalıdır.",
+        "Benzer görünen harfler karıştırılmamalıdır.",
+        "Günlük kısa tekrarlar öğrenmeyi kolaylaştırır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bol Alıştırma Yapmak Önemlidir",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arap harflerinin yazılışını öğrenmenin en etkili yolu bol tekrar yapmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İlk başta harflerin farklı şekilleri zor görünebilir. Ancak düzenli alıştırmalar sayesinde bu farklılıklar kısa sürede alışkanlık hâline gelir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sağlam bir yazılış bilgisi, ileride kelime ve ayet okumayı kolaylaştıracaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an Öğrenmeye Teşvik",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an öğrenmek sabır ve gayret isteyen bir ibadettir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Peygamber Efendimiz (sav), Kur'an öğrenmeye çalışan kimseleri teşvik etmiş ve bunun büyük sevap olduğunu bildirmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an Öğrenmenin Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Biz Kur'an'ı öğüt alınsın diye kolaylaştırdık. Öğüt alan yok mudur?\"\n (Kamer Suresi, 54/17)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Sizin en hayırlınız, Kur'an'ı öğrenen ve öğreteninizdir.\" (Buhârî)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Arap harfleri kelimedeki yerine göre farklı şekillerde yazılabilir.",
+        "Çoğu harfin dört yazılış şekli vardır: tek başına, başta, ortada ve sonda.",
+        "Bazı harfler (ا، د، ذ، ر، ز، و) kendilerinden sonraki harfe bağlanmaz.",
+        "Harfin yazılışı değişse de harfin sesi değişmez.",
+        "Düzenli tekrar yapmak, harflerin yazılışını öğrenmeyi kolaylaştırır."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Arap harfleri, kelime içindeki konumlarına göre farklı şekillerde yazılır.",
+        "Çoğu harf tek başına, başta, ortada ve sonda olmak üzere dört farklı yazılış biçimine sahiptir.",
+        "Elif, Dal, Zel, Re, Ze ve Vav harfleri kendilerinden sonraki harfe bağlanmaz.",
+        "Harflerin yazılışını doğru öğrenmek, kelime ve ayet okumayı kolaylaştıran önemli bir adımdır.",
+        "Sabırlı ve düzenli alıştırmalar, Arap harflerinin yazılışını öğrenmenin en etkili yoludur."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "readingMinutes": 3,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaz Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, Müslümanların belirli vakitlerde yerine getirdiği, Allah'a kulluğu ve bağlılığı ifade eden en önemli ibadetlerden biridir. İslam'ın beş şartından biri olan namaz, Allah'ın emriyle farz kılınmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz; kıyam (ayakta durma), kıraat (Kur'an okuma), rükû ve secde gibi bölümlerden oluşan bir ibadettir. Müslüman, namaz sırasında yalnızca Allah'a yönelir, O'nu anar, O'na dua eder ve O'ndan yardım diler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaz Neden Önemlidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, kul ile Allah arasındaki en güçlü manevi bağlardan biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Müslüman, günde beş vakit namaz kılarak Allah'ı hatırlar, O'na şükreder ve kulluk görevini yerine getirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de namazın önemine birçok ayette dikkat çekilmiş, Hz. Muhammed (sav) de namazı dinin en önemli ibadetlerinden biri olarak açıklamıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz, insanın Allah ile bağını güçlendirdiği gibi sabır, disiplin ve sorumluluk bilincini de geliştirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Beş Vakit Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Farz olan günlük namazlar şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Sabah Namazı",
+        "Öğle Namazı",
+        "İkindi Namazı",
+        "Akşam Namazı",
+        "Yatsı Namazı"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Her namazın belirli bir vakti vardır ve vakti içerisinde kılınması esastır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namazın Hayata Etkisi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namaz yalnızca belirli hareketlerden oluşan bir ibadet değildir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Düzenli namaz kılan bir Müslüman;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Allah'ı daha sık hatırlar.",
+        "Günahlardan uzak durmaya çalışır.",
+        "Sabırlı ve disiplinli olur.",
+        "Güzel ahlakını geliştirmeye gayret eder.",
+        "Hayatını Allah'ın rızasına uygun yaşamaya özen gösterir."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de namazın insanı kötülüklerden alıkoyduğu bildirilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaz İçin Gerekli Şartlar",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Namazın sahih olabilmesi için bazı şartların yerine getirilmesi gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlardan başlıcaları:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Abdestli olmak (gerektiğinde gusül almak).",
+        "Namaz vaktinin girmiş olması.",
+        "Temiz elbise ve temiz bir yerde namaz kılmak.",
+        "Avret yerlerini örtmek.",
+        "Kıbleye yönelmek.",
+        "Namaza niyet etmek."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu şartlar ilerleyen derslerde ayrıntılı olarak açıklanacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Namaz ve Cemaat",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'da namaz bireysel olarak kılınabileceği gibi cemaatle de kılınabilir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Özellikle erkekler için farz namazların cemaatle kılınması teşvik edilmiştir. Cemaatle namaz, birlik, kardeşlik ve dayanışma duygularını güçlendirir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kadınlar da ister evlerinde ister camide namazlarını kılabilirler.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'da Namaz",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de şöyle buyrulur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Namazı dosdoğru kılın, zekâtı verin ve rükû edenlerle birlikte rükû edin.\"\n (Bakara Suresi, 2/43)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Şüphesiz namaz, hayâsızlıktan ve kötülükten alıkoyar.\"\n (Ankebût Suresi, 29/45)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, namazın hem Allah'a kulluğun hem de güzel ahlakın önemli bir parçası olduğunu göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaz, İslam'ın beş şartından biridir.",
+        "Günde beş vakit farz namaz vardır.",
+        "Namaz, kul ile Allah arasındaki manevi bağı güçlendirir.",
+        "Namaz belirli vakitlerde yerine getirilir.",
+        "Namaz, insanı güzel ahlaka ve kötülüklerden uzak durmaya teşvik eder."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Namaz, Müslümanın en önemli ibadetlerinden biridir.",
+        "Allah'a kulluğun ve teslimiyetin bir göstergesidir.",
+        "Beş vakit farz namaz vardır.",
+        "Namazın sahih olması için bazı şartların yerine getirilmesi gerekir.",
+        "Namaz, insanın manevi hayatını güçlendirir ve güzel ahlaka katkı sağlar."
+      ]
+    }
+  ]
+}

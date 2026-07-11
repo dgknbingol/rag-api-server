@@ -1,0 +1,383 @@
+{
+  "id": "harekeler-mini-quiz",
+  "title": "Harekeler Mini Quiz",
+  "moduleId": "harekeler",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Harekelerin temel görevi nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfleri süslemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harflerin nasıl okunacağını göstermek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfleri sıralamak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kelimeleri ayırmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Üstün (Fetha), harfe hangi sesi kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "U",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "O",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Esre (Kesra), nereye yazılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin üzerine",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin altına",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfin sağına",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfin soluna",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ötre (Damme), harfe hangi sesi kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İ",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "U",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "E",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi üstünlü bir harftir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "بِ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "بُ",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "بَ",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "بْ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi esreli bir harftir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "بَ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "بِ",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "بُ",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "بْ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ötreli bir harftir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "بَ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "بِ",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "بُ",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "بْ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tenvin neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin uzatılmasını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harekelerin çift yazılmasıyla oluşan ve harfe \"n\" sesi kazandıran işareti",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfin sessiz okunmasını",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfin silinmesini",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Esre tenvini harfe hangi sesi kazandırır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İn",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Un",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "En",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cezm (Sükûn) neyi gösterir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin iki kez okunacağını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin harekesiz olduğunu",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfin uzatılacağını",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfin okunmayacağını",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Cezmli harf nasıl okunur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tek başına okunur.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kendisinden sonraki harfle okunur.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kendisinden önceki harekeli harfle birlikte okunur.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Her zaman uzatılarak okunur.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şedde neyi gösterir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfin uzatılacağını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harfin iki kez okunacağını",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Harfin harekesiz olduğunu",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Harfin okunmayacağını",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Şedde hangi işaretle gösterilir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ْ",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "َ",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ّ",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ٍ",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi harekeler okunurken dikkat edilmesi gereken doğru bir davranıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Harfleri gereğinden fazla uzatmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Harekeleri birbirine karıştırmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Harfleri kısa, net ve mahrecine uygun okumak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Cezmli harfe hareke vermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Harekeleri doğru öğrenmenin en önemli faydası nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Daha hızlı yazı yazabilmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an-ı Kerim'i doğru ve akıcı okuyabilmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Arapça konuşabilmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Daha kolay ezber yapmak",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

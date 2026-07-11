@@ -7,136 +7,376 @@
     {
       "question": "İslam kelimesinin anlamlarından biri aşağıdakilerden hangisidir?",
       "options": [
-        { "label": "A", "text": "Güç", "correct": false },
-        { "label": "B", "text": "Teslimiyet", "correct": true },
-        { "label": "C", "text": "Zenginlik", "correct": false },
-        { "label": "D", "text": "Yolculuk", "correct": false }
+        {
+          "label": "A",
+          "text": "Güç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Teslimiyet",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zenginlik",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yolculuk",
+          "correct": false
+        }
       ]
     },
     {
       "question": "İslam'ın temelinde hangi inanç bulunur?",
       "options": [
-        { "label": "A", "text": "Sabır", "correct": false },
-        { "label": "B", "text": "Tevhid", "correct": true },
-        { "label": "C", "text": "Zekât", "correct": false },
-        { "label": "D", "text": "Hac", "correct": false }
+        {
+          "label": "A",
+          "text": "Sabır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tevhid",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zekât",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hac",
+          "correct": false
+        }
       ]
     },
     {
       "question": "İslam'ın en temel kaynağı hangisidir?",
       "options": [
-        { "label": "A", "text": "Tarih kitapları", "correct": false },
-        { "label": "B", "text": "Kur'an-ı Kerim", "correct": true },
-        { "label": "C", "text": "Ansiklopediler", "correct": false },
-        { "label": "D", "text": "Gelenekler", "correct": false }
+        {
+          "label": "A",
+          "text": "Tarih kitapları",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an-ı Kerim",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ansiklopediler",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Gelenekler",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Sünnet neyi ifade eder?",
       "options": [
-        { "label": "A", "text": "Eski gelenekleri", "correct": false },
-        { "label": "B", "text": "Hz. Muhammed'in (sav) söz, davranış ve uygulamalarını", "correct": true },
-        { "label": "C", "text": "Sahabelerin görüşlerini", "correct": false },
-        { "label": "D", "text": "Mezhepleri", "correct": false }
+        {
+          "label": "A",
+          "text": "Eski gelenekleri",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Muhammed'in (sav) söz, davranış ve uygulamalarını",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sahabelerin görüşlerini",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Mezhepleri",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Müslüman kimdir?",
       "options": [
-        { "label": "A", "text": "Sadece ibadet eden kişidir.", "correct": false },
-        { "label": "B", "text": "Allah'ın birliğine ve Hz. Muhammed'in (sav) son peygamber olduğuna iman eden kişidir.", "correct": true },
-        { "label": "C", "text": "Yalnızca camiye giden kişidir.", "correct": false },
-        { "label": "D", "text": "Sadece Kur'an okuyan kişidir.", "correct": false }
+        {
+          "label": "A",
+          "text": "Sadece ibadet eden kişidir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın birliğine ve Hz. Muhammed'in (sav) son peygamber olduğuna iman eden kişidir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yalnızca camiye giden kişidir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece Kur'an okuyan kişidir.",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Aşağıdakilerden hangisi bir Müslümanın özelliklerinden biridir?",
       "options": [
-        { "label": "A", "text": "Kul hakkını gözetmek", "correct": true },
-        { "label": "B", "text": "Haksızlık yapmak", "correct": false },
-        { "label": "C", "text": "İnsanları küçümsemek", "correct": false },
-        { "label": "D", "text": "Verdiği sözü tutmamak", "correct": false }
+        {
+          "label": "A",
+          "text": "Kul hakkını gözetmek",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Haksızlık yapmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İnsanları küçümsemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Verdiği sözü tutmamak",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Tevhid neyi ifade eder?",
       "options": [
-        { "label": "A", "text": "Allah'ın birliğine inanmayı", "correct": true },
-        { "label": "B", "text": "Oruç tutmayı", "correct": false },
-        { "label": "C", "text": "Sadaka vermeyi", "correct": false },
-        { "label": "D", "text": "Hacca gitmeyi", "correct": false }
+        {
+          "label": "A",
+          "text": "Allah'ın birliğine inanmayı",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Oruç tutmayı",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadaka vermeyi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hacca gitmeyi",
+          "correct": false
+        }
       ]
     },
     {
       "question": "İmanın temel anlamı nedir?",
       "options": [
-        { "label": "A", "text": "Allah'ın bildirdiği esasları gönülden kabul etmek.", "correct": true },
-        { "label": "B", "text": "Sadece namaz kılmak.", "correct": false },
-        { "label": "C", "text": "Sadece dua etmek.", "correct": false },
-        { "label": "D", "text": "Sadece güzel ahlaklı olmak.", "correct": false }
+        {
+          "label": "A",
+          "text": "Allah'ın bildirdiği esasları gönülden kabul etmek.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece namaz kılmak.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece dua etmek.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece güzel ahlaklı olmak.",
+          "correct": false
+        }
       ]
     },
     {
       "question": "İbadetin temel amacı nedir?",
       "options": [
-        { "label": "A", "text": "İnsanlardan övgü almak", "correct": false },
-        { "label": "B", "text": "Allah'ın rızasını kazanmak", "correct": true },
-        { "label": "C", "text": "Zengin olmak", "correct": false },
-        { "label": "D", "text": "Toplumda tanınmak", "correct": false }
+        {
+          "label": "A",
+          "text": "İnsanlardan övgü almak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın rızasını kazanmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zengin olmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Toplumda tanınmak",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Takva neyi ifade eder?",
       "options": [
-        { "label": "A", "text": "Çok konuşmayı", "correct": false },
-        { "label": "B", "text": "Allah'a karşı sorumluluk bilinciyle yaşamayı", "correct": true },
-        { "label": "C", "text": "Sadece oruç tutmayı", "correct": false },
-        { "label": "D", "text": "Seyahat etmeyi", "correct": false }
+        {
+          "label": "A",
+          "text": "Çok konuşmayı",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'a karşı sorumluluk bilinciyle yaşamayı",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece oruç tutmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Seyahat etmeyi",
+          "correct": false
+        }
       ]
     },
     {
       "question": "İhlasın zıddı hangisidir?",
       "options": [
-        { "label": "A", "text": "Sabır", "correct": false },
-        { "label": "B", "text": "Riya (Gösteriş)", "correct": true },
-        { "label": "C", "text": "Şükür", "correct": false },
-        { "label": "D", "text": "Tevbe", "correct": false }
+        {
+          "label": "A",
+          "text": "Sabır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Riya (Gösteriş)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Şükür",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tevbe",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Dua hakkında aşağıdakilerden hangisi doğrudur?",
       "options": [
-        { "label": "A", "text": "Sadece Arapça yapılabilir.", "correct": false },
-        { "label": "B", "text": "Dua yalnızca zor zamanlarda edilir.", "correct": false },
-        { "label": "C", "text": "Dua, kulun Allah'a yönelmesidir.", "correct": true },
-        { "label": "D", "text": "Dua çalışmanın yerine geçer.", "correct": false }
+        {
+          "label": "A",
+          "text": "Sadece Arapça yapılabilir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dua yalnızca zor zamanlarda edilir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dua, kulun Allah'a yönelmesidir.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Dua çalışmanın yerine geçer.",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Güzel ahlak konusunda Müslümanlar için en güzel örnek kimdir?",
       "options": [
-        { "label": "A", "text": "Hz. Nuh", "correct": false },
-        { "label": "B", "text": "Hz. İbrahim", "correct": false },
-        { "label": "C", "text": "Hz. Muhammed (sav)", "correct": true },
-        { "label": "D", "text": "Hz. Musa", "correct": false }
+        {
+          "label": "A",
+          "text": "Hz. Nuh",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. İbrahim",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Musa",
+          "correct": false
+        }
       ]
     },
     {
       "question": "İslam'da üstünlük ne ile ölçülür?",
       "options": [
-        { "label": "A", "text": "Zenginlikle", "correct": false },
-        { "label": "B", "text": "Soyla", "correct": false },
-        { "label": "C", "text": "Takva ve güzel ahlakla", "correct": true },
-        { "label": "D", "text": "Makamla", "correct": false }
+        {
+          "label": "A",
+          "text": "Zenginlikle",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Soyla",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Takva ve güzel ahlakla",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Makamla",
+          "correct": false
+        }
       ]
     },
     {
       "question": "Aşağıdakilerden hangisi İslam'ın öğrettiği davranışlardan biridir?",
       "options": [
-        { "label": "A", "text": "Haksız kazanç elde etmek", "correct": false },
-        { "label": "B", "text": "Kul hakkını gözetmek", "correct": true },
-        { "label": "C", "text": "İnsanları küçümsemek", "correct": false },
-        { "label": "D", "text": "Gösteriş yapmak", "correct": false }
+        {
+          "label": "A",
+          "text": "Haksız kazanç elde etmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kul hakkını gözetmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İnsanları küçümsemek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Gösteriş yap",
+          "correct": false
+        }
       ]
     }
   ]

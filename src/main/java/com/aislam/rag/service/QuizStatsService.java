@@ -97,7 +97,7 @@ public class QuizStatsService {
             return new QuizParticipationResponse(true, participation.isPrizeEligibleAtJoin());
         }
 
-        boolean prizeEligibleAtJoin = chatQuotaService.isPremiumActive(chatQuotaService.ensureAppUser(appUserId));
+        boolean prizeEligibleAtJoin = true;
         quizParticipationRepository.save(new QuizParticipationEntity(
                 player,
                 request.eventId(),

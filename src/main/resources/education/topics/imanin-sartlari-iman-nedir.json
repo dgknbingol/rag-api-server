@@ -1,0 +1,52 @@
+{
+  "readingMinutes": 2,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "İman Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İman, Allah'ın ve Peygamberi aracılığıyla bildirdiği bütün gerçekleri gönülden kabul etmek ve bunların doğru olduğuna inanmaktır. İman, Müslümanın inanç hayatının temelidir ve yalnızca sözle ifade edilen bir kabul değil, kalpten gelen samimi bir tasdiktir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'da imanın altı temel esası vardır. Bunlar; Allah'a, meleklere, kitaplara, peygamberlere, ahiret gününe ve kadere imandır. Bu esasların tamamına inanmak, İslam inancının temelini oluşturur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İmanın şartları birbirinden ayrı düşünülemez. Bir Müslüman, bu esasların tamamına inanır ve bunların Allah tarafından bildirildiğini kabul eder. Bu derste, imanın altı şartını tek tek öğrenecek ve her birinin İslam inancındaki yerini anlayacaksınız.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "İman, Allah'ın bildirdiği bütün esaslara gönülden inanmaktır.",
+        "İmanın altı temel şartı vardır.",
+        "Bu şartların tamamı İslam inancının temelini oluşturur.",
+        "Müslüman, imanın bütün esaslarına birlikte inanır."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Harf Birleştirme",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harf Birleştirme Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arapçada kelimeler, harflerin bir araya gelmesiyle oluşur. Bu nedenle Kur'an okumaya başlayabilmek için harflerin nasıl birleştirildiğini öğrenmek gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Harf birleştirme, daha önce öğrenilen harfler ve harekelerin birlikte kullanılarak hece ve kelime oluşturulmasıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu konu, Kur'an okumaya geçişin en önemli aşamalarından biridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harfler Nasıl Birleşir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Arapçada harflerin büyük çoğunluğu birbirine bağlanarak yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bir harfin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Başta,",
+        "Ortada,",
+        "Sonda"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "bulunmasına göre yazılışı değişebilir. Ancak harfin sesi değişmez.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "ب + ت",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "→ بـت",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "şeklinde yazılır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harekelerle Birlikte Okuma",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Birleştirilen harfler, üzerlerindeki veya altlarındaki harekelere göre okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örnekler:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بَ + تَ = بَتَ → Bete",
+        "مَ + نَ = مَنَ → Mene",
+        "كَ + تَ = كَتَ → Kete"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Amaç, harfleri tek tek okumak yerine akıcı şekilde birleştirerek okuyabilmektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "İki Harfli Okuma Çalışmaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Aşağıdaki örnekleri sesli okuyunuz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "بَتَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "تَبَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "مَنَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "نَمَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "كَتَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "لَبَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Her harfi ayrı ayrı değil, birlikte okumaya çalışınız.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Üç Harfli Okuma Çalışmaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Şimdi üç harften oluşan örnekleri okuyunuz.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "كَتَبَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "دَخَلَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "خَرَجَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "عَلِمَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "فَتَحَ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu aşamada amaç, harfleri birleştirerek akıcı okuyabilmektir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harekeleri Dikkate Almak",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kelime okunurken her harfin harekesi mutlaka dikkate alınmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "بَ = Ba",
+        "بِ = Bi",
+        "بُ = Bu"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Aynı harf, aldığı harekeye göre farklı şekilde okunur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu nedenle yalnızca harfi değil, üzerindeki veya altındaki harekeyi de görmek gerekir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Cezm ve Şeddeli Birleşimler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İlerleyen kelimelerde cezm ve şedde de görülmeye başlanacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Örneğin:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "أَبْ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "رَبَّ",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu işaretler, daha önce öğrenilen kurallara uygun şekilde okunmalıdır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Harf Birleştirirken Nelere Dikkat Edilmelidir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Harfler tek tek değil, bir bütün hâlinde okunmalıdır.",
+        "Harekeler dikkatle takip edilmelidir.",
+        "Mahreçlere dikkat edilmelidir.",
+        "Okuma aceleye getirilmemelidir.",
+        "Düzenli tekrar yapılmalıdır."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Akıcı okumak zamanla gelişen bir beceridir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bol Tekrarın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an okumayı öğrenirken en önemli aşamalardan biri bol tekrar yapmaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İlk başta harfleri birleştirmek zor gelebilir. Ancak düzenli çalışma sayesinde göz, harfleri daha hızlı tanımaya ve dil de daha akıcı okumaya alışacaktır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sabırlı olmak ve her gün kısa süre çalışmak, öğrenmeyi kolaylaştırır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an ve Hadislerde Kur'an'ı Doğru Okumanın Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kur'an-ı Kerim'de Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı tane tane, ağır ağır oku.\"\n (Müzzemmil Suresi, 73/4)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) şöyle buyurmuştur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Kur'an'ı öğrenen ve onu okuyan kimseye büyük ecir vardır. Okurken zorlanan kimseye ise iki ecir vardır.\" (Müslim)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu hadis, Kur'an okumayı öğrenirken zorlanmanın doğal olduğunu ve gayret gösteren kişinin de sevap kazanacağını göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Arapçada kelimeler harflerin birleşmesiyle oluşur.",
+        "Harfler birleştirilirken harekeler mutlaka dikkate alınmalıdır.",
+        "Aynı harf, aldığı harekeye göre farklı okunabilir.",
+        "Harfler tek tek değil, bir bütün hâlinde okunmalıdır.",
+        "Düzenli tekrar yapmak akıcı okumayı geliştirir."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "bullet",
+      "text": null,
+      "title": null,
+      "url": null,
+      "items": [
+        "Harf birleştirme, Arap harflerini ve harekeleri kullanarak hece ve kelime oluşturma işlemidir.",
+        "Harflerin kelime içindeki yazılışları değişebilir ancak sesleri değişmez.",
+        "Harekeler, harflerin nasıl okunacağını belirlediği için her zaman dikkatle takip edilmelidir.",
+        "Harfler zamanla tek tek değil, bir bütün olarak okunmaya başlanır ve bu akıcı okumayı sağlar.",
+        "Düzenli tekrar ve sabırlı çalışma, Kur'an okumayı öğrenmenin en önemli anahtarlarındandır."
+      ]
+    }
+  ]
+}

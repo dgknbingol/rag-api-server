@@ -1,0 +1,383 @@
+{
+  "id": "zekat-mini-quiz",
+  "title": "Zekât Mini Quiz",
+  "moduleId": "zekat",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "Zekât, İslam'ın kaç şartından biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Üç",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dört",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Beş",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Altı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekât nasıl bir ibadettir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bedenî ibadet",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Mali ibadet",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece sözle yapılan ibadet",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Nafile ibadet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekâtın temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Daha fazla mal kazanmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın rızasını kazanmak ve ihtiyaç sahiplerine destek olmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ticareti artırmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Borç vermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekâtın farz olması için aşağıdakilerden hangisi gerekir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evli olmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Nisap miktarı mala sahip olmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Elli yaşını doldurmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hacca gitmiş olmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Nisap nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hac vakti",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Zekât yükümlülüğünün başladığı asgari mal varlığı ölçüsü",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Oruç süresi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadaka miktarı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Nisap miktarına ulaştıktan sonra zekâtın farz olması için ne kadar süre geçmelidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bir ay",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Altı ay",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Bir kamerî (Hicrî) yıl",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İki yıl",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi zekât alabilecek kişilerden biridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fakir",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Maddi durumu iyi olan kişi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Eş",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Anne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Hanefî mezhebine göre aşağıdakilerden hangisine zekât verilmez?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İhtiyaç sahibi kardeşe",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İhtiyaç sahibi amcaya",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Anneye",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "İhtiyaç sahibi teyzeye",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhtiyaç sahibi akrabaya zekât vermenin faydası nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece maddi yardım sağlaması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hem zekât ibadetinin yerine getirilmesi hem de akrabalık bağlarının güçlenmesi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zekât yerine geçmemesi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece hediye sayılması",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekât ile sadaka arasındaki temel fark nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İkisi tamamen aynıdır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Zekât farz, sadaka ise gönüllü bir ibadettir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadaka sadece Ramazan ayında verilir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zekât sadece camilere verilir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Sadaka hakkında aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece zenginler verebilir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sadece para olarak verilir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Maddi ve manevi iyilikleri kapsar.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Yılda bir kez verilir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi sadaka örneğidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Güler yüz göstermek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Güzel söz söylemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Bir ihtiyaç sahibine yardım etmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yukarıdakilerin hepsi",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Zekât verirken en önemli amaç ne olmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanlardan övgü almak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gösteriş yapmak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Allah'ın rızasını kazanmak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Karşılık beklemek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zekâtın toplumsal faydalarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rekabeti artırması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yardımlaşma ve dayanışmayı güçlendirmesi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İsrafı teşvik etmesi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "İnsanları birbirinden uzaklaştırması",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "\"Her zekât bir sadakadır; ancak her sadaka zekât değildir.\" sözü neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zekât ile sadakanın tamamen aynı olduğunu",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Zekâtın, sadakanın farz olan özel bir türü olduğunu",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadakanın zekâttan daha önemli olduğunu",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Zekâtın sadece Ramazan ayında verildiğini",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

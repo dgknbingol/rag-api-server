@@ -1,0 +1,432 @@
+{
+  "readingMinutes": 4,
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Hadislerin Korunması",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadislerin Korunması Nedir?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması, Hz. Muhammed'in (sav) sözlerinin, davranışlarının ve onaylarının doğru şekilde öğrenilip gelecek nesillere güvenilir olarak aktarılması için yapılan çalışmalardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Peygamber Efendimizin (sav) sünneti, Kur'an-ı Kerim'den sonra İslam'ın ikinci temel kaynağı olduğu için hadislerin doğru şekilde korunmasına büyük önem verilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadisler İlk Nasıl Korundu?",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hz. Muhammed (sav) hayattayken sahabeler onun sözlerini dikkatle dinler, ezberler ve günlük hayatlarında uygularlardı.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı sahabeler hadisleri yazarken, birçok sahabe de güçlü hafızaları sayesinde ezberleyerek muhafaza etmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Peygamber Efendimiz (sav), hadislerin doğru şekilde aktarılmasını teşvik etmiş ve yanlış aktarılmaması konusunda ümmetini uyarmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadislerin Yazıya Geçirilmesi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İlk dönemlerde hadislerin ezberlenmesi daha yaygın olsa da zamanla hadisler yazılmaya başlanmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Özellikle sahabeler ve tâbiîn döneminde hadisler not edilmiş, daha sonraki dönemlerde ise büyük hadis kitapları hazırlanmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Böylece hadisler hem ezber yoluyla hem de yazılı olarak korunmuştur.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadis Âlimlerinin Çalışmaları",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri, hadislerin güvenilirliğini belirlemek için çok titiz çalışmalar yapmışlardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu çalışmalar kapsamında;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Rivayet zincirlerini (isnad) incelemişler,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisi nakleden kişilerin (ravilerin) güvenilirliğini araştırmışlar,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis metinlerini karşılaştırmışlar,",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Uydurma rivayetleri ayıklamışlardır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu sayede sahih hadisler güvenilir şekilde günümüze ulaşmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kütüb-i Sitte",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunmasında büyük katkısı olan en önemli hadis kitaplarına Kütüb-i Sitte (Altı Hadis Kitabı) denir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunlar şunlardır:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahih al-Bukhari",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sahih Muslim",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sunan Abi Dawud",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Jami' at-Tirmidhi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sunan an-Nasa'i",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Sunan Ibn Majah",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu eserler, İslam dünyasında en güvenilir hadis kaynakları arasında kabul edilmektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadislerin Korunmasının Önemi",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması sayesinde;",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Peygamberimizin örnek hayatı doğru şekilde öğrenilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İbadetlerin uygulanışı nesilden nesile aktarılmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Uydurma rivayetlerle sahih hadisler birbirinden ayrılmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İslam'ın doğru anlaşılması ve yaşanması kolaylaşmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Hadislerin Korunmasından Alınacak Dersler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması bizlere önemli mesajlar verir:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Dinî bilgiler güvenilir kaynaklardan öğrenilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Doğruluğu araştırılmamış bilgiler hemen kabul edilmemelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Peygamberimizin sünnetini öğrenmek ve yaşamak önemlidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "İlme ve doğru bilgiye değer verilmelidir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Güvenilir âlimlerin çalışmaları dinî mirasın korunmasında büyük rol oynamıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Kur'an'dan Mesaj",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Allah Teâlâ şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Ey iman edenler! Eğer size bir fasık bir haber getirirse onun doğruluğunu araştırın.\"\n(Hucurât Suresi, 49/6)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Başka bir ayette ise şöyle buyurur:",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Peygamber size ne verdiyse onu alın, size neyi yasakladıysa ondan da kaçının.\"\n(Haşr Suresi, 59/7)",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetler, doğru bilgiye ulaşmanın ve Peygamberimizin rehberliğine uymanın önemini göstermektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Bilmeniz Gerekenler",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisler önce ezberlenmiş, daha sonra yazıya geçirilmiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri rivayet zincirlerini ve ravileri titizlikle incelemiştir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kütüb-i Sitte, en güvenilir hadis kaynakları arasında yer alır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması, sünnetin günümüze doğru şekilde ulaşmasını sağlamıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Güvenilir hadisler, İslam'ın doğru öğrenilmesinde önemli bir yere sahiptir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "heading",
+      "text": "Ders Özeti",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması, Hz. Muhammed'in (sav) söz ve davranışlarının güvenilir şekilde gelecek nesillere aktarılması için yapılan çalışmaları ifade eder.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadisler ilk olarak sahabeler tarafından ezberlenmiş, zamanla yazıya geçirilmiş ve hadis kitaplarında toplanmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadis âlimleri isnad sistemi, ravi incelemesi ve metin karşılaştırmaları yaparak hadislerin doğruluğunu araştırmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Kütüb-i Sitte, en güvenilir hadis kaynakları arasında kabul edilmektedir.",
+      "title": null,
+      "url": null,
+      "items": null
+    },
+    {
+      "type": "paragraph",
+      "text": "Hadislerin korunması sayesinde Peygamberimizin sünneti doğru şekilde günümüze ulaşmıştır.",
+      "title": null,
+      "url": null,
+      "items": null
+    }
+  ]
+}

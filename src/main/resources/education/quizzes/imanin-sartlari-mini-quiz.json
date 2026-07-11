@@ -1,0 +1,383 @@
+{
+  "id": "imanin-sartlari-mini-quiz",
+  "title": "İmanın Şartları Mini Quiz",
+  "moduleId": "imanin-sartlari",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "İmanın kaç şartı vardır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "6",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İmanın ilk şartı hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Meleklere iman",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'a iman",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Ahiret gününe iman",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kadere iman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Allah'ın bir olduğuna ve ortağı bulunmadığına inanmayı ifade eden kavram hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Takva",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tevhid",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "İhlas",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tevekkül",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Vahyi peygamberlere getiren melek hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mikâil",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İsrâfil",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Cebrâil",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Azrâil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kirâmen Kâtibîn meleklerinin görevi nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Can almak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Vahiy getirmek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "İnsanların amellerini kaydetmek",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sûra üflemek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim kime indirilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. Musa",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. İsa",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hz. Davud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an-ı Kerim'in en önemli özelliği aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İlk ilahi kitap olması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Son ve korunmuş ilahi kitap olması",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece Araplara gönderilmesi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece ibadetlerden bahsetmesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam'a göre son peygamber kimdir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hz. İbrahim",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hz. Musa",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hz. İsa",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hz. Muhammed (sav)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Peygamberlerin ortak görevi nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İnsanları zengin etmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Allah'ın mesajını insanlara ulaştırmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Devlet kurmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Mucize göstermek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Ahiret gününe iman neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece ölüme inanmayı",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ölümden sonra dirilişe ve hesaba inanmayı",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece cennete inanmayı",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece kıyamete inanmayı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Zilzâl Suresi'nde hangi gerçek vurgulanır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Her insan yaptığı iyilik ve kötülüğün karşılığını görecektir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "İnsanlar hesaba çekilmeyecektir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dünya hayatı sonsuzdur.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece peygamberler hesaba çekilecektir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kader neyi ifade eder?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allah'ın her şeyi ezelî ilmiyle bilmesi ve takdir etmesini",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "İnsanların planlarını",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Tesadüfleri",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Geleceği tahmin etmeyi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Tevekkül ne demektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hiç çalışmadan sonucu beklemek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gerekli gayreti gösterdikten sonra sonucu Allah'a bırakmak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Her şeyi kadere bağlamak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece dua etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi imanın şartlarından biri değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kitaplara iman",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Peygamberlere iman",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Zekâta iman",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ahiret gününe iman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İmanın altı şartı hakkında aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        {
+          "label": "A",
+          "text": "İstenilen birkaçına inanmak yeterlidir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sadece Allah'a inanmak yeterlidir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Müslüman, imanın altı şartının tamamına birlikte inanır.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bunlar sadece din âlimleri için gereklidir.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

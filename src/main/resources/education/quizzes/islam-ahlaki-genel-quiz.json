@@ -1,0 +1,508 @@
+{
+  "id": "islam-ahlaki-genel-quiz",
+  "title": "İslam Ahlakı Genel Quiz",
+  "moduleId": "islam-ahlaki",
+  "passPercent": 70,
+  "questions": [
+    {
+      "question": "İslam'a göre ahlakın temel kaynakları hangileridir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gelenek ve örf",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kur'an-ı Kerim ve Sünnet",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Felsefe ve kültür",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tarih kitapları",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimize verilen \"el-Emîn\" unvanı ne anlama gelir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sabırlı",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Güvenilir",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Cesur",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Bilge",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi emanete örnektir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Başkasının sırrını korumak",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Yalan söylemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Gıybet etmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Haset etmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Sabrın üç temel çeşidinden biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zenginlikte sabır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "İbadetlerde sabır",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yolculukta sabır",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ticarette sabır",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gerçek şükür nasıl yapılır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece \"Elhamdülillah\" demek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kalple, dille ve davranışlarla Allah'a şükretmek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece sadaka vermek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sessiz kalmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Samimi tevbenin şartlarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Günahı terk etmek",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Günahı gizlemek",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Başkasını suçlamak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Günahı önemsememek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İhlasın zıddı nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sabır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Takva",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Riya (gösteriş)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Şükür",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'a göre insanların Allah katındaki üstünlüğü neye göredir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zenginlik",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Soy",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Takva",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Makam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kur'an'da anne ve babaya ne bile denmemesi emredilmiştir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hayır",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Öf!",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Bekle",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Git",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimize göre iyi bir Müslüman komşusuna nasıl davranmalıdır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Onu rahatsız etmemelidir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sadece bayramlarda görüşmelidir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece akrabasıysa yardım etmelidir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hiç ilgilenmemelidir.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Kul hakkının affedilmesi için aşağıdakilerden hangisi gerekir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sadece dua etmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hak sahibinin helal etmesi veya hakkın telafi edilmesi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadaka vermek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Bir gün oruç tutmak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Gıybet nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bir kişinin arkasından hoşlanmayacağı doğru bir şeyi söylemektir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Doğru olmayan söz söylemektir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Nasihat etmektir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Eleştiri yapmaktır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Başkasındaki nimetin ondan gitmesini istemeye ne denir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gıpta",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Haset",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Şükür",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tevazu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "İslam'a göre kibir nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kendine güvenmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kendini başkalarından üstün görmek ve onları küçümsemek",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Çok çalışmak",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Güzel giyinmek",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimizin affediciliğinin en büyük örneklerinden biri hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bedir Savaşı",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Mekke'nin Fethi",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hicret",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Veda Haccı",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi merhamet örneğidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aç bir hayvana su vermek.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hayvanlara eziyet etmek.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Yaşlıları görmezden gelmek.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Çevreyi kirletmek.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamberimiz (sav) hangi özelliğiyle \"es-Sâdık\" olarak tanınmıştır?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cesareti",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Doğruluğu",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Zenginliği",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Gücü",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Haset ile gıpta arasındaki fark nedir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aynı anlama gelirler.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gıpta, nimetin yok olmasını istemeden benzerine sahip olmayı istemektir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Gıpta haramdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Haset övülen bir davranıştır.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Aşağıdakilerden hangisi güzel ahlaka örnek değildir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Doğruluk",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Merhamet",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kibir",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sabır",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "Peygamber Efendimizin gönderiliş amaçlarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ticareti öğretmek",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Güzel ahlakı tamamlamak",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Yeni bir dil öğretmek",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Devlet kurmak",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
