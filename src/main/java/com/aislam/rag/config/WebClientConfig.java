@@ -24,13 +24,13 @@ public class WebClientConfig {
 
     @Bean
     public WebClient deepSeekWebClient(DeepSeekProperties properties) {
+        HttpClient httpClient = HttpClient.newBuilder()
+                .connectTimeout(properties.connectTimeout())
+                .build();
+
         return WebClient.builder()
                 .baseUrl(properties.baseUrl())
-                .clientConnector(new JdkClientHttpConnector(
-                        HttpClient.newBuilder()
-                                .connectTimeout(properties.connectTimeout())
-                                .build()
-                ))
+                .clientConnector(new JdkClientHttpConnector(httpClient))
                 .exchangeStrategies(UTF8_JSON_STRATEGIES)
                 .defaultHeader(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON_VALUE)
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, ApiMediaTypes.APPLICATION_JSON_UTF8_VALUE)

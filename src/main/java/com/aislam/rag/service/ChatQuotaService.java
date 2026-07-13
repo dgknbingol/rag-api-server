@@ -8,6 +8,7 @@ import com.aislam.rag.entity.ChatDailyUsageEntity;
 import com.aislam.rag.exception.RagException;
 import com.aislam.rag.repository.AppUserRepository;
 import com.aislam.rag.repository.ChatDailyUsageRepository;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -55,16 +56,18 @@ public class ChatQuotaService {
         );
     }
 
+    /**
+     * Atomically reserves one daily question. Call {@link #releaseQuota(UUID)} if the ask fails.
+     */
     @Transactional
-    public void consumeQuota(UUID appUserId) {
+    public void reserveQuota(UUID appUserId) {
         AppUserEntity appUser = ensureAppUser(appUserId);
         LocalDate today = LocalDate.now(zoneId);
         int limit = resolveDailyLimit(appUser);
-        ChatDailyUsageEntity usage = chatDailyUsageRepository
-                .findByAppUserIdAndUsageDate(appUserId, today)
-                .orElseGet(() -> new ChatDailyUsageEntity(appUserId, today));
+        ensureUsageRow(appUserId, today);
 
-        if (usage.getCount() >= limit) {
+        int updated = chatDailyUsageRepository.tryIncrement(appUserId, today, limit, Instant.now());
+        if (updated == 0) {
             throw new RagException(
                     "Günlük soru hakkınız doldu. Premium ile günde "
                             + chatProperties.premiumDailyLimit()
@@ -72,9 +75,18 @@ public class ChatQuotaService {
                     "CHAT_QUOTA_EXCEEDED"
             );
         }
+    }
 
-        usage.incrementCount();
-        chatDailyUsageRepository.save(usage);
+    @Transactional
+    public void releaseQuota(UUID appUserId) {
+        LocalDate today = LocalDate.now(zoneId);
+        chatDailyUsageRepository.tryDecrement(appUserId, today, Instant.now());
+    }
+
+    /** @deprecated Prefer {@link #reserveQuota(UUID)} + {@link #releaseQuota(UUID)}. */
+    @Transactional
+    public void consumeQuota(UUID appUserId) {
+        reserveQuota(appUserId);
     }
 
     @Transactional
@@ -97,6 +109,17 @@ public class ChatQuotaService {
         }
         Instant expiresAt = appUser.getPremiumExpiresAt();
         return expiresAt == null || expiresAt.isAfter(Instant.now());
+    }
+
+    private void ensureUsageRow(UUID appUserId, LocalDate today) {
+        if (chatDailyUsageRepository.findByAppUserIdAndUsageDate(appUserId, today).isPresent()) {
+            return;
+        }
+        try {
+            chatDailyUsageRepository.saveAndFlush(new ChatDailyUsageEntity(appUserId, today));
+        } catch (DataIntegrityViolationException ignored) {
+            // concurrent insert of the same day row
+        }
     }
 
     private int resolveDailyLimit(AppUserEntity appUser) {

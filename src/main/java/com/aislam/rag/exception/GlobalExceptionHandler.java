@@ -50,6 +50,8 @@ public class GlobalExceptionHandler {
             case "QUIZ_VALIDATION_ERROR", "APP_USER_ID_REQUIRED", "APP_USER_ID_INVALID", "WEBHOOK_INVALID" ->
                     HttpStatus.BAD_REQUEST;
             case "CHAT_QUOTA_EXCEEDED" -> HttpStatus.TOO_MANY_REQUESTS;
+            case "CHAT_BUSY", "CHAT_QUEUE_FULL" -> HttpStatus.SERVICE_UNAVAILABLE;
+            case "CHAT_NOT_FOUND", "CHAT_CONVERSATION_NOT_FOUND", "CHAT_JOB_NOT_FOUND" -> HttpStatus.NOT_FOUND;
             case "WEBHOOK_UNAUTHORIZED" -> HttpStatus.UNAUTHORIZED;
             default -> HttpStatus.SERVICE_UNAVAILABLE;
         };

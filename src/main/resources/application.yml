@@ -47,7 +47,7 @@ lmstudio:
 deepseek:
   base-url: https://api.deepseek.com
   api-key: ${DEEPSEEK_API_KEY:}
-  model: deepseek-chat
+  model: deepseek-v4-flash
   system-prompt: >
     Sen AiSLAM adlı bir İslami soru-cevap asistanısın.
     Soruları Türkçe yanıtla; kullanıcı başka dilde sorarsa o dilde cevap ver.
@@ -92,6 +92,10 @@ app:
   chat:
     free-daily-limit: 3
     premium-daily-limit: 50
+    max-context-messages: 20
+    jobs-enabled: true
+    job-poll-interval-ms: 1500
+    job-batch-size: 2
   revenuecat:
     webhook-authorization: ${REVENUECAT_WEBHOOK_AUTH:}
     premium-entitlement-id: premium
@@ -113,9 +117,10 @@ rag:
   max-answer-words: 80
   chunk-size: 1800
   chunk-overlap: 250
-  max-concurrent-chat-requests: 1
+  max-concurrent-chat-requests: 50
   max-concurrent-embedding-requests: 4
-  request-timeout-seconds: 30
+  request-timeout-seconds: 45
+  max-chat-queue-size: 100
   max-source-content-chars: 1000
   max-total-sources-chars: 3000
   relevance-gate-enabled: true

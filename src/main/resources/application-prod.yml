@@ -11,11 +11,21 @@ app:
     pipeline: direct
     llm: deepseek
     embedding: local
+  chat:
+    jobs-enabled: true
+    job-poll-interval-ms: 1500
+    job-batch-size: 2
   cors:
     allowed-origin-patterns:
       - https://*
+
+rag:
+  max-concurrent-chat-requests: 50
+  max-chat-queue-size: 100
+  request-timeout-seconds: 45
 
 logging:
   level:
     root: INFO
     com.aislam.rag.debug.Utf8EncodingDebugLogger: WARN
+    com.aislam.rag.service.ChatJobService: INFO

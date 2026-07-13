@@ -14,16 +14,27 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class RagConcurrencyLimiterTest {
 
     private static RagProperties chatLimiterProperties() {
-        return new RagProperties("keyword", 30, 5, 200, 1, 8000, 80, 1800, 250, 1, 4, 1, 1000, 3000, true, 5, 0.12, 0.7, 0.55);
+        return new RagProperties(
+                "keyword", 30, 5, 200, 1, 8000, 80, 1800, 250,
+                1, 4, 1, 0, 1000, 3000,
+                true, 5, 0.12, 0.7, 0.55
+        );
     }
 
     private static RagProperties embeddingLimiterProperties() {
-        return new RagProperties("keyword", 30, 5, 200, 1, 8000, 80, 1800, 250, 1, 2, 1, 1000, 3000, true, 5, 0.12, 0.7, 0.55);
+        return new RagProperties(
+                "keyword", 30, 5, 200, 1, 8000, 80, 1800, 250,
+                1, 2, 1, 0, 1000, 3000,
+                true, 5, 0.12, 0.7, 0.55
+        );
     }
 
     @Test
     void chatPermitTimesOutWhenAllSlotsTaken() throws InterruptedException {
-        RagConcurrencyLimiter limiter = new RagConcurrencyLimiter(chatLimiterProperties());
+        RagConcurrencyLimiter limiter = new RagConcurrencyLimiter(
+                chatLimiterProperties(),
+                new com.aislam.rag.service.ChatCapacityMetrics()
+        );
 
         CountDownLatch chatStarted = new CountDownLatch(1);
         CountDownLatch releaseChat = new CountDownLatch(1);
@@ -47,7 +58,7 @@ class RagConcurrencyLimiterTest {
                 limiter.withChatPermit(() -> "should-not-run");
             } catch (RagException ex) {
                 secondFailed.set(true);
-                assertEquals(RagConcurrencyLimiter.BUSY_MESSAGE, ex.getMessage());
+                assertEquals(RagConcurrencyLimiter.QUEUE_FULL_CODE, ex.getCode());
             }
         });
         waiter.start();
@@ -61,7 +72,10 @@ class RagConcurrencyLimiterTest {
 
     @Test
     void embeddingPermitAllowsParallelismUpToLimit() throws InterruptedException {
-        RagConcurrencyLimiter limiter = new RagConcurrencyLimiter(embeddingLimiterProperties());
+        RagConcurrencyLimiter limiter = new RagConcurrencyLimiter(
+                embeddingLimiterProperties(),
+                new com.aislam.rag.service.ChatCapacityMetrics()
+        );
 
         CountDownLatch twoRunning = new CountDownLatch(2);
         CountDownLatch release = new CountDownLatch(1);
@@ -99,5 +113,32 @@ class RagConcurrencyLimiterTest {
         second.join(3000);
 
         assertTrue(thirdFailed.get());
+    }
+
+    @Test
+    void queueFullFailsFast() {
+        RagProperties properties = new RagProperties(
+                "keyword", 30, 5, 200, 1, 8000, 80, 1800, 250,
+                1, 4, 30, 0, 1000, 3000,
+                true, 5, 0.12, 0.7, 0.55
+        );
+        RagConcurrencyLimiter limiter = new RagConcurrencyLimiter(
+                properties,
+                new com.aislam.rag.service.ChatCapacityMetrics()
+        );
+
+        CountDownLatch hold = new CountDownLatch(1);
+        Thread holder = new Thread(() -> limiter.withChatPermit(() -> {
+            try {
+                hold.await(5, TimeUnit.SECONDS);
+            } catch (InterruptedException ex) {
+                Thread.currentThread().interrupt();
+            }
+            return "ok";
+        }));
+        holder.start();
+
+        assertThrows(RagException.class, () -> limiter.withChatPermit(() -> "no"));
+        hold.countDown();
     }
 }
