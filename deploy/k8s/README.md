@@ -102,8 +102,8 @@ sudo docker save aislam-rag-api:prod | sudo k3s ctr images import -
 sudo k3s ctr images ls | grep aislam-rag-api
 ```
 
-> Kod değiştiğinde: imajı yeniden `docker build` edip bu komutu tekrar çalıştırın,
-> ardından `sudo k3s kubectl -n eislam rollout restart deploy/rag-api`.
+> Kod değiştiğinde bu adımları elle tekrarlamak yerine [`deploy.sh`](deploy.sh)
+> kullanın — aşağıdaki "Güncelleme" bölümüne bakın.
 
 ## 4. cert-manager kurun
 
@@ -210,6 +210,44 @@ curl -sS https://api.e-islam.net/api/health
 
 Son komut JSON döndürüyorsa iş tamam. `TRAEFIK DEFAULT CERT` hatası alıyorsanız
 sertifika henüz hazır değil, `kubectl -n eislam describe certificate` ile bakın.
+
+---
+
+## Güncelleme: backend'de değişiklik yaptıktan sonra
+
+```bash
+cd /opt/aislam
+git pull
+sudo deploy/k8s/deploy.sh
+```
+
+Betik sırayla imajı derler, k3s'e aktarır, dağıtımı yeniden başlatır ve sağlık
+kontrolü yapar. Adımlardan biri başarısız olursa orada durur.
+
+Elle yapmak isterseniz aynı işlem:
+
+```bash
+sudo docker compose -f deploy/docker-compose.prod.yml --profile docker-only build api
+sudo docker save aislam-rag-api:prod | sudo k3s ctr images import -
+sudo k3s kubectl -n eislam rollout restart deploy/rag-api
+sudo k3s kubectl -n eislam rollout status deploy/rag-api --timeout=300s
+```
+
+`rollout restart` atlanamaz: imaj etiketi her seferinde `aislam-rag-api:prod`
+olarak kaldığı için Kubernetes pod tanımında bir değişiklik görmez ve eski
+konteyneri çalıştırmaya devam eder. Yeni içerik ancak pod yeniden yaratılınca
+devreye girer.
+
+Tek replika ve `Recreate` stratejisi kullanıldığından güncelleme sırasında
+yaklaşık yarım dakikalık kesinti olur. Bu bilinçli bir tercih: uygulama açılışta
+veritabanı şemasını güncelliyor, paralel iki örnek yarış durumu oluşturabilir.
+
+Yalnızca ortam değişkeni ya da secret değiştiyse imaj derlemeye gerek yok:
+
+```bash
+sudo k3s kubectl apply -f /opt/aislam/deploy/k8s/configmap.yaml
+sudo k3s kubectl -n eislam rollout restart deploy/rag-api
+```
 
 ---
 
