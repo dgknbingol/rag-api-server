@@ -9,11 +9,30 @@ Bu klasördeki dosyalar `https://e-islam.net` üzerinde yayınlanır.
 | `/` | `index.html` |
 | `/gizlilik` | `gizlilik.html` |
 | `/kosullar` | `kosullar.html` |
+| `/app-ads.txt` | `app-ads.txt` |
 
 Mağaza listelerinde kullanılacak adresler:
 
 - **Gizlilik politikası:** `https://e-islam.net/gizlilik`
 - **Kullanım koşulları:** `https://e-islam.net/kosullar`
+
+## app-ads.txt (AdMob)
+
+AdMob, uygulama sahipliğini bu dosyadan doğrular. Ocak 2025 sonrası oluşturulan
+uygulamalar doğrulanmazsa **kısıtlı reklam yayını** uygulanır ve gelir düşer.
+
+Dosya tam olarak `https://e-islam.net/app-ads.txt` adresinde, `text/plain` olarak
+sunulmalıdır. Play Store listesindeki "Web sitesi" alanı da `e-islam.net` olmalı;
+AdMob crawler uygulama sayfasındaki adresten yola çıkar.
+
+Doğrulama:
+
+```bash
+curl -sI https://e-islam.net/app-ads.txt   # 200 + Content-Type: text/plain
+curl -s  https://e-islam.net/app-ads.txt
+```
+
+AdMob panelinde durum: **Uygulamalar → app-ads.txt** (doğrulama birkaç gün sürebilir).
 
 ## Sunucuya yükleme (Hetzner)
 
