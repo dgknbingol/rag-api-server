@@ -46,13 +46,18 @@ yeniden yaratılmasını gerektiriyor. Veriler `pg_data` ve `qdrant_data` adlı
 volume'larda durduğu için kaybolmaz.
 
 ```bash
-cd /path/to/rag-api-server/deploy
-sudo docker compose -f docker-compose.prod.yml down
+cd /opt/aislam/deploy
+sudo docker compose -f docker-compose.prod.yml --profile docker-only down
 sudo docker compose -f docker-compose.prod.yml up -d
 ```
 
 > **`down` komutuna `-v` EKLEMEYİN.** `-v` volume'ları da siler; veritabanı ve
 > vektör indeksi tamamen gider.
+
+`down` komutundaki `--profile docker-only` şart: profil belirtilmezse Compose
+`api` servisini kapsam dışı bırakır, eski `aislam-api-1` konteyneri ayakta kalır
+ve ağa bağlı olduğu için `Network aislam_internal ... Resource is still in use`
+hatasıyla ağ yeniden oluşturulamaz.
 
 `up -d` yalnızca postgres ve qdrant'ı başlatır — `api` profil altında olduğu için
 atlanır, yani 2. adıma ayrıca gerek kalmaz.
