@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rag-api
+  namespace: eislam
+spec:
+  # Tek replika: veritabani semasini uygulama baslangicinda guncelliyor,
+  # paralel calisan iki ornek yaris durumu olusturabilir.
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: rag-api
+  template:
+    metadata:
+      labels:
+        app: rag-api
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+      containers:
+        - name: rag-api
+          image: aislam-rag-api:prod
+          # Imaj registry'de degil, k3s'e elle aktariliyor (bkz. README).
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: rag-api-config
+            - secretRef:
+                name: rag-api-secret
+          resources:
+            requests:
+              memory: 640Mi
+              cpu: 250m
+            limits:
+              memory: 1280Mi
+              cpu: 1500m
+          # Spring Boot acilisi ~90 sn surebiliyor; startupProbe bitene kadar
+          # liveness devreye girmez, boylece yavas acilis yeniden baslatmaya yol acmaz.
+          startupProbe:
+            httpGet:
+              path: /api/health
+              port: http
+            periodSeconds: 5
+            failureThreshold: 36
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: http
+            periodSeconds: 10
+            timeoutSeconds: 3
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: http
+            periodSeconds: 20
+            timeoutSeconds: 5
+            failureThreshold: 3
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+      volumes:
+        # readOnlyRootFilesystem acik oldugu icin JVM'in yazabilecegi bir /tmp gerekli.
+        - name: tmp
+          emptyDir: {}

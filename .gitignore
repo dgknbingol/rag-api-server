@@ -8,3 +8,6 @@ target/
 application-local.yml
 .env
 data/
+
+# Gercek degerlerle doldurulmus Kubernetes Secret'i — secret.example.yaml commit edilir
+deploy/k8s/secret.yaml

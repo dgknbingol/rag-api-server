@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: rag-api
+  namespace: eislam
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    # HTTP-01 dogrulamasi 80 portundan gelir, bu yuzden web de dinlemede kalmali.
+    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
+spec:
+  ingressClassName: traefik
+  tls:
+    - hosts:
+        - api.e-islam.net
+      secretName: api-eislam-tls
+  rules:
+    - host: api.e-islam.net
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: rag-api
+                port:
+                  name: http
