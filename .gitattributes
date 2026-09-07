@@ -1,0 +1,7 @@
+# Sunucuda calisan dosyalar her zaman LF ile yazilir. Windows'ta CRLF'e
+# donuserlerse kabuk shebang satirini okuyamaz ("bad interpreter") ve
+# YAML/konfigurasyon dosyalari beklenmedik bicimde ayrisir.
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+Dockerfile text eol=lf
