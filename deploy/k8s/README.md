@@ -128,21 +128,57 @@ cd /opt/aislam/deploy/k8s
 sudo k3s kubectl apply -f namespace.yaml
 ```
 
-Secret'i Compose'un kullandığı `.env` dosyasından doğrudan üretin — böylece
-parolalar diske ikinci bir kopya olarak yazılmaz ve elle kopyalama hatası olmaz:
+Secret'i Compose'un kullandığı `.env` dosyasından üretin — parolalar diske ikinci
+bir kopya olarak yazılmaz ve elle kopyalama hatası olmaz.
+
+> **`.env`'i kabukla okumayın.** `set -a; . .env` yazmak cazip görünüyor ama
+> `REVENUECAT_WEBHOOK_AUTH` gibi **boşluk içeren** değerlerde kabuk boşluktan
+> sonrasını ayrı bir komut sanar; değişken ilk kelimeye kırpılır ve secret
+> sessizce yanlış oluşur. Compose kendi ayrıştırıcısını kullandığı için bu sorunu
+> yaşamaz. Aşağıdaki betik `.env`'i doğru ayrıştırır.
 
 ```bash
-set -a; . /opt/aislam/deploy/.env; set +a
-sudo k3s kubectl -n eislam create secret generic rag-api-secret \
-  --from-literal=SPRING_DATASOURCE_USERNAME="$POSTGRES_USER" \
-  --from-literal=SPRING_DATASOURCE_PASSWORD="$POSTGRES_PASSWORD" \
-  --from-literal=DEEPSEEK_API_KEY="$DEEPSEEK_API_KEY" \
-  --from-literal=APP_AUTH_JWT_SECRET="$AISLAM_JWT_SECRET" \
-  --from-literal=REVENUECAT_WEBHOOK_AUTH="${REVENUECAT_WEBHOOK_AUTH:-}" \
-  --dry-run=client -o yaml | sudo k3s kubectl apply -f -
+python3 - <<'PY' | sudo k3s kubectl apply -f -
+import base64, json, sys
+
+vals = {}
+for line in open('/opt/aislam/deploy/.env', encoding='utf-8'):
+    s = line.strip()
+    if not s or s.startswith('#') or '=' not in s:
+        continue
+    k, v = s.split('=', 1)
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in ('"', "'"):
+        v = v[1:-1]
+    vals[k.strip()] = v
+    print(f'{k.strip():26} uzunluk={len(v):3}  bosluk={"VAR" if " " in v else "yok"}',
+          file=sys.stderr)
+
+mapping = {
+    'SPRING_DATASOURCE_USERNAME': 'POSTGRES_USER',
+    'SPRING_DATASOURCE_PASSWORD': 'POSTGRES_PASSWORD',
+    'DEEPSEEK_API_KEY':           'DEEPSEEK_API_KEY',
+    'APP_AUTH_JWT_SECRET':        'AISLAM_JWT_SECRET',
+    'REVENUECAT_WEBHOOK_AUTH':    'REVENUECAT_WEBHOOK_AUTH',
+}
+eksik = [s for t, s in mapping.items()
+         if s not in vals and t != 'REVENUECAT_WEBHOOK_AUTH']
+if eksik:
+    sys.exit('EKSIK anahtar: ' + ', '.join(eksik))
+
+print(json.dumps({
+    'apiVersion': 'v1', 'kind': 'Secret',
+    'metadata': {'name': 'rag-api-secret', 'namespace': 'eislam'},
+    'type': 'Opaque',
+    'data': {t: base64.b64encode(vals.get(s, '').encode()).decode()
+             for t, s in mapping.items()},
+}))
+PY
 ```
 
-> Aynı komut secret'i güncellemek için de kullanılır (`apply` olduğu için üzerine yazar).
+Betik değerleri değil, yalnızca anahtar adlarını ve uzunluklarını ekrana yazar;
+çıktıyı gözden geçirip beklenmedik biçimde kısalmış bir değer olmadığını doğrulayın.
+
+> Aynı komut secret'i güncellemek için de kullanılır (`apply` üzerine yazar).
 > Sonrasında `sudo k3s kubectl -n eislam rollout restart deploy/rag-api` gerekir.
 >
 > Elle doldurmayı tercih ederseniz `secret.example.yaml` dosyası da aynı işi görür,
