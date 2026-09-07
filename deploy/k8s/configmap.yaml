@@ -7,11 +7,12 @@ data:
   SPRING_PROFILES_ACTIVE: "prod"
 
   # Postgres ve Qdrant Kubernetes'te DEGIL — sunucuda Docker Compose ile calisiyor.
-  # 172.17.0.1 host'un docker0 kopru adresi: pod'lardan erisilebilir, internetten erisilemez.
-  # Compose tarafinda bu adrese port yayinlanmis olmali (bkz. README).
-  # Adres degisirse yalnizca bu iki satiri guncelle.
-  SPRING_DATASOURCE_URL: "jdbc:postgresql://172.17.0.1:5432/aislam"
-  QDRANT_BASE_URL: "http://172.17.0.1:6333"
+  # 172.18.0.1, Compose'daki "internal" koprusunun host tarafindaki gateway adresi:
+  # pod'lardan erisilebilir, internetten erisilemez. Docker'in varsayilan docker0
+  # koprusu (172.17.0.1) bu sunucuda DOWN durumda oldugu icin kullanilamaz.
+  # Adres docker-compose.prod.yml icinde sabitlenmistir; degistirirsen ikisini birlikte guncelle.
+  SPRING_DATASOURCE_URL: "jdbc:postgresql://172.18.0.1:5432/aislam"
+  QDRANT_BASE_URL: "http://172.18.0.1:6333"
 
   # Konteyner bellek limitinin %75'ini heap olarak kullan.
   JAVA_TOOL_OPTIONS: "-XX:MaxRAMPercentage=75"

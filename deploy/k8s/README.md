@@ -20,43 +20,73 @@ için kural ve gerçek TLS sertifikası tanımlar.
 ## 1. Postgres ve Qdrant'ı pod'lara açın
 
 Şu an ikisi de yalnızca Docker'ın iç ağında; host'ta yayınlanmış portları yok.
-Pod'ların erişebilmesi için `deploy/docker-compose.prod.yml` içine port ekleyin:
+Gerekli değişiklikler `deploy/docker-compose.prod.yml` içinde **zaten yapılmış** durumda:
 
-```yaml
-  postgres:
-    ports:
-      - "172.17.0.1:5432:5432"
+- `postgres` → `172.18.0.1:5432`, `qdrant` → `172.18.0.1:6333` adreslerine yayınlanıyor
+- `internal` ağının subnet'i `172.18.0.0/16` olarak sabitlendi
+- `api` servisi `docker-only` profiline alındı, artık varsayılan olarak başlamıyor
 
-  qdrant:
-    ports:
-      - "172.17.0.1:6333:6333"
-```
+### Neden `172.18.0.1`, `172.17.0.1` değil
+
+`172.17.0.1` Docker'ın varsayılan `docker0` köprüsüdür, ama bu sunucuda hiçbir
+konteyner ona bağlı olmadığı için arayüz `state DOWN` durumda. Arayüz kapalıyken
+çekirdek o adrese gelen paketleri yerel kabul etmez, yani pod'lar bağlanamaz.
+`172.18.0.1` ise servislerin bağlı olduğu `internal` köprüsünün host tarafındaki
+ağ geçidi — her zaman açık ve Docker'ın kendi oluşturduğu bir arayüz olduğu için
+yeniden başlatmalarda konteynerlerden önce hazır oluyor.
 
 > **`0.0.0.0` veya port numarasını tek başına YAZMAYIN.** Docker yayınlanan portlar için
 > `ufw` kurallarını atlar; `- "5432:5432"` yazarsanız veritabanı doğrudan internete açılır.
-> `172.17.0.1` host'un docker0 köprü adresidir: pod'lardan erişilir, dışarıdan erişilmez.
+> `172.18.0.1` özel bir adres: pod'lardan erişilir, dışarıdan erişilmez.
 
-Uygulayın:
+### Uygulayın
+
+Ağ tanımı değiştiği için Compose ağı yeniden oluşturmalı, bu da konteynerlerin
+yeniden yaratılmasını gerektiriyor. Veriler `pg_data` ve `qdrant_data` adlı
+volume'larda durduğu için kaybolmaz.
 
 ```bash
 cd /path/to/rag-api-server/deploy
-sudo docker compose -f docker-compose.prod.yml up -d postgres qdrant
+sudo docker compose -f docker-compose.prod.yml down
+sudo docker compose -f docker-compose.prod.yml up -d
 ```
 
-Dışarıya kapalı olduğunu doğrulayın (bağlantı **kurulmamalı**):
+> **`down` komutuna `-v` EKLEMEYİN.** `-v` volume'ları da siler; veritabanı ve
+> vektör indeksi tamamen gider.
+
+`up -d` yalnızca postgres ve qdrant'ı başlatır — `api` profil altında olduğu için
+atlanır, yani 2. adıma ayrıca gerek kalmaz.
+
+### Doğrulayın
+
+Adres ve portlar beklendiği gibi mi:
+
+```bash
+sudo docker compose -f docker-compose.prod.yml ps
+ip -4 addr show br-$(sudo docker network inspect aislam_internal -f '{{.Id}}' | cut -c1-12)
+```
+
+Dışarıya kapalı olduğunu doğrulayın (bağlantı **kurulmamalı**, `cikis: 28` ya da `7` beklenir):
 
 ```bash
 curl -sS --max-time 5 http://89.167.0.187:6333/ ; echo "cikis: $?"
 ```
 
-## 2. API konteynerini Compose'dan çıkarın
-
-Artık API'yi Kubernetes çalıştıracak, aynı anda ikisi çalışmasın:
+Pod ağından erişilebildiğini doğrulayın (ikisi de `open` demeli):
 
 ```bash
-sudo docker compose -f docker-compose.prod.yml stop api
-sudo docker compose -f docker-compose.prod.yml rm -f api
+sudo k3s kubectl run netcheck --rm -it --image=busybox --restart=Never -- \
+  sh -c "nc -zv 172.18.0.1 5432; nc -zv 172.18.0.1 6333"
 ```
+
+Bu son kontrol geçmeden sonraki adımlara geçmeyin — geçmezse pod açılışta
+veritabanına bağlanamaz ve `CrashLoopBackOff` olur.
+
+## 2. API konteyneri
+
+Ayrı bir işlem gerekmiyor: `api` servisi Compose'da `docker-only` profiline
+alındığı için 1. adımdaki `up -d` onu başlatmıyor, `down` ise eski çalışan
+konteyneri zaten kaldırdı. `docker ps` çıktısında `aislam-api-1` görünmemeli.
 
 ## 3. İmajı k3s'e aktarın
 
@@ -118,11 +148,16 @@ sertifika henüz hazır değil, `kubectl -n eislam describe certificate` ile bak
 
 ```bash
 sudo k3s kubectl -n eislam run netcheck --rm -it --image=busybox --restart=Never -- \
-  sh -c "nc -zv 172.17.0.1 5432; nc -zv 172.17.0.1 6333"
+  sh -c "nc -zv 172.18.0.1 5432; nc -zv 172.18.0.1 6333"
 ```
 
 Bağlanmıyorsa 1. adımdaki port yayınlaması eksik ya da adres farklı.
-Host'un docker0 adresini şöyle görürsünüz: `ip -4 addr show docker0`
+`internal` köprüsünün güncel adresini şöyle görürsünüz:
+
+```bash
+sudo docker network inspect aislam_internal \
+  -f '{{range .IPAM.Config}}{{.Gateway}}{{end}}'
+```
 
 **Sertifika alınamıyor** — HTTP-01 doğrulaması 80 portunu kullanır. Traefik'in 80'i
 dinlediğini ve DNS'in bu sunucuya baktığını doğrulayın:

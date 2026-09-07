@@ -10,6 +10,11 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - pg_data:/var/lib/postgresql/data
+    ports:
+      # Yalnizca internal koprunun host adresine baglanir: k3s pod'larindan
+      # erisilir, internetten erisilemez. Ciplak port ("5432:5432") yazmayin —
+      # Docker ufw kurallarini atlar ve veritabani internete acilir.
+      - "172.18.0.1:5432:5432"
     networks:
       - internal
     healthcheck:
@@ -24,10 +29,17 @@ services:
     restart: unless-stopped
     volumes:
       - qdrant_data:/qdrant/storage
+    ports:
+      - "172.18.0.1:6333:6333"
     networks:
       - internal
 
   api:
+    # Bu servisi Kubernetes calistiriyor (bkz. k8s/README.md). Profil altinda
+    # oldugu icin "docker compose up -d" onu baslatmaz; ayni anda iki ornek
+    # calisip veritabani semasinda yaris durumu olusmasin diye boyle.
+    # K8s disinda yerel olarak denemek gerekirse: --profile docker-only
+    profiles: ["docker-only"]
     build:
       context: ..
       dockerfile: Dockerfile
@@ -59,3 +71,11 @@ volumes:
 networks:
   internal:
     driver: bridge
+    # Subnet sabitlenmis: gateway adresi (172.18.0.1) hem yukaridaki port
+    # yayinlarinda hem de k8s/configmap.yaml icinde sabit yaziyor. Docker'in
+    # otomatik atamasina birakilirsa ag yeniden olustugunda adres degisir ve
+    # pod'lar veritabanina ulasamaz.
+    ipam:
+      config:
+        - subnet: 172.18.0.0/16
+          gateway: 172.18.0.1
