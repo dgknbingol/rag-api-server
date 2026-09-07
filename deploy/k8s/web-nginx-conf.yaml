@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-nginx-conf
+  namespace: eislam
+data:
+  default.conf: |
+    server {
+        # nginx-unprivileged root olmadan calistigi icin 80 yerine 8080 dinler.
+        listen 8080;
+        server_name _;
+
+        root /usr/share/nginx/html;
+        index index.html;
+
+        # Magaza listelerinde uzantisiz adres veriliyor: /gizlilik -> gizlilik.html
+        location / {
+            try_files $uri $uri.html $uri/ =404;
+        }
+
+        # AdMob dogrulayicisi bu dosyayi text/plain bekler.
+        location = /app-ads.txt {
+            default_type text/plain;
+            add_header Cache-Control "public, max-age=3600";
+        }
+
+        # Statik icerik nadiren degisiyor.
+        location ~* \.(css|js|png|jpg|jpeg|svg|ico|webp)$ {
+            add_header Cache-Control "public, max-age=86400";
+        }
+
+        # Konteynerin hazir olup olmadigini olcmek icin; disari kapali degil
+        # ama Ingress yalnizca bilinen yollari yonlendiriyor.
+        location = /healthz {
+            access_log off;
+            return 200 "ok\n";
+            default_type text/plain;
+        }
+    }

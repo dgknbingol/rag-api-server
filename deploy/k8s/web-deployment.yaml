@@ -1,0 +1,80 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: eislam
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+      annotations:
+        # Icerik ConfigMap'i degistiginde pod'un yeniden baslamasi gerekir;
+        # bu deger degismedigi surece Kubernetes bir sey yapmaz. Icerigi
+        # guncelledikten sonra: kubectl -n eislam rollout restart deploy/web
+        checksum/content: "elle-guncellenir"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 101
+        runAsGroup: 101
+        # emptyDir'ler bu grupla yazilabilir olsun: readOnlyRootFilesystem
+        # acikken nginx'in gecici dosya dizinlerine yazabilmesi gerekiyor.
+        fsGroup: 101
+      containers:
+        - name: nginx
+          # Root gerektirmeyen resmi nginx varyanti; 8080 dinler.
+          image: nginxinc/nginx-unprivileged:1.27-alpine
+          ports:
+            - name: http
+              containerPort: 8080
+          resources:
+            requests:
+              memory: 32Mi
+              cpu: 10m
+            limits:
+              memory: 128Mi
+              cpu: 200m
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            periodSeconds: 20
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: content
+              mountPath: /usr/share/nginx/html
+              readOnly: true
+            - name: conf
+              mountPath: /etc/nginx/conf.d
+              readOnly: true
+            - name: cache
+              mountPath: /var/cache/nginx
+            - name: tmp
+              mountPath: /tmp
+      volumes:
+        # Site icerigi. Bu ConfigMap dosyalardan uretilir (bkz. README).
+        - name: content
+          configMap:
+            name: web-content
+        - name: conf
+          configMap:
+            name: web-nginx-conf
+        # readOnlyRootFilesystem acik oldugu icin nginx'in yazabilecegi yerler:
+        - name: cache
+          emptyDir: {}
+        - name: tmp
+          emptyDir: {}

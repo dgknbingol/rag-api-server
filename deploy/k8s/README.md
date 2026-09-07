@@ -275,8 +275,58 @@ dinlediğini ve DNS'in bu sunucuya baktığını doğrulayın:
 sudo k3s kubectl -n cert-manager logs deploy/cert-manager --tail=50
 ```
 
-## Statik site (e-islam.net) ayrı bir iş
+## Statik site (e-islam.net)
 
-`e-islam.net` hâlâ 404 dönüyor. Play Store gizlilik politikası (`/gizlilik`) ve
-AdMob doğrulaması (`/app-ads.txt`) için o adresin de yayında olması gerekir.
-Bu klasör yalnızca API'yi kapsar.
+Play Store gizlilik politikası (`/gizlilik`) ve AdMob doğrulaması
+(`/app-ads.txt`) için ana alan adının da yayında olması gerekir.
+
+### Neden nginx değil de Kubernetes
+
+`deploy/web/README.md` sunucuya nginx kurmayı anlatıyor, ama bu sunucuda 80 ve
+443 portlarını Traefik tutuyor; nginx sistem servisi olarak o portları
+dinleyemez. Bu yüzden site de kümede, küçük bir nginx pod'u olarak çalışıyor ve
+Traefik üzerinden yayınlanıyor. Sertifikayı API ile aynı ClusterIssuer sağlıyor.
+
+İçerik `deploy/web/` klasöründeki dosyalardan üretilen bir ConfigMap'te durur
+(toplam ~19 KB; ConfigMap sınırı 1 MiB).
+
+### İlk kurulum
+
+```bash
+cd /opt/aislam/deploy/k8s
+
+# Site icerigini dosyalardan ConfigMap'e al (README.md haric)
+sudo k3s kubectl -n eislam create configmap web-content \
+  --from-file=/opt/aislam/deploy/web/index.html \
+  --from-file=/opt/aislam/deploy/web/gizlilik.html \
+  --from-file=/opt/aislam/deploy/web/kosullar.html \
+  --from-file=/opt/aislam/deploy/web/styles.css \
+  --from-file=/opt/aislam/deploy/web/app-ads.txt \
+  --dry-run=client -o yaml | sudo k3s kubectl apply -f -
+
+sudo k3s kubectl apply -f web-nginx-conf.yaml
+sudo k3s kubectl apply -f web-deployment.yaml
+sudo k3s kubectl apply -f web-service.yaml
+sudo k3s kubectl apply -f web-ingress.yaml
+```
+
+### İçerik güncelleme
+
+`deploy/web/` altındaki bir dosyayı değiştirdikten sonra ConfigMap'i yeniden
+üretin ve pod'u yeniden başlatın:
+
+```bash
+cd /opt/aislam && git pull
+sudo deploy/k8s/deploy-web.sh
+```
+
+ConfigMap değişince Kubernetes pod'u kendiliğinden yeniden başlatmaz; mount
+edilmiş dosyalar bir süre sonra güncellense de `rollout restart` en güvenilir yol.
+
+### Doğrulama
+
+```bash
+curl -sSI https://e-islam.net/app-ads.txt | head -3   # 200 + text/plain
+curl -sS  https://e-islam.net/gizlilik | head -5      # HTML donmeli
+sudo k3s kubectl -n eislam get certificate            # web-eislam-tls READY=True
+```

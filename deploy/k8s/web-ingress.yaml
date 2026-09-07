@@ -1,0 +1,38 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: web
+  namespace: eislam
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    # HTTP-01 dogrulamasi 80 portundan gelir, bu yuzden web de dinlemede kalmali.
+    traefik.ingress.kubernetes.io/router.entrypoints: web,websecure
+spec:
+  ingressClassName: traefik
+  tls:
+    - hosts:
+        - e-islam.net
+        - www.e-islam.net
+      secretName: web-eislam-tls
+  rules:
+    # Iki host da ayni icerigi sunar. Tek bir sertifika her ikisini kapsar.
+    - host: e-islam.net
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: web
+                port:
+                  name: http
+    - host: www.e-islam.net
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: web
+                port:
+                  name: http
