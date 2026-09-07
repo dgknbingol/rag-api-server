@@ -110,17 +110,47 @@ sudo k3s ctr images ls | grep aislam-rag-api
 Let's Encrypt sertifikalarını otomatik alıp yeniler. Bir kez kurulur, diğer
 projelerinizde de kullanılır.
 
+Sürüm kümenin Kubernetes sürümüyle uyumlu olmalı. Bu sunucu k3s v1.36 çalıştırıyor;
+cert-manager 1.21 hattı 1.33–1.36 aralığını destekliyor. Yükseltme yaparken
+[destek tablosunu](https://cert-manager.io/docs/releases/) kontrol edin.
+
 ```bash
-sudo k3s kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.16.2/cert-manager.yaml
+sudo k3s kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.21.1/cert-manager.yaml
 sudo k3s kubectl -n cert-manager rollout status deploy/cert-manager-webhook --timeout=180s
 ```
 
 ## 5. Manifestleri uygulayın
 
+Önce namespace, sonra secret, sonra gerisi:
+
 ```bash
+cd /opt/aislam/deploy/k8s
 sudo k3s kubectl apply -f namespace.yaml
-cp secret.example.yaml secret.yaml   # icini .env degerleriyle doldur
-sudo k3s kubectl apply -f secret.yaml
+```
+
+Secret'i Compose'un kullandığı `.env` dosyasından doğrudan üretin — böylece
+parolalar diske ikinci bir kopya olarak yazılmaz ve elle kopyalama hatası olmaz:
+
+```bash
+set -a; . /opt/aislam/deploy/.env; set +a
+sudo k3s kubectl -n eislam create secret generic rag-api-secret \
+  --from-literal=SPRING_DATASOURCE_USERNAME="$POSTGRES_USER" \
+  --from-literal=SPRING_DATASOURCE_PASSWORD="$POSTGRES_PASSWORD" \
+  --from-literal=DEEPSEEK_API_KEY="$DEEPSEEK_API_KEY" \
+  --from-literal=APP_AUTH_JWT_SECRET="$AISLAM_JWT_SECRET" \
+  --from-literal=REVENUECAT_WEBHOOK_AUTH="${REVENUECAT_WEBHOOK_AUTH:-}" \
+  --dry-run=client -o yaml | sudo k3s kubectl apply -f -
+```
+
+> Aynı komut secret'i güncellemek için de kullanılır (`apply` olduğu için üzerine yazar).
+> Sonrasında `sudo k3s kubectl -n eislam rollout restart deploy/rag-api` gerekir.
+>
+> Elle doldurmayı tercih ederseniz `secret.example.yaml` dosyası da aynı işi görür,
+> ama doldurulmuş `secret.yaml` depoya **commit edilmemeli** (`.gitignore`'da).
+
+Gerisi:
+
+```bash
 sudo k3s kubectl apply -f configmap.yaml
 sudo k3s kubectl apply -f deployment.yaml
 sudo k3s kubectl apply -f service.yaml
