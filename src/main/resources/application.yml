@@ -1,5 +1,7 @@
 server:
   port: 8080
+  # Ingress / tarayıcı cookie zinciri bazen Tomcat varsayılan ~8KB'ı aşar.
+  max-http-request-header-size: 64KB
   servlet:
     encoding:
       charset: UTF-8
