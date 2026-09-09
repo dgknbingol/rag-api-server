@@ -20,7 +20,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # README.md siteye ait degil, disarida birakilir.
-FILES=(index.html gizlilik.html kosullar.html styles.css app-ads.txt)
+FILES=(index.html gizlilik.html kosullar.html hesap-silme.html styles.css app-ads.txt)
 
 args=()
 for f in "${FILES[@]}"; do
@@ -41,7 +41,7 @@ k3s kubectl -n "$NAMESPACE" rollout restart deploy/web
 k3s kubectl -n "$NAMESPACE" rollout status deploy/web --timeout=120s
 
 echo "==> 3/3 Dogrulama"
-for url in https://e-islam.net/app-ads.txt https://e-islam.net/gizlilik; do
+for url in https://e-islam.net/app-ads.txt https://e-islam.net/gizlilik https://e-islam.net/hesap-silme; do
   code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 15 "$url" || echo 000)
   echo "  $url -> HTTP $code"
   [ "$code" = "200" ] || { echo "Beklenen 200 alinamadi." >&2; exit 1; }
