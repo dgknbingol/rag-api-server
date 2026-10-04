@@ -83,9 +83,10 @@ app:
     timezone: Europe/Istanbul
   push:
     enabled: true
-    lookahead-seconds: 75
-    lookback-seconds: 30
-    poll-interval-ms: 30000
+    # Erken gönderme yok: yalnızca vakit geldiğinde (poll gecikmesi kadar geç olabilir).
+    lookahead-seconds: 0
+    lookback-seconds: 45
+    poll-interval-ms: 5000
     batch-size: 500
     # Firebase service account JSON (Android FCM). Env: FIREBASE_CREDENTIALS_JSON
     firebase-credentials-json: ${FIREBASE_CREDENTIALS_JSON:}

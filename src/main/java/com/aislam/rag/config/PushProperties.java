@@ -18,11 +18,11 @@ public record PushProperties(
         boolean apnsProduction
 ) {
     public PushProperties {
-        if (lookaheadSeconds <= 0) {
-            lookaheadSeconds = 75;
+        if (lookaheadSeconds < 0) {
+            lookaheadSeconds = 0;
         }
         if (lookbackSeconds < 0) {
-            lookbackSeconds = 30;
+            lookbackSeconds = 45;
         }
         if (batchSize <= 0 || batchSize > 500) {
             batchSize = 500;
