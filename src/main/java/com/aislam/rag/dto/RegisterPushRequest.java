@@ -11,8 +11,12 @@ public record RegisterPushRequest(
         @NotBlank String platform,
         @NotNull Double latitude,
         @NotNull Double longitude,
-        /** prayerId -> prefs map (atTime/before/days) */
+        /** prayerId -> prefs */
         @NotNull Map<String, Object> prayers,
+        /** dailyKind -> prefs (opsiyonel; yoksa default) */
+        Map<String, Object> daily,
+        /** competitionKind -> prefs (opsiyonel) */
+        Map<String, Object> competition,
         String timezone
 ) {
 }

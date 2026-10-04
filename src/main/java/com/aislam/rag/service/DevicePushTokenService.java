@@ -40,7 +40,9 @@ public class DevicePushTokenService {
     public Map<String, Object> register(RegisterPushRequest request) {
         String timezone = blankToDefault(request.timezone(), DEFAULT_TZ);
         String districtId = districtResolver.resolveDistrictId(request.latitude(), request.longitude());
-        Map<String, Object> prefs = normalizePrefs(request.prayers());
+        Map<String, Object> prayerPrefs = normalizeOrDefault(request.prayers(), defaultPrayerPrefs());
+        Map<String, Object> dailyPrefs = normalizeOrDefault(request.daily(), defaultDailyPrefs());
+        Map<String, Object> competitionPrefs = normalizeOrDefault(request.competition(), defaultCompetitionPrefs());
         String platform = request.platform().trim().toLowerCase();
 
         DevicePushTokenEntity entity = repository.findByDeviceId(request.deviceId())
@@ -53,7 +55,7 @@ public class DevicePushTokenService {
                         request.longitude(),
                         districtId,
                         timezone,
-                        prefs
+                        prayerPrefs
                 ));
 
         entity.setPushToken(request.pushToken().trim());
@@ -62,7 +64,9 @@ public class DevicePushTokenService {
         entity.setLongitude(request.longitude());
         entity.setDistrictId(districtId);
         entity.setTimezone(timezone);
-        entity.setPrayerPrefs(prefs);
+        entity.setPrayerPrefs(prayerPrefs);
+        entity.setDailyPrefs(dailyPrefs);
+        entity.setCompetitionPrefs(competitionPrefs);
         entity.setEnabled(true);
         entity.setLastError(null);
 
@@ -87,7 +91,13 @@ public class DevicePushTokenService {
         entity.setLongitude(request.longitude());
         entity.setDistrictId(districtId);
         entity.setTimezone(timezone);
-        entity.setPrayerPrefs(normalizePrefs(request.prayers()));
+        entity.setPrayerPrefs(normalizeOrDefault(request.prayers(), defaultPrayerPrefs()));
+        if (request.daily() != null) {
+            entity.setDailyPrefs(normalizeOrDefault(request.daily(), defaultDailyPrefs()));
+        }
+        if (request.competition() != null) {
+            entity.setCompetitionPrefs(normalizeOrDefault(request.competition(), defaultCompetitionPrefs()));
+        }
         entity.setEnabled(true);
         entity.setLastError(null);
         repository.save(entity);
@@ -115,7 +125,7 @@ public class DevicePushTokenService {
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cihaz kaydı bulunamadı."));
 
         String title = blankToDefault(request.title(), "e-İslam test");
-        String body = blankToDefault(request.body(), "Ezan push testi");
+        String body = blankToDefault(request.body(), "Sunucu push testi");
 
         var ticket = nativePushClient.send(List.of(
                 new NativePushClient.PushMessage(
@@ -137,14 +147,14 @@ public class DevicePushTokenService {
         return response;
     }
 
-    private Map<String, Object> normalizePrefs(Map<String, Object> prayers) {
-        if (prayers == null || prayers.isEmpty()) {
-            return defaultPrefs();
+    private Map<String, Object> normalizeOrDefault(Map<String, Object> incoming, Map<String, Object> defaults) {
+        if (incoming == null || incoming.isEmpty()) {
+            return defaults;
         }
-        return new LinkedHashMap<>(prayers);
+        return new LinkedHashMap<>(incoming);
     }
 
-    private Map<String, Object> defaultPrefs() {
+    private Map<String, Object> defaultPrayerPrefs() {
         Map<String, Object> all = new LinkedHashMap<>();
         for (String id : List.of("imsak", "gunes", "ogle", "ikindi", "aksam", "yatsi")) {
             Map<String, Object> one = new LinkedHashMap<>();
@@ -153,6 +163,42 @@ public class DevicePushTokenService {
             one.put("days", List.of(true, true, true, true, true, true, true));
             all.put(id, one);
         }
+        return all;
+    }
+
+    private Map<String, Object> defaultDailyPrefs() {
+        Map<String, Object> all = new LinkedHashMap<>();
+        all.put("ayet", dailyOne(true, 0, 10, 0, List.of(true, true, true, true, true, true, true)));
+        all.put("dua", dailyOne(true, 0, 14, 0, List.of(true, true, true, true, true, true, true)));
+        all.put("hadis", dailyOne(true, 0, 16, 0, List.of(true, true, true, true, true, true, true)));
+        all.put("hutbe", dailyOne(true, 0, 12, 0, List.of(false, false, false, false, false, true, false)));
+        all.put("asma", dailyOne(true, 0, 21, 0, List.of(true, true, true, true, true, true, true)));
+        return all;
+    }
+
+    private static Map<String, Object> dailyOne(
+            boolean enabled,
+            int melodyIndex,
+            int hour,
+            int minute,
+            List<Boolean> days
+    ) {
+        Map<String, Object> one = new LinkedHashMap<>();
+        one.put("enabled", enabled);
+        one.put("melodyIndex", melodyIndex);
+        one.put("hour", hour);
+        one.put("minute", minute);
+        one.put("days", days);
+        return one;
+    }
+
+    private Map<String, Object> defaultCompetitionPrefs() {
+        Map<String, Object> all = new LinkedHashMap<>();
+        Map<String, Object> daily = new LinkedHashMap<>();
+        daily.put("atTime", Map.of("enabled", true, "melodyIndex", 0));
+        daily.put("before", Map.of("enabled", true, "melodyIndex", 0, "minutesBefore", 15));
+        daily.put("days", List.of(true, true, true, true, true, true, true));
+        all.put("daily", daily);
         return all;
     }
 

@@ -11,6 +11,7 @@ import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 
 import java.time.Instant;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -51,6 +52,16 @@ public class DevicePushTokenEntity {
     @Column(name = "prayer_prefs", nullable = false, columnDefinition = "jsonb")
     private Map<String, Object> prayerPrefs;
 
+    /** dailyKind -> { enabled, melodyIndex, hour, minute, days } */
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "daily_prefs", columnDefinition = "jsonb default '{}'::jsonb")
+    private Map<String, Object> dailyPrefs = new LinkedHashMap<>();
+
+    /** competitionKind -> { atTime, before, days } */
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "competition_prefs", columnDefinition = "jsonb default '{}'::jsonb")
+    private Map<String, Object> competitionPrefs = new LinkedHashMap<>();
+
     @Column(nullable = false)
     private boolean enabled = true;
 
@@ -86,6 +97,8 @@ public class DevicePushTokenEntity {
         this.districtId = districtId;
         this.timezone = timezone;
         this.prayerPrefs = prayerPrefs;
+        this.dailyPrefs = new LinkedHashMap<>();
+        this.competitionPrefs = new LinkedHashMap<>();
         this.enabled = true;
     }
 
@@ -165,6 +178,22 @@ public class DevicePushTokenEntity {
 
     public void setPrayerPrefs(Map<String, Object> prayerPrefs) {
         this.prayerPrefs = prayerPrefs;
+    }
+
+    public Map<String, Object> getDailyPrefs() {
+        return dailyPrefs != null ? dailyPrefs : Map.of();
+    }
+
+    public void setDailyPrefs(Map<String, Object> dailyPrefs) {
+        this.dailyPrefs = dailyPrefs != null ? dailyPrefs : new LinkedHashMap<>();
+    }
+
+    public Map<String, Object> getCompetitionPrefs() {
+        return competitionPrefs != null ? competitionPrefs : Map.of();
+    }
+
+    public void setCompetitionPrefs(Map<String, Object> competitionPrefs) {
+        this.competitionPrefs = competitionPrefs != null ? competitionPrefs : new LinkedHashMap<>();
     }
 
     public boolean isEnabled() {

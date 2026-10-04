@@ -10,6 +10,8 @@ public record UpdatePushPrefsRequest(
         @NotNull Double latitude,
         @NotNull Double longitude,
         @NotNull Map<String, Object> prayers,
+        Map<String, Object> daily,
+        Map<String, Object> competition,
         String timezone
 ) {
 }
