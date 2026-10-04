@@ -6,6 +6,7 @@ import com.aislam.rag.config.ChatProperties;
 import com.aislam.rag.config.CorsProperties;
 import com.aislam.rag.config.DailyProperties;
 import com.aislam.rag.config.PrayerTimesProperties;
+import com.aislam.rag.config.PushProperties;
 import com.aislam.rag.config.RevenueCatProperties;
 import com.aislam.rag.config.DeepSeekProperties;
 import com.aislam.rag.config.LmStudioProperties;
@@ -29,6 +30,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
         ChatProperties.class,
         DailyProperties.class,
         PrayerTimesProperties.class,
+        PushProperties.class,
         RevenueCatProperties.class
 })
 public class QdrantEmbeddingApiServerApplication {

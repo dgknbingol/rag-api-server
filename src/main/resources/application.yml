@@ -81,6 +81,20 @@ app:
     diyanet-base-url: https://ezanvakti.imsakiyem.com
     nominatim-base-url: https://nominatim.openstreetmap.org
     timezone: Europe/Istanbul
+  push:
+    enabled: true
+    lookahead-seconds: 75
+    lookback-seconds: 30
+    poll-interval-ms: 30000
+    batch-size: 500
+    # Firebase service account JSON (Android FCM). Env: FIREBASE_CREDENTIALS_JSON
+    firebase-credentials-json: ${FIREBASE_CREDENTIALS_JSON:}
+    # APNs Auth Key .p8 PEM + metadata (iOS). Env: APNS_*
+    apns-key-pem: ${APNS_KEY_PEM:}
+    apns-key-id: ${APNS_KEY_ID:}
+    apns-team-id: ${APNS_TEAM_ID:}
+    apns-bundle-id: ${APNS_BUNDLE_ID:net.eislam.app}
+    apns-production: ${APNS_PRODUCTION:true}
   cors:
     allowed-origin-patterns:
       - http://localhost:*
