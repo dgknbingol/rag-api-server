@@ -9,4 +9,5 @@ data:
   SPRING_PROFILES_ACTIVE: "prod"
   SPRING_DATASOURCE_URL: "jdbc:postgresql://172.18.0.1:5432/aislam_prod"
   QDRANT_BASE_URL: "http://172.18.0.1:6333"
-  JAVA_TOOL_OPTIONS: "-XX:MaxRAMPercentage=75"
+  TZ: "Europe/Istanbul"
+  JAVA_TOOL_OPTIONS: "-XX:MaxRAMPercentage=75 -Duser.timezone=Europe/Istanbul"

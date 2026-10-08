@@ -25,6 +25,9 @@ rag:
   request-timeout-seconds: 45
 
 logging:
+  pattern:
+    # Console loglari Istanbul saati (JVM TZ / user.timezone ile uyumlu).
+    dateformat: yyyy-MM-dd HH:mm:ss.SSSXXX,Europe/Istanbul
   level:
     root: INFO
     com.aislam.rag.debug.Utf8EncodingDebugLogger: WARN
