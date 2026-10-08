@@ -3,6 +3,7 @@ package com.aislam.rag.exception;
 import com.aislam.rag.dto.ApiErrorResponse;
 import com.aislam.rag.util.Utf8Strings;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -37,8 +38,7 @@ public class GlobalExceptionHandler {
             case "USER_NOT_FOUND" -> HttpStatus.NOT_FOUND;
             default -> HttpStatus.UNAUTHORIZED;
         };
-        return ResponseEntity.status(status)
-                .body(new ApiErrorResponse(ex.getMessage(), ex.getCode()));
+        return jsonError(status, ex.getMessage(), ex.getCode());
     }
 
     @ExceptionHandler(RagException.class)
@@ -55,8 +55,7 @@ public class GlobalExceptionHandler {
             case "WEBHOOK_UNAUTHORIZED" -> HttpStatus.UNAUTHORIZED;
             default -> HttpStatus.SERVICE_UNAVAILABLE;
         };
-        return ResponseEntity.status(status)
-                .body(new ApiErrorResponse(ex.getMessage(), ex.getCode()));
+        return jsonError(status, ex.getMessage(), ex.getCode());
     }
 
     @ExceptionHandler(MaxUploadSizeExceededException.class)
@@ -74,14 +73,22 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ApiErrorResponse> handleWebClient(WebClientResponseException ex) {
         String message = "External service error: " + ex.getStatusCode() + " - "
                 + Utf8Strings.fromBytes(ex.getResponseBodyAsByteArray());
-        return ResponseEntity.status(HttpStatus.BAD_GATEWAY)
-                .body(new ApiErrorResponse(message, "UPSTREAM_ERROR"));
+        return jsonError(HttpStatus.BAD_GATEWAY, message, "UPSTREAM_ERROR");
     }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ApiErrorResponse> handleGeneric(Exception ex) {
         String message = ex.getMessage() != null ? ex.getMessage() : "Unexpected error";
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                .body(new ApiErrorResponse(message, "INTERNAL_ERROR"));
+        return jsonError(HttpStatus.INTERNAL_SERVER_ERROR, message, "INTERNAL_ERROR");
+    }
+
+    /**
+     * SSE (text/event-stream) isteklerinde Content-Type preset kalırsa JSON body yazılamaz.
+     * Hata yanıtlarını her zaman application/json olarak zorla.
+     */
+    private static ResponseEntity<ApiErrorResponse> jsonError(HttpStatus status, String message, String code) {
+        return ResponseEntity.status(status)
+                .contentType(MediaType.APPLICATION_JSON)
+                .body(new ApiErrorResponse(message, code));
     }
 }

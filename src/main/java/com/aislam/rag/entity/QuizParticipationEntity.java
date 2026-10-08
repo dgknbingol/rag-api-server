@@ -36,8 +36,8 @@ public class QuizParticipationEntity {
     @Column(nullable = false)
     private UUID appUserId;
 
-    @Column(nullable = false)
-    private boolean prizeEligibleAtJoin;
+    @Column(nullable = false, columnDefinition = "boolean not null default true")
+    private boolean prizeEligibleAtJoin = true;
 
     @Column(nullable = false, updatable = false)
     private Instant joinedAt;

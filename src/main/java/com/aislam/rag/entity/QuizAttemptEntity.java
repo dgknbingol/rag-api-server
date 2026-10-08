@@ -42,8 +42,8 @@ public class QuizAttemptEntity {
     @Column(nullable = false)
     private int questionCount;
 
-    @Column(nullable = false)
-    private boolean prizeEligibleAtJoin;
+    @Column(nullable = false, columnDefinition = "boolean not null default true")
+    private boolean prizeEligibleAtJoin = true;
 
     @Column(nullable = false, updatable = false)
     private Instant completedAt;
