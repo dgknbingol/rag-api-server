@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: web
-  namespace: eislam
+  namespace: dogukan-test
 spec:
   type: ClusterIP
   selector:

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: web-nginx-conf
-  namespace: eislam
+  namespace: dogukan-test
 data:
   default.conf: |
     server {

@@ -1,4 +1,9 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: eislam
+  name: dogukan-test
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dogukan-prod

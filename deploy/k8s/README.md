@@ -3,6 +3,19 @@
 Bu klasör **yalnızca Spring Boot API'sini** Kubernetes'e taşır.
 Postgres ve Qdrant sunucuda Docker Compose ile çalışmaya devam eder — veri taşınmaz.
 
+**Namespace'ler ve DB**
+
+| Namespace | Rol | Postgres DB |
+|-----------|-----|-------------|
+| `dogukan-test` | Aktif yığın (rag-api + web, canlı domainler) | `aislam_test` |
+| `dogukan-prod` | Şimdilik boş; ileride ayrı domain | `aislam_prod` |
+
+Aynı Postgres container (`aislam-postgres-1`), iki database. Ayırma:  
+`sudo bash /opt/aislam/deploy/sql/split-test-prod-databases.sh`
+
+Deploy: `sudo /opt/aislam/deploy/k8s/deploy.sh` → `-n dogukan-test`.  
+Eski `eislam` → `dogukan-test` taşıma: `migrate-to-dogukan-test.sh`.
+
 ```
 İnternet → Traefik (80/443) → Ingress → Service → rag-api pod
                                                       ↓
@@ -167,7 +180,7 @@ if eksik:
 
 print(json.dumps({
     'apiVersion': 'v1', 'kind': 'Secret',
-    'metadata': {'name': 'rag-api-secret', 'namespace': 'eislam'},
+    'metadata': {'name': 'rag-api-secret', 'namespace': 'dogukan-test'},
     'type': 'Opaque',
     'data': {t: base64.b64encode(vals.get(s, '').encode()).decode()
              for t, s in mapping.items()},
@@ -179,7 +192,7 @@ Betik değerleri değil, yalnızca anahtar adlarını ve uzunluklarını ekrana 
 çıktıyı gözden geçirip beklenmedik biçimde kısalmış bir değer olmadığını doğrulayın.
 
 > Aynı komut secret'i güncellemek için de kullanılır (`apply` üzerine yazar).
-> Sonrasında `sudo k3s kubectl -n eislam rollout restart deploy/rag-api` gerekir.
+> Sonrasında `sudo k3s kubectl -n dogukan-test rollout restart deploy/rag-api` gerekir.
 >
 > Elle doldurmayı tercih ederseniz `secret.example.yaml` dosyası da aynı işi görür,
 > ama doldurulmuş `secret.yaml` depoya **commit edilmemeli** (`.gitignore`'da).
@@ -198,18 +211,18 @@ sudo k3s kubectl apply -f ingress.yaml
 
 ```bash
 # Pod ayakta mi
-sudo k3s kubectl -n eislam get pods
-sudo k3s kubectl -n eislam logs deploy/rag-api --tail=50
+sudo k3s kubectl -n dogukan-test get pods
+sudo k3s kubectl -n dogukan-test logs deploy/rag-api --tail=50
 
 # Sertifika alindi mi (READY=True olmali, 1-2 dakika surebilir)
-sudo k3s kubectl -n eislam get certificate
+sudo k3s kubectl -n dogukan-test get certificate
 
 # Disaridan gercek sertifikayla cevap veriyor mu
 curl -sS https://api.e-islam.net/api/health
 ```
 
 Son komut JSON döndürüyorsa iş tamam. `TRAEFIK DEFAULT CERT` hatası alıyorsanız
-sertifika henüz hazır değil, `kubectl -n eislam describe certificate` ile bakın.
+sertifika henüz hazır değil, `kubectl -n dogukan-test describe certificate` ile bakın.
 
 ---
 
@@ -229,8 +242,8 @@ Elle yapmak isterseniz aynı işlem:
 ```bash
 sudo docker compose -f deploy/docker-compose.prod.yml --profile docker-only build api
 sudo docker save aislam-rag-api:prod | sudo k3s ctr images import -
-sudo k3s kubectl -n eislam rollout restart deploy/rag-api
-sudo k3s kubectl -n eislam rollout status deploy/rag-api --timeout=300s
+sudo k3s kubectl -n dogukan-test rollout restart deploy/rag-api
+sudo k3s kubectl -n dogukan-test rollout status deploy/rag-api --timeout=300s
 ```
 
 `rollout restart` atlanamaz: imaj etiketi her seferinde `aislam-rag-api:prod`
@@ -246,7 +259,7 @@ Yalnızca ortam değişkeni ya da secret değiştiyse imaj derlemeye gerek yok:
 
 ```bash
 sudo k3s kubectl apply -f /opt/aislam/deploy/k8s/configmap.yaml
-sudo k3s kubectl -n eislam rollout restart deploy/rag-api
+sudo k3s kubectl -n dogukan-test rollout restart deploy/rag-api
 ```
 
 ---
@@ -256,7 +269,7 @@ sudo k3s kubectl -n eislam rollout restart deploy/rag-api
 **Pod `CrashLoopBackOff`** — veritabanına bağlanamıyor olabilir. Pod içinden test:
 
 ```bash
-sudo k3s kubectl -n eislam run netcheck --rm -it --image=busybox --restart=Never -- \
+sudo k3s kubectl -n dogukan-test run netcheck --rm -it --image=busybox --restart=Never -- \
   sh -c "nc -zv 172.18.0.1 5432; nc -zv 172.18.0.1 6333"
 ```
 
@@ -296,7 +309,7 @@ Traefik üzerinden yayınlanıyor. Sertifikayı API ile aynı ClusterIssuer sağ
 cd /opt/aislam/deploy/k8s
 
 # Site icerigini dosyalardan ConfigMap'e al (README.md haric)
-sudo k3s kubectl -n eislam create configmap web-content \
+sudo k3s kubectl -n dogukan-test create configmap web-content \
   --from-file=/opt/aislam/deploy/web/index.html \
   --from-file=/opt/aislam/deploy/web/gizlilik.html \
   --from-file=/opt/aislam/deploy/web/kosullar.html \
@@ -328,5 +341,5 @@ edilmiş dosyalar bir süre sonra güncellense de `rollout restart` en güvenili
 ```bash
 curl -sSI https://e-islam.net/app-ads.txt | head -3   # 200 + text/plain
 curl -sS  https://e-islam.net/gizlilik | head -5      # HTML donmeli
-sudo k3s kubectl -n eislam get certificate            # web-eislam-tls READY=True
+sudo k3s kubectl -n dogukan-test get certificate            # web-eislam-tls READY=True
 ```

@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web
-  namespace: eislam
+  namespace: dogukan-test
 spec:
   replicas: 1
   selector:
@@ -15,7 +15,7 @@ spec:
       annotations:
         # Icerik ConfigMap'i degistiginde pod'un yeniden baslamasi gerekir;
         # bu deger degismedigi surece Kubernetes bir sey yapmaz. Icerigi
-        # guncelledikten sonra: kubectl -n eislam rollout restart deploy/web
+        # guncelledikten sonra: kubectl -n dogukan-test rollout restart deploy/web
         checksum/content: "elle-guncellenir"
     spec:
       securityContext:

@@ -13,7 +13,7 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 COMPOSE_FILE="$REPO_DIR/deploy/docker-compose.prod.yml"
 IMAGE="aislam-rag-api:prod"
-NAMESPACE="eislam"
+NAMESPACE="dogukan-test"
 HEALTH_URL="https://api.e-islam.net/api/health"
 
 if [ "$(id -u)" -ne 0 ]; then

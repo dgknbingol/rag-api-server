@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: rag-api-config
-  namespace: eislam
+  namespace: dogukan-test
 data:
   SPRING_PROFILES_ACTIVE: "prod"
 
@@ -11,7 +11,11 @@ data:
   # pod'lardan erisilebilir, internetten erisilemez. Docker'in varsayilan docker0
   # koprusu (172.17.0.1) bu sunucuda DOWN durumda oldugu icin kullanilamaz.
   # Adres docker-compose.prod.yml icinde sabitlenmistir; degistirirsen ikisini birlikte guncelle.
-  SPRING_DATASOURCE_URL: "jdbc:postgresql://172.18.0.1:5432/aislam"
+  #
+  # DB ayrimi (ayni Postgres instance, farkli database):
+  #   dogukan-test → aislam_test
+  #   dogukan-prod → aislam_prod  (bkz. configmap-prod.yaml)
+  SPRING_DATASOURCE_URL: "jdbc:postgresql://172.18.0.1:5432/aislam_test"
   QDRANT_BASE_URL: "http://172.18.0.1:6333"
 
   # Konteyner bellek limitinin %75'ini heap olarak kullan.

@@ -12,7 +12,7 @@ set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 WEB_DIR="$REPO_DIR/deploy/web"
-NAMESPACE="eislam"
+NAMESPACE="dogukan-test"
 
 if [ "$(id -u)" -ne 0 ]; then
   echo "Bu betik root gerektirir: sudo $0" >&2

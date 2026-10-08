@@ -20,7 +20,7 @@ if project_id != EXPECTED_PROJECT:
 
 sec = json.loads(
     subprocess.check_output(
-        ["k3s", "kubectl", "-n", "eislam", "get", "secret", "rag-api-secret", "-o", "json"]
+        ["k3s", "kubectl", "-n", "dogukan-test", "get", "secret", "rag-api-secret", "-o", "json"]
     )
 )
 data = sec.get("data") or {}
@@ -29,7 +29,7 @@ data["FIREBASE_CREDENTIALS_JSON"] = base64.b64encode(raw).decode()
 payload = {
     "apiVersion": "v1",
     "kind": "Secret",
-    "metadata": {"name": "rag-api-secret", "namespace": "eislam"},
+    "metadata": {"name": "rag-api-secret", "namespace": "dogukan-test"},
     "type": "Opaque",
     "data": data,
 }

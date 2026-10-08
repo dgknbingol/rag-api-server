@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: rag-api
-  namespace: eislam
+  namespace: dogukan-test
 spec:
   # Tek replika: veritabani semasini uygulama baslangicinda guncelliyor,
   # paralel calisan iki ornek yaris durumu olusturabilir.
