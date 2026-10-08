@@ -7,6 +7,8 @@ import com.aislam.rag.dto.UnregisterPushRequest;
 import com.aislam.rag.dto.UpdatePushPrefsRequest;
 import com.aislam.rag.entity.DevicePushTokenEntity;
 import com.aislam.rag.repository.DevicePushTokenRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,6 +22,7 @@ import java.util.UUID;
 @Service
 public class DevicePushTokenService {
 
+    private static final Logger log = LoggerFactory.getLogger(DevicePushTokenService.class);
     private static final String DEFAULT_TZ = "Europe/Istanbul";
 
     private final DevicePushTokenRepository repository;
@@ -127,6 +130,12 @@ public class DevicePushTokenService {
         String title = blankToDefault(request.title(), "e-İslam test");
         String body = blankToDefault(request.body(), "Sunucu push testi");
 
+        log.info(
+                "Test push requested deviceId={} platform={}",
+                entity.getDeviceId(),
+                entity.getPlatform()
+        );
+
         var ticket = nativePushClient.send(List.of(
                 new NativePushClient.PushMessage(
                         entity.getPushToken(),
@@ -138,8 +147,17 @@ public class DevicePushTokenService {
                 )
         )).stream().findFirst().orElse(null);
 
+        boolean ok = ticket != null && ticket.ok();
+        log.info(
+                "Test push result deviceId={} ok={} errorCode={} message={}",
+                entity.getDeviceId(),
+                ok,
+                ticket != null ? ticket.errorCode() : null,
+                ticket != null ? ticket.message() : null
+        );
+
         Map<String, Object> response = new LinkedHashMap<>();
-        response.put("ok", ticket != null && ticket.ok());
+        response.put("ok", ok);
         if (ticket != null) {
             response.put("errorCode", ticket.errorCode());
             response.put("message", ticket.message());
