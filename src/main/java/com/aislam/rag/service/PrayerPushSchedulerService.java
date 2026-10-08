@@ -26,11 +26,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import java.util.concurrent.atomic.AtomicLong;
 
 @Service
 public class PrayerPushSchedulerService {
 
     private static final Logger log = LoggerFactory.getLogger(PrayerPushSchedulerService.class);
+    private static final long EMPTY_DEVICES_LOG_INTERVAL_MS = 10 * 60 * 1000L;
+    private final AtomicLong lastEmptyDevicesLogAt = new AtomicLong(0);
 
     private static final List<PrayerSpec> PRAYERS = List.of(
             new PrayerSpec("imsak", "İmsak", "imsak"),
@@ -80,6 +83,12 @@ public class PrayerPushSchedulerService {
     public void dispatchDueNotifications() {
         List<DevicePushTokenEntity> devices = tokenRepository.findByEnabledTrue();
         if (devices.isEmpty()) {
+            long nowMs = System.currentTimeMillis();
+            long prev = lastEmptyDevicesLogAt.get();
+            if (nowMs - prev >= EMPTY_DEVICES_LOG_INTERVAL_MS
+                    && lastEmptyDevicesLogAt.compareAndSet(prev, nowMs)) {
+                log.info("Prayer push: enabled device yok (register bekleniyor)");
+            }
             return;
         }
 
