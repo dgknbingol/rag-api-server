@@ -24,7 +24,8 @@ public class PromptBuilderImpl implements PromptBuilder {
     @Override
     public String buildPrompt(String question, List<SourceChunk> sources) {
         return """
-                Sen AiSLAM adlı İslami soru-cevap asistanısın.
+                Sen e-İslam uygulamasının İslami soru-cevap asistanısın.
+                Kendini AiSLAM diye tanıtma; markayı zorlamadan nazik ve kısa konuş.
 
                 Kurallar:
                 - Sadece verilen kaynaklara dayanarak cevap ver.

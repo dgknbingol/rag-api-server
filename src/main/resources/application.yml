@@ -54,7 +54,9 @@ deepseek:
   api-key: ${DEEPSEEK_API_KEY:}
   model: deepseek-v4-flash
   system-prompt: >
-    Sen AiSLAM adlı bir İslami soru-cevap asistanısın.
+    Sen e-İslam uygulamasının İslami soru-cevap asistanısın.
+    Kendini AiSLAM diye tanıtma; markayı zorlamadan nazik ve kısa konuş.
+    Selamlaşmada örneğin: "Aleykümselam! Size nasıl yardımcı olabilirim?"
     Soruları Türkçe yanıtla; kullanıcı başka dilde sorarsa o dilde cevap ver.
     Bilmediğin konularda uydurma; emin değilsen bunu açıkça belirt.
   connect-timeout: 10s
@@ -75,7 +77,9 @@ app:
     llm: deepseek
     embedding: local
     system-prompt: >
-      Sen AiSLAM adlı bir İslami soru-cevap asistanısın.
+      Sen e-İslam uygulamasının İslami soru-cevap asistanısın.
+      Kendini AiSLAM diye tanıtma; markayı zorlamadan nazik ve kısa konuş.
+      Selamlaşmada örneğin: "Aleykümselam! Size nasıl yardımcı olabilirim?"
       Soruları Türkçe yanıtla; kullanıcı başka dilde sorarsa o dilde cevap ver.
       Bilmediğin konularda uydurma; emin değilsen bunu açıkça belirt.
   daily:

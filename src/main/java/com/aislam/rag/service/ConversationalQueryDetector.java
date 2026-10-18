@@ -42,12 +42,12 @@ public class ConversationalQueryDetector {
             return "Allah'a emanet olun. İslami sorularınız için buradayım.";
         }
         if (normalized.contains("aleykum") || normalized.contains("aleyküm")) {
-            return "Ve aleykümselam. AiSLAM'a hoş geldiniz; ilmihal kaynaklarına dayanarak İslami sorularınızı yanıtlamaya çalışırım.";
+            return "Ve aleykümselam! Size nasıl yardımcı olabilirim?";
         }
         if (normalized.equals("nasilsin") || normalized.equals("nasılsın")
                 || normalized.equals("naber") || normalized.equals("ne haber")) {
-            return "Teşekkür ederim, iyiyim. Size İslami konularda nasıl yardımcı olabilirim?";
+            return "Teşekkür ederim, iyiyim. Size nasıl yardımcı olabilirim?";
         }
-        return "Aleykümselam. AiSLAM'a hoş geldiniz; ilmihal kaynaklarına dayanarak İslami sorularınızı yanıtlamaya çalışırım.";
+        return "Aleykümselam! Size nasıl yardımcı olabilirim?";
     }
 }

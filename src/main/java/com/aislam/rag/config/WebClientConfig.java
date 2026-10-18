@@ -76,7 +76,7 @@ public class WebClientConfig {
                                 .build()
                 ))
                 .exchangeStrategies(UTF8_JSON_STRATEGIES)
-                .defaultHeader("User-Agent", "AiSLAM/1.0 (prayer-times)")
+                .defaultHeader("User-Agent", "e-Islam/1.0 (prayer-times)")
                 .defaultHeader(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON_VALUE)
                 .build();
     }

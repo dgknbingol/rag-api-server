@@ -193,7 +193,9 @@ public class ChatConversationService {
         if (askProperties.systemPrompt() != null && !askProperties.systemPrompt().isBlank()) {
             return askProperties.systemPrompt().trim();
         }
-        return "Sen AiSLAM adlı bir İslami soru-cevap asistanısın.";
+        return "Sen e-İslam uygulamasının İslami soru-cevap asistanısın. "
+                + "Kendini AiSLAM diye tanıtma; markayı zorlamadan nazik ve kısa konuş. "
+                + "Selamlaşmada örneğin: \"Aleykümselam! Size nasıl yardımcı olabilirim?\"";
     }
 
     public ChatConversationEntity requireConversation(UUID appUserId, UUID conversationId) {
