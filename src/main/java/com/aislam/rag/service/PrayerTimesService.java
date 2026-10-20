@@ -46,7 +46,7 @@ public class PrayerTimesService {
                     latitude,
                     longitude,
                     true,
-                    cachedDays
+                    mapper.refreshTodayFlags(cachedDays, zoneId)
             );
         }
 

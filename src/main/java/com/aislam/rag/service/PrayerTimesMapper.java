@@ -40,6 +40,51 @@ public class PrayerTimesMapper {
                 .toList();
     }
 
+    /**
+     * Cache'teki aylık satırlarda donmuş {@code today}/{@code activeVakit} alanlarını
+     * isteğin anına göre yeniler (gece yarısından sonra bayat "bugün" kalmasın).
+     */
+    public List<PrayerDayDto> refreshTodayFlags(List<PrayerDayDto> days, ZoneId zoneId) {
+        LocalDate today = LocalDate.now(zoneId);
+        LocalTime now = LocalTime.now(zoneId);
+
+        return days.stream()
+                .map(day -> {
+                    LocalDate date = LocalDate.parse(day.date());
+                    boolean isToday = date.equals(today);
+                    String activeVakit = null;
+                    String activeSaat = null;
+                    if (isToday) {
+                        ActivePrayer active = resolveActivePrayerFromTimes(
+                                day.imsak(),
+                                day.gunes(),
+                                day.ogle(),
+                                day.ikindi(),
+                                day.aksam(),
+                                day.yatsi(),
+                                now
+                        );
+                        activeVakit = active.label();
+                        activeSaat = active.time();
+                    }
+                    return new PrayerDayDto(
+                            day.date(),
+                            day.gregorianLabel(),
+                            day.hijriLabel(),
+                            day.imsak(),
+                            day.gunes(),
+                            day.ogle(),
+                            day.ikindi(),
+                            day.aksam(),
+                            day.yatsi(),
+                            isToday,
+                            activeVakit,
+                            activeSaat
+                    );
+                })
+                .toList();
+    }
+
     private PrayerDayDto mapDiyanetDay(JsonNode day, LocalDate today, LocalTime now, ZoneId zoneId) {
         LocalDate date = parseDate(day.path("date").asText(""), zoneId);
         JsonNode times = day.path("times");
@@ -83,11 +128,33 @@ public class PrayerTimesMapper {
     }
 
     private ActivePrayer resolveActivePrayer(JsonNode times, LocalTime now) {
-        PrayerSlot next = PRAYER_SLOTS.getFirst();
-        String nextTime = times.path(next.jsonKey()).asText("");
+        return resolveActivePrayerFromTimes(
+                times.path("imsak").asText(""),
+                times.path("gunes").asText(""),
+                times.path("ogle").asText(""),
+                times.path("ikindi").asText(""),
+                times.path("aksam").asText(""),
+                times.path("yatsi").asText(""),
+                now
+        );
+    }
 
-        for (PrayerSlot slot : PRAYER_SLOTS) {
-            String timeText = times.path(slot.jsonKey()).asText("");
+    private ActivePrayer resolveActivePrayerFromTimes(
+            String imsak,
+            String gunes,
+            String ogle,
+            String ikindi,
+            String aksam,
+            String yatsi,
+            LocalTime now
+    ) {
+        String[] times = {imsak, gunes, ogle, ikindi, aksam, yatsi};
+        PrayerSlot next = PRAYER_SLOTS.getFirst();
+        String nextTime = times[0] != null ? times[0] : "";
+
+        for (int i = 0; i < PRAYER_SLOTS.size(); i++) {
+            PrayerSlot slot = PRAYER_SLOTS.get(i);
+            String timeText = times[i] != null ? times[i] : "";
             if (timeText.isBlank()) {
                 continue;
             }

@@ -35,6 +35,8 @@ public class PromptBuilderImpl implements PromptBuilder {
                 - Kullanıcının sorduğu kavram ile kaynakta geçen kavram farklıysa bunu açıkça belirt.
                 - Yakın görünen kavramları birbirinin yerine kullanma; örneğin "namazın farzları" ile "farz namazlar" aynı şey değildir.
                 - Soruyu değiştirme veya farklı bir konuya cevap verme.
+                - Adım adım ibadet tariflerinde (abdest, gusül, namaz vb.) ara adımları atlama; kaynakta geçen sünnetleri (ör. kulak ve ense mesh) de sırayla yaz.
+                - Cevabı kısaltmak için adım listesini yarım bırakma.
                 - Cevap maksimum %d kelime olsun.
                 - /no_think kullan.
                 - Kaynaklarda cevap bulunamazsa: "Bu konuda yeterli kaynak bulunamadı." cevabını ver.

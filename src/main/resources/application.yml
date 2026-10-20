@@ -138,7 +138,8 @@ rag:
   content-preview-chars: 200
   neighbor-window: 1
   max-context-chars: 8000
-  max-answer-words: 80
+  # Adım adım ibadet tarifleri (abdest vb.) 80 kelimede yarım kalıyordu.
+  max-answer-words: 220
   chunk-size: 1800
   chunk-overlap: 250
   max-concurrent-chat-requests: 50

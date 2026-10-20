@@ -214,9 +214,18 @@
         "Sağ kol",
         "Sol kol",
         "Başın mesh edilmesi",
+        "Kulakların mesh edilmesi",
+        "Ensenin mesh edilmesi",
         "Sağ ayak",
         "Sol ayak"
       ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Baş meshinden sonra kulakları ve ellerin dışıyla enseyi mesh etmek de sünnettir.",
+      "title": null,
+      "url": null,
+      "items": null
     },
     {
       "type": "heading",
