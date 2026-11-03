@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Rebuild rag-api-secret from deploy .env. Prints key lengths only (not values)."""
+"""Patch rag-api-secret from deploy .env (merge; preserve FIREBASE/APNS etc.)."""
 from __future__ import annotations
 
 import base64
 import json
+import subprocess
 import sys
 
 ENV_FILE = sys.argv[1] if len(sys.argv) > 1 else "/opt/aislam/deploy/.env"
@@ -31,9 +32,27 @@ mapping = {
     "APPLE_OAUTH_AUDIENCE": "APPLE_OAUTH_AUDIENCE",
 }
 
+# Mevcut secret ile birleştir — FIREBASE_CREDENTIALS_JSON / APNS_* silinmesin.
+try:
+    existing = json.loads(
+        subprocess.check_output(
+            ["k3s", "kubectl", "-n", NS, "get", "secret", "rag-api-secret", "-o", "json"],
+            stderr=subprocess.DEVNULL,
+        )
+    )
+    data: dict[str, str] = dict(existing.get("data") or {})
+except Exception:
+    data = {}
+
 for target, source in mapping.items():
     v = vals.get(source, "")
     print(f"{target:28} len={len(v)} space={'yes' if ' ' in v else 'no'}", file=sys.stderr)
+    data[target] = base64.b64encode(v.encode()).decode()
+
+print(
+    f"preserved_keys={sorted(k for k in data if k not in mapping)}",
+    file=sys.stderr,
+)
 
 print(
     json.dumps(
@@ -42,10 +61,7 @@ print(
             "kind": "Secret",
             "metadata": {"name": "rag-api-secret", "namespace": NS},
             "type": "Opaque",
-            "data": {
-                t: base64.b64encode(vals.get(s, "").encode()).decode()
-                for t, s in mapping.items()
-            },
+            "data": data,
         }
     )
 )
