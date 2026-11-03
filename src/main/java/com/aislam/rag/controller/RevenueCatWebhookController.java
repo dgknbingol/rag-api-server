@@ -5,6 +5,8 @@ import com.aislam.rag.exception.RagException;
 import com.aislam.rag.service.RevenueCatWebhookService;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/webhooks/revenuecat")
 public class RevenueCatWebhookController {
+
+    private static final Logger log = LoggerFactory.getLogger(RevenueCatWebhookController.class);
 
     private final RevenueCatProperties properties;
     private final RevenueCatWebhookService webhookService;
@@ -38,6 +42,13 @@ public class RevenueCatWebhookController {
         if (properties.isWebhookConfigured()) {
             String expected = properties.webhookAuthorization();
             if (!authorizationMatches(authorization, expected)) {
+                // Secret değerini loglama — sadece var mı / uzunluk.
+                log.warn(
+                        "RevenueCat webhook auth mismatch receivedPresent={} receivedLen={} expectedLen={}",
+                        authorization != null && !authorization.isBlank(),
+                        authorization == null ? 0 : authorization.trim().length(),
+                        expected == null ? 0 : expected.trim().length()
+                );
                 throw new RagException("RevenueCat webhook yetkisiz.", "WEBHOOK_UNAUTHORIZED");
             }
         }
@@ -75,8 +86,19 @@ public class RevenueCatWebhookController {
 
     private static String stripBearerPrefix(String value) {
         String current = value.trim();
-        while (current.length() >= 7 && current.regionMatches(true, 0, "Bearer ", 0, 7)) {
-            current = current.substring(7).trim();
+        while (true) {
+            if (current.length() >= 7 && current.regionMatches(true, 0, "Bearer ", 0, 7)) {
+                current = current.substring(7).trim();
+                continue;
+            }
+            // "Bearer" + token boşluksuz (RC/UI bazen böyle gönderir) → 32 vs 33
+            if (current.length() > 6
+                    && current.regionMatches(true, 0, "Bearer", 0, 6)
+                    && !Character.isWhitespace(current.charAt(6))) {
+                current = current.substring(6).trim();
+                continue;
+            }
+            break;
         }
         return current;
     }

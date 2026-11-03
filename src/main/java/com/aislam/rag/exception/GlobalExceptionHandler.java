@@ -47,12 +47,15 @@ public class GlobalExceptionHandler {
             case "LLM_ERROR", "DEEPSEEK_ERROR", "CONFIG_ERROR" -> HttpStatus.BAD_GATEWAY;
             case "QUIZ_PLAYER_NOT_FOUND", "QUIZ_QUESTION_NOT_FOUND", "QUIZ_OPTION_NOT_FOUND", "EDUCATION_TOPIC_NOT_FOUND" -> HttpStatus.NOT_FOUND;
             case "QUIZ_ALREADY_ATTEMPTED", "EMAIL_EXISTS" -> HttpStatus.CONFLICT;
-            case "QUIZ_VALIDATION_ERROR", "APP_USER_ID_REQUIRED", "APP_USER_ID_INVALID", "WEBHOOK_INVALID" ->
+            case "QUIZ_VALIDATION_ERROR", "APP_USER_ID_REQUIRED", "APP_USER_ID_INVALID", "WEBHOOK_INVALID",
+                 "PUSH_TARGET_INVALID" ->
                     HttpStatus.BAD_REQUEST;
             case "CHAT_QUOTA_EXCEEDED" -> HttpStatus.TOO_MANY_REQUESTS;
             case "CHAT_BUSY", "CHAT_QUEUE_FULL" -> HttpStatus.SERVICE_UNAVAILABLE;
-            case "CHAT_NOT_FOUND", "CHAT_CONVERSATION_NOT_FOUND", "CHAT_JOB_NOT_FOUND" -> HttpStatus.NOT_FOUND;
-            case "WEBHOOK_UNAUTHORIZED" -> HttpStatus.UNAUTHORIZED;
+            case "CHAT_NOT_FOUND", "CHAT_CONVERSATION_NOT_FOUND", "CHAT_JOB_NOT_FOUND", "PUSH_DEVICE_NOT_FOUND" ->
+                    HttpStatus.NOT_FOUND;
+            case "WEBHOOK_UNAUTHORIZED", "PUSH_UNAUTHORIZED" -> HttpStatus.UNAUTHORIZED;
+            case "PUSH_ADMIN_NOT_CONFIGURED" -> HttpStatus.SERVICE_UNAVAILABLE;
             default -> HttpStatus.SERVICE_UNAVAILABLE;
         };
         return jsonError(status, ex.getMessage(), ex.getCode());

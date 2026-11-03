@@ -11,6 +11,8 @@ public interface DevicePushTokenRepository extends JpaRepository<DevicePushToken
 
     Optional<DevicePushTokenEntity> findByDeviceId(String deviceId);
 
+    List<DevicePushTokenEntity> findByDeviceIdIn(List<String> deviceIds);
+
     List<DevicePushTokenEntity> findByEnabledTrue();
 
     void deleteByDeviceId(String deviceId);

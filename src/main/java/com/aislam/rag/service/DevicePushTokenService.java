@@ -2,10 +2,12 @@ package com.aislam.rag.service;
 
 import com.aislam.rag.client.NativePushClient;
 import com.aislam.rag.dto.RegisterPushRequest;
+import com.aislam.rag.dto.SendPushRequest;
 import com.aislam.rag.dto.TestPushRequest;
 import com.aislam.rag.dto.UnregisterPushRequest;
 import com.aislam.rag.dto.UpdatePushPrefsRequest;
 import com.aislam.rag.entity.DevicePushTokenEntity;
+import com.aislam.rag.exception.RagException;
 import com.aislam.rag.repository.DevicePushTokenRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -161,6 +164,108 @@ public class DevicePushTokenService {
         if (ticket != null) {
             response.put("errorCode", ticket.errorCode());
             response.put("message", ticket.message());
+        }
+        return response;
+    }
+
+    /**
+     * Admin manuel push: tek deviceId, deviceIds listesi veya tüm enabled cihazlar.
+     */
+    @Transactional(readOnly = true)
+    public Map<String, Object> sendManual(SendPushRequest request) {
+        boolean all = Boolean.TRUE.equals(request.all());
+        boolean hasDeviceId = request.deviceId() != null && !request.deviceId().isBlank();
+        boolean hasDeviceIds = request.deviceIds() != null && !request.deviceIds().isEmpty();
+        int modes = (all ? 1 : 0) + (hasDeviceId ? 1 : 0) + (hasDeviceIds ? 1 : 0);
+        if (modes != 1) {
+            throw new RagException(
+                    "Hedef belirtin: deviceId, deviceIds veya all=true (yalnızca biri).",
+                    "PUSH_TARGET_INVALID"
+            );
+        }
+
+        List<DevicePushTokenEntity> targets;
+        if (all) {
+            targets = repository.findByEnabledTrue();
+        } else if (hasDeviceId) {
+            DevicePushTokenEntity entity = repository.findByDeviceId(request.deviceId().trim())
+                    .orElseThrow(() -> new RagException("Cihaz kaydı bulunamadı.", "PUSH_DEVICE_NOT_FOUND"));
+            targets = List.of(entity);
+        } else {
+            List<String> ids = request.deviceIds().stream()
+                    .filter(id -> id != null && !id.isBlank())
+                    .map(String::trim)
+                    .distinct()
+                    .toList();
+            if (ids.isEmpty()) {
+                throw new RagException("deviceIds boş olamaz.", "PUSH_TARGET_INVALID");
+            }
+            targets = repository.findByDeviceIdIn(ids).stream()
+                    .filter(DevicePushTokenEntity::isEnabled)
+                    .toList();
+            if (targets.isEmpty()) {
+                throw new RagException("Eşleşen aktif cihaz yok.", "PUSH_DEVICE_NOT_FOUND");
+            }
+        }
+
+        String title = request.title().trim();
+        String body = request.body().trim();
+        Map<String, String> data = Map.of(
+                "type", "announcement",
+                "openHome", "true"
+        );
+
+        List<NativePushClient.PushMessage> messages = new ArrayList<>(targets.size());
+        List<String> deviceIdsOrdered = new ArrayList<>(targets.size());
+        for (DevicePushTokenEntity device : targets) {
+            if (device.getPushToken() == null || device.getPushToken().isBlank()) {
+                continue;
+            }
+            messages.add(new NativePushClient.PushMessage(
+                    device.getPushToken(),
+                    device.getPlatform(),
+                    title,
+                    body,
+                    data,
+                    "notif-sound-v3-1"
+            ));
+            deviceIdsOrdered.add(device.getDeviceId());
+        }
+
+        log.info(
+                "Manual push requested mode={} targets={} titleLen={}",
+                all ? "all" : (hasDeviceId ? "deviceId" : "deviceIds"),
+                messages.size(),
+                title.length()
+        );
+
+        List<NativePushClient.PushTicket> tickets = nativePushClient.send(messages);
+        int sent = 0;
+        int failed = 0;
+        List<Map<String, Object>> failures = new ArrayList<>();
+        for (int i = 0; i < tickets.size(); i += 1) {
+            NativePushClient.PushTicket ticket = tickets.get(i);
+            if (ticket != null && ticket.ok()) {
+                sent += 1;
+            } else {
+                failed += 1;
+                if (failures.size() < 20) {
+                    Map<String, Object> one = new LinkedHashMap<>();
+                    one.put("deviceId", i < deviceIdsOrdered.size() ? deviceIdsOrdered.get(i) : null);
+                    one.put("errorCode", ticket != null ? ticket.errorCode() : "NO_TICKET");
+                    one.put("message", ticket != null ? ticket.message() : null);
+                    failures.add(one);
+                }
+            }
+        }
+
+        Map<String, Object> response = new LinkedHashMap<>();
+        response.put("ok", failed == 0 && sent > 0);
+        response.put("targeted", messages.size());
+        response.put("sent", sent);
+        response.put("failed", failed);
+        if (!failures.isEmpty()) {
+            response.put("failures", failures);
         }
         return response;
     }

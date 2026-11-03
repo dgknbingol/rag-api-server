@@ -103,6 +103,8 @@ app:
     apns-team-id: ${APNS_TEAM_ID:}
     apns-bundle-id: ${APNS_BUNDLE_ID:net.eislam.app}
     apns-production: ${APNS_PRODUCTION:true}
+    # Manuel push / broadcast: Authorization header ile aynı olmalı
+    admin-authorization: ${PUSH_ADMIN_AUTH:}
   cors:
     allowed-origin-patterns:
       - http://localhost:*

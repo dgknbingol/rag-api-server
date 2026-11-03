@@ -15,7 +15,9 @@ public record PushProperties(
         String apnsKeyId,
         String apnsTeamId,
         String apnsBundleId,
-        boolean apnsProduction
+        boolean apnsProduction,
+        /** Manuel / broadcast push Authorization (Bearer …). Boşsa /send kapalı. */
+        String adminAuthorization
 ) {
     public PushProperties {
         if (lookaheadSeconds < 0) {
@@ -42,6 +44,13 @@ public record PushProperties(
         if (apnsBundleId == null || apnsBundleId.isBlank()) {
             apnsBundleId = "net.eislam.app";
         }
+        if (adminAuthorization == null) {
+            adminAuthorization = "";
+        }
+    }
+
+    public boolean adminAuthorizationConfigured() {
+        return adminAuthorization != null && !adminAuthorization.isBlank();
     }
 
     public boolean firebaseConfigured() {
