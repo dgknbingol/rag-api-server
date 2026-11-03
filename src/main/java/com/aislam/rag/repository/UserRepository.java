@@ -10,6 +10,10 @@ public interface UserRepository extends JpaRepository<UserEntity, UUID> {
 
     Optional<UserEntity> findByEmailIgnoreCase(String email);
 
+    Optional<UserEntity> findByGoogleSub(String googleSub);
+
+    Optional<UserEntity> findByAppleSub(String appleSub);
+
     boolean existsByEmailIgnoreCase(String email);
 
     boolean existsByDisplayNameIgnoreCase(String displayName);

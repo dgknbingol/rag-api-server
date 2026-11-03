@@ -172,9 +172,16 @@ mapping = {
     'DEEPSEEK_API_KEY':           'DEEPSEEK_API_KEY',
     'APP_AUTH_JWT_SECRET':        'AISLAM_JWT_SECRET',
     'REVENUECAT_WEBHOOK_AUTH':    'REVENUECAT_WEBHOOK_AUTH',
+    'GOOGLE_OAUTH_CLIENT_IDS':    'GOOGLE_OAUTH_CLIENT_IDS',
+    'APPLE_OAUTH_AUDIENCE':       'APPLE_OAUTH_AUDIENCE',
+}
+optional = {
+    'REVENUECAT_WEBHOOK_AUTH',
+    'GOOGLE_OAUTH_CLIENT_IDS',
+    'APPLE_OAUTH_AUDIENCE',
 }
 eksik = [s for t, s in mapping.items()
-         if s not in vals and t != 'REVENUECAT_WEBHOOK_AUTH']
+         if s not in vals and t not in optional]
 if eksik:
     sys.exit('EKSIK anahtar: ' + ', '.join(eksik))
 
@@ -193,6 +200,9 @@ Betik değerleri değil, yalnızca anahtar adlarını ve uzunluklarını ekrana 
 
 > Aynı komut secret'i güncellemek için de kullanılır (`apply` üzerine yazar).
 > Sonrasında `sudo k3s kubectl -n dogukan-test rollout restart deploy/rag-api` gerekir.
+>
+> Kısa yol (sadece secret rebuild): `rebuild-secret-from-env.py` → `kubectl apply` → rollout restart.
+> Webhook smoke test: `test-webhook-internal.sh` / laptop’ta `test-webhook-windows.py`.
 >
 > Elle doldurmayı tercih ederseniz `secret.example.yaml` dosyası da aynı işi görür,
 > ama doldurulmuş `secret.yaml` depoya **commit edilmemeli** (`.gitignore`'da).

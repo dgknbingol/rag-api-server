@@ -37,7 +37,7 @@ public class RevenueCatWebhookController {
     ) {
         if (properties.isWebhookConfigured()) {
             String expected = properties.webhookAuthorization();
-            if (authorization == null || !authorization.equals(expected)) {
+            if (!authorizationMatches(authorization, expected)) {
                 throw new RagException("RevenueCat webhook yetkisiz.", "WEBHOOK_UNAUTHORIZED");
             }
         }
@@ -52,5 +52,32 @@ public class RevenueCatWebhookController {
         }
 
         return ResponseEntity.ok().build();
+    }
+
+    /**
+     * RevenueCat Authorization alanına "Bearer …" veya sadece secret yazılabilir;
+     * trim + Bearer öneki farklarını tolere et.
+     */
+    private static boolean authorizationMatches(String received, String expected) {
+        if (expected == null || expected.isBlank()) {
+            return true;
+        }
+        if (received == null) {
+            return false;
+        }
+        String r = received.trim();
+        String e = expected.trim();
+        if (r.equals(e)) {
+            return true;
+        }
+        return stripBearerPrefix(r).equals(stripBearerPrefix(e));
+    }
+
+    private static String stripBearerPrefix(String value) {
+        String current = value.trim();
+        while (current.length() >= 7 && current.regionMatches(true, 0, "Bearer ", 0, 7)) {
+            current = current.substring(7).trim();
+        }
+        return current;
     }
 }

@@ -113,6 +113,8 @@ app:
   auth:
     jwt-secret: ${AISLAM_JWT_SECRET:dev-only-change-me-use-at-least-32-characters-long}
     jwt-expiration-hours: 168
+    google-client-ids: ${GOOGLE_OAUTH_CLIENT_IDS:}
+    apple-audience: ${APPLE_OAUTH_AUDIENCE:net.eislam.app}
   chat:
     free-daily-limit: 3
     premium-daily-limit: 50

@@ -4,6 +4,7 @@ import com.aislam.rag.config.ApiMediaTypes;
 import com.aislam.rag.dto.AuthResponse;
 import com.aislam.rag.dto.LoginRequest;
 import com.aislam.rag.dto.RegisterRequest;
+import com.aislam.rag.dto.SocialLoginRequest;
 import com.aislam.rag.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
@@ -35,5 +36,15 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(@Valid @RequestBody LoginRequest request) {
         return ResponseEntity.ok(authService.login(request));
+    }
+
+    @PostMapping("/google")
+    public ResponseEntity<AuthResponse> loginWithGoogle(@Valid @RequestBody SocialLoginRequest request) {
+        return ResponseEntity.ok(authService.loginWithGoogle(request.idToken()));
+    }
+
+    @PostMapping("/apple")
+    public ResponseEntity<AuthResponse> loginWithApple(@Valid @RequestBody SocialLoginRequest request) {
+        return ResponseEntity.ok(authService.loginWithApple(request.idToken()));
     }
 }

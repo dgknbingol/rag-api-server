@@ -69,10 +69,20 @@ class AuthServiceTest {
         assertEquals("INVALID_CREDENTIALS", ex.getCode());
     }
 
-    static class TestConfig {
+        static class TestConfig {
         @Bean
         PasswordEncoder passwordEncoder() {
             return new BCryptPasswordEncoder();
+        }
+
+        @Bean
+        com.aislam.rag.auth.GoogleTokenVerifier googleTokenVerifier() {
+            return org.mockito.Mockito.mock(com.aislam.rag.auth.GoogleTokenVerifier.class);
+        }
+
+        @Bean
+        com.aislam.rag.auth.AppleTokenVerifier appleTokenVerifier() {
+            return org.mockito.Mockito.mock(com.aislam.rag.auth.AppleTokenVerifier.class);
         }
     }
 }

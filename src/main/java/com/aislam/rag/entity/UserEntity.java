@@ -26,6 +26,15 @@ public class UserEntity {
     @Column(nullable = false, length = 100)
     private String passwordHash;
 
+    @Column(unique = true, length = 64)
+    private String googleSub;
+
+    @Column(unique = true, length = 64)
+    private String appleSub;
+
+    @Column(nullable = false, columnDefinition = "boolean default true")
+    private boolean passwordLoginEnabled = true;
+
     @Column(nullable = false, unique = true, length = 80)
     private String displayName;
 
@@ -49,6 +58,7 @@ public class UserEntity {
         this.passwordHash = passwordHash;
         this.displayName = displayName;
         this.premium = false;
+        this.passwordLoginEnabled = true;
     }
 
     @PrePersist
@@ -75,6 +85,18 @@ public class UserEntity {
         return passwordHash;
     }
 
+    public String getGoogleSub() {
+        return googleSub;
+    }
+
+    public String getAppleSub() {
+        return appleSub;
+    }
+
+    public boolean isPasswordLoginEnabled() {
+        return passwordLoginEnabled;
+    }
+
     public String getDisplayName() {
         return displayName;
     }
@@ -97,6 +119,18 @@ public class UserEntity {
 
     public void setDisplayName(String displayName) {
         this.displayName = displayName;
+    }
+
+    public void setGoogleSub(String googleSub) {
+        this.googleSub = googleSub;
+    }
+
+    public void setAppleSub(String appleSub) {
+        this.appleSub = appleSub;
+    }
+
+    public void setPasswordLoginEnabled(boolean passwordLoginEnabled) {
+        this.passwordLoginEnabled = passwordLoginEnabled;
     }
 
     public void setPremium(boolean premium) {
