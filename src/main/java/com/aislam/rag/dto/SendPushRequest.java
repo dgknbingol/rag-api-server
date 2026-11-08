@@ -13,6 +13,8 @@ public record SendPushRequest(
         @NotBlank String body,
         String deviceId,
         List<String> deviceIds,
-        Boolean all
+        Boolean all,
+        /** Android FCM channel id; boşsa notif-sound-v3-1. Ezan prefs ile aynı kanalı denemek için. */
+        String androidChannelId
 ) {
 }

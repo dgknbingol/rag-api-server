@@ -210,6 +210,9 @@ public class DevicePushTokenService {
 
         String title = request.title().trim();
         String body = request.body().trim();
+        String channelId = request.androidChannelId() == null || request.androidChannelId().isBlank()
+                ? "notif-sound-v3-1"
+                : request.androidChannelId().trim();
         Map<String, String> data = Map.of(
                 "type", "announcement",
                 "openHome", "true"
@@ -227,7 +230,7 @@ public class DevicePushTokenService {
                     title,
                     body,
                     data,
-                    "notif-sound-v3-1"
+                    channelId
             ));
             deviceIdsOrdered.add(device.getDeviceId());
         }

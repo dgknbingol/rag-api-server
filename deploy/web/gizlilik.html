@@ -19,7 +19,7 @@
     <main>
       <article class="card">
         <h1>Gizlilik Politikası</h1>
-        <p class="updated">Son güncelleme: 7 Temmuz 2026</p>
+        <p class="updated">Son güncelleme: 8 Kasım 2026</p>
 
         <p>
           Bu Gizlilik Politikası, <strong>e-İslam</strong> mobil uygulamasını (“Uygulama”) kullanırken
@@ -41,14 +41,21 @@
             oluşturulan rastgele bir UUID. Giriş yapmadan da kullanılabilir.
           </li>
           <li>
-            <strong>Chat soruları:</strong> AI cevabı üretmek için sorularınız sunucumuza iletilir.
-            Kalıcı sohbet geçmişi tutulmaz; yalnızca günlük kullanım sayısı kaydedilir. Sorular
-            teknik loglarda kısa süre görünebilir.
+            <strong>Chat / sohbet verileri:</strong> AI cevabı üretmek için sorularınız sunucumuza
+            iletilir. Konuşma geçmişiniz (soru ve cevaplar) hesabınız veya cihaz kimliğinizle
+            ilişkilendirilerek sunucuda saklanabilir; böylece sohbetleri yeniden görebilirsiniz.
+            Ayrıca günlük kullanım kotası sayılır. Teknik loglarda kısa süre görünebilir.
           </li>
           <li>
             <strong>Konum bilgisi (isteğe bağlı):</strong> Ezan vakitleri ve kıble pusulası için GPS
-            veya manuel seçtiğiniz şehir koordinatları. Konum, cihazınızda saklanır; ezan vakitleri
-            hesaplanırken sunucuya enlem/boylam olarak iletilir.
+            veya manuel seçtiğiniz şehir koordinatları. Konum tercihi cihazınızda tutulur; ezan
+            vakitleri ve sunucu bildirimleri için enlem/boylam sunucuya iletilebilir.
+          </li>
+          <li>
+            <strong>Push bildirim token’ı:</strong> Bildirim izni verirseniz FCM/APNs cihaz token’ı,
+            cihaz kimliği, platform ve bildirim tercihleriniz sunucuda saklanır; ezan, günlük içerik
+            ve duyuru bildirimleri için kullanılır. Bildirimleri kapatır veya uygulamayı silerseniz
+            token güncellenir / devre dışı bırakılabilir.
           </li>
           <li>
             <strong>Quiz / yarışma verileri:</strong> Yarışmaya katılırsanız takma ad (display name),
@@ -78,9 +85,10 @@
 
         <h2>3. Verileri neden kullanıyoruz?</h2>
         <ul>
-          <li>AI chat ve dini içerik arama (RAG) hizmeti sunmak</li>
+          <li>AI chat, sohbet geçmişi ve dini içerik arama (RAG) hizmeti sunmak</li>
           <li>Günlük ücretsiz (3) ve premium (50) chat kotasını yönetmek</li>
-          <li>Ezan vakitleri, kıble yönü ve bildirimleri hesaplamak</li>
+          <li>Ezan vakitleri, kıble yönü ve bildirimleri hesaplamak / göndermek</li>
+          <li>Hesap oluşturma, giriş ve güvenlik</li>
           <li>Quiz yarışmaları ve liderlik tablolarını işletmek</li>
           <li>Premium abonelik durumunu doğrulamak ve güncellemek</li>
           <li>Ücretsiz kullanıcılara reklam göstermek</li>
@@ -101,12 +109,20 @@
           <li><strong>Ödeme:</strong> Apple, Google ve RevenueCat abonelik doğrulaması için.</li>
           <li><strong>Reklam:</strong> Google AdMob reklam gösterimi için.</li>
           <li><strong>AI işleme:</strong> Chat cevapları, yapılandırılmış LLM altyapısı üzerinden üretilir.</li>
+          <li><strong>Bildirim:</strong> Google Firebase Cloud Messaging (Android) ve Apple APNs (iOS).</li>
+          <li>
+            <strong>İçerik / harita yardımcıları:</strong> Kur’an metni ve ses için alquran.cloud /
+            islamic.network CDN; isteğe bağlı konum araması için açık harita servisleri
+            (ör. Nominatim / Photon). Bu çağrılarda IP adresiniz ilgili sağlayıcıya gidebilir.
+          </li>
         </ul>
         <p>Verilerinizi pazarlama amacıyla üçüncü taraflara satmayız.</p>
 
         <h2>6. Saklama süresi</h2>
         <ul>
           <li>Anonim kullanıcı ve kota kayıtları: hizmet süresince ve makul süre sonrasında.</li>
+          <li>Sohbet geçmişi: hesap/cihaz aktif olduğu sürece; silme talebinde makul sürede silinir.</li>
+          <li>Push token ve bildirim tercihleri: bildirimler açık olduğu sürece.</li>
           <li>Quiz istatistikleri: yarışma ve liderlik tablosu işlevleri için gerekli süre.</li>
           <li>Hesap verileri: hesabınız aktif olduğu sürece; silme talebinde makul sürede silinir.</li>
           <li>Sunucu logları: güvenlik ve hata ayıklama için sınırlı süre tutulur.</li>
@@ -142,8 +158,10 @@
 
         <h2>10. Uluslararası aktarım</h2>
         <p>
-          Sunucularımız ve bazı hizmet sağlayıcılarımız (Apple, Google, RevenueCat, AdMob) Türkiye
-          dışında bulunabilir. Bu aktarımlar hizmetin sunulması için gereklidir.
+          Sunucularımız ve bazı hizmet sağlayıcılarımız (Apple, Google, RevenueCat, AdMob, Firebase,
+          LLM, içerik CDN’leri, harita servisleri) Türkiye dışında bulunabilir. Bu aktarımlar
+          hizmetin sunulması için gereklidir. Uygulama yazı tipleri cihaza gömülüdür; Google Fonts
+          CDN kullanılmaz.
         </p>
 
         <h2>11. Değişiklikler</h2>
