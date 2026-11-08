@@ -7,6 +7,10 @@ public record ChatQuotaResponse(
         int used,
         int remaining,
         boolean premium,
-        Instant resetsAt
+        Instant resetsAt,
+        /** Bugün rewarded ile kazanılan ekstra soru hakkı. */
+        int rewardedBonus,
+        /** Bugün daha kaç rewarded izlenebilir (premium'da 0). */
+        int rewardedRemaining
 ) {
 }

@@ -78,6 +78,14 @@ public class ChatController {
         return ResponseEntity.ok(chatQuotaService.getQuota(appUserId));
     }
 
+    @PostMapping(value = "/quota/rewarded-bonus", produces = ApiMediaTypes.APPLICATION_JSON_UTF8_VALUE)
+    public ResponseEntity<ChatQuotaResponse> claimRewardedBonus(
+            @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader
+    ) {
+        UUID appUserId = parseAppUserId(appUserIdHeader);
+        return ResponseEntity.ok(chatQuotaService.claimRewardedBonus(appUserId));
+    }
+
     @GetMapping(value = "/capacity", produces = ApiMediaTypes.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<ChatCapacityMetrics.ChatCapacitySnapshot> capacity() {
         return ResponseEntity.ok(chatCapacityMetrics.snapshot(

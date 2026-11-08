@@ -6,6 +6,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public record ChatProperties(
         int freeDailyLimit,
         int premiumDailyLimit,
+        /** Ücretsiz kullanıcı: günde en fazla kaç rewarded ile +1 chat hakkı. */
+        int rewardedDailyMax,
         int maxContextMessages,
         boolean jobsEnabled,
         long jobPollIntervalMs,
@@ -17,6 +19,9 @@ public record ChatProperties(
         }
         if (premiumDailyLimit <= 0) {
             premiumDailyLimit = 50;
+        }
+        if (rewardedDailyMax <= 0) {
+            rewardedDailyMax = 5;
         }
         if (maxContextMessages <= 0) {
             maxContextMessages = 20;

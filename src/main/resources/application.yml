@@ -120,6 +120,7 @@ app:
   chat:
     free-daily-limit: 3
     premium-daily-limit: 50
+    rewarded-daily-max: 5
     max-context-messages: 20
     jobs-enabled: true
     job-poll-interval-ms: 1500

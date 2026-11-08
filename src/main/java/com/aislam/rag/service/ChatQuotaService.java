@@ -41,19 +41,56 @@ public class ChatQuotaService {
     public ChatQuotaResponse getQuota(UUID appUserId) {
         AppUserEntity appUser = appUserRepository.findById(appUserId).orElse(null);
         LocalDate today = LocalDate.now(zoneId);
-        int used = getUsedCount(appUserId, today);
-        int limit = appUser == null
-                ? chatProperties.freeDailyLimit()
-                : resolveDailyLimit(appUser);
+        ChatDailyUsageEntity usage = chatDailyUsageRepository
+                .findByAppUserIdAndUsageDate(appUserId, today)
+                .orElse(null);
+        int used = usage == null ? 0 : usage.getCount();
+        int rewardedBonus = usage == null ? 0 : usage.getRewardedBonus();
+        boolean premium = appUser != null && isPremiumActive(appUser);
+        int limit = resolveDailyLimit(premium, rewardedBonus);
         int remaining = Math.max(limit - used, 0);
+        int rewardedRemaining = premium
+                ? 0
+                : Math.max(chatProperties.rewardedDailyMax() - rewardedBonus, 0);
 
         return new ChatQuotaResponse(
                 limit,
                 used,
                 remaining,
-                appUser != null && isPremiumActive(appUser),
-                startOfNextDay(today)
+                premium,
+                startOfNextDay(today),
+                rewardedBonus,
+                rewardedRemaining
         );
+    }
+
+    /**
+     * Rewarded reklam tamamlandıktan sonra +1 günlük soru hakkı ekler.
+     * Günde en fazla {@link ChatProperties#rewardedDailyMax()} kez.
+     */
+    @Transactional
+    public ChatQuotaResponse claimRewardedBonus(UUID appUserId) {
+        AppUserEntity appUser = ensureAppUser(appUserId);
+        if (isPremiumActive(appUser)) {
+            return getQuota(appUserId);
+        }
+
+        LocalDate today = LocalDate.now(zoneId);
+        ensureUsageRow(appUserId, today);
+
+        int updated = chatDailyUsageRepository.tryIncrementRewardedBonus(
+                appUserId,
+                today,
+                chatProperties.rewardedDailyMax(),
+                Instant.now()
+        );
+        if (updated == 0) {
+            throw new RagException(
+                    "Bugün için ek soru hakkınız doldu. Yarın tekrar deneyebilirsiniz.",
+                    "CHAT_REWARD_LIMIT"
+            );
+        }
+        return getQuota(appUserId);
     }
 
     /**
@@ -63,8 +100,12 @@ public class ChatQuotaService {
     public void reserveQuota(UUID appUserId) {
         AppUserEntity appUser = ensureAppUser(appUserId);
         LocalDate today = LocalDate.now(zoneId);
-        int limit = resolveDailyLimit(appUser);
         ensureUsageRow(appUserId, today);
+        int rewardedBonus = chatDailyUsageRepository
+                .findByAppUserIdAndUsageDate(appUserId, today)
+                .map(ChatDailyUsageEntity::getRewardedBonus)
+                .orElse(0);
+        int limit = resolveDailyLimit(isPremiumActive(appUser), rewardedBonus);
 
         int updated = chatDailyUsageRepository.tryIncrement(appUserId, today, limit, Instant.now());
         if (updated == 0) {
@@ -122,16 +163,11 @@ public class ChatQuotaService {
         }
     }
 
-    private int resolveDailyLimit(AppUserEntity appUser) {
-        return isPremiumActive(appUser)
-                ? chatProperties.premiumDailyLimit()
-                : chatProperties.freeDailyLimit();
-    }
-
-    private int getUsedCount(UUID appUserId, LocalDate today) {
-        return chatDailyUsageRepository.findByAppUserIdAndUsageDate(appUserId, today)
-                .map(ChatDailyUsageEntity::getCount)
-                .orElse(0);
+    private int resolveDailyLimit(boolean premium, int rewardedBonus) {
+        if (premium) {
+            return chatProperties.premiumDailyLimit();
+        }
+        return chatProperties.freeDailyLimit() + Math.max(rewardedBonus, 0);
     }
 
     private Instant startOfNextDay(LocalDate today) {

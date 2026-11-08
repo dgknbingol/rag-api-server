@@ -43,4 +43,19 @@ public interface ChatDailyUsageRepository extends JpaRepository<ChatDailyUsageEn
             @Param("usageDate") LocalDate usageDate,
             @Param("now") Instant now
     );
+
+    @Modifying(clearAutomatically = true, flushAutomatically = true)
+    @Query("""
+            UPDATE ChatDailyUsageEntity u
+            SET u.rewardedBonus = u.rewardedBonus + 1, u.updatedAt = :now
+            WHERE u.appUserId = :appUserId
+              AND u.usageDate = :usageDate
+              AND u.rewardedBonus < :maxBonus
+            """)
+    int tryIncrementRewardedBonus(
+            @Param("appUserId") UUID appUserId,
+            @Param("usageDate") LocalDate usageDate,
+            @Param("maxBonus") int maxBonus,
+            @Param("now") Instant now
+    );
 }

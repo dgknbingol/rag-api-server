@@ -34,6 +34,10 @@ public class ChatDailyUsageEntity {
     @Column(nullable = false)
     private int count;
 
+    /** Rewarded reklam izleyerek kazanılan ekstra günlük soru hakkı. */
+    @Column(name = "rewarded_bonus", nullable = false, columnDefinition = "integer not null default 0")
+    private int rewardedBonus = 0;
+
     @Column(nullable = false, updatable = false)
     private Instant createdAt;
 
@@ -47,6 +51,7 @@ public class ChatDailyUsageEntity {
         this.appUserId = appUserId;
         this.usageDate = usageDate;
         this.count = 0;
+        this.rewardedBonus = 0;
     }
 
     @PrePersist
@@ -77,6 +82,10 @@ public class ChatDailyUsageEntity {
 
     public int getCount() {
         return count;
+    }
+
+    public int getRewardedBonus() {
+        return rewardedBonus;
     }
 
     public void incrementCount() {
