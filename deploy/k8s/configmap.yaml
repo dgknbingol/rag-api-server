@@ -21,3 +21,11 @@ data:
   # Log / JVM saati Türkiye; Instant DB alanlari Hibernate ile UTC kalir.
   TZ: "Europe/Istanbul"
   JAVA_TOOL_OPTIONS: "-XX:MaxRAMPercentage=75 -Duser.timezone=Europe/Istanbul"
+  # Google Play Integrity + AdMob SSV (Apple App Attest sonra)
+  PLAY_INTEGRITY_ENABLED: "true"
+  PLAY_INTEGRITY_REQUIRE_RECOGNIZED: "false"
+  PLAY_INTEGRITY_REQUIRE_DEVICE: "true"
+  PLAY_INTEGRITY_PACKAGE: "net.eislam.app"
+  ADS_SSV_ENABLED: "true"
+  ADS_SSV_REWARDED_AD_UNIT: "ca-app-pub-2273163727464440/3471386774"
+  APP_ATTEST_ENABLED: "false"

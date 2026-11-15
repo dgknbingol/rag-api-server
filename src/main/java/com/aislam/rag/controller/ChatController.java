@@ -13,6 +13,7 @@ import com.aislam.rag.dto.CreateChatJobRequest;
 import com.aislam.rag.dto.CreateConversationRequest;
 import com.aislam.rag.dto.PostChatMessageRequest;
 import com.aislam.rag.exception.RagException;
+import com.aislam.rag.security.RequestAppUserId;
 import com.aislam.rag.service.AskOrchestratorService;
 import com.aislam.rag.service.ChatCapacityMetrics;
 import com.aislam.rag.service.ChatConversationService;
@@ -249,13 +250,6 @@ public class ChatController {
     }
 
     private UUID parseAppUserId(String appUserIdHeader) {
-        if (appUserIdHeader == null || appUserIdHeader.isBlank()) {
-            throw new RagException("X-App-User-Id başlığı gerekli.", "APP_USER_ID_REQUIRED");
-        }
-        try {
-            return UUID.fromString(appUserIdHeader.trim());
-        } catch (IllegalArgumentException ex) {
-            throw new RagException("Geçersiz X-App-User-Id.", "APP_USER_ID_INVALID");
-        }
+        return RequestAppUserId.require(appUserIdHeader);
     }
 }

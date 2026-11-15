@@ -41,21 +41,20 @@ public class SecurityConfig {
                 .exceptionHandling(handler -> handler.authenticationEntryPoint(authenticationEntryPoint))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .requestMatchers(
-                                "/api/auth/**",
-                                "/api/health/**",
-                                "/api/daily/**",
-                                "/api/prayer-times/**",
-                                "/api/chat/**",
-                                "/api/rag/**",
-                                "/api/quiz/**",
-                                "/api/questions/**",
-                                "/api/documents/**",
-                                "/api/education/**",
-                                "/api/notifications/**",
-                                "/api/webhooks/revenuecat"
-                        ).permitAll()
-                        .anyRequest().authenticated()
+                        // Token alma + sağlık
+                        .requestMatchers("/api/auth/**", "/api/health/**").permitAll()
+                        // Controller içinde secret doğrulanan admin / webhook uçları
+                        .requestMatchers("/api/webhooks/revenuecat").permitAll()
+                        // AdMob SSV callback (Google sunucuları; imza controller’da)
+                        .requestMatchers(HttpMethod.GET, "/api/ads/ssv/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/notifications/send", "/api/notifications/test")
+                        .permitAll()
+                        .requestMatchers(HttpMethod.PUT, "/api/config/ads").permitAll()
+                        .requestMatchers("/api/documents/**").permitAll()
+                        // Hesap profili — sadece kullanıcı JWT
+                        .requestMatchers("/api/users/**").hasRole("USER")
+                        // Geri kalan tüm API — cihaz veya kullanıcı JWT
+                        .anyRequest().hasAnyRole("USER", "DEVICE")
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 

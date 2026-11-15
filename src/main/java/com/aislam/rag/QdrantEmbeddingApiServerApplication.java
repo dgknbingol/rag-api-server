@@ -1,6 +1,10 @@
 package com.aislam.rag;
 
+import com.aislam.rag.config.AdsConfigProperties;
+import com.aislam.rag.config.AdsSsvProperties;
+import com.aislam.rag.config.AppAttestProperties;
 import com.aislam.rag.config.AuthProperties;
+import com.aislam.rag.config.PlayIntegrityProperties;
 import com.aislam.rag.config.AskProperties;
 import com.aislam.rag.config.ChatProperties;
 import com.aislam.rag.config.CorsProperties;
@@ -28,6 +32,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
         DeepSeekProperties.class,
         AskProperties.class,
         ChatProperties.class,
+        AdsConfigProperties.class,
+        AdsSsvProperties.class,
+        PlayIntegrityProperties.class,
+        AppAttestProperties.class,
         DailyProperties.class,
         PrayerTimesProperties.class,
         PushProperties.class,

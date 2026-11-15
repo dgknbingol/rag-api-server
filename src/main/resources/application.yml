@@ -115,6 +115,8 @@ app:
   auth:
     jwt-secret: ${AISLAM_JWT_SECRET:dev-only-change-me-use-at-least-32-characters-long}
     jwt-expiration-hours: 168
+    # Mobil cihaz oturumu (push/ads). Secret sunucuda; APK’da yok.
+    device-jwt-expiration-hours: ${DEVICE_JWT_EXPIRATION_HOURS:168}
     google-client-ids: ${GOOGLE_OAUTH_CLIENT_IDS:}
     apple-audience: ${APPLE_OAUTH_AUDIENCE:net.eislam.app}
   chat:
@@ -128,6 +130,28 @@ app:
   revenuecat:
     webhook-authorization: ${REVENUECAT_WEBHOOK_AUTH:}
     premium-entitlement-id: premium
+  ads-config:
+    # PUT /api/config/ads için Postman header: X-Config-Admin-Key
+    admin-key: ${ADS_CONFIG_ADMIN_KEY:}
+  ads-ssv:
+    # true: rewarded bonus sadece AdMob SSV callback ile
+    enabled: ${ADS_SSV_ENABLED:true}
+    rewarded-ad-unit-id: ${ADS_SSV_REWARDED_AD_UNIT:}
+  play-integrity:
+    # Android device-session Play Integrity (FIREBASE_CREDENTIALS_JSON gerekir)
+    enabled: ${PLAY_INTEGRITY_ENABLED:true}
+    package-name: ${PLAY_INTEGRITY_PACKAGE:net.eislam.app}
+    # Preview/internal APK için false; Play Store production için true
+    require-recognized: ${PLAY_INTEGRITY_REQUIRE_RECOGNIZED:false}
+    require-device-integrity: ${PLAY_INTEGRITY_REQUIRE_DEVICE:true}
+    credentials-json: ${PLAY_INTEGRITY_CREDENTIALS_JSON:}
+  app-attest:
+    # iOS device-session App Attest
+    enabled: ${APP_ATTEST_ENABLED:false}
+    team-id: ${APPLE_TEAM_ID:}
+    bundle-id: ${APP_ATTEST_BUNDLE_ID:net.eislam.app}
+    # false = Xcode development; true = TestFlight / App Store
+    production: ${APP_ATTEST_PRODUCTION:true}
 
 logging:
   level:

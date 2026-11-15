@@ -9,10 +9,15 @@ import java.util.List;
 public record AuthProperties(
         String jwtSecret,
         long jwtExpirationHours,
+        /** Cihaz oturumu JWT süresi (saat). Varsayılan 168 = 7 gün. */
+        long deviceJwtExpirationHours,
         String googleClientIds,
         String appleAudience
 ) {
     public AuthProperties {
+        if (deviceJwtExpirationHours <= 0) {
+            deviceJwtExpirationHours = 168;
+        }
         if (googleClientIds == null) {
             googleClientIds = "";
         }

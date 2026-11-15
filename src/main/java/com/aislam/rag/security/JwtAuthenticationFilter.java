@@ -1,6 +1,7 @@
 package com.aislam.rag.security;
 
 import com.aislam.rag.repository.UserRepository;
+import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -47,16 +48,35 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         try {
-            UUID userId = jwtService.parseUserId(token);
-            userRepository.findById(userId).ifPresent(user -> {
+            Claims claims = jwtService.parseClaims(token);
+            String typ = claims.get(JwtService.CLAIM_TYP, String.class);
+
+            if (JwtService.TYP_DEVICE.equals(typ)) {
+                UUID deviceId = UUID.fromString(claims.getSubject());
                 var authentication = new UsernamePasswordAuthenticationToken(
-                        user,
+                        deviceId,
                         null,
-                        List.of(new SimpleGrantedAuthority("ROLE_USER"))
+                        List.of(new SimpleGrantedAuthority("ROLE_DEVICE"))
                 );
                 authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContextHolder.getContext().setAuthentication(authentication);
-            });
+            } else {
+                // user (veya eski typ’siz user token)
+                UUID userId = UUID.fromString(claims.getSubject());
+                if (typ != null && !JwtService.TYP_USER.equals(typ)) {
+                    SecurityContextHolder.clearContext();
+                } else {
+                    userRepository.findById(userId).ifPresent(user -> {
+                        var authentication = new UsernamePasswordAuthenticationToken(
+                                user,
+                                null,
+                                List.of(new SimpleGrantedAuthority("ROLE_USER"))
+                        );
+                        authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                        SecurityContextHolder.getContext().setAuthentication(authentication);
+                    });
+                }
+            }
         } catch (RuntimeException ignored) {
             SecurityContextHolder.clearContext();
         }

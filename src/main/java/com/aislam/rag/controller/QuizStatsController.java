@@ -9,7 +9,7 @@ import com.aislam.rag.dto.QuizPlayerResponse;
 import com.aislam.rag.dto.RegisterQuizParticipationRequest;
 import com.aislam.rag.dto.RegisterQuizPlayerRequest;
 import com.aislam.rag.dto.SubmitQuizAttemptRequest;
-import com.aislam.rag.exception.RagException;
+import com.aislam.rag.security.RequestAppUserId;
 import com.aislam.rag.service.QuizStatsService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
@@ -20,8 +20,6 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.UUID;
 
 @RestController
 @RequestMapping(value = "/api/quiz", produces = ApiMediaTypes.APPLICATION_JSON_UTF8_VALUE)
@@ -34,7 +32,11 @@ public class QuizStatsController {
     }
 
     @PostMapping("/players/register")
-    public ResponseEntity<QuizPlayerResponse> registerPlayer(@Valid @RequestBody RegisterQuizPlayerRequest request) {
+    public ResponseEntity<QuizPlayerResponse> registerPlayer(
+            @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader,
+            @Valid @RequestBody RegisterQuizPlayerRequest request
+    ) {
+        RequestAppUserId.require(appUserIdHeader);
         return ResponseEntity.ok(quizStatsService.registerPlayer(request));
     }
 
@@ -43,43 +45,46 @@ public class QuizStatsController {
             @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader,
             @Valid @RequestBody RegisterQuizParticipationRequest request
     ) {
-        return ResponseEntity.ok(quizStatsService.registerParticipation(parseAppUserId(appUserIdHeader), request));
+        return ResponseEntity.ok(
+                quizStatsService.registerParticipation(RequestAppUserId.require(appUserIdHeader), request)
+        );
     }
 
     @PostMapping("/attempts")
-    public ResponseEntity<QuizAttemptStatusResponse> submitAttempt(@Valid @RequestBody SubmitQuizAttemptRequest request) {
+    public ResponseEntity<QuizAttemptStatusResponse> submitAttempt(
+            @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader,
+            @Valid @RequestBody SubmitQuizAttemptRequest request
+    ) {
+        RequestAppUserId.require(appUserIdHeader);
         return ResponseEntity.ok(quizStatsService.submitAttempt(request));
     }
 
     @GetMapping("/attempts/status")
     public ResponseEntity<QuizAttemptStatusResponse> getAttemptStatus(
-            @RequestParam UUID playerId,
+            @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader,
+            @RequestParam java.util.UUID playerId,
             @RequestParam String eventId
     ) {
+        RequestAppUserId.require(appUserIdHeader);
         return ResponseEntity.ok(quizStatsService.getAttemptStatus(playerId, eventId));
     }
 
     @GetMapping("/leaderboard/monthly")
     public ResponseEntity<MonthlyLeaderboardResponse> getMonthlyLeaderboard(
-            @RequestParam UUID playerId,
+            @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader,
+            @RequestParam java.util.UUID playerId,
             @RequestParam(defaultValue = "10") int limit
     ) {
+        RequestAppUserId.require(appUserIdHeader);
         return ResponseEntity.ok(quizStatsService.getMonthlyLeaderboard(playerId, limit));
     }
 
     @GetMapping("/achievements")
-    public ResponseEntity<QuizAchievementsResponse> getAchievements(@RequestParam UUID playerId) {
+    public ResponseEntity<QuizAchievementsResponse> getAchievements(
+            @RequestHeader(value = "X-App-User-Id", required = false) String appUserIdHeader,
+            @RequestParam java.util.UUID playerId
+    ) {
+        RequestAppUserId.require(appUserIdHeader);
         return ResponseEntity.ok(quizStatsService.getAchievements(playerId));
-    }
-
-    private UUID parseAppUserId(String appUserIdHeader) {
-        if (appUserIdHeader == null || appUserIdHeader.isBlank()) {
-            throw new RagException("X-App-User-Id başlığı gerekli.", "APP_USER_ID_REQUIRED");
-        }
-        try {
-            return UUID.fromString(appUserIdHeader.trim());
-        } catch (IllegalArgumentException ex) {
-            throw new RagException("Geçersiz X-App-User-Id.", "APP_USER_ID_INVALID");
-        }
     }
 }

@@ -1,5 +1,6 @@
 package com.aislam.rag.service;
 
+import com.aislam.rag.config.AdsSsvProperties;
 import com.aislam.rag.config.ChatProperties;
 import com.aislam.rag.config.DailyProperties;
 import com.aislam.rag.dto.ChatQuotaResponse;
@@ -23,18 +24,28 @@ public class ChatQuotaService {
     private final AppUserRepository appUserRepository;
     private final ChatDailyUsageRepository chatDailyUsageRepository;
     private final ChatProperties chatProperties;
+    private final AdsConfigService adsConfigService;
+    private final AdsSsvProperties adsSsvProperties;
     private final ZoneId zoneId;
 
     public ChatQuotaService(
             AppUserRepository appUserRepository,
             ChatDailyUsageRepository chatDailyUsageRepository,
             ChatProperties chatProperties,
+            AdsConfigService adsConfigService,
+            AdsSsvProperties adsSsvProperties,
             DailyProperties dailyProperties
     ) {
         this.appUserRepository = appUserRepository;
         this.chatDailyUsageRepository = chatDailyUsageRepository;
         this.chatProperties = chatProperties;
+        this.adsConfigService = adsConfigService;
+        this.adsSsvProperties = adsSsvProperties;
         this.zoneId = dailyProperties.zoneId();
+    }
+
+    private int rewardedDailyMax() {
+        return adsConfigService.effectiveRewardedDailyMax(chatProperties.rewardedDailyMax());
     }
 
     @Transactional(readOnly = true)
@@ -51,7 +62,7 @@ public class ChatQuotaService {
         int remaining = Math.max(limit - used, 0);
         int rewardedRemaining = premium
                 ? 0
-                : Math.max(chatProperties.rewardedDailyMax() - rewardedBonus, 0);
+                : Math.max(rewardedDailyMax() - rewardedBonus, 0);
 
         return new ChatQuotaResponse(
                 limit,
@@ -65,11 +76,27 @@ public class ChatQuotaService {
     }
 
     /**
-     * Rewarded reklam tamamlandıktan sonra +1 günlük soru hakkı ekler.
-     * Günde en fazla {@link ChatProperties#rewardedDailyMax()} kez.
+     * İstemci claim — SSV kapalıyken kullanılır.
+     * SSV açıksa reddedilir (bonus sadece AdMob callback ile).
      */
     @Transactional
     public ChatQuotaResponse claimRewardedBonus(UUID appUserId) {
+        if (adsSsvProperties.enabled()) {
+            throw new RagException(
+                    "Ödül sunucu doğrulaması bekleniyor. Reklam sonrası hak otomatik eklenir.",
+                    "CHAT_REWARD_SSV_REQUIRED"
+            );
+        }
+        return incrementRewardedBonus(appUserId);
+    }
+
+    /** AdMob SSV callback — imza doğrulandıktan sonra. */
+    @Transactional
+    public ChatQuotaResponse claimRewardedBonusFromSsv(UUID appUserId) {
+        return incrementRewardedBonus(appUserId);
+    }
+
+    private ChatQuotaResponse incrementRewardedBonus(UUID appUserId) {
         AppUserEntity appUser = ensureAppUser(appUserId);
         if (isPremiumActive(appUser)) {
             return getQuota(appUserId);
@@ -81,7 +108,7 @@ public class ChatQuotaService {
         int updated = chatDailyUsageRepository.tryIncrementRewardedBonus(
                 appUserId,
                 today,
-                chatProperties.rewardedDailyMax(),
+                rewardedDailyMax(),
                 Instant.now()
         );
         if (updated == 0) {
