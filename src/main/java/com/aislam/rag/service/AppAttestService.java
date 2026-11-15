@@ -53,11 +53,30 @@ public class AppAttestService {
 
     @PostConstruct
     void init() {
-        objectConverter = DeviceCheckManager.createObjectConverter();
-        deviceCheckManager = DeviceCheckManager.createNonStrictDeviceCheckManager(objectConverter);
-        if (!properties.production()) {
-            deviceCheckManager.getAttestationDataValidator().setProduction(false);
-            log.info("App Attest accepts development attestations");
+        // Kapalıyken DeviceCheckManager kurma — trust store / init hatası pod’u düşürmesin.
+        if (!properties.enabled()) {
+            log.info("App Attest disabled — verifier not initialized");
+            return;
+        }
+        ensureVerifierReady();
+    }
+
+    private void ensureVerifierReady() {
+        if (deviceCheckManager != null && objectConverter != null) {
+            return;
+        }
+        try {
+            objectConverter = DeviceCheckManager.createObjectConverter();
+            deviceCheckManager = DeviceCheckManager.createNonStrictDeviceCheckManager(objectConverter);
+            if (!properties.production()) {
+                deviceCheckManager.getAttestationDataValidator().setProduction(false);
+                log.info("App Attest accepts development attestations");
+            }
+        } catch (Exception ex) {
+            log.error("App Attest verifier init failed", ex);
+            deviceCheckManager = null;
+            objectConverter = null;
+            throw new IllegalStateException("App Attest verifier init failed", ex);
         }
     }
 
@@ -69,6 +88,10 @@ public class AppAttestService {
     public boolean verifyIos(UUID deviceId, DeviceSessionRequest request) {
         if (!properties.enabled()) {
             return false;
+        }
+        ensureVerifierReady();
+        if (deviceCheckManager == null || objectConverter == null) {
+            throw new RagException("App Attest verifier hazır değil.", "APP_ATTEST_NOT_CONFIGURED");
         }
         if (resolveTeamId().isBlank()) {
             throw new RagException(
