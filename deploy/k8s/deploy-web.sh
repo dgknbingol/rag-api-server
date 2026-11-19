@@ -20,7 +20,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # README.md siteye ait degil, disarida birakilir.
-FILES=(index.html gizlilik.html kosullar.html hesap-silme.html styles.css app-ads.txt)
+FILES=(index.html gizlilik.html kosullar.html hesap-silme.html styles.css app-ads.txt googlec97f2fa4381421a8.html)
 
 args=()
 for f in "${FILES[@]}"; do
